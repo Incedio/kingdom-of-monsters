@@ -1,0 +1,83 @@
+<div class="kom-sheet">
+  <header class="kom-header">
+    <input class="kom-name" name="name" type="text" value="{{item.name}}">
+    <label>Equipped <input name="system.equipped" type="checkbox" {{#if system.equipped}}checked{{/if}}></label>
+  </header>
+
+  <div class="kom-box kom-stat-row">
+    <label>Base weapon
+      <select name="system.base">
+        {{#each bases as |b key|}}<option value="{{key}}" {{#if (eq key ../system.base)}}selected{{/if}}>{{b.label}}</option>{{/each}}
+      </select>
+    </label>
+    {{#unless system.natural}}
+    <label>Skin
+      <select name="system.skin">
+        {{#each skins}}<option value="{{name}}" {{#if (eq name ../system.skinName)}}selected{{/if}}>{{name}}</option>{{/each}}
+      </select>
+    </label>
+    {{/unless}}
+    <label>Made for size
+      <select name="system.wielderSize">
+        {{#each sizes as |label key|}}<option value="{{key}}" {{#if (eq key ../system.wielderSize)}}selected{{/if}}>{{label}}</option>{{/each}}
+      </select>
+    </label>
+    {{#if system.gripLocked}}
+    <label>Accuracy type <input type="text" value="Heavy (always for polearms)" disabled></label>
+    {{else}}{{#unless system.isRanged}}
+    <label>Accuracy type
+      <select name="system.grip">
+        <option value="auto" {{#if (eq system.grip "auto")}}selected{{/if}}>Auto ({{system.gripResolved}})</option>
+        <option value="light" {{#if (eq system.grip "light")}}selected{{/if}}>Light (Str+Agi)</option>
+        <option value="heavy" {{#if (eq system.grip "heavy")}}selected{{/if}}>Heavy (Str+Con)</option>
+      </select>
+    </label>
+    {{/unless}}{{/if}}
+    {{#if system.natural}}
+    <label title="The table Harm is only added when you equip a weapon that counts as this group">Counts as group <input name="system.countsAsGroup" type="checkbox" {{#if system.countsAsGroup}}checked{{/if}}></label>
+    {{/if}}
+  </div>
+
+  <div class="kom-box">
+    <h3>Result</h3>
+    <div class="kom-kv">
+      <span>Damage die</span><b>{{system.dieLabel}} <small>(step {{system.step}} = size {{system.sizeStep}} + Harm {{system.harm}})</small></b>
+      <span>Damage type</span><b>{{system.damageType}}</b>
+      <span>Reach / range</span><b>{{system.rangeLabel}}</b>
+      <span>Accuracy mod</span><b>{{sign system.accuracyMod}}{{#if system.thrownAcc}} <small>(+{{system.thrownAcc}} more when thrown)</small>{{/if}}</b>
+      <span>Crit range</span><b>1-{{system.critMax}}</b>
+      <span>Action cost</span><b>{{system.actionCost}}</b>
+      {{#unless system.natural}}
+      <span>Complexity limit</span><b>{{system.complexityLimit}} <small>(Harm {{system.harm}} + Hardness {{system.hardness}})</small></b>
+      <span>HP</span><b><input name="system.hp.value" type="number" value="{{system.hp.value}}" min="0"> / {{system.hpMax}}</b>
+      <span>Base requirement</span><b>{{system.requirement}}</b>
+      {{/unless}}
+      <span>Bulk</span><b>{{system.bulk}}</b>
+      <span>Talent</span><b>{{system.talentName}}</b>
+    </div>
+    {{#if system.gripEither}}<p class="hint">This skin can use either light or heavy stats; you pick when you roll.</p>{{/if}}
+    <p><em>{{system.skinName}}:</em> {{system.skinData.effect}}</p>
+  </div>
+
+  <div class="kom-box">
+    <h3>From materials / accessories</h3>
+    <div class="kom-stat-row">
+      <label>Harm <input name="system.harmBonus" type="number" value="{{system.harmBonus}}"></label>
+      {{#unless system.natural}}
+      <label>Hardness <input name="system.hardness" type="number" value="{{system.hardness}}"></label>
+      <label>Durable <input name="system.durable" type="number" value="{{system.durable}}"></label>
+      {{/unless}}
+      <label>Accuracy <input name="system.accuracyBonus" type="number" value="{{system.accuracyBonus}}" title="Guide x4, Wild x2, etc."></label>
+      <label>Damage <input name="system.damageBonus" type="number" value="{{system.damageBonus}}" title="Wild x2, flat bonuses"></label>
+      <label>Crit range <input name="system.critBonus" type="number" value="{{system.critBonus}}" title="Blessed"></label>
+      <label>Rarity <input name="system.rarity" type="text" value="{{system.rarity}}"></label>
+      <label>Grade <input name="system.grade" type="text" value="{{system.grade}}"></label>
+    </div>
+    <p class="hint">Enter the stacked results from Blacksmithing Step 7. Durable gives +5 HP per point.</p>
+  </div>
+
+  <div class="kom-box">
+    <h3>Notes</h3>
+    <textarea name="system.description" rows="4">{{system.description}}</textarea>
+  </div>
+</div>

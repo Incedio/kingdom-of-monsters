@@ -1,0 +1,18 @@
+<header class="kom-header kom-sheet-header">
+    <input class="kom-name" name="name" type="text" value="{{actor.name}}" placeholder="Name">
+    <div class="kom-header-fields">
+      <label>Level <input name="system.level" type="number" value="{{system.level}}" min="1" title="Use the Level up button; editing this by hand skips the dice, stat point and ranks"> <small>tier {{system.tier}}</small></label>
+      <label>XP <input name="system.xp" type="number" value="{{system.xp}}" min="0"> / {{system.xpNeeded}}</label>
+      <a class="kom-add {{#if system.xpReady}}kom-ready{{/if}}" data-action="levelUp" title="Roll the level-up dice, add a stat point and talent ranks">Level up{{#if system.nextIsEvolution}} (evolution){{/if}}</a>
+      {{#if system.levelLog.length}}<a class="kom-add" data-action="undoLevelUp" title="Undo the last level-up">Undo</a>{{/if}}
+      <label>Race
+        {{#if race}}<a data-action="editItem" data-item-id="{{race.id}}">{{race.name}}</a>
+        {{else}}<em class="hint">drag a Race item from the Items sidebar onto this sheet</em>{{/if}}
+      </label>
+      <label>Size
+        <select name="system.size">
+          {{#each sizes as |label key|}}<option value="{{key}}" {{#if (eq key ../system.size)}}selected{{/if}}>{{label}}</option>{{/each}}
+        </select>
+      </label>
+    </div>
+</header>

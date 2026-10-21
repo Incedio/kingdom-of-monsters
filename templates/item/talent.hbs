@@ -1,0 +1,65 @@
+<div class="kom-sheet">
+  <header class="kom-header">
+    <input class="kom-name" name="name" type="text" value="{{item.name}}">
+  </header>
+  <div class="kom-box kom-stat-row">
+    <label>Tree
+      <select name="system.tree">
+        {{#each trees}}<option value="{{this}}" {{#if (eq this ../system.tree)}}selected{{/if}}>{{this}}</option>{{/each}}
+      </select>
+    </label>
+    <label>Skill group
+      <select name="system.skillGroup">
+        <option value="any" {{#if (eq system.skillGroup "any")}}selected{{/if}}>Any</option>
+        {{#each skillGroups as |g key|}}<option value="{{key}}" {{#if (eq key ../system.skillGroup)}}selected{{/if}}>{{g.label}}</option>{{/each}}
+      </select>
+    </label>
+    <label>Tags <input name="system.tags" type="text" value="{{system.tags}}" placeholder="Class, Tier 2..."></label>
+    <label>Rank (bought) <input name="system.rank" type="number" value="{{system.rank}}" min="0"></label>
+    <label>Granted <input type="number" value="{{system.grantedRank}}" disabled title="Free ranks from a racial talent"></label>
+    <label>Total <input type="number" value="{{system.totalRank}}" disabled class="{{#if system.overCap}}bad{{/if}}"></label>
+    <label>Max rank <input name="system.maxRank" type="number" value="{{system.maxRank}}" min="1"></label>
+    <label>Racial <input name="system.racial" type="checkbox" {{#if system.racial}}checked{{/if}}></label>
+  </div>
+  {{#if system.pathOrder.length}}
+  <div class="kom-box kom-stat-row">
+    {{#unless system.multiPath}}
+    <label>Path
+      <select name="system.path">
+        <option value="" {{#unless system.path}}selected{{/unless}}>(choose)</option>
+        {{#each system.pathOrder}}<option value="{{this}}" {{#if (eq this ../system.path)}}selected{{/if}}>{{this}}</option>{{/each}}
+      </select>
+    </label>
+    {{/unless}}
+    <label>Full grant ({{system.totalRank}})
+      {{#if (gt system.fullChoices.length 1)}}
+      <select name="system.fullChoice">
+        <option value="">(choose)</option>
+        {{#each system.fullChoices}}<option value="{{this}}" {{#if (eq this ../system.fullChoice)}}selected{{/if}}>{{this}}</option>{{/each}}
+      </select>
+      {{else}}<input type="text" value="{{system.currentFull}}" disabled>{{/if}}
+    </label>
+    <label>Half grant
+      {{#if (gt system.halfChoices.length 1)}}
+      <select name="system.halfChoice">
+        <option value="">(choose)</option>
+        {{#each system.halfChoices}}<option value="{{this}}" {{#if (eq this ../system.halfChoice)}}selected{{/if}}>{{this}}</option>{{/each}}
+      </select>
+      {{else}}<input type="text" value="{{system.currentHalf}}" disabled>{{/if}}
+    </label>
+  </div>
+  <div class="kom-box kom-talent-text">
+    <h3>{{#if system.multiPath}}Paths{{else}}{{#if system.path}}{{system.path}}{{else}}Pick a path{{/if}}{{/if}}</h3>
+    <div class="kom-rich">{{{system.pathText}}}</div>
+  </div>
+  {{/if}}
+  <div class="kom-box kom-talent-text">
+    <h3>{{#if system.pathOrder.length}}Intro{{else}}Rank text{{/if}}</h3>
+    {{#if editing}}
+      <prose-mirror name="system.description" value="{{system.description}}" toggled="false" compact></prose-mirror>
+    {{else}}
+      <div class="kom-rich">{{{system.description}}}</div>
+      <a class="kom-add" data-action="toggleEdit">Edit text</a>
+    {{/if}}
+  </div>
+</div>

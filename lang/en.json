@@ -1,0 +1,17 @@
+{
+  "TYPES": {
+    "Actor": {
+      "character": "Character"
+    },
+    "Item": {
+      "race": "Race",
+      "talent": "Talent",
+      "skill": "Skill",
+      "weapon": "Weapon",
+      "martial": "Martial",
+      "spell": "Spell",
+      "armor": "Armor",
+      "material": "Material"
+    }
+  }
+}

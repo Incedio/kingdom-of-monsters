@@ -1,0 +1,297 @@
+<section class="tab kom-sheet kom-grid {{tab.cssClass}}" data-tab="main" data-group="primary">
+
+  {{!-- Stats / point buy --}}
+  <div class="kom-box kom-stats">
+    <h3>Stats
+      <span class="kom-points {{#if (lt system.pointBuy.remaining 0)}}bad{{/if}}">
+        {{system.pointBuy.spent}} / {{system.pointBuy.total}} points
+      </span>
+    </h3>
+    <table>
+      <tr><th>Stat</th><th>Value</th><th>Max</th><th>Easy</th><th>Normal</th><th>Hard</th></tr>
+      {{#each stats}}
+      <tr class="{{#if over}}bad{{/if}}">
+        <td>{{label}}</td>
+        <td><input name="system.stats.{{key}}" type="number" value="{{value}}" min="0"></td>
+        <td>{{#if max}}{{max}}{{else}}-{{/if}}</td>
+        <td><a data-action="rollStat" data-stat="{{key}}" data-band="easy">{{check.easy}}</a></td>
+        <td><a data-action="rollStat" data-stat="{{key}}" data-band="normal">{{check.normal}}</a></td>
+        <td><a data-action="rollStat" data-stat="{{key}}" data-band="hard">{{check.hard}}</a></td>
+      </tr>
+      {{/each}}
+    </table>
+    <p class="hint">Click a Tn to roll d100 under it. Red = above race max.</p>
+  </div>
+
+  {{!-- Pools --}}
+  <div class="kom-box kom-pools">
+    <h3>Attributes</h3>
+    <table>
+      <tr><th></th><th>Current</th><th>Max</th><th>Race</th><th>Stats</th><th title="Stat x (level - 1)">Per lvl</th><th title="Level-up dice">Dice</th><th>Bonus</th></tr>
+      {{#each (array "hp" "mana" "aura" "soul") as |p|}}
+      {{#with (lookup ../system p) as |pool|}}
+      <tr>
+        <td>{{p}}</td>
+        <td><input name="system.{{p}}.value" type="number" value="{{pool.value}}"></td>
+        <td><strong>{{pool.max}}</strong></td>
+        <td>{{pool.base}}</td>
+        <td>{{pool.fromStats}}{{#if pool.racial}} +{{pool.racial}}{{/if}}{{#if pool.racialNote}}<br><small>{{pool.racialNote}}</small>{{/if}}</td>
+        <td>{{#if pool.perLevelStat}}{{pool.perLevel}} <small>({{pool.perLevelStat}})</small>{{else}}-{{/if}}</td>
+        <td><input name="system.{{p}}.levelups" type="number" value="{{pool.levelups}}"></td>
+        <td><input name="system.{{p}}.bonus" type="number" value="{{pool.bonus}}"></td>
+      </tr>
+      {{/with}}
+      {{/each}}
+    </table>
+    <table class="kom-defenses">
+      <tr><th>Durability</th><td>{{system.durability.value}}</td>
+          <td><small>race {{system.durability.base}} + stats {{system.durability.fromStats}} + bonus</small>
+          <input name="system.durability.bonus" type="number" value="{{system.durability.bonus}}"></td></tr>
+      <tr><th>Reflex</th><td>{{system.reflex.value}}</td>
+          <td><small>race {{system.reflex.base}} + stats {{system.reflex.fromStats}} + bonus</small>
+          <input name="system.reflex.bonus" type="number" value="{{system.reflex.bonus}}"></td></tr>
+      <tr><th>Defense</th><td><strong>{{system.defense}}</strong></td>
+          <td><small>{{system.defenseBase}} - (Durability + mods{{#if system.armorDefense}} + armor {{system.armorDefense}}{{/if}}{{#if system.shieldDefense}} + shield {{system.shieldDefense}}{{/if}}){{#if system.defenseNote}} <em>{{system.defenseNote}}</em>{{/if}}</small>
+          <input name="system.defenseMods" type="number" value="{{system.defenseMods}}" title="armor + other modifiers"></td></tr>
+      <tr><th>Evasion</th><td><strong>{{system.evasion}}</strong></td>
+          <td><small>{{system.evasionBase}} - (Reflex + mods){{#if system.armorEvasion}} + armor {{system.armorEvasion}}{{/if}}{{#if system.shieldEvasion}} + shield {{system.shieldEvasion}}{{/if}}{{#if system.evasionNote}} <em>{{system.evasionNote}}</em>{{/if}}</small>
+          <input name="system.evasionMods" type="number" value="{{system.evasionMods}}" title="armor + other modifiers"></td></tr>
+      <tr><th>Natural armor</th>
+          <td><input name="system.naturalArmor.value" type="number" value="{{system.naturalArmor.value}}"></td>
+          <td>/ {{#if system.naturalArmorNote}}<strong>{{system.naturalArmor.max}}</strong> <small>{{system.naturalArmorNote}}</small>{{else}}<input name="system.naturalArmor.max" type="number" value="{{system.naturalArmor.max}}">{{/if}}</td></tr>
+    </table>
+  </div>
+
+  {{!-- Conditions --}}
+  <div class="kom-box kom-conditions">
+    <h3>Conditions
+      <span class="kom-points">
+        <a class="kom-add" data-action="phase" data-phase="prepping" title="Prepping Stage: regain aura/mana, natural armor, On Fire">Prepping</a>
+        <a class="kom-add" data-action="phase" data-phase="start" title="Start of your turn: natural armor, On Fire, Corroded">Turn start</a>
+        <a class="kom-add" data-action="phase" data-phase="end" title="End of your turn: Rotting, Blind/Electrified/Show halve, Flow ends">Turn end</a>
+        <a class="kom-add" data-action="phase" data-phase="recovery" title="Recovery Stage: Bleed, cure checks">Recovery</a>
+      </span>
+    </h3>
+    <table>
+      {{#each activeConditions}}
+      <tr data-cond="{{key}}">
+        <td><img src="{{img}}" width="18" height="18" style="vertical-align:middle;border:none"> <strong>{{label}}</strong></td>
+        <td class="kom-qty">{{#if value}}<a data-action="condStep" data-delta="-1">&minus;</a> {{amount}} <a data-action="condStep" data-delta="1">+</a>{{/if}}</td>
+        <td>{{#if cure}}<a class="kom-add" data-action="cureCond" title="Recovery Stage cure check">Cure ({{cureLabel}})</a>{{/if}}
+            {{#if (eq key "bleed")}}<a class="kom-add" data-action="bleedTick" title="Took an action: lose Bleed hp">Took action</a>{{/if}}</td>
+        <td><a data-action="condStep" data-delta="0" title="Remove">&times;</a></td>
+      </tr>
+      <tr class="kom-subrow"><td colspan="4"><small>{{note}}</small></td></tr>
+      {{else}}
+      <tr><td class="hint">None.</td></tr>
+      {{/each}}
+    </table>
+    <div class="kom-stat-row">
+      <select name="kom-new-cond">{{#each conditionChoices}}<option value="{{key}}">{{label}}</option>{{/each}}</select>
+      <input name="kom-new-cond-val" type="number" value="1" min="1" style="width:50px" title="Value (stacks onto what's there)">
+      <a class="kom-add" data-action="addCond">+ Add</a>
+    </div>
+    {{#if system.condNotes.length}}<p class="bad">{{#each system.condNotes}}{{this}}. {{/each}}</p>{{/if}}
+    <p class="hint">Token icons follow these values (toggling an icon on the token sets 1 / 0). With the combat tracker running, the GM's client does the phases automatically (setting: Automate combat phases).</p>
+  </div>
+
+  {{!-- Resistances --}}
+  <div class="kom-box kom-resist">
+    <h3>Resistances &amp; weaknesses
+      <a class="kom-add" data-action="addResist" title="Add a resistance pool">+ Resistance</a>
+      <a class="kom-add" data-action="addWeak" title="Add a weakness">+ Weakness</a>
+      <a class="kom-add" data-action="endScene" title="Refill resistance pools and reset weaknesses (end of scene)">End scene</a>
+    </h3>
+    <table>
+      <tr><th>Resistance</th><th>Pool</th><th>Max</th><th></th></tr>
+      {{#each system.resistances}}
+      <tr>
+        <td><input name="system.resistances.{{@index}}.type" type="text" value="{{type}}" placeholder="Fire, Physical..." list="kom-dmg-types"></td>
+        <td><input name="system.resistances.{{@index}}.value" type="number" value="{{value}}" min="0"></td>
+        <td><input name="system.resistances.{{@index}}.max" type="number" value="{{max}}" min="0"></td>
+        <td><a data-action="removeRow" data-field="resistances" data-index="{{@index}}" title="Remove">&times;</a></td>
+      </tr>
+      {{/each}}
+      {{#if system.racialResist}}
+      <tr class="{{#unless system.racialResist.active}}hint{{/unless}}"><td>{{system.racialResist.type}}</td><td>{{system.racialResist.value}}</td><td>{{system.racialResist.max}}</td>
+        <td><small>{{system.racialResist.note}}</small></td></tr>
+      {{/if}}
+      <tr><th>Weakness</th><th>Value</th><th>Base</th><th></th></tr>
+      {{#each system.weaknesses}}
+      <tr>
+        <td><input name="system.weaknesses.{{@index}}.type" type="text" value="{{type}}" list="kom-dmg-types"></td>
+        <td><input name="system.weaknesses.{{@index}}.value" type="number" value="{{value}}" min="0"></td>
+        <td><input name="system.weaknesses.{{@index}}.base" type="number" value="{{base}}" min="0"></td>
+        <td><a data-action="removeRow" data-field="weaknesses" data-index="{{@index}}" title="Remove">&times;</a></td>
+      </tr>
+      {{/each}}
+    </table>
+    <div class="kom-kv">
+      <span>Immunities</span><input name="system.immunities" type="text" value="{{system.immunities}}" placeholder="e.g. Poison, Fire">
+      <span>Damage Reduction</span><input name="system.damageReduction" type="number" value="{{system.damageReduction}}" min="0">
+    </div>
+    <datalist id="kom-dmg-types">
+      <option value="Physical"><option value="Elemental"><option value="Crushing"><option value="Blunt"><option value="Slashing"><option value="Piercing">
+      <option value="Fire"><option value="Cold"><option value="Acid"><option value="Poison"><option value="Sonic"><option value="Force"><option value="Electricity"><option value="Nether"><option value="Death"><option value="Bleed">
+    </datalist>
+    <p class="hint">Hit order: armor Hardness &rarr; armor HP &rarr; Immunity &rarr; Weakness (+Value, then it grows by half the damage dealt) &rarr; Damage Reduction (not Death) &rarr; Resistance (halved, then the pool soaks it) &rarr; natural armor &rarr; hp. Physical / Elemental cover every type in that group. Only the biggest matching entry counts. Pools and weaknesses reset with End scene. Bleed resistance follows its own rules and isn't used here.</p>
+  </div>
+
+  {{!-- Combat --}}
+  <div class="kom-box kom-combat">
+    <h3>Combat</h3>
+    <div class="kom-kv">
+      <span>Actions</span><b>{{system.actions}}</b>
+      <span>Attack count</span><b>{{system.attackCount}}</b>
+      <span>Reactions</span><b>{{system.reactions}}</b>
+      <span>Overland</span><b>{{system.overland}}</b>
+      <span>Swim</span><b>{{system.swim}}</b>
+      <span>Hold breath</span><b>{{system.holdBreath}} rounds</b>
+      <span>Movement stance</span>
+      <b>
+        <a class="kom-toggle {{#if stance.standGround}}on{{/if}}" data-action="toggleStance" data-stance="standGround" title="Ranged attacks against you roll vs Defense until your next movement action">Stand your ground</a>
+        <a class="kom-toggle {{#if stance.feint}}on{{/if}}" data-action="toggleStance" data-stance="feint" title="Melee attacks against you roll vs Evasion until your next movement action">Feint</a>
+      </b>
+      <span>Attacks vs you</span><b>melee &rarr; {{stance.vsMelee.label}} {{stance.vsMeleeValue}}, ranged &rarr; {{stance.vsRanged.label}} {{stance.vsRangedValue}}</b>
+      <span>Mana regen</span>
+      <b><select name="system.manaStat">
+        <option value="int" {{#if (eq system.manaStat "int")}}selected{{/if}}>Int</option>
+        <option value="wis" {{#if (eq system.manaStat "wis")}}selected{{/if}}>Wis</option>
+      </select> = {{system.manaRegen}}</b>
+      <span>Magic damage stat</span><b>{{lookup KOM.statLabels system.magicDamageStat}} ({{system.magicDamage}})</b>
+      <span>Aura regen</span>
+      <b><select name="system.auraStat">
+        <option value="end" {{#if (eq system.auraStat "end")}}selected{{/if}}>End</option>
+        <option value="con" {{#if (eq system.auraStat "con")}}selected{{/if}}>Con</option>
+      </select> = {{system.auraRegen}}</b>
+      <span>Bulk</span>
+      <b><input name="system.bulkCarried" type="number" value="{{system.bulkCarried}}"> / {{system.bulkLimit}}
+        {{#if (eq system.bulkState "over")}}<em class="bad">over: no Run, aura regen halved</em>{{/if}}
+        {{#if (eq system.bulkState "over-double")}}<em class="bad">over double: move halved, no aura regen, Evasion +20</em>{{/if}}
+      </b>
+    </div>
+  </div>
+
+
+  {{!-- Quick rolls: equipped weapons, martials, spells --}}
+  <div class="kom-box kom-attacks">
+    <h3>Attacks <span class="kom-points">aura {{system.aura.value}} / {{system.aura.max}} &middot; mana {{system.mana.value}} / {{system.mana.max}}</span></h3>
+    {{#if quick.weapons.length}}
+    <table>
+      <tr><th>Weapon</th><th>Damage</th><th>Accuracy</th><th>Range</th><th>Cost</th><th></th></tr>
+      {{#each quick.weapons}}
+      <tr data-item-id="{{item.id}}">
+        <td><a data-action="editItem">{{item.name}}</a> <small>{{item.system.baseLabel}}{{#unless (eq item.system.skinName "Basic")}} / {{item.system.skinName}}{{/unless}}</small></td>
+        <td>{{item.system.dieLabel}} + {{info.damageFlat}} <small>{{item.system.damageType}}</small></td>
+        <td>+{{info.accuracy}} <small>({{info.grip}})</small></td>
+        <td>{{item.system.rangeLabel}}</td>
+        <td>{{info.baseAura}} aura</td>
+        <td><a class="kom-roll" data-action="attack">Attack</a></td>
+      </tr>
+      {{/each}}
+    </table>
+    {{else}}<p class="hint">No equipped weapons. Add them on the Weapons &amp; Arts tab.</p>{{/if}}
+    {{#if quick.martials.length}}
+    <table>
+      <tr><th>Martial</th><th>Weapon</th><th>Complexity</th><th>Aura</th><th>Actions</th><th></th></tr>
+      {{#each quick.martials}}
+      <tr data-item-id="{{item.id}}">
+        <td><a data-action="editItem">{{item.name}}</a></td>
+        <td>{{item.system.groupLabel}}</td>
+        <td class="{{#if info.over}}bad{{/if}}">{{item.system.totalCx}} / {{info.maxCx}}</td>
+        <td>{{item.system.aura}}</td>
+        <td>{{item.system.actions}}{{#if info.channel}} <small class="bad">Channel</small>{{/if}}</td>
+        <td><a class="kom-roll" data-action="useMartial">Use</a></td>
+      </tr>
+      {{/each}}
+    </table>
+    {{/if}}
+    {{#if quick.spells.length}}
+    <table>
+      <tr><th>Spell</th><th>Schools</th><th>SL</th><th>Complexity</th><th>Mana</th><th>Actions</th><th></th></tr>
+      {{#each quick.spells}}
+      <tr data-item-id="{{item.id}}">
+        <td><a data-action="editItem">{{item.name}}</a></td>
+        <td>{{item.system.schoolLabel}}</td>
+        <td>{{info.sl}}</td>
+        <td class="{{#if info.over}}bad{{/if}}">{{item.system.totalCx}} / {{info.maxCx}}</td>
+        <td>{{item.system.mana}}</td>
+        <td>{{item.system.actions}}{{#if info.channel}} <small class="bad">Channel</small>{{/if}}</td>
+        <td><a class="kom-roll" data-action="castSpell">Cast</a></td>
+      </tr>
+      {{/each}}
+    </table>
+    {{/if}}
+    <p class="hint">Target a token first to auto-fill its Defense/Evasion, or type it in the roll dialog.</p>
+  </div>
+
+  {{!-- Skills --}}
+  <div class="kom-box kom-skills">
+    <h3>Skills
+      <a class="kom-add" data-action="createItem" data-type="skill" title="Add skill">+ Skill</a>
+      <a class="kom-add" data-action="addPerception" title="Choose a Perception skill">+ Perception</a>
+    </h3>
+    <p class="kom-anypool">Any-group points (racial + "Any" talents): <b>{{system.anyPoints.assigned}} / {{system.anyPoints.total}}</b> placed
+      {{#if (lt system.anyPoints.remaining 0)}}<span class="bad">over by {{system.anyPoints.remaining}}</span>{{/if}}</p>
+    <table>
+      <tr><th>Group</th><th>Skills</th><th>Base</th><th>Easy</th><th>Normal</th><th>Hard</th><th>Pts from talents</th><th>Any placed</th><th>Spent / Earned</th></tr>
+      {{#each skillGroups}}
+      <tr>
+        <td>{{label}}</td>
+        <td class="{{#if full}}bad{{/if}}">{{count}} / {{cap}}</td>
+        <td>{{base}}</td><td>{{easy}}</td><td>{{normal}}</td><td>{{hard}}</td>
+        <td>{{fromTalents}}{{#if (eq key "perception")}} <small>(5 x level)</small>{{/if}}</td>
+        <td>{{#if (eq key "perception")}}-{{else}}<input name="system.anyAssigned.{{key}}" type="number" value="{{anyAssigned}}" min="0">{{/if}}</td>
+        <td class="{{#if over}}bad{{/if}}">{{spent}} / {{earned}}</td>
+      </tr>
+      {{/each}}
+    </table>
+    <table>
+      <tr><th>Skill</th><th>Group</th><th>Bonus</th><th>Easy</th><th>Normal</th><th>Hard</th><th></th></tr>
+      {{#each skills}}
+      <tr data-item-id="{{id}}">
+        <td><a data-action="editItem">{{name}}</a>{{#if system.passive}} <small>(passive)</small>{{/if}}</td>
+        <td>{{lookup (lookup @root.KOM.skillGroups system.group) "label"}}</td>
+        <td title="creation +{{system.creationBonus}} + bonus {{system.bonus}}">{{system.totalBonus}}</td>
+        <td><a data-action="rollSkill" data-band="easy">{{system.easy}}</a></td>
+        <td><a data-action="rollSkill" data-band="normal">{{system.normal}}</a></td>
+        <td><a data-action="rollSkill" data-band="hard">{{system.hard}}</a></td>
+        <td><a data-action="deleteItem" title="Delete">&times;</a></td>
+      </tr>
+      {{/each}}
+    </table>
+  </div>
+
+  {{!-- Talents --}}
+  <div class="kom-box kom-talents">
+    <h3>Talents
+      <span class="kom-points {{#if (lt system.talentPoints.remaining 0)}}bad{{/if}}">
+        {{system.talentPoints.spent}} / {{system.talentPoints.total}} ranks{{#if system.talentPoints.free}} <small>(incl. {{system.talentPoints.free}} free off-tree)</small>{{/if}}
+      </span>
+      <a class="kom-add" data-action="createItem" data-type="talent" title="Add talent">+</a>
+    </h3>
+    {{#if system.talentPoints.overCap.length}}
+      <p class="bad">Over rank cap: {{#each system.talentPoints.overCap}}{{this}} {{/each}}</p>
+    {{/if}}
+    <table>
+      <tr><th>Talent</th><th>Tree</th><th>Tags</th><th>Rank</th><th></th></tr>
+      {{#each talents}}
+      <tr data-item-id="{{id}}">
+        <td><a data-action="editItem">{{name}}</a>{{#if system.racial}} <small>(racial)</small>{{/if}}</td>
+        <td>{{system.tree}}</td>
+        <td>{{system.tags}}</td>
+        <td class="{{#if system.overCap}}bad{{/if}}">{{system.totalRank}} / {{system.maxRank}}{{#if system.grantedRank}} <small>({{system.rank}} + {{system.grantedRank}} granted)</small>{{/if}}</td>
+        <td><a data-action="deleteItem" title="Delete">&times;</a></td>
+      </tr>
+      {{/each}}
+    </table>
+    <p class="hint">Skill Tn = band + group base + 5 (creation) + bonus. Each talent rank gives 1 skill point to its group; "Any" and racial talents give points you place in the Any column. Perception gets 5 per level. Each group holds 6 skills; Perception is a pick of 6 from 8.</p>
+    <p class="hint">Edit rank inside the talent. Racial talents add their full and half grants automatically (granted ranks are free and don't count against the 15). Half grants round down.</p>
+  </div>
+
+  <div class="kom-box kom-notes">
+    <h3>Notes</h3>
+    <textarea name="system.notes" rows="5">{{system.notes}}</textarea>
+  </div>
+
+</section>

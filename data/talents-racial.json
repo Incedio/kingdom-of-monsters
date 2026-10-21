@@ -1,0 +1,414 @@
+[
+ {
+  "name": "Shapeshifting",
+  "type": "talent",
+  "system": {
+   "tree": "Racial",
+   "skillGroup": "any",
+   "tags": "Racial",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": true,
+   "race": "Beast Kin",
+   "multiPath": false,
+   "pathOrder": [
+    "Mammal",
+    "Reptiles",
+    "Aves",
+    "Cephalopoda",
+    "Chondrichthyes",
+    "Amphibian"
+   ],
+   "paths": {
+    "Mammal": "<p><strong>Rank 1:</strong> Gain +2 Agi +1 Str and increase its max by the same, you can then increase Con or Str by any combination of 3 increase their max by the same. You gain the ability to transform into one type of mammal while transformed; you cannot use weapons; this choice cannot be changed. Select one of the Body Combats you gain levels in it equal to your level in this and you gain half in one of the following Super Strength, Digging, Claw Combat. Lastly you gain resistance 3 times your level in cold and fire.</p>\n<p><strong>Rank 2:</strong> Your animal form has its movements increased by 2 squares and while traveling through wooded areas you leave no trails decreasing tracking Tn by 30</p>\n<p><strong>Rank 3:</strong> Your animal form gives plus 5 to all sight, smell and hearing checks, and when you pass a perception check you mark one creature you perceived: you gain plus 5 accuracy against it until the end of the scene, stacking up to 3 times</p>\n<p><strong>Rank 4:</strong> +2 Agi +1 Str and increase its max by the same you can increase Con or Str by any combination of 2</p>\n<p><strong>Rank 5:</strong> You can now turn into a hybrid form; it gains half the benefits of your animal form and you count all of your martial combat talent levels as halved.</p>\n<p><strong>Rank 6:</strong> Any condition your animal form applies (such as Bleed) has its value increased by an additional 2</p>\n<p><strong>Rank 7:</strong> Your Cold and fire resistance are now 5 times your level instead of 3 and while in animal form increase all sight smell and hearing checks by 5 and gain advantage on the rolls.</p>\n<p><strong>Rank 8:</strong> Gain plus 10 accuracy while attacking the same creature as an ally has this round or if you are larger than the target increase your natural weapons harm by 1</p>\n<p><strong>Rank 9:</strong> Your animal form is now 1 size larger than the normal creature and your hybrid is one size larger than yours, increase your claw and bites harm by 1</p>\n<p><strong>Rank 10:</strong> Once per day you may enter the frenzy state giving you damage reduction equal to your level+your Con until you take magic damage or damage from a weapon with the Silver tag which turns this DR off until the start of your next turn. You regain HP equal to your Str at the start of each of your turns.</p>",
+    "Reptiles": "<p><strong>Rank 1:</strong> Gain +2 Agi +1 Str and increase its max by the same, you can then increase End or Int by any combination of 3 increase their max by the same. You gain the ability to transform into one type of Reptile while transformed; you cannot use weapons; this choice cannot be changed. Select one of the Body Combats you gain levels in it equal to your level in this and you gain half in one of the following Poison Attack, Fortification, Stone Body and gain natural armor equal to \u00bc your durability while in your animal form</p>\n<p><strong>Rank 2:</strong> Your animal form ignores the first 2 squares of difficult terrain and while traveling across a desert you make survival checks every 4 instead of 2 hours</p>\n<p><strong>Rank 3:</strong> Your animal form gives plus 5 to Study checks and when you take damage from a melee attack increase your Fortification by 1 or gain level 1 in it. If it is max level, increase all of its bonuses by 2.</p>\n<p><strong>Rank 4:</strong> +1 Agi and +2 Str and increase its max by the same, you can increase your End or Int by any combination of 2</p>\n<p><strong>Rank 5:</strong> You can now turn into a hybrid form, it gains natural armor equal to your animal form+your Int and spells you cast can use your End instead of Wis for damage or mana regeneration. It also gains half the benefits from your martial talents.</p>\n<p><strong>Rank 6:</strong> Your animal form restores aura and mana equal to your End each turn</p>\n<p><strong>Rank 7:</strong> Your natural armor now restores its normal amount plus your Int</p>\n<p><strong>Rank 8:</strong> Allies who are standing behind you while in your animal form gain Half Concealment from you; if you are larger than them they have Concealment</p>\n<p><strong>Rank 9:</strong> Your animal form is now 1 size larger than its normal creature and your hybrid gains half your animal form's benefits</p>\n<p><strong>Rank 10:</strong> Once per day you may remove all conditions and restore half your natural armor</p>",
+    "Aves": "<p><strong>Rank 1:</strong> Gain +2 Agi +1 Str and increase its max by the same, you can then increase your Agi or Wis by any combination of 3 increase their max by the same. You gain the ability to transform into one type of Aves while transformed; you cannot use weapons; this choice cannot be changed. Select one of the Body Combats you gain levels in it equal to your level in this and you gain half in one of the following Flight, Claw Combat, Scouting. You count all weather conditions as one stage lower and do not have to roll for slow moving in the air.</p>\n<p><strong>Rank 2:</strong> Your animal form increases its flight speed by 2 and when attacking with a melee attack in the air increase your accuracy by 10+Lv</p>\n<p><strong>Rank 3:</strong> While in your human form your combat skills increase by 5 and whenever you pass a combat check gain scouting level 1 or increase it by 1. If it is max level increase all of its bonuses by 2</p>\n<p><strong>Rank 4:</strong> +3 Agi and increase its max by the same you can increase your Wis or Agi by any combination of 2</p>\n<p><strong>Rank 5:</strong> You can now turn into a hybrid form, gaining full access to your martial skills and half of your natural weapon talents. It decreases your Evasion by 3 for each square you move in this form until the start of your next turn.</p>\n<p><strong>Rank 6:</strong> While in your animal form you can take the feint action for free after attacking without using your movement action</p>\n<p><strong>Rank 7:</strong> While in height stage 3 or higher gaining Turbulence does not cause you to roll until the Recovery Stage</p>\n<p><strong>Rank 8:</strong> You deal stealth damage to creatures who are a height stage or lower below you</p>\n<p><strong>Rank 9:</strong> When you have to roll for Turbulence roll twice taking the better result</p>\n<p><strong>Rank 10:</strong> Once per day you can auto grapple a target and travel up to two height stages up in one action</p>",
+    "Cephalopoda": "<p><strong>Rank 1:</strong> Gain +2 Agi +1 Str and increase their max by the same; you can then increase Int or Will by any combination of 3 and increase their max by the same. You gain the ability to transform into one type of cephalopod; while transformed you cannot use weapons; this choice cannot be changed. Select one of the Body Combats; you gain levels in it equal to your level in this and half in one of the following: Grappler, Sneaky, Water Magic. You can breathe underwater, gain a swim speed equal to your overland, and while in animal form you have Half Concealment while you do not move.</p>\n<p><strong>Rank 2:</strong> Your animal form can squeeze through any gap made for a creature one size smaller than you and climbs walls and ceilings at full speed.</p>\n<p><strong>Rank 3:</strong> Your animal form gives +5 to stealth checks, and when you pass a stealth check gain 1 level in Sneaky for 1 hour or increase it by 1. If it is already max level, increase all bonuses it provides by 2.</p>\n<p><strong>Rank 4:</strong> +2 Agi +1 Str and increase their max by the same; you can increase Int or Will by any combination of 2.</p>\n<p><strong>Rank 5:</strong> You can now turn into a hybrid form; it gains 2 extra arms that can hold items or make a second grapple, and you count all of your martial combat talent levels as halved.</p>\n<p><strong>Rank 6:</strong> Once per scene your animal form can release ink as a free action: a burst 2 cloud that gives Concealment to every creature inside it, and creatures that start their turn inside it gain Blind 1.</p>\n<p><strong>Rank 7:</strong> Your Half Concealment while not moving becomes Concealment, and it also applies in your hybrid form.</p>\n<p><strong>Rank 8:</strong> When you grapple a creature you may grapple a second creature within your reach using the same roll.</p>\n<p><strong>Rank 9:</strong> Your animal form is now 1 size larger than the normal creature and your hybrid is one size larger than yours; increase your bite harm by 1.</p>\n<p><strong>Rank 10:</strong> Once per day you may flash your skin: every creature within burst 4 that can see you must make a Will check or gain Stunned equal to half your level.</p>",
+    "Chondrichthyes": "<p><strong>Rank 1:</strong> Gain +2 Agi +1 Str and increase their max by the same; you can then increase Str or Spd by any combination of 3 and increase their max by the same. You gain the ability to transform into one type of cartilaginous fish; while transformed you cannot use weapons; this choice cannot be changed. Select one of the Body Combats; you gain levels in it equal to your level in this and half in one of the following: Hunting, Fear Presence, Super Speed. You can breathe underwater, gain a swim speed equal to your overland +2, and you sense every creature with Bleed within burst 10 even without seeing it.</p>\n<p><strong>Rank 2:</strong> Your animal form's swim speed increases by 2 squares, and you leave no trail in water, decreasing tracking Tn by 30.</p>\n<p><strong>Rank 3:</strong> Your animal form gives +5 to tracking checks, and when you pass a tracking check gain 1 level in Hunting for 1 hour or increase it by 1. If it is already max level, increase all bonuses it provides by 2.</p>\n<p><strong>Rank 4:</strong> +1 Agi +2 Str and increase their max by the same; you can increase Str or Spd by any combination of 2.</p>\n<p><strong>Rank 5:</strong> You can now turn into a hybrid form; it keeps your animal form's bite and swim speed, and you count all of your martial combat talent levels as halved. While any creature within burst 3 has Bleed, increase your movement by 2.</p>\n<p><strong>Rank 6:</strong> Your animal form's bite attacks deal bonus damage equal to the target's Bleed.</p>\n<p><strong>Rank 7:</strong> You now sense creatures with Bleed within burst 20, and your bites apply Bleed 1.</p>\n<p><strong>Rank 8:</strong> Gain +10 accuracy against creatures with Bleed, or if you moved at least 4 squares before attacking, increase your bite harm by 1.</p>\n<p><strong>Rank 9:</strong> Your animal form is now 1 size larger than the normal creature and your hybrid is one size larger than yours; increase your bite harm by 1.</p>\n<p><strong>Rank 10:</strong> Once per day you may enter a blood frenzy for the rest of the scene: once per round, when you damage a creature with Bleed you may make a free bite attack against it, and you heal for half the damage that bite deals.</p>",
+    "Amphibian": "<p><strong>Rank 1:</strong> Gain +2 Agi +1 Str and increase their max by the same; you can then increase Con or End by any combination of 3 and increase their max by the same. You gain the ability to transform into one type of amphibian; while transformed you cannot use weapons; this choice cannot be changed. Select one of the Body Combats; you gain levels in it equal to your level in this and half in one of the following: Poison Attack, Digging, Alchemy. You can breathe both air and water, your jump distance is doubled, and you gain resistance 3 times your level in poison and acid.</p>\n<p><strong>Rank 2:</strong> Your animal form ignores the first 2 squares of difficult terrain caused by mud, swamp or shallow water, and moving between land and water costs no extra movement.</p>\n<p><strong>Rank 3:</strong> Your animal form gives +5 to survival checks, and when you take poison damage gain 1 level in Poison Attack for 1 hour or increase it by 1. If it is already max level, increase all bonuses it provides by 2.</p>\n<p><strong>Rank 4:</strong> +2 Agi +1 Str and increase their max by the same; you can increase Con or End by any combination of 2.</p>\n<p><strong>Rank 5:</strong> You can now turn into a hybrid form; it gains half the benefits of your animal form, and any creature that grapples you or hits you with a natural weapon gains Sickened 1. You count all of your martial combat talent levels as halved.</p>\n<p><strong>Rank 6:</strong> While in water or rain, your animal form gains regeneration equal to your Con (Fire, Acid).</p>\n<p><strong>Rank 7:</strong> Your poison and acid resistances are now 5 times your level instead of 3.</p>\n<p><strong>Rank 8:</strong> Your tongue can make a grapple at reach 3; on a success, you may pull the target adjacent to you.</p>\n<p><strong>Rank 9:</strong> Your animal form is now 1 size larger than the normal creature and your hybrid is one size larger than yours; increase your bite harm by 1.</p>\n<p><strong>Rank 10:</strong> Once per day, when you would reach 0 hp you instead regrow, restoring half your maximum hp and removing all conditions.</p>"
+   },
+   "path": "",
+   "fullOptions": [
+    "Bite Combat",
+    "Claw Combat",
+    "Tail Combat"
+   ],
+   "halfOptions": [],
+   "halfByPath": {
+    "Mammal": [
+     "Super Strength",
+     "Digging",
+     "Claw Combat"
+    ],
+    "Reptiles": [
+     "Poison Attack",
+     "Fortification",
+     "Stone Body"
+    ],
+    "Aves": [
+     "Flight",
+     "Claw Combat",
+     "Scouting"
+    ],
+    "Cephalopoda": [
+     "Grappler",
+     "Sneaky",
+     "Water Magic"
+    ],
+    "Chondrichthyes": [
+     "Hunting",
+     "Fear Presence",
+     "Super Speed"
+    ],
+    "Amphibian": [
+     "Poison Attack",
+     "Digging",
+     "Alchemy"
+    ]
+   },
+   "fullChoice": "",
+   "halfChoice": "",
+   "description": "<p>Shapeshifting: Select one path</p>"
+  }
+ },
+ {
+  "name": "Breath Weapon",
+  "type": "talent",
+  "system": {
+   "tree": "Racial",
+   "skillGroup": "any",
+   "tags": "Racial",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": true,
+   "race": "Basilisk",
+   "multiPath": false,
+   "pathOrder": [
+    "Acid",
+    "Fire",
+    "Ice",
+    "Lava",
+    "Electricity",
+    "Stone",
+    "Poison"
+   ],
+   "paths": {
+    "Acid": "<p><strong>Rank 1:</strong> Gain access to a breath weapon that deals Lvd4 acid damage in range 5 blast 2 costing 15 aura increasing their defense by 2 each turn for 1d4 turns stacking. You gain natural armor equal to your Durability+End and it can heal for half the acid damage done in burst 5 of you. You gain levels in one of the following Pesticide, Alchemy, or Poison attack equal to half your level in this Talent</p>\n<p><strong>Rank 2:</strong> Whenever you cast a plant spell or a spell that deals Acid damage regain mana the next time you use your breath weapon equal to 5 times the number of creatures whose defense is modified within burst 3</p>\n<p><strong>Rank 3:</strong> Increase the range by 3 and the target takes 1d4 acid damage each time the defense increase procs</p>\n<p><strong>Rank 4:</strong> Increase breath weapon acid damage to (2Lv)d4 and the bonus acid damage by 1d4</p>\n<p><strong>Rank 5:</strong> Your breath weapon now counts as a bow and you can now pool your acid for 20 aura per turn increasing its size by 2 squares for each square that is already filled dealing (3Lv)d6 acid damage to any creature who stands in it and the defense increase is triple for them; it lasts for 2d4 turns once you stop increasing its size. When using martial arts with this weapon, use whichever aura cost is higher.</p>\n<p><strong>Rank 6:</strong> Whenever you cast a plant spell, all creatures within burst 2 of you or the spell's targets gain Weakness 5 (acid)</p>\n<p><strong>Rank 7:</strong> Your breath weapon is now (3Lv)d4+End and the pool form deals (4Lv)d6</p>\n<p><strong>Rank 8:</strong> Increase the breath weapon range by 2 and the blast by 1 the pool grows by 1 more per square it already has</p>\n<p><strong>Rank 9:</strong> Gain Acid resistance equal to your End+Con at the start of each scene</p>\n<p><strong>Rank 10:</strong> Gain Nether resistance equal to your End/2+Int at the start of each scene. While you have two or more resistances besides bleed the first source of acid damage deals bonus equal to your highest resistance once per turn</p>",
+    "Fire": "<p><strong>Rank 1:</strong> Gain access to a breath weapon that deals Lvd8 fire damage in a cone 3 costing 20 aura. Creatures within the first cone 2 of the breath also gain On Fire 1. You gain natural armor equal to Durability+Str and it can heal for half the damage targets within burst 2 take from on fire. You gain levels in one of the following Fire Magic, Claw Combat, or Magic Sense equal to half your level in this Talent.</p>\n<p><strong>Rank 2:</strong> Whenever a creature takes On Fire damage within your natural armor heal range regain mana equal to that heal</p>\n<p><strong>Rank 3:</strong> The cone range and the On Fire cone range increase by 1 and targets take an extra die for every 2 points of On Fire they have</p>\n<p><strong>Rank 4:</strong> On Fire values are increased by 1 whenever you apply them</p>\n<p><strong>Rank 5:</strong> You can now use your breath weapon as a bow weapon when doing so it deals (Lv/2)d8 fire damage at a range of 10 and costs 25 aura to use. When using martials with this weapon use whichever aura cost is higher.</p>\n<p><strong>Rank 6:</strong> Whenever you cast a fire spell the next time you use your breath weapon, this scene restores mana equal to half the damage it does to enemies.</p>\n<p><strong>Rank 7:</strong> The damage of your breath weapon is now (1.5Lv)d8+Str for its cone and (Lv/2)d8+Str for its bow form</p>\n<p><strong>Rank 8:</strong> Increase the cone and the On Fire cone by 1 and your breath as a bow weapon is now blast 1 dealing its damage to all creatures in that area when used for martials</p>\n<p><strong>Rank 9:</strong> Gain fire resistance equal to your Str+End at the start of each scene</p>\n<p><strong>Rank 10:</strong> Gain cold resistance equal to your Str+Con at the start of each scene. While you have two or more resistances besides bleed your first source of fire damage deals bonus damage equal to your highest resistance</p>",
+    "Ice": "<p><strong>Rank 1:</strong> Gain access to a breath weapon that deals Lvd6 cold damage in a line 4 costing 20 aura and gives each target hit Frosting 1. You gain natural armor equal to your Durability+Will and it can heal for three times the frosting of enemies within burst 2 of you each time you use your breath weapon. You gain levels in one of the following Water Magic, Bite Combat, or Fortification equal to half your level in this talent</p>\n<p><strong>Rank 2:</strong> Whenever you cast a water spell or a spell that deals cold damage regain mana the next time you use your breath weapon equal to half the damage times the number of creatures who are frosting or frozen</p>\n<p><strong>Rank 3:</strong> The line range increases by 2 and targets take an extra die for every 3 frosting all creatures have within burst 2</p>\n<p><strong>Rank 4:</strong> Your frosting values increase by 1 whenever you apply them</p>\n<p><strong>Rank 5:</strong> You can now use your breath weapon as a bow weapon when doing so it deals (Lv/2)d6 cold damage at a range of 12 and costs 25 aura. When using martials with this weapon use whichever aura cost is higher.</p>\n<p><strong>Rank 6:</strong> Whenever you cast a water spell, you can move the target up to half your level in this talent in squares</p>\n<p><strong>Rank 7:</strong> The damage of your breath weapon is now (1.5Lv)d6+Will for the line and (Lv/2)d6+Will for its bow form</p>\n<p><strong>Rank 8:</strong> Increase the line by 2 and your bow weapon form is now blast 1 dealing damage to all creatures in that area when used for martials</p>\n<p><strong>Rank 9:</strong> Gain Force resistance equal to your Will+Wis at the start of each scene</p>\n<p><strong>Rank 10:</strong> Gain Blunt resistance equal to your Will+Int at the start of each scene. While you have two or more resistances besides bleed your first source of cold damage deals bonus damage equal to your highest resistance</p>",
+    "Lava": "<p><strong>Rank 1:</strong> Gain access to a breath weapon that deals Lvd12 Fire damage in a square in front of you costing 20 aura. Each turn you maintain it costs 20 aura and it increases by 2 squares of your choice. This lasts for 1 minute. You gain natural armor equal to your Durability+Con and it can heal for your weapon damage while standing in it, you take no damage from your own breath weapon.  You gain levels in one of the following Magical Recipes, Demonic Magic, or Fortification equal to half your level in this Talent.</p>\n<p><strong>Rank 2:</strong> When you cast a demonic spell or a spell that deals nether or fire damage regain mana the next time you use your breath weapon equal to your natural armor</p>\n<p><strong>Rank 3:</strong> Increase the growth speed by 1 and while the pool is between you and a range attack gain half concealment</p>\n<p><strong>Rank 4:</strong> Increase breath weapon damage to (1.5Lv)d12 and your pool of lava can be used as a wall with 18 hp per die of damage as long as you're standing in it.</p>\n<p><strong>Rank 5:</strong> You gain a second breath weapon that counts as a bow weapon; it has range 10 blast 2 and deals Lvd10 and leaves a pool of your lava behind. It costs 40 aura to use. When using martials with this weapon use whichever aura cost is higher.</p>\n<p><strong>Rank 6:</strong> When casting a demonic spell any drawback has a percent chance equal to half your level of not activating on you</p>\n<p><strong>Rank 7:</strong> Your weapon now deals (1.5Lv)d12+Con and the blast deals Lvd10+Con</p>\n<p><strong>Rank 8:</strong> Increase the growth speed by 1 and the blast by 1</p>\n<p><strong>Rank 9:</strong> Gain fire resistance equal to your Con+Str at the start of each scene</p>\n<p><strong>Rank 10:</strong> Gain Blunt resistance equal to your Con/2+Str at the start of each scene. While you have two or more resistances besides bleed the first source of fire damage deals a bonus equal to your highest resistance.</p>",
+    "Electricity": "<p><strong>Rank 1:</strong> Gain access to a breath weapon that deals Lvd6 electricity damage to one target within range 6, then arcs to 1 creature within burst 2 of that target for half damage, costing 20 aura. Each creature hit gains Electrified 1. You gain natural armor equal to your Durability+Spd and it can heal for half the damage dealt when Electrified triggers within burst 3 of you. You gain levels in one of the following Electricity Magic, Super Speed, or Dagger Combat equal to half your level in this Talent.</p>\n<p><strong>Rank 2:</strong> Whenever you cast an electricity spell or a spell that deals electricity damage regain mana the next time you use your breath weapon equal to 5 times the number of creatures with Electrified within burst 4</p>\n<p><strong>Rank 3:</strong> The arc can jump to 1 additional creature and targets take an extra die for every 2 points of Electrified they have</p>\n<p><strong>Rank 4:</strong> Your Electrified values are increased by 1 whenever you apply them</p>\n<p><strong>Rank 5:</strong> You can now use your breath weapon as a bow weapon when doing so it deals (Lv/2)d6 electricity damage at a range of 14 and costs 25 aura to use. When using martials with this weapon use whichever aura cost is higher.</p>\n<p><strong>Rank 6:</strong> Whenever you cast an electricity spell, increase your movement by half your level in this talent until the end of your turn</p>\n<p><strong>Rank 7:</strong> The damage of your breath weapon is now (1.5Lv)d6+Spd and (Lv/2)d6+Spd for its bow form</p>\n<p><strong>Rank 8:</strong> The arc can jump to 1 additional creature and your bow form now arcs to 1 creature within burst 2 of the target when used for martials</p>\n<p><strong>Rank 9:</strong> Gain electricity resistance equal to your Spd+End at the start of each scene</p>\n<p><strong>Rank 10:</strong> Gain Force resistance equal to your Spd+Will at the start of each scene. While you have two or more resistances besides bleed your first source of electricity damage deals bonus damage equal to your highest resistance</p>",
+    "Stone": "<p><strong>Rank 1:</strong> Gain access to a breath weapon that deals (Lv/2)d10 blunt damage in a cone 2 costing 20 aura. Creatures within the first cone 1 of the breath also gain Petrifying 1. You gain natural armor equal to your Durability+Int and it heals 5 each time a creature within burst 3 of you loses an action to Petrifying. You gain levels in one of the following Earth Magic, Stone Body, or Fortification equal to half your level in this Talent.</p>\n<p><strong>Rank 2:</strong> Whenever you cast an earth spell or a spell that deals blunt damage regain mana the next time you use your breath weapon equal to 5 times the number of creatures with Petrifying within burst 3</p>\n<p><strong>Rank 3:</strong> The cone range and the Petrifying cone range increase by 1 and the area of the breath becomes difficult terrain until the end of your next turn</p>\n<p><strong>Rank 4:</strong> Creatures with Petrifying take an extra die of damage from your breath weapon</p>\n<p><strong>Rank 5:</strong> You can now use your breath weapon as a bow weapon when doing so it deals (Lv/2)d8 blunt damage at a range of 10 and costs 25 aura to use. When using martials with this weapon use whichever aura cost is higher.</p>\n<p><strong>Rank 6:</strong> Whenever you cast an earth spell restore natural armor equal to twice your level in this talent</p>\n<p><strong>Rank 7:</strong> The damage of your breath weapon is now Lvd10+Int for its cone and (Lv/2)d8+Int for its bow form</p>\n<p><strong>Rank 8:</strong> Increase the cone and the Petrifying cone by 1 and your bow form is now blast 1 dealing its damage to all creatures in that area when used for martials</p>\n<p><strong>Rank 9:</strong> Gain blunt resistance equal to your Int+Con at the start of each scene</p>\n<p><strong>Rank 10:</strong> Gain piercing resistance equal to your Int+Wis at the start of each scene. While you have two or more resistances besides bleed your first source of blunt damage deals bonus damage equal to your highest resistance</p>",
+    "Poison": "<p><strong>Rank 1:</strong> Gain access to a breath weapon that creates a blast 2 poison cloud within range 4, dealing Lvd4 poison damage to each creature inside, costing 15 aura and gives each creature it damages Sickened 1. The cloud lasts until the start of your next turn and any creature that enters it or starts its turn inside it takes the damage again. You gain natural armor equal to your Durability+Wis and it can heal for half the poison damage your cloud deals. You gain levels in one of the following Poison Attack, Alchemy, or Biomancy equal to half your level in this Talent.</p>\n<p><strong>Rank 2:</strong> Whenever you cast a plant or biomancy spell or a spell that deals poison damage regain mana the next time you use your breath weapon equal to 5 times the number of creatures inside your cloud</p>\n<p><strong>Rank 3:</strong> The cloud's blast increases by 1 and it lasts 1 additional turn</p>\n<p><strong>Rank 4:</strong> Your Sickened values are increased by 1 whenever you apply them</p>\n<p><strong>Rank 5:</strong> You can now use your breath weapon as a bow weapon when doing so it deals (Lv/2)d6 poison damage at a range of 10, costs 25 aura to use, and leaves a blast 1 cloud until the start of your next turn. When using martials with this weapon use whichever aura cost is higher.</p>\n<p><strong>Rank 6:</strong> Whenever you cast a spell that deals poison damage, all creatures inside your cloud gain Sickened 1</p>\n<p><strong>Rank 7:</strong> The damage of your breath weapon is now (2Lv)d4+Wis for its cloud and (Lv/2)d6+Wis for its bow form</p>\n<p><strong>Rank 8:</strong> The cloud's blast increases by 1 and your bow form now deals its damage to all creatures in its cloud when used for martials</p>\n<p><strong>Rank 9:</strong> Gain poison resistance equal to your Wis+Con at the start of each scene</p>\n<p><strong>Rank 10:</strong> Gain acid resistance equal to your Wis+End at the start of each scene. While you have two or more resistances besides bleed your first source of poison damage deals bonus damage equal to your highest resistance</p>"
+   },
+   "path": "",
+   "fullOptions": [
+    "Flight"
+   ],
+   "halfOptions": [],
+   "halfByPath": {
+    "Acid": [
+     "Pesticide",
+     "Alchemy",
+     "Poison Attack"
+    ],
+    "Fire": [
+     "Fire Magic",
+     "Claw Combat",
+     "Magic Sense"
+    ],
+    "Ice": [
+     "Water Magic",
+     "Bite Combat",
+     "Fortification"
+    ],
+    "Lava": [
+     "Magical Recipes",
+     "Demonic Magic",
+     "Fortification"
+    ],
+    "Electricity": [
+     "Electricity Magic",
+     "Super Speed",
+     "Dagger Combat"
+    ],
+    "Stone": [
+     "Earth Magic",
+     "Stone Body",
+     "Fortification"
+    ],
+    "Poison": [
+     "Poison Attack",
+     "Alchemy",
+     "Biomancy"
+    ]
+   },
+   "fullChoice": "Flight",
+   "halfChoice": "",
+   "description": "<p>Breath Weapon: You gain levels in Flight equal to your rank in this Talent. Choose one of the following; this choice cannot be changed. Breath weapon damage always has a minimum of 1 die.</p>"
+  }
+ },
+ {
+  "name": "Celestial Communion",
+  "type": "talent",
+  "system": {
+   "tree": "Racial",
+   "skillGroup": "any",
+   "tags": "Racial",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": true,
+   "race": "Dhampier",
+   "multiPath": false,
+   "pathOrder": [
+    "Eternal Flesh",
+    "The Beacon",
+    "The Enigma"
+   ],
+   "paths": {
+    "Eternal Flesh": "<p>(Hunting, Called to Faith, Smooth Talker)</p>\n<p><strong>Rank 1:</strong> Whenever you cause a target to gain or increase a bleed your next attack or spell can deal bonus damage equal to their bleed or restore aura or mana equal to their bleed.</p>\n<p><strong>Rank 2:</strong> Whenever you use a bite martial heal for twice the target's bleed</p>\n<p><strong>Rank 3:</strong> If a target's bleed ends while in burst 1 of you, you can make a free bite attack against them</p>\n<p><strong>Rank 4:</strong> Each time a creature takes bleed damage within burst 2 of you regain aura equal to that amount</p>\n<p><strong>Rank 5:</strong> Once per scene you can increase all bleed within burst 2 by your level</p>\n<p><strong>Rank 6:</strong> Any bleeds you apply have their value increased by 2</p>\n<p><strong>Rank 7:</strong> If no creature has a bleed within burst 3 of you when you use a martial you can double the aura cost to apply a bleed equal to half the damage</p>\n<p><strong>Rank 8:</strong> The bonus damage you deal due to bleeds is increased by your Str and the aura or mana restored is increased by your Agi</p>\n<p><strong>Rank 9:</strong> You gain regeneration 2 (Fire, Nether) for each creature that has a bleed within burst 3</p>\n<p><strong>Rank 10:</strong> Once per scene after making a bite attack you can gain a bonus action per 5 bleed the bitten creature has, but only against that creature</p>",
+    "The Beacon": "<p>(Strong Voice, Healing Magic, Fortification)</p>\n<p><strong>Rank 1:</strong> Gain resistance 3 to all damage types dealt by a target who has had a bleed effect end within the last round. Whenever a creature's bleed effect ends within burst 4 of you gain 4 bleed resistance until the end of the scene, and decrease your defense or evasion by half your bleed resistance until the end of your next turn.</p>\n<p><strong>Rank 2:</strong> Your bleed resistance is increased by 10 and any hp you restore to others heals for half its amount to you</p>\n<p><strong>Rank 3:</strong> You gain resistance to physical damage equal to half your bleed resistance at the start of a scene</p>\n<p><strong>Rank 4:</strong> You can spend an action to decrease all bleeds within burst 5 by \u00bc your current bleed resistance</p>\n<p><strong>Rank 5:</strong> Whenever you would apply a bleed value you may instead make it Grim Wound</p>\n<p><strong>Rank 6:</strong> Whenever you are missed by an attack you can regain aura or mana equal to half your bleed resistance</p>\n<p><strong>Rank 7:</strong> If no creature has a bleed within burst 3 when you cast a healing spell it heals for the highest possible amount</p>\n<p><strong>Rank 8:</strong> You gain resistance 5 vs targets with ended bleed effects and gain 7 bleed resistance when effects end</p>\n<p><strong>Rank 9:</strong> Any healing you do to others can deal Force damage equal to half the healing to another creature within burst 5 of the target</p>\n<p><strong>Rank 10:</strong> Once per scene you can gain a bonus action per 30 points of hp you restored this turn</p>",
+    "The Enigma": "<p>(Berserker Mode, Super Speed, Grappler)</p>\n<p><strong>Rank 1:</strong> Whenever you attack a creature with a bleed increase your accuracy by half the target's bleed. If there is a creature within burst 4 of you that has a bleed you must make a Will check to attack a different creature</p>\n<p><strong>Rank 2:</strong> Each time you attack a creature with a bleed you may choose to decrease your accuracy by 3 but increase your damage by 5 until you attack a creature who does not have a bleed</p>\n<p><strong>Rank 3:</strong> Each time a creature with a bleed deals damage to you, you may make a bite attack if it lands heal for the damage it does</p>\n<p><strong>Rank 4:</strong> Your targets' bleeds increase by 1 any time you deal damage to them with natural weapons until the end of your next turn</p>\n<p><strong>Rank 5:</strong> Whenever a bleed is applied to a creature within attack range of your natural weapons you may make a free basic attack, this attack cannot trigger this ability</p>\n<p><strong>Rank 6:</strong> Any time a creature takes bleed damage within burst 3 of you, regain hp equal to it</p>\n<p><strong>Rank 7:</strong> When you make an attack and no creature has a bleed within burst 3 of you increase all bleed you apply by your level</p>\n<p><strong>Rank 8:</strong> The accuracy bonus becomes equal to the target's bleed and the damage buff goes to 10 but the corresponding decrease goes to 6</p>\n<p><strong>Rank 9:</strong> You deal double damage to creatures with bleed 15 or more</p>\n<p><strong>Rank 10:</strong> Once per scene you can gain a bonus action for each creature within burst 4 of you with a bleed</p>"
+   },
+   "path": "",
+   "fullOptions": [
+    "Bite Combat"
+   ],
+   "halfOptions": [],
+   "halfByPath": {
+    "Eternal Flesh": [
+     "Hunting",
+     "Called to Faith",
+     "Smooth Talker"
+    ],
+    "The Beacon": [
+     "Strong Voice",
+     "Healing Magic",
+     "Fortification"
+    ],
+    "The Enigma": [
+     "Berserker Mode",
+     "Super Speed",
+     "Grappler"
+    ]
+   },
+   "fullChoice": "Bite Combat",
+   "halfChoice": "",
+   "description": "<p>Celestial Communion: Select 1 of the following paths of faith; this choice cannot be changed. You gain bleed resistance equal to twice your level in this talent. Gain levels in bite combat equal to your level in this talent and half this level in one of the talents listed under your chosen path.</p>"
+  }
+ },
+ {
+  "name": "Carved Presence",
+  "type": "talent",
+  "system": {
+   "tree": "Racial",
+   "skillGroup": "any",
+   "tags": "Racial",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": true,
+   "race": "Gargoyle",
+   "multiPath": false,
+   "pathOrder": [
+    "Slate",
+    "Granite",
+    "Soapstone"
+   ],
+   "paths": {
+    "Slate": "<p>(Flight, Occultist, Banisher)</p>\n<p><strong>Rank 1:</strong> At the start of your turn you may spend an action to activate this ability till the start of your next turn, while this ability is activated any creature who attempts to attack you must make a Will check or gain Taunted equal to half your level. Each time you take damage while this is active your natural armor restores equal to half your missing mana.</p>\n<p><strong>Rank 2:</strong> Whenever you have no natural armor increase your movement by 4 squares</p>\n<p><strong>Rank 3:</strong> Will checks you force other creatures to make have their Tn decreased by 5</p>\n<p><strong>Rank 4:</strong> Increase your natural armor by 10 and it regenerates 2 more per turn on top of your Con</p>\n<p><strong>Rank 5:</strong> Each time a creature gains the Taunted condition restore mana equal to twice the value</p>\n<p><strong>Rank 6:</strong> Increase your natural armor by 3 each time a creature gains Taunted</p>\n<p><strong>Rank 7:</strong> Decrease your defense by 10 or by 20 when attacked by a creature with Taunted</p>\n<p><strong>Rank 8:</strong> Decrease your evasion by 15 or by 30 when attacked by a creature with Taunted</p>\n<p><strong>Rank 9:</strong> When you activate your ability, spells you cast have their damage increased by 3 for each Taunted creature within burst 3</p>\n<p><strong>Rank 10:</strong> Your natural armor heals at the start of your turn even if it is at zero</p>",
+    "Granite": "<p>(Attunement, Super Strength, Fear Presence)</p>\n<p><strong>Rank 1:</strong> At the start of your turn you may spend an action to activate this ability till the start of your next turn, while this ability is activated any creature you attack must make a Will check or gain feared equal to half your level. Each time a feared creature fails to hit you regain mana equal to their value.</p>\n<p><strong>Rank 2:</strong> While a creature has feared increase your spell damage by twice the value</p>\n<p><strong>Rank 3:</strong> A creature who attacks you while having feared must make a Will check; on a failure they double the cost of the attack and halve their accuracy modifier.</p>\n<p><strong>Rank 4:</strong> Your spells deal double Acid, Fire and Electricity damage to feared creatures</p>\n<p><strong>Rank 5:</strong> Each time a creature gains the feared condition you may move up to half your overland speed</p>\n<p><strong>Rank 6:</strong> Restore mana each time a feared creature fails to attack you by the difference between the roll and your defense or evasion</p>\n<p><strong>Rank 7:</strong> Increase your accuracy by 5 or by 10 when attacking a creature with feared</p>\n<p><strong>Rank 8:</strong> Feared creatures who do not move away from you must make an Int check or take (Lv/2)d4 nether damage</p>\n<p><strong>Rank 9:</strong> When you activate your ability all creatures within burst 3 must make a Will check; if they gain feared they must make a sprint action away from you. You may cast a spell against any creature who moves away from you within burst 3</p>\n<p><strong>Rank 10:</strong> Your natural armor heals at the start of your turn even if it is at zero</p>",
+    "Soapstone": "<p>(Magic of the arts, Rune Smithing, Pesticide)</p>\n<p><strong>Rank 1:</strong> At the start of your turn you may spend an action to activate this ability till the start of your next turn, while it is active your spells deal bonus damage to the target's Soul equal to (Lv + the mana cost)/5</p>\n<p><strong>Rank 2:</strong> When a creature takes soul damage gain natural armor equal to half the damage</p>\n<p><strong>Rank 3:</strong> A creature who takes soul damage from your spells gain exhausted equal to the level of the spell</p>\n<p><strong>Rank 4:</strong> Restore mana equal to any soul damage you deal</p>\n<p><strong>Rank 5:</strong> Your spell can ignore resistance equal to any soul damage it would deal</p>\n<p><strong>Rank 6:</strong> Increase your mana by the number of spells you know</p>\n<p><strong>Rank 7:</strong> When a creature who has taken soul damage damages you gain resistance 5 to the damage or 10 if you did the soul damage to the target in the last turn</p>\n<p><strong>Rank 8:</strong> Soul damage you deal causes the target to lose aura and mana equal to twice its value</p>\n<p><strong>Rank 9:</strong> When you activate your ability your next spell has its mana cost cut in half</p>\n<p><strong>Rank 10:</strong> Your natural armor heals at the start of your turn even if it is at zero</p>"
+   },
+   "path": "",
+   "fullOptions": [
+    "Stone Body"
+   ],
+   "halfOptions": [],
+   "halfByPath": {
+    "Slate": [
+     "Flight",
+     "Occultist",
+     "Banisher"
+    ],
+    "Granite": [
+     "Attunement",
+     "Super Strength",
+     "Fear Presence"
+    ],
+    "Soapstone": [
+     "Magic of the Arts",
+     "Rune Smithing",
+     "Pesticide"
+    ]
+   },
+   "fullChoice": "Stone Body",
+   "halfChoice": "",
+   "description": "<p>Carved Presence: Choose your stone of creation; this choice cannot be changed. You gain levels in Stone Body equal to your rank in this talent and half in one of the creation choices.</p>"
+  }
+ },
+ {
+  "name": "Entomancy",
+  "type": "talent",
+  "system": {
+   "tree": "Racial",
+   "skillGroup": "any",
+   "tags": "Racial",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": true,
+   "race": "Goblin",
+   "multiPath": true,
+   "pathOrder": [
+    "Weapons",
+    "Spells",
+    "Body mods"
+   ],
+   "paths": {
+    "Weapons": "<p><strong>Rank 1:</strong> Select 1 weapon base from the table below, you can summon the weapon once per scene it loses 5 Hardness every time it is used. Weapon damage from this table always has a minimum of 1 die.</p>\n<p><strong>Rank 2:</strong> Select 1 armor base from the table below, while wielding a weapon from this talent you are wearing the armor</p>\n<p><strong>Rank 3:</strong> You can restore 5 Hardness by spending 15 mana or 25 aura once per turn</p>\n<p><strong>Rank 4:</strong> You can now choose a second weapon base or an upgrade.</p>\n<p><strong>Rank 5:</strong> Once per scene you may choose one of the special weapons from the table below each are one time use weapons</p>\n<p><strong>Rank 6:</strong> Weapons have their Hardness doubled</p>\n<p><strong>Rank 7:</strong> The armor you are wearing has its Agi penalty decreased by 2</p>\n<p><strong>Rank 8:</strong> You can now choose a third weapon base or an upgrade</p>\n<p><strong>Rank 9:</strong> You now restore 8 Hardness each time you spend mana or aura</p>\n<p><strong>Rank 10:</strong> Your weapon now gains the ability to apply bleed 3 each time it hits</p>\n<p><code>|  |  |  |  |  |  |</code></p>\n<p><code>| :-: | :-: | :-: | :-: | :-: | :-: |</code></p>\n<p><code>| Name | Damage/Defense bonus | Hardness | Range | Special effect | Weapon or armor |</code></p>\n<p><code>| Mosquito Lance | (Lv/4)d6 Piercing | 25 | Reach 2 | Regain life equal to half the damage | Basic Polearm weapon |</code></p>\n<p><code>| Termite Blade | (Lv/2)d6 Slashing | 35 | Melee | This weapon deals double damage to armor | Basic Sword weapon |</code></p>\n<p><code>| Centipede Whip | (Lv/4)d4 Slashing | 45 | Reach 6 | This weapon can be used to make grapples | Basic Axe weapon |</code></p>\n<p><code>| Beeams | Lvd8 Piercing | 10 | Range 12 | This weapon deals damage to all creatures in between the user and the target | Basic Bow weapon |</code></p>\n<p><code>| Ant Stabber | Lvd4 Piercing | 60 | Melee | The target gains Stunned 1 | Basic Dagger weapon |</code></p>\n<p><code>| Locust Scythe (Draft) | (Lv/2)d6 Slashing | 30 | Melee | This weapon has Cleave 1 | Basic Sword weapon |</code></p>\n<p><code>| Dragonfly Spear (Draft) | (Lv/2)d6 Piercing | 30 | Reach 2 | Attacks with this weapon ignore Concealment and Half Concealment | Basic Polearm weapon |</code></p>\n<p><code>| Rhino Beetle Maul (Tier 2) (Draft) | (Lv/2)d10 Crushing | 50 | Melee | Each hit gives the target&#x27;s armor or natural armor Brittle 1 | Basic Hammer weapon |</code></p>\n<p><code>| Stag Beetle Gauntlets (Tier 2) (Draft) | (Lv/2)d8 Crushing | 45 | Melee | This weapon counts as an unarmed attack for your talents, and your grapple checks gain +10 while wielding it | Basic Unarmed weapon |</code></p>\n<p><code>| Wasp Cannon | (2Lv)d10 Piercing | 45 | Range 24 | This weapon deals damage to each creature it hits on hit and again at the start of the Recovery Stage | Upgrade Bow |</code></p>\n<p><code>| Enlarged Insect | Die size increase by 1 | \\\\+20 | Reach +1 | The weapon is now two-handed | Upgrade melee or reach weapon  |</code></p>\n<p><code>| Poisonous Insect | Half the current number of dice | \\\\+10 | N/A | This attack deals the bonus damage in poison damage | Upgrade Weapon |</code></p>\n<p><code>| Swarming Insect (Tier 2) (Draft) | \\\\+1 die per insect stack sacrificed | \\\\+15 | N/A | When this weapon hits, you can sacrifice stacks of insects (from Body mods) to add 1 die of damage per stack | Upgrade Weapon |</code></p>\n<p><code>| Kabuto Armor | 30 |   |   | Each time you take damage you may move 1 square | Basic leather armor |</code></p>\n<p><code>| Diabolical Ironclad Platemail | 60 |   |   | Each time you take damage decrease your defense by 10 until the start of your next turn | Basic platemail |</code></p>\n<p><code>| Red Scale Chainmail | 50 |   |   | Each time you take damage you may deal your claw damage to one creature within burst 1. If you do not have Mantis claws, use the claw damage for your size. | Basic chainmail |</code></p>\n<p><code>| Fly Swarm Cloak (Draft) | 30 |   |   | You have Concealment against ranged attacks | Basic leather armor |</code></p>\n<p><code>| Ladybug Shell (Draft) | 50 |   |   | You can change the shell&#x27;s color and pattern at will; increase the Tn of your stealth checks by 10 | Basic chainmail |</code></p>\n<p><code>| Hornet Carapace (Draft) | 30 |   |   | Each time a creature hits you with a melee attack, it gains Sickened 1 | Basic leather armor |</code></p>\n<p><code>| Goliath Beetle Plate (Tier 2) (Draft) | 75 |   |   | Each time you take damage, your weapon from this talent restores 3 Hardness | Basic platemail |</code></p>\n<p><code>| Bombardier RPG | Rd12 Force |   | Range 18 blast 4 | All creatures hit by this have their evasion and defense doubled till the start of your next turn | Special |</code></p>\n<p><code>| Antling Gun | (6R)d8 Piercing |   | Range 12 | If this weapon kills its target roll Lvd8 more damage then another creature within range takes that damage. This continues until you have no more damage or choose not to target another creature | Special |</code></p>\n<p><code>| Army Ant Tide (Tier 2) (Draft) | (R)d10 Slashing |   | Range 12 cone 6 | All creatures hit gain Bleed equal to half your level in entomancy, and the cone becomes difficult terrain for enemies until the end of the scene | Special |</code></p>",
+    "Spells": "<p><strong>Rank 1:</strong> Select 1 of the following spells. Spells chosen from this list count as generic when determining schools</p>\n<p><strong>Rank 2:</strong> When casting a spell that has an art from entomancy, you can increase the complexity by 3 to cause the spell to apply increased conditions by half your level in entomancy</p>\n<p><strong>Rank 3:</strong> Select 1 of the following spells. Increase your mana by 20</p>\n<p><strong>Rank 4:</strong> Select 1 of the following spells. When casting a spell, if your armor or weapon from Entomancy matches the insect named in the spell, its Conditional is met for the entire spell.</p>\n<p><strong>Rank 5:</strong> Once per scene you may cast a pure entomancy spell for free</p>\n<p><strong>Rank 6:</strong> Select 1 of the following spells. Spells you cast that deal fire damage restore mana equal to half the On Fire the target has</p>\n<p><strong>Rank 7:</strong> Entomancy spells that have a plant art in them may use creatures with the insect tag in addition to or instead of the plant tag</p>\n<p><strong>Rank 8:</strong> Select 1 of the following spells. Increase your mana regeneration by 4</p>\n<p><strong>Rank 9:</strong> Entomancy spells do not harm allies as long as you are aware the ally is in range of the spell.</p>\n<p><strong>Rank 10:</strong> Select 2 of the following spells. Decrease the action cost of your spells by 1 to a minimum of 1 unless the spell is pure entomancy in which case the first cast may cost zero actions  Spells: <strong>Horde of flies[3](On hit): (SL)d6 flies</strong> encircle the target causing them to have a negative to accuracy equal to the number of flies times 3 <strong>Locust Wave[4]</strong>(Projection): You send forth a carpet of insects that will strike out at your opponents in a cone of SL <strong>Ant barrier[2](Modifier)</strong>: This spell creates a wall of ants instead of attacking the target having 20SL hp <strong>Beetle crush[5]</strong>(on hit): the target takes (SL)d8 crushing damage and count as being grappled by the spell for (SL)d4 turns <strong>Dragonfly Drill[4](Projection): You send out a focused drill</strong> of energy at the targets in a line of 1.5SL <strong>Ladybug Disguises[2](Modifier)</strong>: all creatures hit in this spell can transform their looks into another creatures they know of for (SL)d4 hours <strong>Signal of the hornet[6](Modifier)</strong>: All creatures hit by this spell take bonus damage equal to the damage they take for the next SL/4 attacks <strong>Termite treat[3](Modifier)</strong>: Heal all targets for (SL/6)d6 hp <strong>Bee\u2019s lament[8](</strong>On hit): All creatures take (SL/2)d12 damage while the spell lasts and have their mana and aura regeneration decreased by 3SL <strong>Mosquito Drain[6](</strong>On hit) (Tier 2) (Draft): the target takes (SL/2)d6 piercing damage and you regain hp equal to half the damage dealt. Matches the Mosquito Lance <strong>Centipede Coil[5](</strong>On hit) (Tier 2) (Draft): the target is pulled SL/4 squares toward you and takes (SL/2)d4 poison damage at the start of each of its turns for SL/4 turns. Matches the Centipede Whip <strong>Wasp Nest[7](</strong>Projection) (Tier 2) (Draft): a swarm fills a burst of SL/4 around the target until the end of the scene. Creatures that start their turn inside it gain Sickened 1. Matches the Wasp Cannon <strong>Bombardier Spray[8](</strong>On hit) (Tier 2) (Draft): the target takes (SL/2)d10 fire damage and gains On Fire equal to SL/4. Matches the Bombardier RPG <strong>Rhino Charge[6](</strong>Modifier) (Tier 2) (Draft): before the spell resolves you move up to SL/2 squares in a straight line, and creatures you pass through must make a Str check or be knocked prone. Matches the Rhino Beetle Maul</p>",
+    "Body mods": "<p><strong>Rank 1:</strong> Gain 1 of the following body mods; this choice cannot be changed. Each body mod has an adjustment period, the number of scenes before you gain its adapted bonus: 2 scenes for Basic mods and 4 scenes for Superior mods.</p>\n<p><strong>Rank 2:</strong> Insects are naturally drawn to you. At the Prepping Stage of each round you gain 1 stack of insects, to a maximum of Lv/2. Whenever you use an Entomancy effect you may sacrifice stacks to regain 10 aura or 5 mana per stack, or to restore 5 Hardness to a weapon per stack.</p>\n<p><strong>Rank 3:</strong> You can now attempt to hide your body mods if they are hand or legs with a hard adventure or social check.</p>\n<p><strong>Rank 4:</strong> Gain 1 of the following body mods</p>\n<p><strong>Rank 5:</strong> Body mods you take have their adjustment period cut in half and when fully adapted to them provide their adapted bonus as well</p>\n<p><strong>Rank 6:</strong> Gain 1 of the following body mods</p>\n<p><strong>Rank 7:</strong> When using a combat body mod (any body mod that deals damage) you can have it inflict Poison Attack as a free action</p>\n<p><strong>Rank 8:</strong> The check to hide your arms and legs mods is now normal and you can attempt hard checks for chest mods</p>\n<p><strong>Rank 9:</strong> Insects are now drawn to you in larger numbers and can be given simple commands to do as long as it doesn't take them outside of burst 10 of you.</p>\n<p><strong>Rank 10:</strong> Gain 1 of the following superior body mods</p>\n<p><code>|  |  |  |  |  |</code></p>\n<p><code>| :-: | :-: | :-: | :-: | :-: |</code></p>\n<p><code>| Name | Limb | Effect | Adapted | Grade |</code></p>\n<p><code>| Mantis claws | Arms | Increase your claw harm by 4 and decrease action cost by 1 to a minimum of 1. Your claws also count as daggers now. You cannot wield two-handed weapons nor one-handed weapons that can be used as two-handed | Claw harm increase becomes 5, and your claws count the target&#x27;s Hardness as 2 lower (Draft) | Basic |</code></p>\n<p><code>| Hopper legs | Legs | Increase your jump distance by triple its base value and may use jump at full strength as a disengage action. You cannot wear heavy armor or any kind of footwear that is not specially made | Jumping doesn&#x27;t provoke opportunity attacks, and you take no fall damage from falls shorter than your jump distance (Draft) | Basic |</code></p>\n<p><code>| Moth wings | Chest | Gain a flight speed of 2 and access to the flight talent | Flight speed becomes 4 (Draft) | Basic |</code></p>\n<p><code>| Fly eyes | Head | Increase your range access by your level times 2 and your search passive perception by the same. When you have 2 or more enemies in melee combat with you double your Durability after applying penalties  | You can&#x27;t be flanked (Draft) | Basic |</code></p>\n<p><code>| Stinger | Chest | Increase your tail harm by 4 and decrease its action cost by 1 to a minimum of 1. Your tail has reach 2 now. You cannot wear pants that are not specially made for you  | Tail harm increase becomes 5, and once per turn your tail hits give Sickened 1 (Draft) | Basic |</code></p>\n<p><code>| Proboscis | Head | You heal for half the damage your bite does. You cannot eat any meal that is not liquid base.  | Each time your bite heals you, you also regain 5 mana (Draft) | Basic |</code></p>\n<p><code>| Extra arms | Chest | Can gain an extra pair of arms to use. Decrease any social Tn by 30 | The social Tn decrease becomes 15 (Draft) | Basic |</code></p>\n<p><code>| Extra legs | Chest | Can gain an extra pair of legs to use. Decrease any social Tn by 30 | The social Tn decrease becomes 15, and increase your movement by 2 squares (Draft) | Basic |</code></p>\n<p><code>| Armor limbs | Any | Decrease your defense by 10 per armored limb (your head counts as a limb, your torso does not). Decrease your accuracy by 5 per armored arm, your movement by 3 per armored leg, and your skill checks by 5 if your head is armored.  | The accuracy, movement and skill check penalties are halved (round down) (Draft) | Basic |</code></p>\n<p><code>| Sticky limbs | Arm or legs | For each pair of sticky limbs increase Climb speed by 2 squares this can go above your base movement. And you never have to make checks for falling off | You can climb upside down across ceilings at full climb speed, and grapple checks against you are hard (Draft) | Superior |</code></p>\n<p><code>| Pincers | Head | Increase your bite harm by 4 and decrease its action cost by 1 to a minimum of 1. Your bite has reach 2 now. You cannot wear helms that are not specially made for you  | Bite harm increase becomes 5, and a bite that hits past the Tn by 20 grapples the target (Draft) | Basic |</code></p>\n<p><code>| Acid spray | Head | Gain a range attack of cone (Lv/4) and damage (Lv/2)d6 acid, both with a minimum of 1, that deals half that amount for 6 rounds. If you ever gain a mental condition on failure rolls attack a random creature with its attack.  | Creatures hit also gain Corroded 1, and the mental condition drawback only triggers on a critical failure (Draft) | Superior |</code></p>\n<p><code>| Pheromone control | None | Controlled insects can be controlled up to burst 50Lv and can be given complex commands while they stay inside this range even if you cannot see them. You can also receive messages through these pheromones  | Allies within range can also send and receive pheromone messages through you (Draft) | Superior |</code></p>\n<p><code>| Wax creation | Chest | Can spend a turn creating 1 pound of wax. This wax hardens after 2 hours of zero interaction  | You create 2 pounds of wax per turn, and it hardens after 1 hour (Draft) | Basic |</code></p>\n<p><code>| Honey creation | Chest | Can spend a turn creating 1 pound of honey. It has the same base rules as the wax  | Once per scene, each creature can eat your honey as an action to regain 10 hp (Draft) | Superior |</code></p>\n<p><code>| Pollination | None | When attempting to cross breed plants increase the Tn by 40 and you can manually ensure certain traits are transferred.  | Plants you cross breed grow in half the time (Draft) | Basic |</code></p>\n<p><code>| Exoskeleton Plating (Tier 2) (Draft) | Chest | Gain resistance to slashing, piercing, crushing and blunt equal to your level in entomancy. You cannot wear heavy armor. | Resistance becomes your level in entomancy + your Con | Superior |</code></p>\n<p><code>| Firefly Lantern (Tier 2) (Draft) | Chest | At will, glow as a light 3 source in burst 5 (same as a torch). Once per scene, as an action, flash: every creature within burst 3 makes a Con check or gains Blind 1. You can&#x27;t hide while glowing. | Flash becomes burst 5 and Blind 2 | Basic |</code></p>\n<p><code>| Antennae (Tier 2) (Draft) | Head | You know the location of every creature within burst Lv/2, even if it is invisible or concealed (you still can&#x27;t see it). Increase your Perception skills by 10. You cannot wear helms that are not specially made for you. | Burst becomes Lv, and stealth checks against you are hard | Basic |</code></p>\n<p><code>| Silk Glands (Tier 2) (Draft) | Arms | Spend a turn to create 1 pound of silk (same base rules as wax). Once per scene, shoot a silk line up to range Lv/2 and make a grapple check against the target; on a success, it is grappled by your silk. | The silk line can be used twice per scene, and the area around the grappled target becomes difficult terrain (burst 1) | Superior |</code></p>\n<p><code>| Cicada Tymbals (Tier 2) (Draft) | Chest | Gain a ranged attack of cone (Lv/4) dealing (Lv/2)d6 sonic damage, both with a minimum of 1. Creatures hit make a Will check or gain Feared 1. Decrease your stealth checks by 20 while using it. | Feared becomes 2, and allies in the cone are not affected | Superior |</code></p>"
+   },
+   "path": "",
+   "fullOptions": [
+    "Fire Magic",
+    "Dagger Combat"
+   ],
+   "halfOptions": [
+    "Sneaky",
+    "Poison Attack"
+   ],
+   "halfByPath": {},
+   "fullChoice": "",
+   "halfChoice": "",
+   "description": "<p>Entomancy: You can choose to grab one of the three styles of entomancy at any point counting the total levels in them as your level in this. At tier 1 you can have a max total of 10 levels. At tier 2 you can have a max total of 20 levels (Draft). Once a style has reached its max of 10 levels, you keep gaining picks from that style's table (weapons, spells or body mods) at a rate of 1 per 3 levels you gain in Entomancy after that (Draft). You gain levels in Fire Magic or Dagger Combat equal to your level in this and half that level in Sneaky or Poison Attack</p>"
+  }
+ },
+ {
+  "name": "Cultivation",
+  "type": "talent",
+  "system": {
+   "tree": "Racial",
+   "skillGroup": "any",
+   "tags": "Racial",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": true,
+   "race": "Mandrake",
+   "multiPath": false,
+   "pathOrder": [
+    "Spiritual",
+    "Fungal",
+    "Seed"
+   ],
+   "paths": {
+    "Spiritual": "<p><strong>Rank 1:</strong> Increase your claw harm by 3. Whenever you deal critical or stealth damage, or cast a spell from somewhere besides yourself, the first die you roll for damage is a max roll and its size or harm increases by 1</p>\n<p><strong>Rank 2:</strong> While not moving next to a plant larger than you, you may spend an action to merge with the plant. While merged you may teleport to any plant larger than you that is connected by direct roots, is in sight, or is connected by the fungal internet.</p>\n<p><strong>Rank 3:</strong> When attacking while merged with a plant you may cast your spells or use your natural weapons from any plant within burst Lv</p>\n<p><strong>Rank 4:</strong> Increase your movement by 3 and for every creature beyond the first that a martial or spell attacks regain either 2 mana or 4 aura</p>\n<p><strong>Rank 5:</strong> You can spend 10 aura to give any of your natural weapons cleave 1 per 10 spent and increase its reach by half your cleave. You can spend 10 mana to give your spell burst 1 or blast 1 or increase those stats by 1 per 10 spent.</p>\n<p><strong>Rank 6:</strong> While merging with a plant you may increase the action cost of any natural attack or spell by 1 to make it deal stealth damage.</p>\n<p><strong>Rank 7:</strong> While merging with a plant you can now use natural attacks from two different plants at once using one accuracy roll vs all targets</p>\n<p><strong>Rank 8:</strong> You can now merge with a plant larger than you when taking a movement action, while doing so you may teleport to a plant larger than you within sight</p>\n<p><strong>Rank 9:</strong> Increase your stealth damage by harm 1, when you apply stealth damage decrease the aura cost of that attack by your harm times 2</p>\n<p><strong>Rank 10:</strong> When dealing critical damage half the dice are max rolled</p>",
+    "Fungal": "<p><strong>Rank 1:</strong> Decrease your size by 1. Whenever your spell deals bonus damage from Weakness, double that bonus damage.</p>\n<p><strong>Rank 2:</strong> Once per round when you take damage all creatures within burst 3 of you must make a Con check; on a failure they gain Weakness 5 to one elemental damage type of your choice.</p>\n<p><strong>Rank 3:</strong> Each time you take damage gain regeneration 2 (Fire, Acid), losing half of it at the end of each of your turns</p>\n<p><strong>Rank 4:</strong> Any creature that takes elemental damage from your spell or martial gains Weakness 1 to that element once per round.</p>\n<p><strong>Rank 5:</strong> When attacking a creature larger than you with a natural attack you may attempt a combat check (or a skill you have made for grappling) on success you infect them, while infected any damage you would take is halved and the infected takes half and they cannot attack you.</p>\n<p><strong>Rank 6:</strong> When dealing elemental damage the first die of damage is always max damage</p>\n<p><strong>Rank 7:</strong> The effect to give Weakness to an element increases to burst 5 and Weakness 10</p>\n<p><strong>Rank 8:</strong> While infected, the Tn of any attack the creature makes is decreased by half your light accuracy</p>\n<p><strong>Rank 9:</strong> Any time the infected is healed you heal for half the amount and they are healed for half</p>\n<p><strong>Rank 10:</strong> Once per round while infecting someone you can make a natural weapon attack that automatically hits, healing for the damage.</p>",
+    "Seed": "<p><strong>Rank 1:</strong> Increase your size by 1. Whenever you cast a spell that does not deal damage, increase its effect duration by 1 turn or its area by 1 (caster's choice).</p>\n<p><strong>Rank 2:</strong> Once per turn you may spend an action to heal for 2d6 per plant within burst 3 of you then you can heal one ally within that range for half that amount</p>\n<p><strong>Rank 3:</strong> Any heals you do to other targets gives the target regeneration 3 (Fire, Acid) and poison and cold resistance 3 until the end of their turn.</p>\n<p><strong>Rank 4:</strong> Spells with at least 1 plant art always trigger its ability to spawn plants</p>\n<p><strong>Rank 5:</strong> When attacking a creature who has less than half their hp deal double damage vs them. If you slay the creature create 2d4 magical plants per size class of the creature, chosen from Plant Magic or any other magical plant list</p>\n<p><strong>Rank 6:</strong> Healing you do to other creatures restores your mana and aura equal to \u00bc the amount of healing</p>\n<p><strong>Rank 7:</strong> Magical plants you create always have maxed rolls</p>\n<p><strong>Rank 8:</strong> When fighting creatures smaller than you, any damage you deal with natural weapons ignores half their max natural armor.</p>\n<p><strong>Rank 9:</strong> Water arts you use count as plant arts for determining the number of schools</p>\n<p><strong>Rank 10:</strong> Any time a creature is healed within burst 5 of you heal for \u00bc the amount healed unless you caused the heal</p>"
+   },
+   "path": "",
+   "fullOptions": [
+    "Plant Magic"
+   ],
+   "halfOptions": [
+    "Horticulture"
+   ],
+   "halfByPath": {},
+   "fullChoice": "Plant Magic",
+   "halfChoice": "Horticulture",
+   "description": "<p>Cultivation: Choose one of the following ways to grow your physical form gaining the chosen benefit. You also gain levels in Plant Magic equal to your level in this talent and half of it in Horticulture</p>"
+  }
+ },
+ {
+  "name": "Song of the Forge",
+  "type": "talent",
+  "system": {
+   "tree": "Racial",
+   "skillGroup": "any",
+   "tags": "Racial",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": true,
+   "race": "Ogre",
+   "multiPath": false,
+   "pathOrder": [
+    "Song of the Sky",
+    "Song of the Sea",
+    "Song of the Mountain"
+   ],
+   "paths": {
+    "Song of the Sky": "<p><strong>Rank 1:</strong> You gain the ability to create an electrified one-handed weapon that has base harm plus 2 and its stats can only be modified by your talents. You must have at least 1 free hand to use this ability.</p>\n<p><strong>Rank 2:</strong> When using martial arts increase your accuracy by your weapons harm times 3</p>\n<p><strong>Rank 3:</strong> Each time a creature's Electrified triggers and you are in range you take no damage but increase your weapons harm by 1 until the start of your next turn. You have a 25 percent chance to apply Electrified 1 with your created weapons.</p>\n<p><strong>Rank 4:</strong> You gain electricity resistance Con+End and once per scene you can transfer all electrified values within burst 3 to whoever you attack this turn.</p>\n<p><strong>Rank 5:</strong> You can now find Cloud ingredients and harvest them without special equipment. When you summon your weapon you gain electrified medium armor with Hardness base plus 1, while wearing the armor increase your overland by 3</p>\n<p><strong>Rank 6:</strong> You can choose a rune that is size two or smaller and apply it to your created weapon</p>\n<p><strong>Rank 7:</strong> You regain 5 aura per square you travel during a charge or gain aura equal to half electricity damage you take before applying resistance</p>\n<p><strong>Rank 8:</strong> Once per scene you may cast a spell using your aura and apply it to your weapon until the end of the scene triggering it on all creatures who take electrified damage.</p>\n<p><strong>Rank 9:</strong> Increase the base harm and Hardness of your created items by 2</p>\n<p><strong>Rank 10:</strong> Whenever you create an item using materials increase its attributes by 3 or by 6 if you use a Cloud ingredient</p>",
+    "Song of the Sea": "<p><strong>Rank 1:</strong> You gain the ability to create a one-handed or two-handed (your choice) Frost weapon that has base harm plus 1 and its stats can only be modified by your talents. You must have at least 1 free hand to use this ability</p>\n<p><strong>Rank 2:</strong> When using martial arts ignore the target's resistance up to twice your harm</p>\n<p><strong>Rank 3:</strong> Each time a creature gains Frosting or Frozen increase your harm by 1 until the start of your next turn, any time you deal cold damage you have a 25 percent chance to apply Frosting 1</p>\n<p><strong>Rank 4:</strong> You gain cold resistance Str+Con and once per scene you can give all creatures (including allies) within burst 3 Frosting equal to Lv/2</p>\n<p><strong>Rank 5:</strong> You can now find Flow ingredients and harvest them without special equipment. When you summon your weapon you gain frozen light armor with Hardness base plus 2, while wearing the armor increase your aura regeneration by 5</p>\n<p><strong>Rank 6:</strong> You can choose a rune that is size two or smaller and apply it to your created weapon</p>\n<p><strong>Rank 7:</strong> You have increased aura regeneration equal to the harm of your weapon</p>\n<p><strong>Rank 8:</strong> Once per scene you may cast a spell using your aura and apply it to your weapon triggering when a creature gains Frozen from your attacks</p>\n<p><strong>Rank 9:</strong> Increase the base harm and Hardness of your created items by 2</p>\n<p><strong>Rank 10:</strong> Whenever you create an item using materials increase its attributes by 3 or by 6 if you use a Flow ingredient</p>",
+    "Song of the Mountain": "<p><strong>Rank 1:</strong> You gain the ability to create a fire two-handed weapon that has base harm plus 3 and its stats can only be modified by your talents. You must have at least 1 free hand to summon it.</p>\n<p><strong>Rank 2:</strong> Martial arts have their complexity decreased by your weapons' harm when determining aura cost.</p>\n<p><strong>Rank 3:</strong> Each time a creature takes On Fire damage or gains the condition, increase your created weapon's harm by 1 until the start of your next turn, any time you deal fire damage you have a 25 percent chance of causing the target to gain On Fire 1.</p>\n<p><strong>Rank 4:</strong> You gain fire resistance Str+End and once per scene you can remove all On Fire stacks you and others within burst 2 have and increase your weapon harm by the value till the end of the scene</p>\n<p><strong>Rank 5:</strong> You can now find Earthen ingredients and harvest them without special equipment. When you summon your weapon you gain fire heavy armor with Hardness base plus 6, while wearing the armor gain cold resistance equal to half its hp.</p>\n<p><strong>Rank 6:</strong> You can choose a rune that is size two or smaller and apply it to your created weapon.</p>\n<p><strong>Rank 7:</strong> Whenever you deal fire damage restore aura equal to \u00bc the damage dealt</p>\n<p><strong>Rank 8:</strong> Once per scene you may cast a spell using your aura and apply it to your weapon, triggering the spell each time you critical hit or your accuracy roll is 20 below their defense</p>\n<p><strong>Rank 9:</strong> Increase the base harm and Hardness of your created items by 2</p>\n<p><strong>Rank 10:</strong> Whenever you create an item using materials increase its attributes by 3 or by 6 if you use an Earthen ingredient.</p>"
+   },
+   "path": "",
+   "fullOptions": [
+    "Blacksmithing"
+   ],
+   "halfOptions": [
+    "Rune Smithing"
+   ],
+   "halfByPath": {},
+   "fullChoice": "Blacksmithing",
+   "halfChoice": "Rune Smithing",
+   "description": "<p>Song of the Forge: Select one of the following Songs; this choice cannot be changed. You gain resistance equal to your level in this talent times 3 to that Song's element. You also gain Blacksmithing equal to your Song levels and half its level in Rune Smithing. If you take this racial at character creation, you gain 1 of your Song's special materials: Electrum (Cloud) for Song of the Sky, Condensed Rain (Flow) for Song of the Sea, or Condensed Fire (Earthen) for Song of the Mountain (Draft).</p>"
+  }
+ },
+ {
+  "name": "Undead Body",
+  "type": "talent",
+  "system": {
+   "tree": "Racial",
+   "skillGroup": "any",
+   "tags": "Racial",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": true,
+   "race": "Zombie",
+   "multiPath": true,
+   "pathOrder": [
+    "Organ",
+    "Limbs",
+    "Flesh"
+   ],
+   "paths": {
+    "Organ": "<p><strong>Rank 1:</strong> You can use your intestine to create a cone 3 weapon dealing (Lv/2)d4 acid damage causing all creatures who take this damage to take the damage again for 1d4 turns at the start of their turn.</p>\n<p><strong>Rank 2:</strong> You can remove your heart to create a bomb dealing (2Lv)d6 force damage in a blast 2, thrown using your Thrown Range (weight 0). You can restore your heart for 25 aura at any point after using this ability.</p>\n<p><strong>Rank 3:</strong> If a creature who is taking your damage from the intestine is hit by your heart the damage ends but it deals Lvd6 per turn the damage would have remained.</p>\n<p><strong>Rank 4:</strong> Once per scene you may remove your stomach and store a food buff inside of it during combat you may have it deal 3d8 acid damage per 3 points of flavor the dish has in a blast 3 where you throw it</p>\n<p><strong>Rank 5:</strong> You can spend one action on your turn to increase your intestine's cone by 2 for each 75 hp you have; for every 3 cone past 5, its damage die size increases by 1</p>\n<p><strong>Rank 6:</strong> Increase the blast of the heart bomb by 2 and any creature who takes the damage gains Weakness to acid and nether equal to \u00bc the damage they took</p>\n<p><strong>Rank 7:</strong> After using your intestines you may spend an action to create a burst 3 toxic cloud dealing Xd4 acid damage where X is half the dice of your intestines</p>\n<p><strong>Rank 8:</strong> You can spend an action after using your stomach to expand your lungs gaining a flight speed equal to half your overland until the end of the scene and while flying increase the range of all your attacks by reach 2, 4 squares, blast 1, or cone 2</p>\n<p><strong>Rank 9:</strong> After using your heart you can spend an action to increase all your movements by 4 until the end of the scene</p>\n<p><strong>Rank 10:</strong> Once per scene you can have your intestine deal the damage of your stomach</p>",
+    "Limbs": "<p><strong>Rank 1:</strong> You can detach your hands or legs from your main body along with an eye to travel anywhere within range 10 you can see through the eye though you can only see in black and white. You can attack while it is separated using your claw damage for either but the limb will be defeated in a single attack.</p>\n<p><strong>Rank 2:</strong> When controlling a detached limb it can travel across walls if it is the hand and the leg can leap upwards to twice your overland once every minute.</p>\n<p><strong>Rank 3:</strong> Whenever you gain the broken limb condition you may detach that limb negating its penalties while detaching and can spend 1 action to heal the damage to it.</p>\n<p><strong>Rank 4:</strong> You can now detach your teeth allowing you to use your throw range when making a bite attack, after the attack lands or misses you can spend an action to return it to you</p>\n<p><strong>Rank 5:</strong> Detached limbs can now be used to transfer your entire body to them over a minute of time. The body being transferred over becomes a pile of ash once the process is done. During this time you are helpless to any attack coming towards you</p>\n<p><strong>Rank 6:</strong> While having a detached hand you can now cast a spell that costs 1 action once per turn with that hand</p>\n<p><strong>Rank 7:</strong> You can leave one of your ears in a location and hear out of it for up to 24 hours before the ear regenerates on your head.</p>\n<p><strong>Rank 8:</strong> While you have a detached limb you gain damage reduction 3 per limb and you are not hindered by the lost limb, allowing you to move at full speed and wield two-handed weapons.</p>\n<p><strong>Rank 9:</strong> When using your bite attack at range you can attempt a grapple check allowing you as a free action on future turns while the grapple lasts to auto hit with your bite attack against the target. This grapple does not apply any penalties to the target.</p>\n<p><strong>Rank 10:</strong> You can detach your arm to increase the range of all your melee attacks by reach 2 and while using this effect any enemy that gets within burst 1 of you triggers an attack of opportunity from you using your unarmed or claw attack</p>",
+    "Flesh": "<p><strong>Rank 1:</strong> After a scene in which you slew a creature, you may graft one of its parts onto yourself. You can hold a number of grafts equal to half your level in Flesh (minimum 1); a new graft can replace an old one. Each graft gives resistance equal to your level in Flesh to one damage type that creature resisted or dealt. The rotten part a graft replaces becomes a Rotten Chunk: at the start of each scene you have one Rotten Chunk per graft, which you can throw using your Thrown Range (weight 0) to deal (Lv/2)d6 blunt damage and apply Rotting 1.</p>\n<p><strong>Rank 2:</strong> Your Rotten Chunks burst into blast 1 on impact, and creatures with Rotting take an extra die of damage from them.</p>\n<p><strong>Rank 3:</strong> Your blood no longer flows: you are immune to Bleed, and any creature that hits you with a melee attack gains Bleed 1.</p>\n<p><strong>Rank 4:</strong> A graft can be a natural weapon of the slain creature; you gain that natural weapon using the natural weapon size table for that creature's size.</p>\n<p><strong>Rank 5:</strong> Once per scene you may spend an action to tear off any number of grafts, healing hp equal to twice your level in Flesh per graft. Your body is used to rot, so this healing is not halved by Rotting. Each torn graft becomes a Rotten Chunk, and the graft regrows at the end of the scene.</p>\n<p><strong>Rank 6:</strong> Whenever a creature with Rotting takes its Rotting damage within burst 3 of you, regain aura equal to its Rotting value.</p>\n<p><strong>Rank 7:</strong> Gain damage reduction 2 per graft you have.</p>\n<p><strong>Rank 8:</strong> Rotten Chunks now deal (Lv)d6+Con blunt damage and apply Rotting 2.</p>\n<p><strong>Rank 9:</strong> When a creature with Rotting dies within burst 3 of you, you may graft one of its parts as a free action without waiting for the scene to end, and its Rotting spreads to one creature within burst 1 of it.</p>\n<p><strong>Rank 10:</strong> Once per scene, you may spend an action to burst all your grafts: every creature within burst 3 takes your Rotten Chunk damage plus 1 extra die per graft and gains Rotting equal to your number of grafts. Your grafts regrow at the end of the scene.</p>"
+   },
+   "path": "",
+   "fullOptions": [
+    "Necromancy"
+   ],
+   "halfOptions": [
+    "Scavenging"
+   ],
+   "halfByPath": {},
+   "fullChoice": "Necromancy",
+   "halfChoice": "Scavenging",
+   "description": "<p>Undead body: You can upgrade certain parts of your body, gaining abilities up to your level in that part; your total levels across all parts equal your level in this talent. Damage from this talent always has a minimum of 1 die. You also gain levels in Necromancy equal to your total level in this talent and half that total in Scavenging.</p>"
+  }
+ },
+ {
+  "name": "Flight",
+  "type": "talent",
+  "system": {
+   "tree": "Racial",
+   "skillGroup": "any",
+   "tags": "Racial, Generic",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": true,
+   "race": "",
+   "multiPath": false,
+   "pathOrder": [],
+   "paths": {},
+   "path": "",
+   "fullOptions": [],
+   "halfOptions": [],
+   "halfByPath": {},
+   "fullChoice": "",
+   "halfChoice": "",
+   "description": "<p><strong>Flight:</strong> A generic racial talent. Only races, racial talents, or evolutions that state they can gain levels in Flight can take it.</p>\n<p><strong>Rank 1:</strong> Gain a flight speed of 5. Once per turn you can ascend or descend one height stage as a free action, or as an action you can attempt to end Turbulence.</p>\n<p><strong>Rank 2:</strong> Your flight speed increases to 6. Accuracy penalties to your melee attacks while flying are halved when using natural weapons.</p>\n<p><strong>Rank 3:</strong> As long as you move at least 1/4 of your flight speed on your turn, you do not have to make a roll to stay afloat.</p>\n<p><strong>Rank 4:</strong> Your flight speed increases to 8. Accuracy penalties to your melee attacks while flying are ignored when using natural weapons.</p>\n<p><strong>Rank 5:</strong> While at height stage 3 or higher, double the range of your bows, javelins, and slings, and your spells deal 3 more dice of damage to targets below you.</p>\n<p><strong>Rank 6:</strong> Accuracy penalties to your melee attacks while flying are halved when using martial weapons.</p>\n<p><strong>Rank 7:</strong> Your flight speed increases to 10. While you have moved at least half your flight speed this turn, melee attacks against you have disadvantage.</p>\n<p><strong>Rank 8:</strong> Accuracy penalties to your melee attacks while flying are ignored when using martial weapons.</p>\n<p><strong>Rank 9:</strong> Your flight speed increases to 12. You do not have to move to stay afloat.</p>\n<p><strong>Rank 10:</strong> You can ascend or descend your height stage twice per turn as a free action.</p>"
+  }
+ }
+]

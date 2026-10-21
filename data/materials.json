@@ -1,0 +1,4162 @@
+[
+ {
+  "name": "Adamantine Ingots",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Legendary",
+   "tier": 3,
+   "quantity": 1,
+   "summary": "Harm 12 | Hardness 16 | Durable 20 | Enchant 8, Empowering 4",
+   "attributes": "Enchant 8, Empowering 4",
+   "values": {
+    "harm": 12,
+    "durable": 20,
+    "hardness": 16
+   }
+  }
+ },
+ {
+  "name": "Adamantine Ore",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Legendary",
+   "tier": 3,
+   "quantity": 1,
+   "summary": "Harm 8 | Hardness 12 | Durable 15 | Enchant 4, Empowering 1",
+   "attributes": "Enchant 4, Empowering 1",
+   "values": {
+    "harm": 8,
+    "durable": 15,
+    "hardness": 12
+   }
+  }
+ },
+ {
+  "name": "Amber",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Gem",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 0 | Hardness 1 | Durable 0 | Aura reserve 2",
+   "attributes": "Aura reserve 2",
+   "values": {
+    "harm": 0,
+    "durable": 0,
+    "hardness": 1
+   }
+  }
+ },
+ {
+  "name": "Amethyst",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Gem",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 1 | Hardness 0 | Durable 0 | Mana reserve 1",
+   "attributes": "Mana reserve 1",
+   "values": {
+    "harm": 1,
+    "durable": 0,
+    "hardness": 0
+   }
+  }
+ },
+ {
+  "name": "Ash wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 1 | Hardness 0 | Durable 1 | aura gain 2, Resistance fire 5",
+   "attributes": "aura gain 2, Resistance fire 5",
+   "values": {
+    "harm": 1,
+    "durable": 1,
+    "hardness": 0
+   }
+  }
+ },
+ {
+  "name": "Basalt",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Gem",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 0 | Hardness 0 | Durable 0 | Int raise 1",
+   "attributes": "Int raise 1",
+   "values": {
+    "harm": 0,
+    "durable": 0,
+    "hardness": 0
+   }
+  }
+ },
+ {
+  "name": "Bear Leather",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Leather",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 1 | Hardness 1 | Durable 1 | blood crazed 2",
+   "attributes": "blood crazed 2",
+   "values": {
+    "harm": 1,
+    "durable": 1,
+    "hardness": 1
+   }
+  }
+ },
+ {
+  "name": "Bone",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Gem",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 2 | Hardness 0 | Durable 0 | Dreadful 1",
+   "attributes": "Dreadful 1",
+   "values": {
+    "harm": 2,
+    "durable": 0,
+    "hardness": 0
+   }
+  }
+ },
+ {
+  "name": "Bright Stone",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Gem",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 0 | Hardness 0 | Durable 0 | enchant 1",
+   "attributes": "enchant 1",
+   "values": {
+    "harm": 0,
+    "durable": 0,
+    "hardness": 0
+   }
+  }
+ },
+ {
+  "name": "Bronze Ingots",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 2 | Hardness 1 | Durable 1 | guide 1",
+   "attributes": "guide 1",
+   "values": {
+    "harm": 2,
+    "durable": 1,
+    "hardness": 1
+   }
+  }
+ },
+ {
+  "name": "Cedar wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 0 | Hardness 1 | Durable 1 | Mana Gain 4, Resistance Force 10, Resistance Poison 10",
+   "attributes": "Mana Gain 4, Resistance Force 10, Resistance Poison 10",
+   "values": {
+    "harm": 0,
+    "durable": 1,
+    "hardness": 1
+   }
+  }
+ },
+ {
+  "name": "Cherry wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 1 | Hardness 1 | Durable 1 | Mana reserve 2, Aura reserve 1, light 1",
+   "attributes": "Mana reserve 2, Aura reserve 1, light 1",
+   "values": {
+    "harm": 1,
+    "durable": 1,
+    "hardness": 1
+   }
+  }
+ },
+ {
+  "name": "Clay",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Gem",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 1 | Hardness 0 | Durable 1 | Cactus 3",
+   "attributes": "Cactus 3",
+   "values": {
+    "harm": 1,
+    "durable": 1,
+    "hardness": 0
+   }
+  }
+ },
+ {
+  "name": "Cobalt Ingots",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 2 | Hardness 2 | Durable 1 | Mana gain 2",
+   "attributes": "Mana gain 2",
+   "values": {
+    "harm": 2,
+    "durable": 1,
+    "hardness": 2
+   }
+  }
+ },
+ {
+  "name": "Cobalt ore",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 2 | Hardness 1 | Durable 1 | Mana gain 1",
+   "attributes": "Mana gain 1",
+   "values": {
+    "harm": 2,
+    "durable": 1,
+    "hardness": 1
+   }
+  }
+ },
+ {
+  "name": "Condensed Rain",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "flow",
+   "rarity": "Rare",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 3 | Hardness 6 | Durable 5 | Mana gain 4, Aura Drain 3, Wonderous 4",
+   "attributes": "Mana gain 4, Aura Drain 3, Wonderous 4",
+   "values": {
+    "harm": 3,
+    "durable": 5,
+    "hardness": 6
+   }
+  }
+ },
+ {
+  "name": "Condensed Fire",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Earthen",
+   "rarity": "Rare",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 5 | Hardness 4 | Durable 4 | mana drain 3, Aura gain 4, Dreadful 3",
+   "attributes": "mana drain 3, Aura gain 4, Dreadful 3",
+   "values": {
+    "harm": 5,
+    "durable": 4,
+    "hardness": 4
+   }
+  }
+ },
+ {
+  "name": "Copper Ingots",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 2 | Hardness 0 | Durable 1 | bane undead 2",
+   "attributes": "bane undead 2",
+   "values": {
+    "harm": 2,
+    "durable": 1,
+    "hardness": 0
+   }
+  }
+ },
+ {
+  "name": "Copper ore",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 1 | Hardness 0 | Durable 0 | bane undead 1",
+   "attributes": "bane undead 1",
+   "values": {
+    "harm": 1,
+    "durable": 0,
+    "hardness": 0
+   }
+  }
+ },
+ {
+  "name": "Cow Hide",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Leather",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 0 | Hardness 0 | Durable 0 | Aging 3",
+   "attributes": "Aging 3",
+   "values": {
+    "harm": 0,
+    "durable": 0,
+    "hardness": 0
+   }
+  }
+ },
+ {
+  "name": "Cubic zirconium",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Gem",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 0 | Hardness 2 | Durable 1 | blessed 2",
+   "attributes": "blessed 2",
+   "values": {
+    "harm": 0,
+    "durable": 1,
+    "hardness": 2
+   }
+  }
+ },
+ {
+  "name": "Cypress wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 1 | Hardness 4 | Durable 2 | bane Insect 4",
+   "attributes": "bane Insect 4",
+   "values": {
+    "harm": 1,
+    "durable": 2,
+    "hardness": 4
+   }
+  }
+ },
+ {
+  "name": "Demon Skin",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Leather",
+   "rarity": "Rare",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 8 | Hardness -2 | Durable 3 | blood crazed 3",
+   "attributes": "blood crazed 3",
+   "values": {
+    "harm": 8,
+    "durable": 3,
+    "hardness": -2
+   }
+  }
+ },
+ {
+  "name": "Dragon hide",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Leather",
+   "rarity": "Legendary",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 6 | Hardness 9 | Durable 6 | aging 4, Mana gain 4, wild 2",
+   "attributes": "aging 4, Mana gain 4, wild 2",
+   "values": {
+    "harm": 6,
+    "durable": 6,
+    "hardness": 9
+   }
+  }
+ },
+ {
+  "name": "Electrum",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Cloud",
+   "rarity": "Rare",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 4 | Hardness 5 | Durable 5 | Resistance Electricity 40, Enchant 4, aura Consumption 4",
+   "attributes": "Resistance Electricity 40, Enchant 4, aura Consumption 4",
+   "values": {
+    "harm": 4,
+    "durable": 5,
+    "hardness": 5
+   }
+  }
+ },
+ {
+  "name": "Elephant hide",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Leather",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 0 | Hardness 3 | Durable 1 | Resistance blunt 10",
+   "attributes": "Resistance blunt 10",
+   "values": {
+    "harm": 0,
+    "durable": 1,
+    "hardness": 3
+   }
+  }
+ },
+ {
+  "name": "Emeralds",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Gem",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 1 | Hardness 0 | Durable 0 | Blessed 1",
+   "attributes": "Blessed 1",
+   "values": {
+    "harm": 1,
+    "durable": 0,
+    "hardness": 0
+   }
+  }
+ },
+ {
+  "name": "Firestorm wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 7 | Hardness 3 | Durable 3 | Resistance fire 20",
+   "attributes": "Resistance fire 20",
+   "values": {
+    "harm": 7,
+    "durable": 3,
+    "hardness": 3
+   }
+  }
+ },
+ {
+  "name": "Gold ingots",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 4 | Hardness 6 | Durable 3 | Mana reserve 2",
+   "attributes": "Mana reserve 2",
+   "values": {
+    "harm": 4,
+    "durable": 3,
+    "hardness": 6
+   }
+  }
+ },
+ {
+  "name": "Gold ore",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 2 | Hardness 3 | Durable 1 | Mana reserve 1",
+   "attributes": "Mana reserve 1",
+   "values": {
+    "harm": 2,
+    "durable": 1,
+    "hardness": 3
+   }
+  }
+ },
+ {
+  "name": "Gravity Wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 2 | Hardness 2 | Durable 1 | Light 2",
+   "attributes": "Light 2",
+   "values": {
+    "harm": 2,
+    "durable": 1,
+    "hardness": 2
+   }
+  }
+ },
+ {
+  "name": "Heaven Wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Legendary",
+   "tier": 3,
+   "quantity": 1,
+   "summary": "Harm -3 | Hardness 12 | Durable 5 | Blessed 3, Resistance nether 30",
+   "attributes": "Blessed 3, Resistance nether 30",
+   "values": {
+    "harm": -3,
+    "durable": 5,
+    "hardness": 12
+   }
+  }
+ },
+ {
+  "name": "Hirokane ingots",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Rare",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 11 | Hardness 9 | Durable 5 | Dreadful 2",
+   "attributes": "Dreadful 2",
+   "values": {
+    "harm": 11,
+    "durable": 5,
+    "hardness": 9
+   }
+  }
+ },
+ {
+  "name": "Hirokane ore",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Rare",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 5 | Hardness 6 | Durable 3 | Dreadful 1",
+   "attributes": "Dreadful 1",
+   "values": {
+    "harm": 5,
+    "durable": 3,
+    "hardness": 6
+   }
+  }
+ },
+ {
+  "name": "Holly wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 2 | Hardness 1 | Durable 0",
+   "attributes": "",
+   "values": {
+    "harm": 2,
+    "durable": 0,
+    "hardness": 1
+   }
+  }
+ },
+ {
+  "name": "Human skin",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Leather",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 3 | Hardness 1 | Durable 1 | Blood crazed 1",
+   "attributes": "Blood crazed 1",
+   "values": {
+    "harm": 3,
+    "durable": 1,
+    "hardness": 1
+   }
+  }
+ },
+ {
+  "name": "Iceglade Wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 4 | Hardness 2 | Durable 2 | Resistance cold 20",
+   "attributes": "Resistance cold 20",
+   "values": {
+    "harm": 4,
+    "durable": 2,
+    "hardness": 2
+   }
+  }
+ },
+ {
+  "name": "Iron Ingots",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 3 | Hardness 1 | Durable 1 | Bane demon 1",
+   "attributes": "Bane demon 1",
+   "values": {
+    "harm": 3,
+    "durable": 1,
+    "hardness": 1
+   }
+  }
+ },
+ {
+  "name": "Iron Ore",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 2 | Hardness 0 | Durable 0 | Bane demon 1",
+   "attributes": "Bane demon 1",
+   "values": {
+    "harm": 2,
+    "durable": 0,
+    "hardness": 0
+   }
+  }
+ },
+ {
+  "name": "Life wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Legendary",
+   "tier": 3,
+   "quantity": 1,
+   "summary": "Harm -6 | Hardness 15 | Durable 6 | Aging 3, Aura gain 2",
+   "attributes": "Aging 3, Aura gain 2",
+   "values": {
+    "harm": -6,
+    "durable": 6,
+    "hardness": 15
+   }
+  }
+ },
+ {
+  "name": "Magical wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 4 | Hardness 3 | Durable 2 | Mana reserve 3",
+   "attributes": "Mana reserve 3",
+   "values": {
+    "harm": 4,
+    "durable": 2,
+    "hardness": 3
+   }
+  }
+ },
+ {
+  "name": "Mithral ingots",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Rare",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 7 | Hardness 9 | Durable 4 | Light 2, Wonderous 1",
+   "attributes": "Light 2, Wonderous 1",
+   "values": {
+    "harm": 7,
+    "durable": 4,
+    "hardness": 9
+   }
+  }
+ },
+ {
+  "name": "Mithral ore",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Rare",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 3 | Hardness 5 | Durable 2 | Light 1",
+   "attributes": "Light 1",
+   "values": {
+    "harm": 3,
+    "durable": 2,
+    "hardness": 5
+   }
+  }
+ },
+ {
+  "name": "Moon Stone",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Gem",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 3 | Hardness 3 | Durable 1 | Mana gain 1",
+   "attributes": "Mana gain 1",
+   "values": {
+    "harm": 3,
+    "durable": 1,
+    "hardness": 3
+   }
+  }
+ },
+ {
+  "name": "Oak wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 2 | Hardness 1 | Durable 0",
+   "attributes": "",
+   "values": {
+    "harm": 2,
+    "durable": 0,
+    "hardness": 1
+   }
+  }
+ },
+ {
+  "name": "Orichalcum ingots",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Rare",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 8 | Hardness 9 | Durable 5 | Empowering 2, Enchant 3",
+   "attributes": "Empowering 2, Enchant 3",
+   "values": {
+    "harm": 8,
+    "durable": 5,
+    "hardness": 9
+   }
+  }
+ },
+ {
+  "name": "Orichalcum ore",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Rare",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 6 | Hardness 7 | Durable 4 | Empowering 1, Enchant 2",
+   "attributes": "Empowering 1, Enchant 2",
+   "values": {
+    "harm": 6,
+    "durable": 4,
+    "hardness": 7
+   }
+  }
+ },
+ {
+  "name": "Pewter ingots",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 6 | Hardness 3 | Durable 2 | Cactus 1",
+   "attributes": "Cactus 1",
+   "values": {
+    "harm": 6,
+    "durable": 2,
+    "hardness": 3
+   }
+  }
+ },
+ {
+  "name": "Pine wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 1 | Hardness 2 | Durable 0",
+   "attributes": "",
+   "values": {
+    "harm": 1,
+    "durable": 0,
+    "hardness": 2
+   }
+  }
+ },
+ {
+  "name": "Platinum Ingots",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Rare",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 8 | Hardness 8 | Durable 4 | Enchant 2",
+   "attributes": "Enchant 2",
+   "values": {
+    "harm": 8,
+    "durable": 4,
+    "hardness": 8
+   }
+  }
+ },
+ {
+  "name": "Platinum ore",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Rare",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 5 | Hardness 5 | Durable 2 | Enchant 1",
+   "attributes": "Enchant 1",
+   "values": {
+    "harm": 5,
+    "durable": 2,
+    "hardness": 5
+   }
+  }
+ },
+ {
+  "name": "Quartz",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Gem",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 3 | Hardness 4 | Durable 2 | Enchant 1",
+   "attributes": "Enchant 1",
+   "values": {
+    "harm": 3,
+    "durable": 2,
+    "hardness": 4
+   }
+  }
+ },
+ {
+  "name": "Steel ingots",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Uncommon",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm 6 | Hardness 6 | Durable 3 | Guide 1",
+   "attributes": "Guide 1",
+   "values": {
+    "harm": 6,
+    "durable": 3,
+    "hardness": 6
+   }
+  }
+ },
+ {
+  "name": "Tin ingots",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 4 | Hardness 4 | Durable 2 | Resistance acid 10",
+   "attributes": "Resistance acid 10",
+   "values": {
+    "harm": 4,
+    "durable": 2,
+    "hardness": 4
+   }
+  }
+ },
+ {
+  "name": "Tin ore",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Metal",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 2 | Hardness 2 | Durable 1 | Resistance acid 10",
+   "attributes": "Resistance acid 10",
+   "values": {
+    "harm": 2,
+    "durable": 1,
+    "hardness": 2
+   }
+  }
+ },
+ {
+  "name": "Topaz",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Gem",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 0 | Hardness 2 | Durable 0 | Resistance electricity 10",
+   "attributes": "Resistance electricity 10",
+   "values": {
+    "harm": 0,
+    "durable": 0,
+    "hardness": 2
+   }
+  }
+ },
+ {
+  "name": "Unicorn Leather",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Leather",
+   "rarity": "Rare",
+   "tier": 2,
+   "quantity": 1,
+   "summary": "Harm -1 | Hardness 3 | Durable 2 | Blessed 2, Aura reserve 2",
+   "attributes": "Blessed 2, Aura reserve 2",
+   "values": {
+    "harm": -1,
+    "durable": 2,
+    "hardness": 3
+   }
+  }
+ },
+ {
+  "name": "Walnut wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 5 | Hardness 3 | Durable 2 | Wild 1",
+   "attributes": "Wild 1",
+   "values": {
+    "harm": 5,
+    "durable": 2,
+    "hardness": 3
+   }
+  }
+ },
+ {
+  "name": "Willow wood",
+  "type": "material",
+  "system": {
+   "craft": "blacksmithing",
+   "category": "Wood",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Harm 2 | Hardness 1 | Durable 0",
+   "attributes": "",
+   "values": {
+    "harm": 2,
+    "durable": 0,
+    "hardness": 1
+   }
+  }
+ },
+ {
+  "name": "Fly Agaric",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mushroom",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -2 | Harm 3 | Harm side: Sickening 3",
+   "attributes": "Sickening 3",
+   "values": {
+    "heal": -2,
+    "harm": 3
+   }
+  }
+ },
+ {
+  "name": "Panther Mushroom",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mushroom",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -1 | Harm 5 | Harm side: Deadly 2",
+   "attributes": "Deadly 2",
+   "values": {
+    "heal": -1,
+    "harm": 5
+   }
+  }
+ },
+ {
+  "name": "Man-on-Horseback",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mushroom",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 0 | Harm 2 | Harm side: Weakening 2",
+   "attributes": "Weakening 2",
+   "values": {
+    "heal": 0,
+    "harm": 2
+   }
+  }
+ },
+ {
+  "name": "Brown Roll-Rim",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mushroom",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 0 | Harm 1 | Harm side: Draining 2",
+   "attributes": "Draining 2",
+   "values": {
+    "heal": 0,
+    "harm": 1
+   }
+  }
+ },
+ {
+  "name": "Fairy Cake",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mushroom",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 1 | Harm 2 | Harm side: Sickening 2",
+   "attributes": "Sickening 2",
+   "values": {
+    "heal": 1,
+    "harm": 2
+   }
+  }
+ },
+ {
+  "name": "Baneberry",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Berry",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 0 | Harm 1 | Harm side: Sickening 3",
+   "attributes": "Sickening 3",
+   "values": {
+    "heal": 0,
+    "harm": 1
+   }
+  }
+ },
+ {
+  "name": "Bittersweet Nightshade",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Berry",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 0 | Harm 2 | Harm side: Sight Breaker 1",
+   "attributes": "Sight Breaker 1",
+   "values": {
+    "heal": 0,
+    "harm": 2
+   }
+  }
+ },
+ {
+  "name": "Rosary Pea",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Berry",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -6 | Harm 8 | Harm side: Deadly 4",
+   "attributes": "Deadly 4",
+   "values": {
+    "heal": -6,
+    "harm": 8
+   }
+  }
+ },
+ {
+  "name": "Wolfbane",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Berry",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -3 | Harm 4 | Harm side: Paralysis 3",
+   "attributes": "Paralysis 3",
+   "values": {
+    "heal": -3,
+    "harm": 4
+   }
+  }
+ },
+ {
+  "name": "Desert Bane",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Berry",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 0 | Harm 10 | Harm side: Deadly 5",
+   "attributes": "Deadly 5",
+   "values": {
+    "heal": 0,
+    "harm": 10
+   }
+  }
+ },
+ {
+  "name": "Richweed",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Flower",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 1 | Harm 4 | Harm side: Spread 3",
+   "attributes": "Spread 3",
+   "values": {
+    "heal": 1,
+    "harm": 4
+   }
+  }
+ },
+ {
+  "name": "Pinyang",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Nut",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 2 | Harm 1 | Harm side: Addictive 2",
+   "attributes": "Addictive 2",
+   "values": {
+    "heal": 2,
+    "harm": 1
+   }
+  }
+ },
+ {
+  "name": "Jack-in-the-Pulpit",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Berry",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 0 | Harm 4 | Harm side: Toxic 3",
+   "attributes": "Toxic 3",
+   "values": {
+    "heal": 0,
+    "harm": 4
+   }
+  }
+ },
+ {
+  "name": "Angel Wings",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Leaves",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -4 | Harm 6 | Harm side: Weakening 4",
+   "attributes": "Weakening 4",
+   "values": {
+    "heal": -4,
+    "harm": 6
+   }
+  }
+ },
+ {
+  "name": "Marsh Calla",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Flower",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 0 | Harm 4 | Harm side: Toxic 3",
+   "attributes": "Toxic 3",
+   "values": {
+    "heal": 0,
+    "harm": 4
+   }
+  }
+ },
+ {
+  "name": "Dried Marsh Calla",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Flower",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 6 | Harm 0 | Harm side: Toxic 1 | Heal side: Telltale 3",
+   "attributes": "Toxic 1, Telltale 3",
+   "values": {
+    "heal": 6,
+    "harm": 0
+   }
+  }
+ },
+ {
+  "name": "Cowbane",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Flower",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 1 | Harm 10 | Harm side: Spread 3",
+   "attributes": "Spread 3",
+   "values": {
+    "heal": 1,
+    "harm": 10
+   }
+  }
+ },
+ {
+  "name": "Cinnabar",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mineral",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -4 | Harm 5 | Harm side: Spread 2, Paralysis 4",
+   "attributes": "Spread 2, Paralysis 4",
+   "values": {
+    "heal": -4,
+    "harm": 5
+   }
+  }
+ },
+ {
+  "name": "Realgar",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mineral",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -8 | Harm 6 | Harm side: Masked 12",
+   "attributes": "Masked 12",
+   "values": {
+    "heal": -8,
+    "harm": 6
+   }
+  }
+ },
+ {
+  "name": "Gold",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Metal",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 5 | Harm 2 | Harm side: Draining 1 | Heal side: Refreshing 2",
+   "attributes": "Draining 1, Refreshing 2",
+   "values": {
+    "heal": 5,
+    "harm": 2
+   }
+  }
+ },
+ {
+  "name": "Iron",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Metal",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 3 | Harm 3 | Harm side: Weakening 1 | Heal side: Refreshing 1",
+   "attributes": "Weakening 1, Refreshing 1",
+   "values": {
+    "heal": 3,
+    "harm": 3
+   }
+  }
+ },
+ {
+  "name": "Silver",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Metal",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -4 | Harm -4 | Harm side: Masked 2 | Heal side: Soothing 2",
+   "attributes": "Masked 2, Soothing 2",
+   "values": {
+    "heal": -4,
+    "harm": -4
+   }
+  }
+ },
+ {
+  "name": "Copper",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Metal",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 2 | Harm 1 | Harm side: Telltale 1 | Heal side: Mana filled 1",
+   "attributes": "Telltale 1, Mana filled 1",
+   "values": {
+    "heal": 2,
+    "harm": 1
+   }
+  }
+ },
+ {
+  "name": "Tin",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Metal",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 2 | Harm 0 | Harm side: Toxic 1 | Heal side: Soothing 1",
+   "attributes": "Toxic 1, Soothing 1",
+   "values": {
+    "heal": 2,
+    "harm": 0
+   }
+  }
+ },
+ {
+  "name": "Mint",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Leaves",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 3 | Harm -2",
+   "attributes": "",
+   "values": {
+    "heal": 3,
+    "harm": -2
+   }
+  }
+ },
+ {
+  "name": "Mustard Seed",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Seed",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 4 | Harm 1",
+   "attributes": "",
+   "values": {
+    "heal": 4,
+    "harm": 1
+   }
+  }
+ },
+ {
+  "name": "Horse Chestnut",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Seed",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 8 | Harm -6",
+   "attributes": "",
+   "values": {
+    "heal": 8,
+    "harm": -6
+   }
+  }
+ },
+ {
+  "name": "White Snake Root",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Root",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 3 | Harm 2",
+   "attributes": "",
+   "values": {
+    "heal": 3,
+    "harm": 2
+   }
+  }
+ },
+ {
+  "name": "Garlic",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Seed",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 1 | Harm 3",
+   "attributes": "",
+   "values": {
+    "heal": 1,
+    "harm": 3
+   }
+  }
+ },
+ {
+  "name": "Aloe Vera",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Leaves",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 3 | Harm -2 | Heal side: Fire Resistance 10, On Fire Resistance 3",
+   "attributes": "Fire Resistance 10, On Fire Resistance 3",
+   "values": {
+    "heal": 3,
+    "harm": -2
+   }
+  }
+ },
+ {
+  "name": "Garden Angelica",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Flower",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 4 | Harm -4",
+   "attributes": "",
+   "values": {
+    "heal": 4,
+    "harm": -4
+   }
+  }
+ },
+ {
+  "name": "Burdock",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Flower",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 2 | Harm -1",
+   "attributes": "",
+   "values": {
+    "heal": 2,
+    "harm": -1
+   }
+  }
+ },
+ {
+  "name": "Belladonna",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Flower",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 1 | Harm -4 | Harm side: Paralysis 4 | Heal side: Mana filled 3",
+   "attributes": "Paralysis 4, Mana filled 3",
+   "values": {
+    "heal": 1,
+    "harm": -4
+   }
+  }
+ },
+ {
+  "name": "Barberry",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Seed",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 2 | Harm -3",
+   "attributes": "",
+   "values": {
+    "heal": 2,
+    "harm": -3
+   }
+  }
+ },
+ {
+  "name": "Marigold",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Flower",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 3 | Harm -2",
+   "attributes": "",
+   "values": {
+    "heal": 3,
+    "harm": -2
+   }
+  }
+ },
+ {
+  "name": "Death Cap",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mushroom",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -5 | Harm 9 | Harm side: Deadly 3, Masked 2",
+   "attributes": "Deadly 3, Masked 2",
+   "values": {
+    "heal": -5,
+    "harm": 9
+   }
+  }
+ },
+ {
+  "name": "Glowcap",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mushroom",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 2 | Harm 0 | Heal side: Sight Booster 1",
+   "attributes": "Sight Booster 1",
+   "values": {
+    "heal": 2,
+    "harm": 0
+   }
+  }
+ },
+ {
+  "name": "Puffball",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mushroom",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 0 | Harm 2 | Harm side: Spread 2",
+   "attributes": "Spread 2",
+   "values": {
+    "heal": 0,
+    "harm": 2
+   }
+  }
+ },
+ {
+  "name": "Ghost Mushroom",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mushroom",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 1 | Harm 3 | Harm side: Corrupting 2",
+   "attributes": "Corrupting 2",
+   "values": {
+    "heal": 1,
+    "harm": 3
+   }
+  }
+ },
+ {
+  "name": "Chanterelle",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mushroom",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 3 | Harm 0 | Heal side: Refreshing 1",
+   "attributes": "Refreshing 1",
+   "values": {
+    "heal": 3,
+    "harm": 0
+   }
+  }
+ },
+ {
+  "name": "Elderberry",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Berry",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 3 | Harm 1 | Heal side: Soothing 1",
+   "attributes": "Soothing 1",
+   "values": {
+    "heal": 3,
+    "harm": 1
+   }
+  }
+ },
+ {
+  "name": "Holly Berry",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Berry",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 0 | Harm 3 | Harm side: Sickening 2",
+   "attributes": "Sickening 2",
+   "values": {
+    "heal": 0,
+    "harm": 3
+   }
+  }
+ },
+ {
+  "name": "Bloodberry",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Berry",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 5 | Harm -2 | Heal side: Refreshing 2",
+   "attributes": "Refreshing 2",
+   "values": {
+    "heal": 5,
+    "harm": -2
+   }
+  }
+ },
+ {
+  "name": "Mistletoe",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Berry",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -2 | Harm 5 | Harm side: Paralysis 2",
+   "attributes": "Paralysis 2",
+   "values": {
+    "heal": -2,
+    "harm": 5
+   }
+  }
+ },
+ {
+  "name": "Foxglove",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Flower",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -3 | Harm 6 | Harm side: Weakening 3",
+   "attributes": "Weakening 3",
+   "values": {
+    "heal": -3,
+    "harm": 6
+   }
+  }
+ },
+ {
+  "name": "Lavender",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Flower",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 2 | Harm -1 | Heal side: Soothing 2",
+   "attributes": "Soothing 2",
+   "values": {
+    "heal": 2,
+    "harm": -1
+   }
+  }
+ },
+ {
+  "name": "Poppy",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Flower",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 2 | Harm 3 | Harm side: Addictive 3, Paralysis 1",
+   "attributes": "Addictive 3, Paralysis 1",
+   "values": {
+    "heal": 2,
+    "harm": 3
+   }
+  }
+ },
+ {
+  "name": "Moonflower",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Flower",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 6 | Harm -3 | Heal side: Mana filled 2",
+   "attributes": "Mana filled 2",
+   "values": {
+    "heal": 6,
+    "harm": -3
+   }
+  }
+ },
+ {
+  "name": "Firebloom",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Flower",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 3 | Harm 2 | Heal side: Fire Resistance 15",
+   "attributes": "Fire Resistance 15",
+   "values": {
+    "heal": 3,
+    "harm": 2
+   }
+  }
+ },
+ {
+  "name": "Hemlock",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Root",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -5 | Harm 8 | Harm side: Paralysis 4",
+   "attributes": "Paralysis 4",
+   "values": {
+    "heal": -5,
+    "harm": 8
+   }
+  }
+ },
+ {
+  "name": "Ginseng",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Root",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 5 | Harm -1 | Heal side: Refreshing 2",
+   "attributes": "Refreshing 2",
+   "values": {
+    "heal": 5,
+    "harm": -1
+   }
+  }
+ },
+ {
+  "name": "Valerian Root",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Root",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 2 | Harm 1 | Heal side: Soothing 1",
+   "attributes": "Soothing 1",
+   "values": {
+    "heal": 2,
+    "harm": 1
+   }
+  }
+ },
+ {
+  "name": "Mandrake Root",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Root",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 4 | Harm 6 | Harm side: Corrupting 3",
+   "attributes": "Corrupting 3",
+   "values": {
+    "heal": 4,
+    "harm": 6
+   }
+  }
+ },
+ {
+  "name": "Nettle",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Leaves",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 1 | Harm 2 | Harm side: Sickening 1",
+   "attributes": "Sickening 1",
+   "values": {
+    "heal": 1,
+    "harm": 2
+   }
+  }
+ },
+ {
+  "name": "Feverfew",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Leaves",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 3 | Harm -2",
+   "attributes": "",
+   "values": {
+    "heal": 3,
+    "harm": -2
+   }
+  }
+ },
+ {
+  "name": "Tobacco Leaf",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Leaves",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 1 | Harm 2 | Harm side: Addictive 2",
+   "attributes": "Addictive 2",
+   "values": {
+    "heal": 1,
+    "harm": 2
+   }
+  }
+ },
+ {
+  "name": "Castor Bean",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Seed",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -4 | Harm 7 | Harm side: Deadly 2",
+   "attributes": "Deadly 2",
+   "values": {
+    "heal": -4,
+    "harm": 7
+   }
+  }
+ },
+ {
+  "name": "Nutmeg",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Seed",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 2 | Harm 2 | Harm side: Sight Breaker 1",
+   "attributes": "Sight Breaker 1",
+   "values": {
+    "heal": 2,
+    "harm": 2
+   }
+  }
+ },
+ {
+  "name": "Acorn",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Nut",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 2 | Harm 0",
+   "attributes": "",
+   "values": {
+    "heal": 2,
+    "harm": 0
+   }
+  }
+ },
+ {
+  "name": "Sulfur",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mineral",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 0 | Harm 3 | Harm side: Spread 1, Telltale 2",
+   "attributes": "Spread 1, Telltale 2",
+   "values": {
+    "heal": 0,
+    "harm": 3
+   }
+  }
+ },
+ {
+  "name": "Salt",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mineral",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 2 | Harm 0",
+   "attributes": "",
+   "values": {
+    "heal": 2,
+    "harm": 0
+   }
+  }
+ },
+ {
+  "name": "Arsenic",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Mineral",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -6 | Harm 9 | Harm side: Deadly 2, Masked 8",
+   "attributes": "Deadly 2, Masked 8",
+   "values": {
+    "heal": -6,
+    "harm": 9
+   }
+  }
+ },
+ {
+  "name": "Quicksilver",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Metal",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -3 | Harm 7 | Harm side: Toxic 4",
+   "attributes": "Toxic 4",
+   "values": {
+    "heal": -3,
+    "harm": 7
+   }
+  }
+ },
+ {
+  "name": "Lead",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Metal",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -1 | Harm 4 | Harm side: Weakening 1",
+   "attributes": "Weakening 1",
+   "values": {
+    "heal": -1,
+    "harm": 4
+   }
+  }
+ },
+ {
+  "name": "Slime Gel",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Monster",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 2 | Harm 2 | Heal side: On Fire Resistance 2",
+   "attributes": "On Fire Resistance 2",
+   "values": {
+    "heal": 2,
+    "harm": 2
+   }
+  }
+ },
+ {
+  "name": "Troll Blood",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Monster",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 9 | Harm -4 | Heal side: Refreshing 2",
+   "attributes": "Refreshing 2",
+   "values": {
+    "heal": 9,
+    "harm": -4
+   }
+  }
+ },
+ {
+  "name": "Spider Venom",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Monster",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -2 | Harm 6 | Harm side: Paralysis 3",
+   "attributes": "Paralysis 3",
+   "values": {
+    "heal": -2,
+    "harm": 6
+   }
+  }
+ },
+ {
+  "name": "Basilisk Venom",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Monster",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -4 | Harm 8 | Harm side: Paralysis 5",
+   "attributes": "Paralysis 5",
+   "values": {
+    "heal": -4,
+    "harm": 8
+   }
+  }
+ },
+ {
+  "name": "Wyrm Bile",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Monster",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal -3 | Harm 7 | Harm side: Spread 3, Draining 2",
+   "attributes": "Spread 3, Draining 2",
+   "values": {
+    "heal": -3,
+    "harm": 7
+   }
+  }
+ },
+ {
+  "name": "Pixie Dust",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Monster",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 3 | Harm 1 | Harm side: Masked 2 | Heal side: Mana filled 1",
+   "attributes": "Masked 2, Mana filled 1",
+   "values": {
+    "heal": 3,
+    "harm": 1
+   }
+  }
+ },
+ {
+  "name": "Ectoplasm",
+  "type": "material",
+  "system": {
+   "craft": "alchemy",
+   "category": "Monster",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heal 0 | Harm 4 | Harm side: Draining 3",
+   "attributes": "Draining 3",
+   "values": {
+    "heal": 0,
+    "harm": 4
+   }
+  }
+ },
+ {
+  "name": "Cheese Demon",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Dairy",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 4, Heavy 1, Filling 2 | Success check 75",
+   "attributes": "Magical 4, Heavy 1, Filling 2",
+   "values": {
+    "Magical": 4,
+    "Heavy": 1,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Gain immunity to Demonic Magic until the end of the scene</p><p><strong>Cooked:</strong> The dish becomes a living Cheese Demon for Toxic days (mix in Toxic ingredients to make it last). It will not attack you or anyone you tell it not to, and it tries to get you to eat it when it believes its effects would help</p><p><strong>Cooking failure:</strong> A hostile Cheese Demon spawns and attacks the cook. If it is defeated, you gain 1 Cheese Demon ingredient</p>"
+  }
+ },
+ {
+  "name": "Chilly Jalapeno",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Toxic 2, Strong 6 | Success check 40",
+   "attributes": "Toxic 2, Strong 6",
+   "values": {
+    "Toxic": 2,
+    "Strong": 6
+   },
+   "description": "<p><strong>Raw:</strong> Resistance 20 to Cold and no penalties for traveling through snowy or mountainous terrain until the end of the scene</p><p><strong>Cooked:</strong> Immune to the first source of cold damage you take. After that, gain Cold resistance equal to Magical x2 for the duration</p><p><strong>Cooking failure:</strong> The cook gains weakness 20 to cold, which lasts until they take cold damage or spend a day traveling through snowy or mountainous terrain</p>"
+  }
+ },
+ {
+  "name": "Corrupt Milk",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Dairy",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 1, Toxic 2 | Success check 60",
+   "attributes": "Magical 1, Toxic 2",
+   "values": {
+    "Magical": 1,
+    "Toxic": 2
+   },
+   "description": "<p><strong>Raw:</strong> You cannot act for 1 round, but all condition tags on you are removed</p><p><strong>Cooked:</strong> Your movement is halved, but you gain a condition shield: natural armor equal to Heavy that does not regenerate. It lasts for the duration or until the shield breaks. Special (Skimming): You gain a Cheese Demon instead of its normal effect</p><p><strong>Cooking failure:</strong> The cook gains Cursed equal to the failed roll divided by 5</p>"
+  }
+ },
+ {
+  "name": "Crunchy Cinnamon",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Spice",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Antidote 3, Filling -1 | Success check 80",
+   "attributes": "Antidote 3, Filling -1",
+   "values": {
+    "Antidote": 3,
+    "Filling": -1
+   },
+   "description": "<p><strong>Raw:</strong> Your Defense is decreased by 10 for 1d4 + Con turns</p><p><strong>Cooked:</strong> Your Defense is decreased by Strong x5 for the next 3d4 + End attacks made against you</p><p><strong>Cooking failure:</strong> The cook gains Petrifying 3 for 1 hour</p>"
+  }
+ },
+ {
+  "name": "Dancing Bananas",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Fruit",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 10, Strong 3, Filling 4 | Success check 55",
+   "attributes": "Magical 10, Strong 3, Filling 4",
+   "values": {
+    "Magical": 10,
+    "Strong": 3,
+    "Filling": 4
+   },
+   "description": "<p><strong>Raw:</strong> Make a hard Will check. On a failure you must eat a Dancing Banana once per day, and you make the check again each day until you pass 3 of them. Each day you go without a banana, all your stats decrease by 1 (this stacks) until you eat one</p><p><strong>Cooked:</strong> Your Defense is decreased by Filling x6 for the next 5d4 attacks made against you, or until the dish's duration ends. Special (Frying): this lasts for 2d4 days instead</p><p><strong>Cooking failure:</strong> All of the cook's stats decrease by 5, and they regain 1 of those points per stat each day</p>"
+  }
+ },
+ {
+  "name": "Devilish Eggs",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 5, Heavy 1, Strong 2, Filling 1 | Success check 28",
+   "attributes": "Magical 5, Heavy 1, Strong 2, Filling 1",
+   "values": {
+    "Magical": 5,
+    "Heavy": 1,
+    "Strong": 2,
+    "Filling": 1
+   },
+   "description": "<p><strong>Raw:</strong> Gain resistance 20 to nether until the end of the scene, and take no damage from entering demonic or corrupted realms</p><p><strong>Cooked:</strong> For Magical turns, your attacks may deal nether damage instead of their normal type</p><p><strong>Cooking failure:</strong> The cook gains Doomed equal to the failed roll divided by 10</p>"
+  }
+ },
+ {
+  "name": "Divine Milk",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Dairy",
+   "rarity": "Legendary",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Antidote 5, Strong 4, Filling 3 | Success check 140",
+   "attributes": "Antidote 5, Strong 4, Filling 3",
+   "values": {
+    "Antidote": 5,
+    "Strong": 4,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> Until the end of the scene, gain resistance to all non-physical damage types equal to your highest physical damage type resistance</p><p><strong>Cooked:</strong> Restore soul equal to Brew</p><p><strong>Cooking failure:</strong> The cook loses half their current soul (rounded down)</p>"
+  }
+ },
+ {
+  "name": "Dragon Root",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Toxic 2 | Success check 130",
+   "attributes": "Magical 3, Toxic 2",
+   "values": {
+    "Magical": 3,
+    "Toxic": 2
+   },
+   "description": "<p><strong>Raw:</strong> Until the end of the scene, gain the Basilisk Breath Weapon racial of the root's color at Lv equal to your level \u00f7 4 (minimum 1)</p><p><strong>Cooked:</strong> For the dish's duration, gain the Basilisk Breath Weapon racial of the root's color at Lv equal to Strong \u00f7 2</p><p><strong>Cooking failure:</strong> The cook turns into a Lv 1 drake for 1 hour. It acts as a normal drake and sees its allies as food, not friends</p>"
+  }
+ },
+ {
+  "name": "Exploding Cherries",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Fruit",
+   "rarity": "Legendary",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Toxic 8, Strong 10 | Success check 300",
+   "attributes": "Toxic 8, Strong 10",
+   "values": {
+    "Toxic": 8,
+    "Strong": 10
+   },
+   "description": "<p><strong>Raw:</strong> No raw effect. Picking: removing this cherry from its plant without passing a Tn 5 Study or Trade check deals 8d8+60 fire and 6d10+80 force to the picker</p><p><strong>Cooked:</strong> Gain Filling uses of the Sonic Rupture attackSonic Rupture: Burst 6, 10d8+50+Con+End force and 12d12+Str+End force</p><p><strong>Cooking failure:</strong> Special: if any of the style's checks fail, the dish is ruined. The cook gains Broken Limb 10, which cannot be removed for 2d4 days</p>"
+  }
+ },
+ {
+  "name": "Judgemental Cabbage",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 5, Antidote 6, Brew 8 | Success check 50",
+   "attributes": "Magical 5, Antidote 6, Brew 8",
+   "values": {
+    "Magical": 5,
+    "Antidote": 6,
+    "Brew": 8
+   },
+   "description": "<p><strong>Raw:</strong> If any ingredient in this meal, including this cabbage, is not above great grade (quality grade or higher), this ingredient has no attributes. It spoils quickly because it finds its owner wanting</p><p><strong>Cooked:</strong> While this dish's effects last, your skill checks gain +Magical x5 to their Tn (maximum +40)</p><p><strong>Cooking failure:</strong> The cook's next 4d4 skill checks have their base Tn become Hard. If the check is already Hard or harder, its Tn decreases by 20 instead</p>"
+  }
+ },
+ {
+  "name": "Jumping Beans",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Brew 2, Filling 4 | Success check 60",
+   "attributes": "Magical 3, Brew 2, Filling 4",
+   "values": {
+    "Magical": 3,
+    "Brew": 2,
+    "Filling": 4
+   },
+   "description": "<p><strong>Raw:</strong> No raw effect. In a dish: decrease the meal's base Tn by 15 (the beans won't sit still)</p><p><strong>Cooked:</strong> For the dish's duration, gain +Strong overland movement and your jump distance is tripled (tripling effects stack)</p><p><strong>Cooking failure:</strong> The cook can only move by jumping for 3d4 scenes</p>"
+  }
+ },
+ {
+  "name": "Magical Cabbage",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 6 | Success check 35",
+   "attributes": "Magical 6",
+   "values": {
+    "Magical": 6
+   },
+   "description": "<p><strong>Raw:</strong> Your next spell this scene costs 3 less mana (minimum 1)</p><p><strong>Cooked:</strong> Your first spell each scene costs Magical x2 less mana (minimum 1)</p><p><strong>Cooking failure:</strong> The cook loses half their current mana (rounded down)</p>"
+  }
+ },
+ {
+  "name": "Magma Chili",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Toxic 3, Strong 7 | Success check 70",
+   "attributes": "Toxic 3, Strong 7",
+   "values": {
+    "Toxic": 3,
+    "Strong": 7
+   },
+   "description": "<p><strong>Raw:</strong> Your bite attacks deal +2 fire damage until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, once per turn your attack gives the target Molten equal to Heavy on hit</p><p><strong>Cooking failure:</strong> The cook gains On Fire 3</p>"
+  }
+ },
+ {
+  "name": "Mozzarella Angel",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Dairy",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 5, Antidote 3, Heavy 2, Filling 2 | Success check 120",
+   "attributes": "Magical 5, Antidote 3, Heavy 2, Filling 2",
+   "values": {
+    "Magical": 5,
+    "Antidote": 3,
+    "Heavy": 2,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Heal 2d6</p><p><strong>Cooked:</strong> Once during the duration, when you would enter Soul Critical you instead stay at hp equal to Strong x2 (minimum 1)</p><p><strong>Cooking failure:</strong> The cook gains Doomed 3</p>"
+  }
+ },
+ {
+  "name": "Musical Beans",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 2, Brew 2, Filling 3 | Success check 35",
+   "attributes": "Heavy 2, Brew 2, Filling 3",
+   "values": {
+    "Heavy": 2,
+    "Brew": 2,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> You hum loudly and cannot gain Stealth until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, gain +Magical x5 to Trade and social checks</p><p><strong>Cooking failure:</strong> The cook gains Taunted 2 toward the nearest creature</p>"
+  }
+ },
+ {
+  "name": "Unicorn Meat",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Legendary",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 6, Antidote 4, Filling 3 | Success check 150",
+   "attributes": "Magical 6, Antidote 4, Filling 3",
+   "values": {
+    "Magical": 6,
+    "Antidote": 4,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> Cure one condition of your choice</p><p><strong>Cooked:</strong> For the dish's duration, increase your crit range by 1 per 10 Brew (minimum 1)</p><p><strong>Cooking failure:</strong> The cook gains Cursed 4</p>"
+  }
+ },
+ {
+  "name": "Self-Sacrificing Potato",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 3, Filling 4 | Success check 30",
+   "attributes": "Heavy 3, Filling 4",
+   "values": {
+    "Heavy": 3,
+    "Filling": 4
+   },
+   "description": "<p><strong>Raw:</strong> Heal 1d6</p><p><strong>Cooked:</strong> Once during the dish's duration, the first time an ally within burst 2 would take damage, you take it instead, reduced by Antidote x2</p><p><strong>Cooking failure:</strong> The potato leaps into the fire: the dish is ruined and the cook takes 2d6 fire damage</p>"
+  }
+ },
+ {
+  "name": "Singing Melons",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Fruit",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Brew 3, Filling 2 | Success check 55",
+   "attributes": "Magical 2, Brew 3, Filling 2",
+   "values": {
+    "Magical": 2,
+    "Brew": 3,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> +10 to hearing Perception checks until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, you and allies within burst 3 gain +Brew accuracy while you are not Stunned</p><p><strong>Cooking failure:</strong> The cook gains Stunned 2 from the noise</p>"
+  }
+ },
+ {
+  "name": "Stone Fruit",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Fruit",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 6, Strong 2, Filling 3 | Success check 60",
+   "attributes": "Heavy 6, Strong 2, Filling 3",
+   "values": {
+    "Heavy": 6,
+    "Strong": 2,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> For the next scene, whenever you are charged or a creature attempts a combat skill check against you, roll with advantage or count your weight as double</p><p><strong>Cooked:</strong> Gain immunity to Petrified, and your unarmed and claw attacks deal +Strong damage</p><p><strong>Cooking failure:</strong> The cook gains Petrifying 1 and during the next scene takes double from any source of Petrifying</p>"
+  }
+ },
+ {
+  "name": "Thousand Year Rice",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Grain",
+   "rarity": "Legendary",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Antidote 2, Heavy 4, Filling 6 | Success check 200",
+   "attributes": "Magical 3, Antidote 2, Heavy 4, Filling 6",
+   "values": {
+    "Magical": 3,
+    "Antidote": 2,
+    "Heavy": 4,
+    "Filling": 6
+   },
+   "description": "<p><strong>Raw:</strong> During the next scene, all Study and Trade checks are made with advantage</p><p><strong>Cooked:</strong> This dish's effects last for Filling/10 extra scenes and its storage time is doubled</p><p><strong>Cooking failure:</strong> The cook counts their Wis, Int and Will as 1d10 lower for the next scene</p>"
+  }
+ },
+ {
+  "name": "Thyme",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Herb",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 1, Antidote 1 | Success check 20",
+   "attributes": "Magical 1, Antidote 1",
+   "values": {
+    "Magical": 1,
+    "Antidote": 1
+   },
+   "description": "<p><strong>Raw:</strong> Until the end of the scene, when making a reaction action, give yourself +10 to the Tn or +10 accuracy</p><p><strong>Cooked:</strong> Once during the next scene, decrease the number of actions it costs to use a martial or spell by 1</p><p><strong>Cooking failure:</strong> Wasted thyme: the cook's next martial or spell gains Channel and costs at least 4 actions</p>"
+  }
+ },
+ {
+  "name": "Truffle Orb",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Mushroom",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 4, Heavy 2, Brew 2 | Success check 90",
+   "attributes": "Magical 4, Heavy 2, Brew 2",
+   "values": {
+    "Magical": 4,
+    "Heavy": 2,
+    "Brew": 2
+   },
+   "description": "<p><strong>Raw:</strong> +10 to Perception skills until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, creatures that attempt to deal stealth damage to you trigger a free parry action from you</p><p><strong>Cooking failure:</strong> The cook cannot gain Stealth this scene or the next</p>"
+  }
+ },
+ {
+  "name": "Walking Carrot",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Strong 2, Filling 2 | Success check 40",
+   "attributes": "Strong 2, Filling 2",
+   "values": {
+    "Strong": 2,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Until the end of the scene, only difficult terrain created by magic costs you extra movement</p><p><strong>Cooked:</strong> For the dish's duration, you do not provoke attacks of opportunity for moving, and your overland speed is increased by Antidote</p><p><strong>Cooking failure:</strong> What's up, doc: the meal is stolen by a grey rabbit. During the next scene, the cook's first turn has their movement cut in half</p>"
+  }
+ },
+ {
+  "name": "Weeping Gourd",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Antidote 3, Brew 3, Filling 1 | Success check 50",
+   "attributes": "Antidote 3, Brew 3, Filling 1",
+   "values": {
+    "Antidote": 3,
+    "Brew": 3,
+    "Filling": 1
+   },
+   "description": "<p><strong>Raw:</strong> Reduce Blind by 1</p><p><strong>Cooked:</strong> For the dish's duration, whenever an ally within burst 2 gains a condition, you can instead place that condition on yourself with its value lowered by Magical/2</p><p><strong>Cooking failure:</strong> The cook gains Sickened 2 at the start of the next scene from countless tears</p>"
+  }
+ },
+ {
+  "name": "Wheat of Harvest",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Grain",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 2, Filling 5 | Success check 25",
+   "attributes": "Heavy 2, Filling 5",
+   "values": {
+    "Heavy": 2,
+    "Filling": 5
+   },
+   "description": "<p><strong>Raw:</strong> Restore aura equal to half the aura you used last turn</p><p><strong>Cooked:</strong> For the dish's duration, restore aura equal to Strong x3 during the recovery stage</p><p><strong>Cooking failure:</strong> The cook gains Exhausted 2</p>"
+  }
+ },
+ {
+  "name": "Wild Blue Cap",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Mushroom",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Toxic 2, Brew 2 | Success check 45",
+   "attributes": "Magical 3, Toxic 2, Brew 2",
+   "values": {
+    "Magical": 3,
+    "Toxic": 2,
+    "Brew": 2
+   },
+   "description": "<p><strong>Raw:</strong> Gain resistance 10 to cold until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, once per turn your spells give the target Frosting equal to Brew \u00f7 2 (minimum 1)</p><p><strong>Cooking failure:</strong> The cook gains Frosting 2</p>"
+  }
+ },
+ {
+  "name": "Wild Green Cap",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Mushroom",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Antidote 3, Toxic 2, Brew 2 | Success check 45",
+   "attributes": "Antidote 3, Toxic 2, Brew 2",
+   "values": {
+    "Antidote": 3,
+    "Toxic": 2,
+    "Brew": 2
+   },
+   "description": "<p><strong>Raw:</strong> Cure Sickened</p><p><strong>Cooked:</strong> Gain poison resistance equal to Antidote. It lasts until it reaches 0 or the dish's duration ends</p><p><strong>Cooking failure:</strong> The cook gains Sickened 3</p>"
+  }
+ },
+ {
+  "name": "Wild Red Cap",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Mushroom",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Toxic 3, Strong 3, Brew 1 | Success check 45",
+   "attributes": "Toxic 3, Strong 3, Brew 1",
+   "values": {
+    "Toxic": 3,
+    "Strong": 3,
+    "Brew": 1
+   },
+   "description": "<p><strong>Raw:</strong> Gain 1 size category until the end of the scene. Weapons and armor grow with you</p><p><strong>Cooked:</strong> For the dish's duration, gain Furious equal to Toxic, and for every 10 Furious you have, increase your size by 1 (up to 3 sizes, and never past Colossal). You cannot gain Enraged while under this effect</p><p><strong>Cooking failure:</strong> The cook's size is decreased by 1 for a scene. Armor and weapons do not shrink. Tiny creatures instead have their stats cut in half for the scene</p>"
+  }
+ },
+ {
+  "name": "Cannabis Wings",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Herb",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Brew 5, Filling 3 | Success check 35",
+   "attributes": "Brew 5, Filling 3",
+   "values": {
+    "Brew": 5,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> Lose 1 action next turn, but gain +15 to Will checks until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, gain +(Brew + Antidote) to Will and Wis checks, but lose 1 action in the first turn of each combat</p><p><strong>Cooking failure:</strong> The cook forgets what they were cooking: the dish is ruined and they lose 1 Int until the end of the next scene</p>"
+  }
+ },
+ {
+  "name": "Divine Ham",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 4, Antidote 2, Heavy 3, Filling 4 | Success check 110",
+   "attributes": "Magical 4, Antidote 2, Heavy 3, Filling 4",
+   "values": {
+    "Magical": 4,
+    "Antidote": 2,
+    "Heavy": 3,
+    "Filling": 4
+   },
+   "description": "<p><strong>Raw:</strong> Heal 4d8+Con</p><p><strong>Cooked:</strong> Gain resistance to cold and nether damage equal to Magical + Strong. It restores to full at the start of each scene until the dish's duration ends</p><p><strong>Cooking failure:</strong> The cook gains Cursed 3</p>"
+  }
+ },
+ {
+  "name": "River Scales",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Monster Part",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Antidote 2, Heavy 1, Filling 1 | Success check 40",
+   "attributes": "Antidote 2, Heavy 1, Filling 1",
+   "values": {
+    "Antidote": 2,
+    "Heavy": 1,
+    "Filling": 1
+   },
+   "description": "<p><strong>Raw:</strong> Gain a swim speed equal to your overland until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, gain a swim speed equal to your overland + Strong, and +Strong accuracy while you are in water</p><p><strong>Cooking failure:</strong> The cook's swim speed becomes 0 until the end of the next scene</p>"
+  }
+ },
+ {
+  "name": "Cherub Peach",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Fruit",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 5, Antidote 3, Filling 2 | Success check 95",
+   "attributes": "Magical 5, Antidote 3, Filling 2",
+   "values": {
+    "Magical": 5,
+    "Antidote": 3,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Until the end of the scene, creatures who have Attraction to you have their Tn for social checks decreased by 10</p><p><strong>Cooked:</strong> For the dish's duration, at the start of each scene give Charmed to a random enemy</p><p><strong>Cooking failure:</strong> The cook gains Charmed toward the nearest creature until the end of the scene</p>"
+  }
+ },
+ {
+  "name": "Jerky Jam",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 3, Strong 2, Filling 3 | Success check 30",
+   "attributes": "Heavy 3, Strong 2, Filling 3",
+   "values": {
+    "Heavy": 3,
+    "Strong": 2,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> Restore 2d4 aura</p><p><strong>Cooked:</strong> The dish's storage time is increased by 3 scenes</p><p><strong>Cooking failure:</strong> The cook's jaw is jammed: no speaking or bite attacks until the end of the scene</p>"
+  }
+ },
+ {
+  "name": "Eye of Newt",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Monster Part",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Toxic 1, Brew 2 | Success check 35",
+   "attributes": "Magical 2, Toxic 1, Brew 2",
+   "values": {
+    "Magical": 2,
+    "Toxic": 1,
+    "Brew": 2
+   },
+   "description": "<p><strong>Raw:</strong> +10 to sight Perception checks until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, light stages 0 and 1 within burst 4 of you count as light stage 2</p><p><strong>Cooking failure:</strong> The cook's next Perception check this scene or the next has -20</p>"
+  }
+ },
+ {
+  "name": "Salamander Meat",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Strong 3, Filling 2 | Success check 65",
+   "attributes": "Magical 2, Strong 3, Filling 2",
+   "values": {
+    "Magical": 2,
+    "Strong": 3,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Resistance 10 to Fire until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, regenerate Strong hp during the Recovery Stage (fire damage disables it until after your next turn)</p><p><strong>Cooking failure:</strong> The cook gains Flammable 2</p>"
+  }
+ },
+ {
+  "name": "Wing of Bat",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Monster Part",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 1, Toxic 1, Brew 2 | Success check 45",
+   "attributes": "Magical 1, Toxic 1, Brew 2",
+   "values": {
+    "Magical": 1,
+    "Toxic": 1,
+    "Brew": 2
+   },
+   "description": "<p><strong>Raw:</strong> When dealing sonic damage this scene, you can ignore Blind and concealment for that attack and for any other attacks you make against those targets this turn or the next</p><p><strong>Cooked:</strong> For the dish's duration, gain a shout attack: Cone 3, 2 actions, 15 aura, deals Filling d6 sonic damage</p><p><strong>Cooking failure:</strong> The cook views all creatures outside of burst 2 as having concealment for the first round of the next scene</p>"
+  }
+ },
+ {
+  "name": "Toe of Frog",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Monster Part",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Antidote 1, Toxic 1, Strong 2 | Success check 30",
+   "attributes": "Antidote 1, Toxic 1, Strong 2",
+   "values": {
+    "Antidote": 1,
+    "Toxic": 1,
+    "Strong": 2
+   },
+   "description": "<p><strong>Raw:</strong> Your jump distance is doubled until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, your jump distance is tripled and you gain a swim speed equal to Strong</p><p><strong>Cooking failure:</strong> The cook can only croak until the end of the scene</p>"
+  }
+ },
+ {
+  "name": "Egg of a Rooster",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Monster Part",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Toxic 4, Brew 2 | Success check 140",
+   "attributes": "Magical 3, Toxic 4, Brew 2",
+   "values": {
+    "Magical": 3,
+    "Toxic": 4,
+    "Brew": 2
+   },
+   "description": "<p><strong>Raw:</strong> Gain Petrifying 1</p><p><strong>Cooked:</strong> For the dish's duration, once per turn when you land an attack on a target, it gains Cursed equal to Strong/6</p><p><strong>Cooking failure:</strong> The cook gains Petrifying 3</p>"
+  }
+ },
+ {
+  "name": "Tongue of a Dog",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Monster Part",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 1, Strong 2, Filling 1 | Success check 30",
+   "attributes": "Heavy 1, Strong 2, Filling 1",
+   "values": {
+    "Heavy": 1,
+    "Strong": 2,
+    "Filling": 1
+   },
+   "description": "<p><strong>Raw:</strong> +10 to tracking checks by smell until the end of the scene</p><p><strong>Cooked:</strong> Until the end of the next scene, tracking checks have their Tn increased by Strong x5 and your bite gains +Antidote/3 Harm</p><p><strong>Cooking failure:</strong> The cook cannot make Perception checks until the end of the next scene</p>"
+  }
+ },
+ {
+  "name": "Blind Worm",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Monster Part",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Antidote 2, Toxic 1, Brew 1 | Success check 40",
+   "attributes": "Antidote 2, Toxic 1, Brew 1",
+   "values": {
+    "Antidote": 2,
+    "Toxic": 1,
+    "Brew": 1
+   },
+   "description": "<p><strong>Raw:</strong> Gain Tremorsense 2 until the end of your next turn</p><p><strong>Cooked:</strong> Gain Tremorsense equal to Brew for the dish's duration</p><p><strong>Cooking failure:</strong> The cook gains Blind 5 at the start of the next combat scene, and it does not decrease until the second round</p>"
+  }
+ },
+ {
+  "name": "Fleshwort",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Herb",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 3, Filling 3 | Success check 55",
+   "attributes": "Heavy 3, Filling 3",
+   "values": {
+    "Heavy": 3,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> Heal 2d6, but lose 1 Agi until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, restore Heavy d6 elemental resistance during the Recovery Stage, split among your elemental resistances as you choose</p><p><strong>Cooking failure:</strong> The cook grows an extra finger for a day and gains Sickened 2</p>"
+  }
+ },
+ {
+  "name": "Ghost Fruit",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Fruit",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 4, Brew 3 | Success check 120",
+   "attributes": "Magical 4, Brew 3",
+   "values": {
+    "Magical": 4,
+    "Brew": 3
+   },
+   "description": "<p><strong>Raw:</strong> Until the end of your next turn, take half damage from physical damage</p><p><strong>Cooked:</strong> For the dish's duration, you can phase through solid objects and opponents during your movement. If you end your movement inside a solid object or an enemy's square, you are moved in a random direction and lose this ability until the start of your second turn after. Phasing does not provoke attacks of opportunity</p><p><strong>Cooking failure:</strong> The cook's physical attacks deal half damage during the first round of the next combat scene</p>"
+  }
+ },
+ {
+  "name": "Elixberry",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Fruit",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Antidote 2, Filling 1 | Success check 50",
+   "attributes": "Magical 3, Antidote 2, Filling 1",
+   "values": {
+    "Magical": 3,
+    "Antidote": 2,
+    "Filling": 1
+   },
+   "description": "<p><strong>Raw:</strong> The next potion you consume has its healing doubled</p><p><strong>Cooked:</strong> For the dish's duration, at the start of your turn gain the effects of the last potion you consumed this scene again</p><p><strong>Cooking failure:</strong> The cook wastes the next potion they consume, gaining no effect from it</p>"
+  }
+ },
+ {
+  "name": "Rainbow Salt",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Spice",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Antidote 2, Heavy 2, Toxic 2, Strong 2, Brew 2, Filling 2 | Success check 100",
+   "attributes": "Magical 2, Antidote 2, Heavy 2, Toxic 2, Strong 2, Brew 2, Filling 2",
+   "values": {
+    "Magical": 2,
+    "Antidote": 2,
+    "Heavy": 2,
+    "Toxic": 2,
+    "Strong": 2,
+    "Brew": 2,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Gain resistance 10 to a random elemental damage type (roll 1d8) until the end of the scene</p><p><strong>Cooked:</strong> Choose one elemental damage type: your attacks deal that type for the dish's duration</p><p><strong>Cooking failure:</strong> The cook's skin changes color every hour for 1 day (-10 to stealth)</p>"
+  }
+ },
+ {
+  "name": "End Durian",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Fruit",
+   "rarity": "Legendary",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Toxic 6, Strong 8, Filling 4 | Success check 180",
+   "attributes": "Toxic 6, Strong 8, Filling 4",
+   "values": {
+    "Toxic": 6,
+    "Strong": 8,
+    "Filling": 4
+   },
+   "description": "<p><strong>Raw:</strong> Everyone within burst 2, including you, gains Sickened 5 from the smell</p><p><strong>Cooked:</strong> For the dish's duration, enemies gain Sickened equal to Toxic x2 when they start their turn or end their movement within burst 3 of you, and enemies who hit you in melee gain Rotting equal to Heavy</p><p><strong>Cooking failure:</strong> The cook and everyone within burst 3 have the Tn for Stealth checks decreased by 25 and have disadvantage on them until the end of the next scene</p>"
+  }
+ },
+ {
+  "name": "Prideful Pomegranate",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Fruit",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Strong 3 | Success check 55",
+   "attributes": "Magical 3, Strong 3",
+   "values": {
+    "Magical": 3,
+    "Strong": 3
+   },
+   "description": "<p><strong>Raw:</strong> +5 accuracy and -5 to social checks until the end of the scene</p><p><strong>Cooked:</strong> +Strong accuracy while you are above half hp</p><p><strong>Cooking failure:</strong> The cook refuses help and cannot benefit from allies' effects until the end of the scene</p>"
+  }
+ },
+ {
+  "name": "Rose Water",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Herb",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Antidote 2, Brew 1 | Success check 25",
+   "attributes": "Magical 2, Antidote 2, Brew 1",
+   "values": {
+    "Magical": 2,
+    "Antidote": 2,
+    "Brew": 1
+   },
+   "description": "<p><strong>Raw:</strong> Roll to end every condition you currently have</p><p><strong>Cooked:</strong> For the dish's duration, gain +Brew x2 to one condition check each Recovery Stage</p><p><strong>Cooking failure:</strong> Thorns: the cook takes 2d6 piercing damage, and when attempting to cure a condition in the next combat scene the Tn is decreased by 20</p>"
+  }
+ },
+ {
+  "name": "Lava Cacao",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Sweet",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Heavy 2, Strong 5, Filling 2 | Success check 110",
+   "attributes": "Magical 3, Heavy 2, Strong 5, Filling 2",
+   "values": {
+    "Magical": 3,
+    "Heavy": 2,
+    "Strong": 5,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Resistance 20 to Fire until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, you are immune to On Fire and your attacks deal +Strong fire damage</p><p><strong>Cooking failure:</strong> The cook gains Molten 2</p>"
+  }
+ },
+ {
+  "name": "Phoenix Egg",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Monster Part",
+   "rarity": "Legendary",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 6, Antidote 2, Filling 2 | Success check 250",
+   "attributes": "Magical 6, Antidote 2, Filling 2",
+   "values": {
+    "Magical": 6,
+    "Antidote": 2,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Heal 6d8+Con</p><p><strong>Cooked:</strong> Once during the dish's duration, when you would enter Soul Critical you instead return with Magical x5 hp, and every enemy within burst 3 gains On Fire equal to Magical / 2</p><p><strong>Cooking failure:</strong> The cook gains On Fire 5</p>"
+  }
+ },
+ {
+  "name": "Ambrosia Honey",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Sweet",
+   "rarity": "Legendary",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 8, Antidote 4 | Success check 220",
+   "attributes": "Magical 8, Antidote 4",
+   "values": {
+    "Magical": 8,
+    "Antidote": 4
+   },
+   "description": "<p><strong>Raw:</strong> Until the end of the scene, casting spells does not prevent you from recovering mana, and your mana recovery is increased by 10</p><p><strong>Cooked:</strong> For the dish's duration, gain +Magical to all stat checks</p><p><strong>Cooking failure:</strong> The cook must eat honey each day or take -2 to all checks, until they pass a hard Will check</p>"
+  }
+ },
+ {
+  "name": "Kraken Calamari",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Monster Part",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 3, Strong 4, Filling 3 | Success check 120",
+   "attributes": "Heavy 3, Strong 4, Filling 3",
+   "values": {
+    "Heavy": 3,
+    "Strong": 4,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> Gain a swim speed equal to your overland +3 until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, lower your grapple and swallow rolls by Strong x5, and you can grapple up to Heavy / 3 (minimum 1) creatures at once</p><p><strong>Cooking failure:</strong> A tentacle grapples the cook until they pass a hard Str or Agi check during the Recovery Stage</p>"
+  }
+ },
+ {
+  "name": "Minotaur Steak",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 4, Strong 5, Filling 4 | Success check 110",
+   "attributes": "Heavy 4, Strong 5, Filling 4",
+   "values": {
+    "Heavy": 4,
+    "Strong": 5,
+    "Filling": 4
+   },
+   "description": "<p><strong>Raw:</strong> Your next Charge this scene counts your weight as 2 higher</p><p><strong>Cooked:</strong> For the dish's duration, your Charge bonus damage is increased by Strong x2, and you count your weight as Heavy / 2 higher for Charge pushes</p><p><strong>Cooking failure:</strong> The cook gains Enraged</p>"
+  }
+ },
+ {
+  "name": "Golden Apple",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Fruit",
+   "rarity": "Legendary",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 5, Antidote 3, Filling 2 | Success check 160",
+   "attributes": "Magical 5, Antidote 3, Filling 2",
+   "values": {
+    "Magical": 5,
+    "Antidote": 3,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Heal 4d8+Con and cure one condition</p><p><strong>Cooked:</strong> For the dish's duration, you and allies within burst 3 gain +Magical accuracy and +Magical damage. Once per scene, the first ally in that burst who would enter Soul Critical stays at 1 hp instead</p><p><strong>Cooking failure:</strong> Discord: every ally who sees the dish gains Taunted 1 toward the cook</p>"
+  }
+ },
+ {
+  "name": "Nectar of the Gods",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Sweet",
+   "rarity": "Legendary",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 7, Antidote 5 | Success check 260",
+   "attributes": "Magical 7, Antidote 5",
+   "values": {
+    "Magical": 7,
+    "Antidote": 5
+   },
+   "description": "<p><strong>Raw:</strong> Cure all conditions</p><p><strong>Cooked:</strong> Restore soul equal to Magical (once)</p><p><strong>Cooking failure:</strong> The cook loses 1d10 soul</p>"
+  }
+ },
+ {
+  "name": "Hydra Head Lettuce",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 2, Toxic 2, Filling 3 | Success check 120",
+   "attributes": "Heavy 2, Toxic 2, Filling 3",
+   "values": {
+    "Heavy": 2,
+    "Toxic": 2,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> Heal 2d6 now and 2d6 again next turn</p><p><strong>Cooked:</strong> For the dish's duration, regenerate Filling x2 hp during the Recovery Stage. Fire or acid damage disables it until after your next turn, but the next time it reactivates it heals double</p><p><strong>Cooking failure:</strong> Two more heads grow: the cook must immediately add 2 more ingredients (with their complexity) or the dish is ruined</p>"
+  }
+ },
+ {
+  "name": "Mermaid Kelp",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Antidote 2, Filling 1 | Success check 50",
+   "attributes": "Magical 2, Antidote 2, Filling 1",
+   "values": {
+    "Magical": 2,
+    "Antidote": 2,
+    "Filling": 1
+   },
+   "description": "<p><strong>Raw:</strong> You can hold your breath twice as long until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, you can breathe underwater</p><p><strong>Cooking failure:</strong> The cook's legs stick together: overland movement is halved until the end of the scene</p>"
+  }
+ },
+ {
+  "name": "Cyclops Eye",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Monster Part",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Toxic 2, Brew 3 | Success check 100",
+   "attributes": "Magical 2, Toxic 2, Brew 3",
+   "values": {
+    "Magical": 2,
+    "Toxic": 2,
+    "Brew": 3
+   },
+   "description": "<p><strong>Raw:</strong> +15 to sight Perception checks but -10 accuracy until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, ignore range penalties for the first Brew squares of the penalty zone (minimum 1)</p><p><strong>Cooking failure:</strong> The cook loses depth perception: -10 accuracy on ranged attacks until the end of the next scene</p>"
+  }
+ },
+ {
+  "name": "Medusa Snakes",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Monster Part",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Toxic 5, Brew 3 | Success check 150",
+   "attributes": "Toxic 5, Brew 3",
+   "values": {
+    "Toxic": 5,
+    "Brew": 3
+   },
+   "description": "<p><strong>Raw:</strong> Your next bite this scene deals +2d6 poison damage (the snakes bite too)</p><p><strong>Cooked:</strong> For the dish's duration, once per scene each creature within burst 3 that sees you must pass a Will check or gain Petrifying equal to Brew / 2 (minimum 1)</p><p><strong>Cooking failure:</strong> The cook gains Petrifying 4</p>"
+  }
+ },
+ {
+  "name": "Griffin Drumstick",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 2, Strong 4, Filling 3 | Success check 110",
+   "attributes": "Heavy 2, Strong 4, Filling 3",
+   "values": {
+    "Heavy": 2,
+    "Strong": 4,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> +2 flight speed until the end of the scene (if you can fly)</p><p><strong>Cooked:</strong> For the dish's duration, gain a flight speed equal to Strong. When you Charge downward from height stage 1 or higher, count your weight as Heavy higher for the Charge</p><p><strong>Cooking failure:</strong> The cook gains Turbulence and Prone at the start of the next combat scene</p>"
+  }
+ },
+ {
+  "name": "Yeti Ice Cream",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Dairy",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Filling 3 | Success check 60",
+   "attributes": "Magical 2, Filling 3",
+   "values": {
+    "Magical": 2,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> Until the end of the scene, your attacks deal +2 cold damage (brain freeze for them)</p><p><strong>Cooked:</strong> For the dish's duration, you are immune to Frosting, and once per turn your melee hits give the target Frosting equal to Filling / 2 (minimum 1)</p><p><strong>Cooking failure:</strong> The cook gains Frozen for 1 turn</p>"
+  }
+ },
+ {
+  "name": "Treant Bark",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Herb",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Antidote 2, Heavy 5, Filling 2 | Success check 60",
+   "attributes": "Antidote 2, Heavy 5, Filling 2",
+   "values": {
+    "Antidote": 2,
+    "Heavy": 5,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Until the start of your next turn, your natural armor takes half damage from physical damage</p><p><strong>Cooked:</strong> For the dish's duration, gain reach Strong/4, but your overland is decreased by 1</p><p><strong>Cooking failure:</strong> The cook takes root and cannot move for 1 turn</p>"
+  }
+ },
+ {
+  "name": "Fairy Bread",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Grain",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Brew 1, Filling 1 | Success check 30",
+   "attributes": "Magical 3, Brew 1, Filling 1",
+   "values": {
+    "Magical": 3,
+    "Brew": 1,
+    "Filling": 1
+   },
+   "description": "<p><strong>Raw:</strong> Heal 1d4</p><p><strong>Cooked:</strong> For the dish's duration, the Bulk you carry counts as Magical lower</p><p><strong>Cooking failure:</strong> The cook owes the fairies a favor (the GM decides what)</p>"
+  }
+ },
+ {
+  "name": "Dwarven Rock Candy",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Sweet",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 6, Strong 2 | Success check 50",
+   "attributes": "Heavy 6, Strong 2",
+   "values": {
+    "Heavy": 6,
+    "Strong": 2
+   },
+   "description": "<p><strong>Raw:</strong> This candy can be used as sling ammo with Harm 2 (it is used up when thrown). If eaten raw, your bite attacks deal -5 damage until the end of the scene from cracked teeth</p><p><strong>Cooked:</strong> For the dish's duration, gain resistance to blunt equal to Antidote x2</p><p><strong>Cooking failure:</strong> The cook chips a tooth: their bite has -1 Harm for 1 day</p>"
+  }
+ },
+ {
+  "name": "Waybread",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Grain",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Heavy 1, Filling 6 | Success check 70",
+   "attributes": "Magical 2, Heavy 1, Filling 6",
+   "values": {
+    "Magical": 2,
+    "Heavy": 1,
+    "Filling": 6
+   },
+   "description": "<p><strong>Raw:</strong> During a social scene, any weather checks are made with advantage</p><p><strong>Cooked:</strong> For the dish's duration, reduce your Exhausted value by Strong during each Recovery Stage</p><p><strong>Cooking failure:</strong> The cook gains Exhausted 2</p>"
+  }
+ },
+ {
+  "name": "Vampire Garlic Bread",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Grain",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Antidote 3, Toxic 2, Filling 2 | Success check 45",
+   "attributes": "Antidote 3, Toxic 2, Filling 2",
+   "values": {
+    "Antidote": 3,
+    "Toxic": 2,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Undead within burst 1 gain Sickened 1</p><p><strong>Cooked:</strong> For the dish's duration, gain +Antidote damage against undead</p><p><strong>Cooking failure:</strong> The cook gains weakness 10 to nether</p>"
+  }
+ },
+ {
+  "name": "Banshee Bean Sprouts",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Toxic 1, Brew 3, Filling 1 | Success check 70",
+   "attributes": "Toxic 1, Brew 3, Filling 1",
+   "values": {
+    "Toxic": 1,
+    "Brew": 3,
+    "Filling": 1
+   },
+   "description": "<p><strong>Raw:</strong> You scream: creatures within burst 1 gain Stunned 1</p><p><strong>Cooked:</strong> For the dish's duration, once per scene you can scream (1 action, 15 aura): creatures within burst 2 gain Stunned equal to Toxic</p><p><strong>Cooking failure:</strong> The cook gains Stunned 3</p>"
+  }
+ },
+ {
+  "name": "Cerberus Hot Dogs",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 2, Toxic 2, Strong 4, Filling 3 | Success check 130",
+   "attributes": "Heavy 2, Toxic 2, Strong 4, Filling 3",
+   "values": {
+    "Heavy": 2,
+    "Toxic": 2,
+    "Strong": 4,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> Your bite gains Cleave 2 until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, your bite gains Cleave 3, and each target after the first takes +Strong bonus damage</p><p><strong>Cooking failure:</strong> The cook takes triple damage from bite attacks until the end of the next scene</p>"
+  }
+ },
+ {
+  "name": "Sage Advice",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Herb",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Antidote 1, Brew 2 | Success check 30",
+   "attributes": "Magical 2, Antidote 1, Brew 2",
+   "values": {
+    "Magical": 2,
+    "Antidote": 1,
+    "Brew": 2
+   },
+   "description": "<p><strong>Raw:</strong> +5 to Wis checks until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, once per scene, reroll a failed Int or Wis check</p><p><strong>Cooking failure:</strong> The cook gives unwanted advice: -10 to social checks until the end of the scene</p>"
+  }
+ },
+ {
+  "name": "Mushroom for Improvement",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Mushroom",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 1, Antidote 2, Toxic 1, Brew 2 | Success check 55",
+   "attributes": "Magical 1, Antidote 2, Toxic 1, Brew 2",
+   "values": {
+    "Magical": 1,
+    "Antidote": 2,
+    "Toxic": 1,
+    "Brew": 2
+   },
+   "description": "<p><strong>Raw:</strong> +5 to your next trade check</p><p><strong>Cooked:</strong> Your next craft this scene gains +Brew x5 to its Tn</p><p><strong>Cooking failure:</strong> The cook's next check is hard</p>"
+  }
+ },
+ {
+  "name": "Lettuce Pray",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Antidote 2, Filling 1 | Success check 50",
+   "attributes": "Magical 3, Antidote 2, Filling 1",
+   "values": {
+    "Magical": 3,
+    "Antidote": 2,
+    "Filling": 1
+   },
+   "description": "<p><strong>Raw:</strong> +5 to Will checks until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, gain +Magical x3 to Ward rolls</p><p><strong>Cooking failure:</strong> The cook gains Cursed 2</p>"
+  }
+ },
+ {
+  "name": "Pea of Mind",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 1, Antidote 2, Brew 1 | Success check 25",
+   "attributes": "Magical 1, Antidote 2, Brew 1",
+   "values": {
+    "Magical": 1,
+    "Antidote": 2,
+    "Brew": 1
+   },
+   "description": "<p><strong>Raw:</strong> Cure Feared</p><p><strong>Cooked:</strong> For the dish's duration, you are immune to Feared</p><p><strong>Cooking failure:</strong> The cook gains Feared 2 toward their allies</p>"
+  }
+ },
+ {
+  "name": "Kale to Arms",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 2, Strong 3, Filling 1 | Success check 30",
+   "attributes": "Heavy 2, Strong 3, Filling 1",
+   "values": {
+    "Heavy": 2,
+    "Strong": 3,
+    "Filling": 1
+   },
+   "description": "<p><strong>Raw:</strong> +5 accuracy on your next attack this scene</p><p><strong>Cooked:</strong> For the dish's duration, your first attack each combat gains +Strong x2 accuracy</p><p><strong>Cooking failure:</strong> The cook gains Furious 10 (instantly Enraged, a call to arms gone wrong)</p>"
+  }
+ },
+ {
+  "name": "Beet Down",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Vegetable",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 2, Strong 3, Filling 2 | Success check 30",
+   "attributes": "Heavy 2, Strong 3, Filling 2",
+   "values": {
+    "Heavy": 2,
+    "Strong": 3,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> +2 blunt damage on your next hit</p><p><strong>Cooked:</strong> For the dish's duration, once per turn your unarmed hits push the target Heavy / 2 squares (minimum 1)</p><p><strong>Cooking failure:</strong> The cook takes 1d6 blunt damage</p>"
+  }
+ },
+ {
+  "name": "Olive Oil of Youth",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Herb",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 4, Antidote 2 | Success check 110",
+   "attributes": "Magical 4, Antidote 2",
+   "values": {
+    "Magical": 4,
+    "Antidote": 2
+   },
+   "description": "<p><strong>Raw:</strong> You look 10 years younger for a day, and reduce every condition you have by 1</p><p><strong>Cooked:</strong> Heal Magical d6 and cure Exhausted</p><p><strong>Cooking failure:</strong> The cook ages 1d4 years and gains Exhausted equal to the years aged (feeling old)</p>"
+  }
+ },
+ {
+  "name": "Spellt Bread",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Grain",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 4, Brew 1, Filling 2 | Success check 50",
+   "attributes": "Magical 4, Brew 1, Filling 2",
+   "values": {
+    "Magical": 4,
+    "Brew": 1,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Regain 1d6 mana</p><p><strong>Cooked:</strong> For the dish's duration, your spells deal +Magical damage</p><p><strong>Cooking failure:</strong> The cook's next spell fails and its mana is lost</p>"
+  }
+ },
+ {
+  "name": "Hot Cross Puns",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Grain",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 1, Brew 2, Filling 2 | Success check 25",
+   "attributes": "Magical 1, Brew 2, Filling 2",
+   "values": {
+    "Magical": 1,
+    "Brew": 2,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Everyone who hears you groans: you take -5 to social checks until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, once per scene as a free action, a creature within burst 5 gains Taunted equal to Brew toward you</p><p><strong>Cooking failure:</strong> The cook gains Taunted 2 toward the nearest ally</p>"
+  }
+ },
+ {
+  "name": "Cheese of Theseus",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Dairy",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Heavy 2, Brew 2, Filling 2 | Success check 140",
+   "attributes": "Magical 3, Heavy 2, Brew 2, Filling 2",
+   "values": {
+    "Magical": 3,
+    "Heavy": 2,
+    "Brew": 2,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> No effect when eaten (it is still the same cheese... probably). After 2d4 scenes uneaten, it becomes a different random cheese ingredient (this resets its spoil timer)</p><p><strong>Cooked:</strong> The dish's storage time never runs out, but each scene it is stored, one random flavor drops by 1 and another rises by 1. The shifting stops once it is eaten</p><p><strong>Cooking failure:</strong> The cook forgets who they are until the end of the next scene (-5 to all checks)</p>"
+  }
+ },
+ {
+  "name": "Pandora Pie",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Sweet",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Toxic 3, Brew 3, Filling 1 | Success check 150",
+   "attributes": "Magical 3, Toxic 3, Brew 3, Filling 1",
+   "values": {
+    "Magical": 3,
+    "Toxic": 3,
+    "Brew": 3,
+    "Filling": 1
+   },
+   "description": "<p><strong>Raw:</strong> Roll a d6: on odd heal 2d6, on even take 2d6</p><p><strong>Cooked:</strong> For the dish's duration, at the start of each scene roll a d6: on 1-3 roll on the Pandora table and gain that condition at value 2, on 4-5 gain +Magical to all checks for the scene, on 6 you discover Hope: gain Spiritual and the dish's duration ends</p><p><strong>Cooking failure:</strong> The cook rolls 3 times on the Pandora table and gains each result at value 1</p>"
+  }
+ },
+ {
+  "name": "Midas Mustard",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Spice",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 4, Heavy 2 | Success check 160",
+   "attributes": "Magical 4, Heavy 2",
+   "values": {
+    "Magical": 4,
+    "Heavy": 2
+   },
+   "description": "<p><strong>Raw:</strong> Everything you touch shines: -10 to stealth until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, after each combat scene gain Treasure Hoard equal to Magical / 2 (minimum 1), and your melee hits give the target Brittle 1 (it slowly turns to gold)</p><p><strong>Cooking failure:</strong> The cook's hands turn to gold: they cannot hold weapons until the end of the scene</p>"
+  }
+ },
+ {
+  "name": "Sisyphus Rolls",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Grain",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 4, Strong 2, Filling 3 | Success check 55",
+   "attributes": "Heavy 4, Strong 2, Filling 3",
+   "values": {
+    "Heavy": 4,
+    "Strong": 2,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> +10 to Str checks to push until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, your Str checks are one step easier</p><p><strong>Cooking failure:</strong> The cook gains Exhausted 3, and their next failed check this scene must be attempted again before they can do anything else</p>"
+  }
+ },
+ {
+  "name": "Achilles Heel Bread",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Grain",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 3, Strong 3, Filling 1 | Success check 60",
+   "attributes": "Heavy 3, Strong 3, Filling 1",
+   "values": {
+    "Heavy": 3,
+    "Strong": 3,
+    "Filling": 1
+   },
+   "description": "<p><strong>Raw:</strong> +5 natural armor until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, gain damage reduction equal to Heavy, but called shots to your legs ignore this damage reduction and deal double damage</p><p><strong>Cooking failure:</strong> The cook gains Broken Limb 15 on a leg</p>"
+  }
+ },
+ {
+  "name": "Icarus Hot Wings",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Toxic 2, Strong 3 | Success check 100",
+   "attributes": "Magical 2, Toxic 2, Strong 3",
+   "values": {
+    "Magical": 2,
+    "Toxic": 2,
+    "Strong": 3
+   },
+   "description": "<p><strong>Raw:</strong> Gain a flight speed of 2 that cannot go above height stage 2 until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, gain a flight speed equal to Strong + Filling. While above height stage 2, you lose 1 square of flight speed each turn, and you cannot regain lost squares while the dish lasts. Your attacks deal +Toxic fire damage, and targets hit lose 1 square of flight speed; a target can spend an action to make an easy Str or Agi check to regain it</p><p><strong>Cooking failure:</strong> The cook gains Turbulence and drops 1 height stage</p>"
+  }
+ },
+ {
+  "name": "Odin's Mead",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Sweet",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Toxic 2, Brew 5 | Success check 120",
+   "attributes": "Magical 3, Toxic 2, Brew 5",
+   "values": {
+    "Magical": 3,
+    "Toxic": 2,
+    "Brew": 5
+   },
+   "description": "<p><strong>Raw:</strong> Lose 1 Wis and gain +20 to Int checks until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, gain +Brew x2 to Int checks, and once per scene you may swap the order of the digits on a d100 roll (for example, a 72 becomes a 27; a 100 becomes a 1 and a 1 becomes a 100)</p><p><strong>Cooking failure:</strong> The cook loses sight in one eye: -10 accuracy until the end of the scene</p>"
+  }
+ },
+ {
+  "name": "Thor's Thunder Thighs",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 3, Strong 4, Filling 2 | Success check 120",
+   "attributes": "Heavy 3, Strong 4, Filling 2",
+   "values": {
+    "Heavy": 3,
+    "Strong": 4,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Resistance 10 to Electricity until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, your melee hits deal +Strong electricity damage, and once per turn a hit applies Electrified equal to Heavy (crits double it)</p><p><strong>Cooking failure:</strong> The cook gains Electrified 3</p>"
+  }
+ },
+ {
+  "name": "Loki Lime",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Fruit",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Toxic 2, Brew 3 | Success check 70",
+   "attributes": "Magical 2, Toxic 2, Brew 3",
+   "values": {
+    "Magical": 2,
+    "Toxic": 2,
+    "Brew": 3
+   },
+   "description": "<p><strong>Raw:</strong> You look like another creature for 1 minute (10 turns)</p><p><strong>Cooked:</strong> For the dish's duration, Perception checks to see through your disguises are decreased by Brew x5</p><p><strong>Cooking failure:</strong> The cook swaps appearance with a random nearby creature until the end of the next scene</p>"
+  }
+ },
+ {
+  "name": "Tengu Tempura",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Strong 2, Filling 2 | Success check 60",
+   "attributes": "Magical 2, Strong 2, Filling 2",
+   "values": {
+    "Magical": 2,
+    "Strong": 2,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> You take no falling damage until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, gain a flight speed of 3</p><p><strong>Cooking failure:</strong> The cook gains Turbulence, and if they fall this scene they take falling damage as if from one height stage higher</p>"
+  }
+ },
+ {
+  "name": "Questionable Jerky",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Toxic 4, Strong 3, Filling 4 | Success check 130",
+   "attributes": "Toxic 4, Strong 3, Filling 4",
+   "values": {
+    "Toxic": 4,
+    "Strong": 3,
+    "Filling": 4
+   },
+   "description": "<p><strong>Raw:</strong> You are never full: ignore Filling checks until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, each time your bite hits a creature, heal Strong hp and gain Furious 1</p><p><strong>Cooking failure:</strong> The cook gains Enraged and can only make bite attacks until the end of the scene</p>"
+  }
+ },
+ {
+  "name": "True Dragon Fruit",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Fruit",
+   "rarity": "Legendary",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 4, Strong 6, Filling 3 | Success check 210",
+   "attributes": "Magical 4, Strong 6, Filling 3",
+   "values": {
+    "Magical": 4,
+    "Strong": 6,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> Once this scene, breathe fire: Cone 3, 4d6 fire damage</p><p><strong>Cooked:</strong> For the dish's duration, gain any Basilisk Breath Weapon racial of your choice at Lv equal to Strong, and your breath weapons cost half aura</p><p><strong>Cooking failure:</strong> The cook gains On Fire 4</p>"
+  }
+ },
+ {
+  "name": "Sphinx Riddle Rolls",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Grain",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Antidote 2, Brew 3 | Success check 120",
+   "attributes": "Magical 3, Antidote 2, Brew 3",
+   "values": {
+    "Magical": 3,
+    "Antidote": 2,
+    "Brew": 3
+   },
+   "description": "<p><strong>Raw:</strong> +10 to Int and Studies checks until the end of the scene</p><p><strong>Cooked:</strong> For the dish's duration, once per scene you may ask the GM a question, and they answer it in Brew words or fewer</p><p><strong>Cooking failure:</strong> The cook can only speak in riddles until the end of the scene</p>"
+  }
+ },
+ {
+  "name": "Brownie Brownies",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Sweet",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Heavy 1, Filling 2 | Success check 50",
+   "attributes": "Magical 3, Heavy 1, Filling 2",
+   "values": {
+    "Magical": 3,
+    "Heavy": 1,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> A tiny helper tidies your gear (no mechanical effect)</p><p><strong>Cooked:</strong> Your next repair roll this scene gains +Magical x5</p><p><strong>Cooking failure:</strong> The brownies steal 1 random ingredient</p>"
+  }
+ },
+ {
+  "name": "Gnome Gnocchi",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Grain",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 1, Heavy 2, Filling 3 | Success check 35",
+   "attributes": "Magical 1, Heavy 2, Filling 3",
+   "values": {
+    "Magical": 1,
+    "Heavy": 2,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> +5 to trade checks until the end of the scene</p><p><strong>Cooked:</strong> Your next craft gains +Filling max complexity</p><p><strong>Cooking failure:</strong> The cook shrinks to half height for 1 hour (-1 reach)</p>"
+  }
+ },
+ {
+  "name": "Troll Toll Taffy",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Sweet",
+   "rarity": "Common",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Heavy 3, Strong 2, Filling 2 | Success check 30",
+   "attributes": "Heavy 3, Strong 2, Filling 2",
+   "values": {
+    "Heavy": 3,
+    "Strong": 2,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Pay 1 aura to avoid the next attack of opportunity against you</p><p><strong>Cooked:</strong> Once per scene, ignore one attack of opportunity</p><p><strong>Cooking failure:</strong> The cook must pay a toll and loses 10 aura</p>"
+  }
+ },
+ {
+  "name": "Hell Pepper",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Spice",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Toxic 4, Strong 5 | Success check 75",
+   "attributes": "Toxic 4, Strong 5",
+   "values": {
+    "Toxic": 4,
+    "Strong": 5
+   },
+   "description": "<p><strong>Raw:</strong> Gain On Fire 1 and +5 accuracy until the end of the scene</p><p><strong>Cooked:</strong> Gain fire resistance equal to Strong x5 and your attacks deal +Toxic fire damage</p><p><strong>Cooking failure:</strong> The cook gains On Fire 3</p>"
+  }
+ },
+ {
+  "name": "Angel Food Cake",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Sweet",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 5, Antidote 3, Filling 2 | Success check 120",
+   "attributes": "Magical 5, Antidote 3, Filling 2",
+   "values": {
+    "Magical": 5,
+    "Antidote": 3,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Heal 2d6</p><p><strong>Cooked:</strong> Allies within burst 2 heal Magical d4 at the start of each scene</p><p><strong>Cooking failure:</strong> The cook gains Doomed 2</p>"
+  }
+ },
+ {
+  "name": "Devil's Food Cake",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Sweet",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 4, Toxic 3, Strong 3, Filling 2 | Success check 120",
+   "attributes": "Magical 4, Toxic 3, Strong 3, Filling 2",
+   "values": {
+    "Magical": 4,
+    "Toxic": 3,
+    "Strong": 3,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Take 1d6 damage and gain 5 aura</p><p><strong>Cooked:</strong> Your attacks deal +Strong nether damage</p><p><strong>Cooking failure:</strong> The cook gains Cursed 3</p>"
+  }
+ },
+ {
+  "name": "Sun Bread",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Grain",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 3, Heavy 1, Filling 3 | Success check 55",
+   "attributes": "Magical 3, Heavy 1, Filling 3",
+   "values": {
+    "Magical": 3,
+    "Heavy": 1,
+    "Filling": 3
+   },
+   "description": "<p><strong>Raw:</strong> You glow with light stage 3 in burst 2 for 1 hour</p><p><strong>Cooked:</strong> You glow with light stage 3 in burst 3 for the duration, and undead in that light gain Sickened 1</p><p><strong>Cooking failure:</strong> The cook gains Blind 2</p>"
+  }
+ },
+ {
+  "name": "Leviathan Liver",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Monster Part",
+   "rarity": "Legendary",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Antidote 3, Heavy 5, Strong 4, Filling 5 | Success check 240",
+   "attributes": "Antidote 3, Heavy 5, Strong 4, Filling 5",
+   "values": {
+    "Antidote": 3,
+    "Heavy": 5,
+    "Strong": 4,
+    "Filling": 5
+   },
+   "description": "<p><strong>Raw:</strong> Heal 3d6</p><p><strong>Cooked:</strong> Your size counts as one size class larger for grapples and Str checks</p><p><strong>Cooking failure:</strong> The cook gains Sickened 4</p>"
+  }
+ },
+ {
+  "name": "Chupacabra Chops",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Toxic 3, Strong 3, Filling 2 | Success check 70",
+   "attributes": "Toxic 3, Strong 3, Filling 2",
+   "values": {
+    "Toxic": 3,
+    "Strong": 3,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Gain bleed resistance 2 until the end of the scene</p><p><strong>Cooked:</strong> Your bites apply Bleed 1</p><p><strong>Cooking failure:</strong> The cook gains Bleed 3</p>"
+  }
+ },
+ {
+  "name": "Wishbone Broth",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Meat",
+   "rarity": "Rare",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 4, Antidote 2, Filling 2 | Success check 130",
+   "attributes": "Magical 4, Antidote 2, Filling 2",
+   "values": {
+    "Magical": 4,
+    "Antidote": 2,
+    "Filling": 2
+   },
+   "description": "<p><strong>Raw:</strong> Reroll one d100 this scene</p><p><strong>Cooked:</strong> Once per scene, reroll one failed check</p><p><strong>Cooking failure:</strong> The cook's next roll has disadvantage</p>"
+  }
+ },
+ {
+  "name": "Nightmare Nougat",
+  "type": "material",
+  "system": {
+   "craft": "cooking",
+   "category": "Sweet",
+   "rarity": "Uncommon",
+   "tier": 1,
+   "quantity": 1,
+   "summary": "Magical 2, Toxic 2, Brew 4 | Success check 60",
+   "attributes": "Magical 2, Toxic 2, Brew 4",
+   "values": {
+    "Magical": 2,
+    "Toxic": 2,
+    "Brew": 4
+   },
+   "description": "<p><strong>Raw:</strong> Gain Feared 1</p><p><strong>Cooked:</strong> Your attacks apply Feared 1 on a crit</p><p><strong>Cooking failure:</strong> The cook gains Feared 4</p>"
+  }
+ }
+]

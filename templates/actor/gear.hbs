@@ -1,0 +1,125 @@
+<section class="tab kom-sheet {{tab.cssClass}}" data-tab="gear" data-group="primary">
+
+  <div class="kom-box">
+    <h3>Starting gear
+      <a class="kom-add" data-action="startingGear" title="Take the starting weapons and materials your talents give at character creation">{{#if startingGearTaken}}Taken (open again){{else}}Take starting gear{{/if}}</a>
+    </h3>
+    <p class="hint">At character creation: weapon combat talents give a Basic-skin base weapon (or 2 Common tier 1 materials if you also have Blacksmithing); crafting talents give 2 Common tier 1 materials, reagents or ingredients; Ogre's Song of the Forge gives 1 of its Song's special materials. Set your talents first.</p>
+  </div>
+
+  <div class="kom-box">
+    <h3>Weapons
+      <a class="kom-add" data-action="createItem" data-type="weapon" title="Add a crafted weapon">+ Weapon</a>
+      <a class="kom-add" data-action="addNatural" title="Add bite, claw and tail for your size">+ Natural weapons</a>
+    </h3>
+    <table>
+      <tr><th>Eq.</th><th>Weapon</th><th>Base / Skin</th><th>Damage</th><th>Harm</th><th>Acc.</th><th>Type</th><th>Range</th><th>HP</th><th>Limit</th><th>Bulk</th><th></th></tr>
+      {{#each gear.weapons}}
+      <tr data-item-id="{{item.id}}">
+        <td><a class="kom-toggle {{#if item.system.equipped}}on{{/if}}" data-action="toggleEquip" title="Click to equip / unequip">{{#if item.system.equipped}}Equipped{{else}}Off{{/if}}</a></td>
+        <td><a data-action="editItem">{{item.name}}</a></td>
+        <td>{{item.system.baseLabel}}{{#unless (eq item.system.skinName "Basic")}} / {{item.system.skinName}}{{/unless}}</td>
+        <td>{{item.system.dieLabel}} + {{info.damageFlat}}</td>
+        <td>{{item.system.harm}}</td>
+        <td>+{{info.accuracy}} <small>{{info.grip}}</small></td>
+        <td>{{item.system.damageType}}</td>
+        <td>{{item.system.rangeLabel}}</td>
+        <td>{{#if item.system.natural}}-{{else}}{{item.system.hp.value}} / {{item.system.hpMax}}{{/if}}</td>
+        <td>{{#if item.system.natural}}-{{else}}{{item.system.complexityLimit}}{{/if}}</td>
+        <td>{{item.system.bulk}}</td>
+        <td><a data-action="deleteItem" title="Delete">&times;</a></td>
+      </tr>
+      {{#unless (eq item.system.skinName "Basic")}}
+      <tr class="kom-subrow"><td></td><td colspan="11"><small><em>{{item.system.skinName}}:</em> {{item.system.skinData.effect}}</small></td></tr>
+      {{/unless}}
+      {{/each}}
+    </table>
+    <p class="hint">Damage = weapon die (weapon size + Harm on the damage chart) + Str (melee) or Agi (ranged) + bonuses. Accuracy = Heavy Str+Con / Light Str+Agi / Ranged Agi+Spd, + weapon mods + talent level. Each extra attack that lands adds one weapon die.</p>
+  </div>
+
+  <div class="kom-box">
+    <h3>Armor &amp; shields <a class="kom-add" data-action="createItem" data-type="armor" title="Add armor or a shield">+ Armor</a></h3>
+    <table>
+      <tr><th>Worn</th><th>Armor</th><th>Class / Skin</th><th>HP</th><th>Defense</th><th>Evasion</th><th>Hardness</th><th>Bulk</th><th></th></tr>
+      {{#each gear.armor}}
+      <tr data-item-id="{{id}}" class="{{#if system.broken}}bad{{/if}}">
+        <td><a class="kom-toggle {{#if system.equipped}}on{{/if}}" data-action="toggleEquip" title="Click to wear / remove">{{#if system.equipped}}Worn{{else}}Off{{/if}}</a></td>
+        <td><a data-action="editItem">{{name}}</a>{{#if system.broken}} <small>(broken)</small>{{/if}}</td>
+        <td>{{system.classLabel}}{{#unless (eq system.skinName "Basic")}} / {{system.skinName}}{{/unless}}</td>
+        <td>{{system.hp.value}} / {{system.hpMax}}</td>
+        <td>-{{system.defense}}</td>
+        <td>+{{system.evasion}}</td>
+        <td>{{system.hardness}}{{#if system.brittle}} <small>(Brittle {{system.brittle}})</small>{{/if}}</td>
+        <td>{{system.bulk}}</td>
+        <td><a data-action="deleteItem" title="Delete">&times;</a></td>
+      </tr>
+      {{#if system.skinData.effect}}{{#unless (eq system.skinName "Basic")}}
+      <tr class="kom-subrow"><td></td><td colspan="8"><small><em>{{system.skinName}}:</em> {{system.skinData.effect}}</small></td></tr>
+      {{/unless}}{{/if}}
+      {{/each}}
+    </table>
+    <p class="hint">One suit and one shield can be worn; equipping another swaps it. Armor lowers Defense and raises Evasion; shields stack with it. Hardness reduces every hit (minimum 1 per hit), then damage goes to the armor's HP, then natural armor, then hp. Broken armor (0 HP) gives nothing.</p>
+  </div>
+
+  <div class="kom-box">
+    <h3>Materials</h3>
+    <table>
+      <tr><th>Qty</th><th>Material</th><th>Kind</th><th>Type</th><th>Rarity</th><th>Tier</th><th>Values</th><th></th></tr>
+      {{#each gear.materials}}
+      <tr data-item-id="{{id}}">
+        <td class="kom-qty"><a data-action="changeQty" data-delta="-1">&minus;</a> {{system.quantity}} <a data-action="changeQty" data-delta="1">+</a></td>
+        <td><a data-action="editItem">{{name}}</a></td>
+        <td>{{system.craftLabel}}</td>
+        <td>{{system.category}}</td>
+        <td>{{system.rarity}}</td>
+        <td>{{system.tier}}</td>
+        <td class="kom-left"><small>{{system.summary}}</small></td>
+        <td><a data-action="deleteItem" title="Delete">&times;</a></td>
+      </tr>
+      {{/each}}
+    </table>
+    <p class="hint">Drag more from the Items sidebar (run game.kom.importMaterials() once to fill it with all 230 materials, reagents and ingredients).</p>
+  </div>
+
+  <div class="kom-box">
+    <h3>Martials <a class="kom-add" data-action="createItem" data-type="martial" title="Build a martial">+ Martial</a></h3>
+    <table>
+      <tr><th>Martial</th><th>Weapon</th><th>Arts</th><th>Complexity</th><th>ML</th><th>Max</th><th>Aura</th><th>Actions</th><th></th></tr>
+      {{#each gear.martials}}
+      <tr data-item-id="{{item.id}}">
+        <td><a data-action="editItem">{{item.name}}</a></td>
+        <td>{{item.system.groupLabel}}</td>
+        <td>{{item.system.arts.length}}{{#unless (eq item.system.coreCount 1)}} <small class="bad">({{item.system.coreCount}} Core)</small>{{/unless}}</td>
+        <td>{{item.system.baseCx}} x{{item.system.schoolCount}} = <strong>{{item.system.totalCx}}</strong>{{#if info.tier2Locked}} <small class="bad">Tier 2 locked</small>{{/if}}</td>
+        <td>{{info.ml}}</td>
+        <td class="{{#if info.over}}bad{{/if}}">{{info.maxCx}}</td>
+        <td>{{item.system.aura}}</td>
+        <td>{{item.system.actions}}{{#if info.channel}} <small class="bad">Channel</small>{{/if}}</td>
+        <td><a data-action="deleteItem" title="Delete">&times;</a></td>
+      </tr>
+      {{/each}}
+    </table>
+    <p class="hint">A martial is 1 Core + Modifiers / On Hits + an optional Soul Break, from one weapon's schools. Complexity x number of schools; 4 aura per point (1 aura at complexity 1); +1 action per 40 aura. Max complexity = ML x3 + 5; going over needs a hard Combat check with the Tn lowered by the complexity (fail: 10 Death damage per point over and lose all aura). Short on aura? Pay the rest with soul (1 soul = 10 aura).</p>
+  </div>
+
+  <div class="kom-box">
+    <h3>Spells <a class="kom-add" data-action="createItem" data-type="spell" title="Build a spell">+ Spell</a></h3>
+    <table>
+      <tr><th>Spell</th><th>Schools</th><th>SL</th><th>Complexity</th><th>Max</th><th>Mana</th><th>Actions</th><th></th></tr>
+      {{#each gear.spells}}
+      <tr data-item-id="{{item.id}}">
+        <td><a data-action="editItem">{{item.name}}</a>{{#if item.system.cantrip}} <small>(cantrip)</small>{{/if}}</td>
+        <td>{{item.system.schoolLabel}}{{#unless item.system.hasProjection}} <small class="bad">(no Projection)</small>{{/unless}}</td>
+        <td>{{info.sl}}</td>
+        <td>{{item.system.baseCx}} x{{item.system.multiplier}} = <strong>{{item.system.totalCx}}</strong>{{#if info.tier2Locked.length}} <small class="bad">Tier 2 locked</small>{{/if}}</td>
+        <td class="{{#if info.over}}bad{{/if}}">{{info.maxCx}}</td>
+        <td>{{item.system.mana}}</td>
+        <td>{{item.system.actions}}{{#if info.channel}} <small class="bad">Channel</small>{{/if}}</td>
+        <td><a data-action="deleteItem" title="Delete">&times;</a></td>
+      </tr>
+      {{/each}}
+    </table>
+    <p class="hint">A spell is at least a Projection + 1 Art (+ optional Conditional). Complexity x number of schools (Generic doesn't count); 4 mana per point; 1 action, +1 per 40 mana. SL = highest school talent for 1-2 schools, lowest for 3+. Max complexity = total Magic tree talent levels x3 + 5, capped at 35 / 70 / 110 by tier; going over needs a hard Arcane check with the Tn lowered by the complexity (fail: 10 Death damage per point over and lose all mana). Short on mana? Pay the rest with soul (1 soul = 5 mana). Target spells roll vs Evasion (Defense if the target used Stand your ground; Touch vs Defense, or Evasion if the target used Feint); area spells have each target make a normal Agi check.</p>
+  </div>
+
+</section>

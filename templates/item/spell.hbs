@@ -1,0 +1,49 @@
+<div class="kom-sheet">
+  <header class="kom-header">
+    <input class="kom-name" name="name" type="text" value="{{item.name}}">
+  </header>
+
+  <div class="kom-box kom-stat-row">
+    <label title="Leave blank to use the damage written in the parts">Damage <input name="system.damage" type="text" value="{{system.damage}}" placeholder="{{#if system.autoDamage}}auto: {{system.autoDamage}}{{else}}e.g. (@sl)d6{{/if}}"></label>
+    <label title="Area spells have no attack roll: each target makes a normal Agi check unless the spell says otherwise">Area spell <input name="system.area" type="checkbox" {{#if system.area}}checked{{/if}}></label>
+    <label>Cantrip <input name="system.cantrip" type="checkbox" {{#if system.cantrip}}checked{{/if}}></label>
+  </div>
+
+  <div class="kom-box">
+    <h3>Parts <a class="kom-add" data-action="fromLibrary">+ From library</a> <a class="kom-add" data-action="addArt">+ Blank part</a></h3>
+    <table class="kom-arts">
+      <tr><th>Part</th><th>School</th><th>Kind</th><th>Cx</th><th>Effect</th><th></th></tr>
+      {{#each system.arts}}
+      <tr>
+        <td><input name="system.arts.{{@index}}.name" type="text" value="{{name}}">{{#if (eq tier 2)}}<br><small class="bad">Tier 2</small>{{/if}}
+          <input type="hidden" name="system.arts.{{@index}}.tier" value="{{tier}}">
+          <input type="hidden" name="system.arts.{{@index}}.extra" value="{{extra}}"></td>
+        <td><select name="system.arts.{{@index}}.school">
+          {{#each @root.schools as |sc key|}}<option value="{{key}}" {{#if (eq key ../school)}}selected{{/if}}>{{key}}</option>{{/each}}
+        </select></td>
+        <td><select name="system.arts.{{@index}}.type">
+          {{#each @root.artTypes as |t|}}<option value="{{t}}" {{#if (eq t ../type)}}selected{{/if}}>{{t}}</option>{{/each}}
+        </select></td>
+        <td><input name="system.arts.{{@index}}.cx" type="number" value="{{cx}}" min="0"></td>
+        <td><textarea name="system.arts.{{@index}}.text" rows="2">{{text}}</textarea></td>
+        <td><a data-action="removeArt" data-index="{{@index}}" title="Remove">&times;</a></td>
+      </tr>
+      {{/each}}
+    </table>
+    <div class="kom-kv">
+      <span>Schools</span><b>{{system.schoolLabel}}{{#if system.focused}} (focused){{/if}}</b>
+      <span>Complexity</span><b>{{system.baseCx}} x {{system.multiplier}} = {{system.totalCx}}</b>
+      <span>Mana</span><b>{{system.mana}}</b>
+      <span>Actions</span><b>{{system.actions}}</b>
+      <span>Base damage type</span><b>{{system.damageTypes}}</b>
+      <span>Rolls against</span><b>{{#if system.area}}normal Agi check (area){{else}}{{#if system.touch}}target Defense (Touch; Evasion if the target used Feint){{else}}target Evasion{{/if}}{{/if}}</b>
+      <span>Projection</span><b class="{{#unless system.hasProjection}}bad{{/unless}}">{{#if system.hasProjection}}yes{{else}}missing (every spell needs one){{/if}}</b>
+    </div>
+    <p class="hint">Copy parts from the Spells doc with their [complexity]. Generic parts don't count as a school. Damage is read from the parts' base text (e.g. "SLd4 damage") and added together; type a formula in Damage to override it. @sl is the spell level, and your magic damage stat is added on cast.</p>
+  </div>
+
+  <div class="kom-box">
+    <h3>Notes</h3>
+    <textarea name="system.description" rows="3">{{system.description}}</textarea>
+  </div>
+</div>

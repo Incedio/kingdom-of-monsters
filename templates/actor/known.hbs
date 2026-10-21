@@ -1,0 +1,69 @@
+<section class="tab kom-sheet {{tab.cssClass}}" data-tab="known" data-group="primary">
+
+  <div class="kom-box">
+    <h3>Known arts</h3>
+    <p class="hint">Weapon talents: rank 1 teaches one whole school; individual arts (from any school of that weapon) come at ranks 2 (+2), 4, 5, 7, 8 (+1 each) and 10 (+5). Magic talents teach arts from their school at ranks 1, 2, 4, 5, 7, 8 (+1 each) and 10 (+2). Tier 2 arts need rank 11. Generic spell arts are always available. Only known arts show up in the "+ From library" picker on martials and spells.</p>
+    <label>Extra known (Memory, Demon evolution...) <input name="system.extraKnown" type="number" value="{{system.extraKnown}}" min="0" title="Extra spells or martial arts you can pick beyond your talents"></label>
+    <span class="{{#if known.extraOver}}bad{{/if}}">used {{known.extraUsed}} / {{known.extra}}</span>
+    {{#unless (or known.weapons.length known.magic.length)}}<p class="bad">No weapon combat or magic talents yet. Add talents on the Main tab first.</p>{{/unless}}
+  </div>
+
+  {{#each known.weapons}}
+  <div class="kom-box">
+    <h3>{{talent}} <small>(rank {{rank}})</small>
+      <span class="kom-points">
+        <span class="{{#if schoolsOver}}bad{{/if}}">school {{schoolsUsed}}/{{schoolAllow}}</span> &middot;
+        <span class="{{#if artsOver}}bad{{/if}}">single arts {{artsUsed}}/{{artAllow}}</span>
+      </span>
+    </h3>
+    {{#each schools}}
+    <details data-open-key="{{key}}" data-default-open="{{#if known}}1{{/if}}">
+      <summary>
+        <a class="kom-toggle {{#if known}}on{{/if}}" data-action="toggleSchool" data-key="{{key}}" title="Learn this whole school (rank 1)">{{#if known}}School known{{else}}Learn school{{/if}}</a>
+        <strong>{{name}}</strong>
+      </summary>
+      <table class="kom-known">
+        {{#each arts}}
+        <tr>
+          <td class="kom-known-btn">
+            {{#if viaSchool}}<span class="kom-toggle on" title="Known through the school">School</span>
+            {{else}}<a class="kom-toggle {{#if picked}}on{{/if}}" data-action="toggleArt" data-key="{{key}}">{{#if picked}}Known{{else}}Learn{{/if}}</a>{{/if}}
+          </td>
+          <td class="kom-left">[{{cx}}] <strong>{{name}}</strong> ({{type}}){{#if (eq tier 2)}} <span class="bad">Tier 2{{#if locked}}, needs rank 11{{/if}}</span>{{/if}}<br>
+            <small>{{text}}</small>{{#if extra}}<br><small><em>{{extra}}</em></small>{{/if}}</td>
+        </tr>
+        {{/each}}
+      </table>
+    </details>
+    {{/each}}
+  </div>
+  {{/each}}
+
+  {{#each known.magic}}
+  <div class="kom-box">
+    <h3>{{talent}} <small>(rank {{rank}})</small>
+      <span class="kom-points {{#if over}}bad{{/if}}">arts {{used}}/{{allow}}</span>
+    </h3>
+    <table class="kom-known">
+      {{#each arts}}
+      <tr>
+        <td class="kom-known-btn"><a class="kom-toggle {{#if picked}}on{{/if}}" data-action="toggleArt" data-key="{{key}}">{{#if picked}}Known{{else}}Learn{{/if}}</a></td>
+        <td class="kom-left">[{{cx}}] <strong>{{name}}</strong> ({{type}}){{#if (eq tier 2)}} <span class="bad">Tier 2{{#if locked}}, needs rank 11{{/if}}</span>{{/if}}<br><small>{{text}}</small></td>
+      </tr>
+      {{/each}}
+    </table>
+  </div>
+  {{/each}}
+
+  {{#if known.magic.length}}
+  <div class="kom-box">
+    <h3>Generic arts <small>(always available)</small></h3>
+    <table class="kom-known">
+      {{#each known.generic}}
+      <tr><td class="kom-known-btn"><span class="kom-toggle on">Generic</span></td>
+        <td class="kom-left">[{{cx}}] <strong>{{name}}</strong> ({{type}})<br><small>{{text}}</small></td></tr>
+      {{/each}}
+    </table>
+  </div>
+  {{/if}}
+</section>

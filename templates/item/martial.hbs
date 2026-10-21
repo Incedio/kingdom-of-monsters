@@ -1,0 +1,49 @@
+<div class="kom-sheet">
+  <header class="kom-header">
+    <input class="kom-name" name="name" type="text" value="{{item.name}}">
+  </header>
+
+  <div class="kom-box kom-stat-row">
+    <label>Weapon
+      <select name="system.group">
+        {{#each groups as |g key|}}<option value="{{key}}" {{#if (eq key ../system.group)}}selected{{/if}}>{{g.label}}</option>{{/each}}
+      </select>
+    </label>
+    <label>School(s) <input name="system.schoolNames" type="text" value="{{system.schoolNames}}" placeholder="e.g. Ice"></label>
+    <label title="Counted from the arts' schools when they have one; otherwise use this number">Number of schools {{#if system.schoolList.length}}<input type="number" value="{{system.schoolCount}}" disabled>{{else}}<input name="system.schools" type="number" value="{{system.schools}}" min="1">{{/if}}</label>
+    <label>Extra damage <input name="system.damage" type="text" value="{{system.damage}}" placeholder="e.g. @ml*5"></label>
+  </div>
+
+  <div class="kom-box">
+    <h3>Arts <a class="kom-add" data-action="fromLibrary">+ From library</a> <a class="kom-add" data-action="addArt">+ Blank art</a></h3>
+    <table class="kom-arts">
+      <tr><th>Art</th><th>School</th><th>Part</th><th>Cx</th><th>Effect</th><th></th></tr>
+      {{#each system.arts}}
+      <tr>
+        <td><input name="system.arts.{{@index}}.name" type="text" value="{{name}}">{{#if (eq tier 2)}}<br><small class="bad">Tier 2</small>{{/if}}
+          <input type="hidden" name="system.arts.{{@index}}.tier" value="{{tier}}">
+          <input type="hidden" name="system.arts.{{@index}}.extra" value="{{extra}}"></td>
+        <td><input name="system.arts.{{@index}}.school" type="text" value="{{school}}" placeholder="school" style="width:80px"></td>
+        <td><select name="system.arts.{{@index}}.type">
+          {{#each @root.artTypes as |t|}}<option value="{{t}}" {{#if (eq t ../type)}}selected{{/if}}>{{t}}</option>{{/each}}
+        </select></td>
+        <td><input name="system.arts.{{@index}}.cx" type="number" value="{{cx}}" min="0"></td>
+        <td><textarea name="system.arts.{{@index}}.text" rows="2">{{text}}</textarea>{{#if extra}}<br><small><em>{{extra}}</em></small>{{/if}}</td>
+        <td><a data-action="removeArt" data-index="{{@index}}" title="Remove">&times;</a></td>
+      </tr>
+      {{/each}}
+    </table>
+    <div class="kom-kv">
+      <span>Complexity</span><b>{{system.baseCx}} x {{system.schoolCount}} = {{system.totalCx}}{{#if system.schoolList.length}} <small>({{#each system.schoolList}}{{this}} {{/each}})</small>{{/if}}</b>
+      <span>Aura</span><b>{{system.aura}}</b>
+      <span>Actions</span><b>{{system.actions}}</b>
+      <span>Cores</span><b class="{{#unless (eq system.coreCount 1)}}bad{{/unless}}">{{system.coreCount}} (needs exactly 1)</b>
+    </div>
+    <p class="hint">Copy the arts from the martial doc: name, complexity in [brackets], and its part (Core, On Hit, Modifier, Soul Break). Extra damage takes a formula; @ml is your level in the weapon's talent.</p>
+  </div>
+
+  <div class="kom-box">
+    <h3>Notes</h3>
+    <textarea name="system.description" rows="3">{{system.description}}</textarea>
+  </div>
+</div>

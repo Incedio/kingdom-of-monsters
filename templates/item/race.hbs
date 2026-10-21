@@ -1,0 +1,36 @@
+<div class="kom-sheet">
+  <header class="kom-header">
+    <input class="kom-name" name="name" type="text" value="{{item.name}}">
+    <label>Size
+      <select name="system.size">
+        {{#each sizes as |label key|}}<option value="{{key}}" {{#if (eq key ../system.size)}}selected{{/if}}>{{label}}</option>{{/each}}
+      </select>
+    </label>
+  </header>
+
+  <div class="kom-box">
+    <h3>Stat maxes <span class="kom-points {{#unless (eq system.maxTotal 60)}}bad{{/unless}}">total {{system.maxTotal}} (should be 60)</span></h3>
+    <div class="kom-stat-row">
+      {{#each stats}}
+      <label>{{label}}<input name="system.maxes.{{key}}" type="number" value="{{lookup ../system.maxes key}}"></label>
+      {{/each}}
+    </div>
+  </div>
+
+  <div class="kom-box">
+    <h3>Base attributes <span class="kom-points {{#unless (eq system.attrTotal 135)}}bad{{/unless}}">total {{system.attrTotal}} (should be 135)</span></h3>
+    <div class="kom-stat-row">
+      {{#each (array "hp" "mana" "aura" "soul" "durability" "reflex") as |a|}}
+      <label>{{a}}<input name="system.attributes.{{a}}" type="number" value="{{lookup ../system.attributes a}}"></label>
+      {{/each}}
+    </div>
+  </div>
+
+  <div class="kom-box">
+    <label>Racial talent name <input name="system.racialTalent" type="text" value="{{system.racialTalent}}"></label>
+    <label>Racial buff</label>
+    <textarea name="system.buff" rows="4">{{system.buff}}</textarea>
+    <label>Description</label>
+    <textarea name="system.description" rows="6">{{system.description}}</textarea>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="kom-sheet">
+  <header class="kom-header">
+    <input class="kom-name" name="name" type="text" value="{{item.name}}">
+  </header>
+  <div class="kom-box kom-stat-row">
+    <label>Kind
+      <select name="system.craft">
+        {{#each crafts as |label key|}}<option value="{{key}}" {{#if (eq key ../system.craft)}}selected{{/if}}>{{label}}</option>{{/each}}
+      </select>
+    </label>
+    <label>Type <input name="system.category" type="text" value="{{system.category}}"></label>
+    <label>Rarity <input name="system.rarity" type="text" value="{{system.rarity}}"></label>
+    <label>Tier <input name="system.tier" type="number" value="{{system.tier}}" min="0"></label>
+    <label>Grade <input name="system.grade" type="text" value="{{system.grade}}"></label>
+    <label>Quantity <input name="system.quantity" type="number" value="{{system.quantity}}" min="0"></label>
+  </div>
+  <div class="kom-box">
+    <h3>Values</h3>
+    <p>{{system.summary}}</p>
+    <label>Summary <input name="system.summary" type="text" value="{{system.summary}}"></label>
+  </div>
+  <div class="kom-box">
+    <h3>Effects / notes</h3>
+    <div class="kom-rich">{{{system.description}}}</div>
+  </div>
+</div>

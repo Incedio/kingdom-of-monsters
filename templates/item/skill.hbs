@@ -1,0 +1,19 @@
+<div class="kom-sheet">
+  <header class="kom-header">
+    <input class="kom-name" name="name" type="text" value="{{item.name}}">
+  </header>
+  <div class="kom-box kom-stat-row">
+    <label>Group
+      <select name="system.group">
+        {{#each skillGroups as |g key|}}<option value="{{key}}" {{#if (eq key ../system.group)}}selected{{/if}}>{{g.label}}</option>{{/each}}
+      </select>
+    </label>
+    <label>Bonus <input name="system.bonus" type="number" value="{{system.bonus}}" min="0"></label>
+    <label>Passive <input name="system.passive" type="checkbox" {{#if system.passive}}checked{{/if}}></label>
+  </div>
+  <div class="kom-box">
+    <p>Group base {{system.base}} + creation {{system.creationBonus}} + bonus {{system.bonus}} &rarr; Tn easy {{system.easy}} / normal {{system.normal}} / hard {{system.hard}}</p>
+    <label>Description</label>
+    <textarea name="system.description" rows="6">{{system.description}}</textarea>
+  </div>
+</div>

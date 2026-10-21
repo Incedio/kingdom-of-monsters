@@ -1,0 +1,52 @@
+{
+  "id": "kingdom-of-monsters",
+  "title": "Kingdom of Monsters",
+  "description": "Playtest system for the Kingdom of Monsters tabletop RPG.",
+  "version": "0.5.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.365"
+  },
+  "authors": [
+    {
+      "name": "Kingdom of Monsters"
+    }
+  ],
+  "url": "https://github.com/Incedio/kingdom-of-monsters",
+  "manifest": "https://github.com/Incedio/kingdom-of-monsters/releases/latest/download/system.json",
+  "download": "https://github.com/Incedio/kingdom-of-monsters/releases/download/v0.5.0/kingdom-of-monsters.zip",
+  "esmodules": [
+    "module/kom.mjs"
+  ],
+  "styles": [
+    "styles/kom.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {}
+    },
+    "Item": {
+      "race": {},
+      "talent": {},
+      "skill": {},
+      "weapon": {},
+      "martial": {},
+      "spell": {},
+      "armor": {},
+      "material": {}
+    }
+  },
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  },
+  "primaryTokenAttribute": "hp",
+  "secondaryTokenAttribute": "mana"
+}

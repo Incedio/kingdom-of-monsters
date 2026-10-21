@@ -1,0 +1,50 @@
+<div class="kom-sheet">
+  <header class="kom-header">
+    <input class="kom-name" name="name" type="text" value="{{item.name}}">
+    <label>Equipped <input name="system.equipped" type="checkbox" {{#if system.equipped}}checked{{/if}}></label>
+  </header>
+
+  <div class="kom-box kom-stat-row">
+    <label>Class
+      <select name="system.armorClass">
+        {{#each classes as |c key|}}<option value="{{key}}" {{#if (eq key ../system.armorClass)}}selected{{/if}}>{{c.label}}</option>{{/each}}
+      </select>
+    </label>
+    <label>Skin
+      <select name="system.skin">
+        {{#each skins}}<option value="{{name}}" {{#if (eq name ../system.skinName)}}selected{{/if}}>{{name}}</option>{{/each}}
+      </select>
+    </label>
+  </div>
+
+  <div class="kom-box">
+    <h3>Result {{#if system.broken}}<span class="bad">BROKEN (0 HP): gives nothing until repaired</span>{{/if}}</h3>
+    <div class="kom-kv">
+      <span>HP</span><b><input name="system.hp.value" type="number" value="{{system.hp.value}}" min="0"> / {{system.hpMax}}</b>
+      <span>Defense</span><b>-{{system.defense}} <small>(lowers the wearer's Defense)</small></b>
+      <span>Evasion</span><b>+{{system.evasion}} <small>(raises the wearer's Evasion)</small></b>
+      <span>Hardness</span><b>{{system.hardness}} <small>(class {{system.classData.hardness}} + materials {{system.hardnessBonus}}{{#if system.brittle}} - Brittle {{system.brittle}} x2{{/if}})</small>{{#if system.hardnessVs.length}} <small>+1 vs {{#each system.hardnessVs}}{{this}} {{/each}}</small>{{/if}}</b>
+      <span>Bulk</span><b>{{system.bulk}}</b>
+      <span>Base requirement</span><b>{{system.requirement}}</b>
+    </div>
+    <p><em>{{system.skinName}}:</em> {{system.skinData.effect}}</p>
+    <p class="hint">Hardness reduces every hit (a hit always deals at least 1). Damage goes to this armor's HP first, then natural armor, then the wearer. {{#if system.isShield}}Shields stack with armor for Defense and Evasion.{{/if}}</p>
+  </div>
+
+  <div class="kom-box">
+    <h3>From materials</h3>
+    <div class="kom-stat-row">
+      <label>Hardness <input name="system.hardnessBonus" type="number" value="{{system.hardnessBonus}}"></label>
+      <label>Durable <input name="system.durable" type="number" value="{{system.durable}}" title="+5 HP per point"></label>
+      <label>Complexity <input name="system.complexity" type="number" value="{{system.complexity}}" min="0" title="Bulk +1 per 10"></label>
+      <label>Brittle <input name="system.brittle" type="number" value="{{system.brittle}}" min="0"></label>
+      <label>Rarity <input name="system.rarity" type="text" value="{{system.rarity}}"></label>
+      <label>Grade <input name="system.grade" type="text" value="{{system.grade}}"></label>
+    </div>
+  </div>
+
+  <div class="kom-box">
+    <h3>Notes</h3>
+    <textarea name="system.description" rows="3">{{system.description}}</textarea>
+  </div>
+</div>

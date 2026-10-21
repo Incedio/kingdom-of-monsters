@@ -1,0 +1,977 @@
+[
+ {
+  "name": "Berserker Mode",
+  "type": "talent",
+  "system": {
+   "tree": "Body",
+   "skillGroup": "combat",
+   "tags": "Class",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You can activate this Talent on your turn to become enraged. When enraged you gain the following benefits:</p>\n<ul>\n<li>When you take any damage, gain + 10 to your damage rolls (stackable).</li>\n<li>Regain 10 aura per turn while enraged.</li>\n</ul>\n<p>When you deactivate this talent, you gain exhausted X, where X is 2 times the number of turns you were enraged.</p>\n<p><strong>Rank 2</strong>: While enraged; whenever you take damage, increase the bonus to your damage rolls by 5.</p>\n<p><strong>Rank 3</strong>: If you are exhausted because of being enraged, the max complexity of your martial attacks is increased by 2 for those rounds of being exhausted.</p>\n<p><strong>Rank 4</strong>: While enraged; you regain 5 additional aura per turn you were enraged.</p>\n<p><strong>Rank 5</strong>: You restore 10 hp every turn you are in combat but not enraged.</p>\n<p><strong>Rank 6</strong>: While enraged, you can pay the cost of 15 hp to increase your max complexity by 3 for martial attacks.</p>\n<p><strong>Rank 7</strong>: While enraged, you can pay the cost of 10 percent of your remaining hp to gain one additional melee action.</p>\n<p>You can only use this talent once per turn.</p>\n<p><strong>Rank 8</strong>: While enraged, increase your overland by 1.</p>\n<p><strong>Rank 9</strong>: While enraged, you roll combat skills with advantage.</p>\n<p><strong>Rank 10</strong>: While enraged, you can remove 1 value in a condition you are suffering from except being exhausted, during the recovery phase.</p>"
+  }
+ },
+ {
+  "name": "Bite Combat",
+  "type": "talent",
+  "system": {
+   "tree": "Body",
+   "skillGroup": "adventure",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One Martial School for using a bite.</p>\n<p>When your melee attack or martial art that uses a bite has successfully hit the target(s), add bleed 1.</p>\n<p><strong>Rank 2</strong>: You learn Two martial arts for using a bite.</p>\n<p>If you successfully hit a single target past Tn by 30 by using a bite; while the target has bleed, the target will leave a trail of blood for as long as the target has bleed. When tracking this target effect by this talent, you roll with Advantage.</p>\n<p><strong>Rank 3</strong>: If you attack a single target with bleed, increase the Tn by 10.</p>\n<p><strong>Rank 4</strong>: You learn One additional martial art for using a bite.</p>\n<p>If you successfully hit the target(s) past Tn by 30 by using a bite, you may add your claw modifier to the damage. This counts as a basic claw attack for any effects.</p>\n<p><strong>Rank 5</strong>: You learn One additional martial art for using a bite.</p>\n<p>If you successfully hit the target(s) by using a bite, you increase the damage by harm 1 while the next melee attack with a bite will have the action cost decrease by 1 to a minimum of 1.</p>\n<p><strong>Rank 6</strong>: When your martial art that uses a bite has successfully hit the target(s); while the target(s) has any stacks of bleed, you can deal slashing damage equal to the number of stacks of bleed.</p>\n<p><strong>Rank 7</strong>: You learn One additional martial art for using a bite.</p>\n<p>When your melee attack or martial art that uses a bite has successfully hit the target(s), ignore the bleed resistance by 10 or lower.</p>\n<p><strong>Rank 8</strong>: You learn One additional martial art for using a bite.</p>\n<p>If you successfully hit the target(s) past Tn by 30 by using a bite, you recover 10 hp and the target(s) gains broken limb 1.</p>\n<p><strong>Rank 9</strong>: Your soul art's complexity is decreased by 5 after the school multiplier, to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Five additional martial arts for using a bite.</p>\n<p>When your melee attack or martial art that uses a bite has successfully hit a single target, you can choose to use your bite to grapple the target. While the target is grappled, the target suffers from the additional following effects:</p>\n<ul>\n<li>Movement is reduced to 1 square per action. You must follow the target to an adjacent square to continue the grapple.</li>\n<li>All attacks and spells against the target are rolled with Advantage.</li>\n<li>The target can attempt to break the grapple once per turn, but is rolled with Disadvantage.</li>\n<li>The target takes additional slashing damage equal to the number of stacks of bleed at the end of your turn.</li>\n<li>If you are enraged while using this talent and the target is reduced to 0 hp by this talent, you regain 75 hp.</li>\n</ul>\n<p>You can only use this talent once per Scene.</p>"
+  }
+ },
+ {
+  "name": "Claw Combat",
+  "type": "talent",
+  "system": {
+   "tree": "Body",
+   "skillGroup": "adventure",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One Martial School for using claws.</p>\n<p>When you roll a critical success on your melee attack or martial art that uses claws, add grim wound 1.</p>\n<p><strong>Rank 2</strong>: You learn Two martial arts for using claws.</p>\n<p>When your martial art that uses claws has successfully hit the target(s), deal bonus slashing damage equal to 1/4 your accuracy modifier.</p>\n<p><strong>Rank 3</strong>: Any melee attacks using claws can be dual-wielded without a penalty.</p>\n<p><strong>Rank 4</strong>: You learn One additional martial art for using claws.</p>\n<p>If you successfully hit the target(s) past Tn by 30 by using claws, you may add your tail to the damage. This counts as a basic tail attack for any effects.</p>\n<p><strong>Rank 5</strong>: You learn One additional martial art for using claws.</p>\n<p>When your melee attack or martial art that uses claws has successfully hit the target(s), you increase the damage by harm 1 while the next melee attack with claws will have the action cost decrease by 1 to a minimum of 1.</p>\n<p><strong>Rank 6</strong>: When your melee attack or martial art that uses claws has successfully hit the target(s), increase their Defense by 10 and for each successful attack after that. This talent can go up to max of 30 and lasts up to the end of the scene.</p>\n<p><strong>Rank 7</strong>: You learn One additional martial art for using claws.</p>\n<p>At a cost of 10 hp, your melee attacks or martial art that uses claws deal a bonus 10 slashing damage as long your hp is above half. If this talent cost drops below half hp, the additional bonus damage is doubled.</p>\n<p><strong>Rank 8</strong>: You learn One additional martial art for using claws.</p>\n<p>When your melee attack that uses claws has successfully hit a single target, you restore 5 hp.</p>\n<p><strong>Rank 9</strong>: Your soul art's complexity is decreased by 5 after the school multiplier, to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Five additional martial arts for using claws.</p>\n<p>You can select a single target you can sense. Until the end of the scene, this target is pursued. You gain the following effects:</p>\n<ul>\n<li>When tracking the target, you roll with Advantage.</li>\n<li>Any damage done to the target, Increase by harm 1.</li>\n<li>Once per turn, an attack or spell against you is rolled with Disadvantage.</li>\n<li>When your melee attack or martial art that uses claws has successfully hit the target, add 10 additional slashing damage for each successful hit struck when using this talent.</li>\n<li>If you are enraged while using this talent and the target is reduced to 0 hp by this talent, you regain 75 hp and then choose a new target to pursue.</li>\n</ul>\n<p>You can only use this talent once per day.</p>"
+  }
+ },
+ {
+  "name": "Feral Mastery",
+  "type": "talent",
+  "system": {
+   "tree": "Body",
+   "skillGroup": "combat",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Your bite, claw and tail count as one natural weapon group. The rank 1-3 effects of your Bite, Claw and Tail Combat talents also apply to all three natural weapons, except the lines that teach martial schools or martial arts. Your first natural weapon attack each turn gains +5 accuracy.</p>\n<p><strong>Rank 2</strong>: The aura cost of attacks and martial arts that use natural weapons is decreased by 3 for every 5 points of complexity the action has (round down), to a minimum of 1.</p>\n<p><strong>Rank 3</strong>: When you hit with two different natural weapons in the same turn, the second hit gains harm 1.</p>\n<p><strong>Rank 4</strong>: The rank 4-6 effects of your Bite, Claw and Tail Combat talents also apply to all three natural weapons, except the lines that teach martial schools or martial arts. Natural weapon attacks against a grappled or prone target gain +10 accuracy.</p>\n<p><strong>Rank 5</strong>: Once per turn, after you attack with one natural weapon, you may make a basic attack with a different natural weapon for 1 less action, to a minimum of 1.</p>\n<p><strong>Rank 6</strong>: The aura cost decrease from rank 2 of this talent is changed to 5 for every 5 points of complexity.</p>\n<p><strong>Rank 7</strong>: The rank 7-9 effects of your Bite, Claw and Tail Combat talents also apply to all three natural weapons, except the lines that teach martial schools or martial arts. The harm from rank 3 of this talent is changed to harm 2.</p>\n<p><strong>Rank 8</strong>: Once per scene, one natural weapon attack ignores the target's natural armor. This costs no action.</p>\n<p><strong>Rank 9</strong>: Your soul art's complexity is decreased by 5 after the school multiplier, to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: The rank 10 effects of your Bite, Claw and Tail Combat talents also apply to all three natural weapons, except the lines that teach martial schools or martial arts. Once per scene, you may make one attack with each of your natural weapons against a single target as a single action.</p>"
+  }
+ },
+ {
+  "name": "Fortification",
+  "type": "talent",
+  "system": {
+   "tree": "Body",
+   "skillGroup": "combat",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1:</strong> Increase your Hp by 10, once per scene you can spend aura equal to the damage you are taking to negate the damage.</p>\n<p><strong>Rank</strong> 2: Any Tn involving your con is increased by 3 and you can spend 5 aura to increase the tn by 1 per 5.</p>\n<p><strong>Rank</strong> 3: While being at above 50 percent hp you can ignore 1 condition tag once per scene. During the recovery stage you can lower the value of one condition by 1.</p>\n<p><strong>Rank</strong> 4: Increase your hp by 15, increase your aura regeneration by 1 for every 10 hp you have while above 50 percent hp.</p>\n<p><strong>Rank</strong> 5: When you are required to make a mental check you can instead make it a con check once per day. If you succeed you may use this ability again this scene.</p>\n<p><strong>Rank</strong> 6: Gain resistance to Poison, Fire and cold damage equal to your level in this Talent plus your End. You can spend 15 aura to restore 5 resistance you have once per turn besides bleed resistance.</p>\n<p><strong>Rank</strong> 7: Any Tn involving your End is increased by 3 and increase your max aura by your End.</p>\n<p><strong>Rank</strong> 8: Increase your hp by 15. When a condition besides bleed is applied to you once per scene you may attempt to auto cure it.</p>\n<p><strong>Rank</strong> 9: Whenever you take bleed damage you can make a con check on pass you take no bleed damage this turn.</p>\n<p><strong>Rank</strong> 10: While at above 50 percent hp gain resistance to Blunt, Piercing, and Slashing damage equal to your level in this talent plus your Con.</p>"
+  }
+ },
+ {
+  "name": "Keen Senses",
+  "type": "talent",
+  "system": {
+   "tree": "Body",
+   "skillGroup": "studies",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Increase one Perception skill of your choice by 5. Your passive Perception scores are increased by your level in this talent.</p>\n<p><strong>Rank 2</strong>: You gain dark vision: within burst 6, you treat light stages 0-2 as light stage 3 for your sight and Perception checks.</p>\n<p><strong>Rank 3</strong>: Increase another Perception skill by 5. When you pass a Search check, you also learn whether any creature passed through that area in the last hour.</p>\n<p><strong>Rank 4</strong>: Choose one Perception skill you did not select; it can now be used passively.</p>\n<p><strong>Rank 5</strong>: Creatures attempting to hide from you have their stealth Tn decreased by your level in this talent. Your dark vision range increases to burst 9.</p>\n<p><strong>Rank 6</strong>: Increase two Perception skills by 5. You ignore Half Concealment.</p>\n<p><strong>Rank 7</strong>: When you pass a Trickery Spotting or Examine check against a creature, you also learn one of its resistances or weaknesses.</p>\n<p><strong>Rank 8</strong>: Blind values applied to you are halved (round down), and you can sense creatures within burst 2 without sight. Your dark vision range increases to burst 12.</p>\n<p><strong>Rank 9</strong>: Choose another Perception skill you did not select; it can now be used passively. You now have all 8 Perception skills as passive.</p>\n<p><strong>Rank 10</strong>: You can never be caught in a Stealth Round. Once per scene, as a free action, reveal every hidden creature within burst 10.</p>"
+  }
+ },
+ {
+  "name": "Mana Gland",
+  "type": "talent",
+  "system": {
+   "tree": "Body",
+   "skillGroup": "arcane",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You grow a gland that stores mana, holding up to 5 times your level in this talent. It starts each scene empty. Whenever you regain mana while your mana is full, the extra goes into the gland. You can spend stored mana in place of your own when casting a spell.</p>\n<p><strong>Rank 2</strong>: Whenever you take elemental damage, add mana to your gland equal to half the damage you took after resistance.</p>\n<p><strong>Rank 3</strong>: When you hit with a bite attack, drain mana from the target equal to your level in this talent and add it to your gland.</p>\n<p><strong>Rank 4</strong>: Your gland now holds up to 10 times your level in this talent and starts each scene with mana equal to your Int.</p>\n<p><strong>Rank 5</strong>: As an action you can spit stored mana at a target within range 6, dealing 1d6 damage per 20 mana spent of an elemental type from one of your magic schools.</p>\n<p><strong>Rank 6</strong>: Spells you pay for entirely with stored mana cost 5 less mana, to a minimum of 1.</p>\n<p><strong>Rank 7</strong>: While your gland is at least half full, gain Ward 5.</p>\n<p><strong>Rank 8</strong>: Your mana spit is now a cone 2, and its damage dice become d10.</p>\n<p><strong>Rank 9</strong>: Whenever you pass a Ward roll, add mana equal to half the spell's mana cost to your gland.</p>\n<p><strong>Rank 10</strong>: Once per scene, if your gland is full, you may empty it to cast a spell without paying its mana cost.</p>"
+  }
+ },
+ {
+  "name": "Poison Attack",
+  "type": "talent",
+  "system": {
+   "tree": "Body",
+   "skillGroup": "trades",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1:</strong> When you gain this talent, create a poison with a complexity of 10 this increases by 2 each level you have in this talent it can be applied to natural weapons for free or requires a turn to apply to a weapon lasting for 1 attack. It cost 12 aura per application to a weapon.</p>\n<p><strong>Rank 2:</strong> The poison gains the ability to have its effect modified once per day swapping out one effect for another one of the same complexity cost.</p>\n<p><strong>Rank 3:</strong> When your poison is used for a natural attack it deals 1d4 more damage.</p>\n<p><strong>Rank 4:</strong> The Tn to resist your poison is decreased by 5.</p>\n<p><strong>Rank 5:</strong> Every 6th use of your poison attack in a scene does not cost aura.</p>\n<p><strong>Rank 6:</strong> gain a tier 2 poison with a complexity of 15 increasing by 3 for each level past this one Cost 24 aura.</p>\n<p><strong>Rank 7:</strong> The first use of your poison per scene does not cost aura.</p>\n<p><strong>Rank 8:</strong> While using your poison on a weapon it last for 2 attacks instead of 1.</p>\n<p><strong>Rank 9: Th</strong>e free poison from Rank 5 now happens every 5th use instead of every 6th.</p>\n<p><strong>Rank 10:</strong> Weapons now deal 1d4 more damage and natural weapons deal 1 extra harm.</p>"
+  }
+ },
+ {
+  "name": "Stone Body",
+  "type": "talent",
+  "system": {
+   "tree": "Body",
+   "skillGroup": "combat",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank</strong> 1: lower defense by 5, When a melee attack misses you can deal damage to the attacker equal to half your Durability.</p>\n<p><strong>Rank</strong> 2: Gain natural armor equal to your Con+Lv. This armor regenerates even from zero after 2 rounds of taking no damage.</p>\n<p><strong>Rank</strong> 3: While having natural armor physical attacks against you that do not roll at least 15 under your defense have their weapon take damage equal to the difference between the roll and your defense. Natural weapons instead go down one die size on the harm chart or lose a die of damage.</p>\n<p><strong>Rank</strong> 4: Lower defense by 5, gain piercing resistance equal to Str+End.</p>\n<p><strong>Rank</strong> 5: Any physical resistance you have restores 2 points at the start of each of your turns unless they are fully taken out.</p>\n<p><strong>Rank</strong> 6: Lower defense by 5. Gain blunt resistance equal to Lv+natural armor.</p>\n<p><strong>Rank</strong> 7: While having resistance to physical damage decrease your defense by 20 vs that type of damage.</p>\n<p><strong>Rank</strong> 8: The damage caused by a melee attack is now equal to your Durability.</p>\n<p><strong>Rank</strong> 9: lower defense by 5, physical damage that you do not resist cause you to gain 5 of that type of physical resistance once per scene per type.</p>\n<p><strong>Rank</strong> 10: lower defense by 10 increase all physical resistance by 15.</p>"
+  }
+ },
+ {
+  "name": "Super Speed",
+  "type": "talent",
+  "system": {
+   "tree": "Body",
+   "skillGroup": "adventure",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank</strong> 1: increases movement by 2 and increases your base attack count by 1 for all melee weapons.</p>\n<p><strong>Rank</strong> 2: When dealing attack count damage, increase the damage by 2 per attack count. For every 3 attack counts that hit, increase this bonus by 2.</p>\n<p><strong>Rank</strong> 3: Increase your base attack count by 2, when you land 4 or more attack counts you may make a free dodge action.</p>\n<p><strong>Rank</strong> 4: Increase your overland speed by 2, whenever an enemy makes an attack of opportunity against you. You may roll a speed check on a pass you may use your evasion instead of defense for the attack.</p>\n<p><strong>Rank</strong> 5: When using the sprint or run action once per scene you can make them cost 1 less action to use. Doing so prevents enemies from making attacks of opportunity.</p>\n<p><strong>Rank</strong> 6: Increase your base attack count by 1, the trigger per attack is 4 instead of 5.</p>\n<p><strong>Rank</strong> 7: Increase your overland speed by 2. When running or sprinting increase your movement by 3.</p>\n<p><strong>Rank</strong> 8: Increase your accuracy by 2 for each attack count this action has.</p>\n<p><strong>Rank</strong> 9: Decrease your evasion by 10. When a ranged attack misses you, you can make a movement action.</p>\n<p><strong>Rank</strong> 10: Attack count damage increases by 4 per attack count.</p>"
+  }
+ },
+ {
+  "name": "Super Strength",
+  "type": "talent",
+  "system": {
+   "tree": "Body",
+   "skillGroup": "combat",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank</strong> 1: melee damage is increased by half your Str, you count as one size larger when determining max carry capacity and Str checks.</p>\n<p><strong>Rank</strong> 2: When making a Str check you can roll twice and take the better result once per scene.</p>\n<p><strong>Rank</strong> 3: Physical resistance your target has takes 10 additional damage that is not reduced.</p>\n<p><strong>Rank</strong> 4: Your Str counts as 3 for adventure skills and can use it for combat skills thrice per turn.</p>\n<p><strong>Rank</strong> 5: Melee damage is increased by the aura cost of the martial you use once per turn.</p>\n<p><strong>Rank</strong> 6: You count your Str as 5 higher when making a Str check and can use it once per scene instead of any other Stat check.</p>\n<p><strong>Rank</strong> 7: Decrease your defense by your Str vs physical damage.</p>\n<p><strong>Rank</strong> 8: Physical resistance your target has takes 10 additional damage. This stacks with Rank 3.</p>\n<p><strong>Rank</strong> 9: Decrease the martial aura cost of the first martial each turn by double your Str. this does not reduce the bonus damage super strength does.</p>\n<p><strong>Rank</strong> 10: You count as one size larger when using combat or adventure skills, on success on a skill check using Str the next skill check is increased by twice your strength once per scene.</p>"
+  }
+ },
+ {
+  "name": "Tail Combat",
+  "type": "talent",
+  "system": {
+   "tree": "Body",
+   "skillGroup": "adventure",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One Martial School for using a tail.</p>\n<p> When you hit with a tail attack you may attempt a combat action with a minus 15 to the Tn.</p>\n<p><strong>Rank 2</strong>: You learn Two martial arts for using a tail.</p>\n<p> Your tail gains reach 1.</p>\n<p><strong>Rank 3</strong>: You can increase the action cost of your next tail attack by 1 to use either your claw or bite attack as a dual wield option.</p>\n<p><strong>Rank 4</strong>: You learn One additional martial art for using a tail.</p>\n<p> Increase your tail harm by 1 when attacking a creature grappled or prone.</p>\n<p><strong>Rank 5</strong>: You learn One additional martial art for using a tail.</p>\n<p> Increase your accuracy by 10 if you use another weapon before attacking with your tail or are dual wielding when attacking.</p>\n<p><strong>Rank 6</strong>: Your tail can make the trip action as a free action when ever you make an attack of opportunity.</p>\n<p><strong>Rank 7</strong>: You learn One additional martial art for using a tail.</p>\n<p> Increase your tail reach by 1, the minus to combat actions is now 10.</p>\n<p><strong>Rank 8</strong>: You learn One additional martial art for using a tail.</p>\n<p> When attacking a target that has no ally within burst 2 increase your tail harm by 2.</p>\n<p><strong>Rank 9</strong>: Your soul art's complexity is decreased by 5 after the school multiplier, to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Five additional martial arts for using a tail.</p>\n<p> When attacking a prone or grappled target, you may once per scene use one of the following effects.</p>\n<ul>\n<li>The target takes double damage from your tail.</li>\n<li>They cannot spend their movement on the next turn.</li>\n<li>Increase all condition values by 1.</li>\n</ul>"
+  }
+ },
+ {
+  "name": "Vitality",
+  "type": "talent",
+  "system": {
+   "tree": "Body",
+   "skillGroup": "adventure",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Healing you receive from any source is increased by half your Con.</p>\n<p><strong>Rank 2</strong>: During the Recovery Stage, regain hp equal to your level in this talent.</p>\n<p><strong>Rank 3</strong>: Increase your Con by 1 and its max by the same.</p>\n<p><strong>Rank 4</strong>: Your natural armor regenerates an additional amount equal to half your level in this talent.</p>\n<p><strong>Rank 5</strong>: Once per scene, when you drop below half your hp, gain regeneration equal to your Con (Fire, Acid) for 3 rounds.</p>\n<p><strong>Rank 6</strong>: Increase your Con by 1 and its max by the same. When you treat a condition during the Recovery Stage, decrease it by 1 more.</p>\n<p><strong>Rank 7</strong>: Healing you receive from any source is now increased by your full Con.</p>\n<p><strong>Rank 8</strong>: Increase your max hp by twice your Con.</p>\n<p><strong>Rank 9</strong>: Increase your Con by 1 and its max by the same.</p>\n<p><strong>Rank 10</strong>: Once per day, when you would reach 0 hp, you instead stay at 1 hp and heal for 5 times your Con.</p>"
+  }
+ },
+ {
+  "name": "Alchemy",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "trades",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Starting materials (Draft):</strong> If you take this talent at character creation, you gain 2 Common tier 1 reagents for this craft.</p>\n<p><strong>Rank 1</strong>: Your max complexity for potions is your rank in this talent x5.</p>\n<p>When brewing with 3 or fewer reagents, increase the Tn by 5.</p>\n<p><strong>Rank 2</strong>: <strong>C</strong>oncocting a potion with 2 or fewer reagents increases the Tn by 10. Once per day, you may treat a regular reagent as an arcane; it counts as having a Sorcery of 4.</p>\n<p><strong>Rank 3</strong>: You add your Int as a flat bonus to the healing or damage your potions deal.</p>\n<p><strong>Rank 4</strong>: Brewing a potion with a complexity of 5 or less is an auto pass and its Heal or Harm is doubled.</p>\n<p><strong>Rank 5</strong>: Reagents whose winning-side values total 1 or less do not count as extra reagents (no +2 complexity) when brewing a potion.</p>\n<p><strong>Rank 6</strong>: The maximum range of your throw is increased by 1 Square.</p>\n<p><strong>Rank 7</strong>: You can use 2 arcane ingredients as reagents for brewing potions.</p>\n<p><strong>Rank 8</strong>: The critical range of your potions are increased to 1-10%.</p>\n<p><strong>Rank 9</strong>: Increase the Tn by 10 for saves vs being poisoned.</p>\n<p><strong>Rank 10</strong>: You can brew a potion instantly as a free action at no cost; however, this potion is unstable and will explode, setting off an effect. At the end of your turn, roll a d10 to see what effect the potion will have:</p>\n<ul>\n<li><strong>1</strong> - Any targets within a radius of Blast 1 can take an additional action on their turn.</li>\n<li><strong>2</strong> - Any targets within a radius of Blast 1 next attack roll is rolled with Disadvantage.</li>\n<li><strong>3</strong> - A cloud of magical smoke within a radius of Blast 4 explodes and lasts until the end of your next turn. Any targets within this cloud are considered blinded for the duration inside the cloud.</li>\n<li><strong>4</strong> - Any targets within a radius of Blast 2 have advantage on their saves until the end of your next turn.</li>\n<li><strong>5</strong> - Any targets within a radius of Blast 2 have disadvantage on their saves until the end of your next turn.</li>\n<li><strong>6</strong> - Any targets within a radius of Blast 2 gain Weakness 1 to poison damage until the end of your next turn.</li>\n<li><strong>7</strong> - Any targets within a radius of Blast 3 regain 2d10 hp.</li>\n<li><strong>8</strong> - Any targets within a radius of Blast 3 take 2d10 poison damage.</li>\n<li><strong>9</strong> - Any targets within a radius of Blast 1 become invisible until the end of your next turn.</li>\n<li><strong>10</strong> - You may select any result from this table.</li>\n</ul>\n<p>You can only use this talent once per Scene.</p>"
+  }
+ },
+ {
+  "name": "Attunement",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "any",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: When you find a magic item and you don't meet the requirements to use it, you may choose to attune to it instead. When you do, you can choose one of the following benefits:</p>\n<ul>\n<li>Increase One stat of your choice by 1 (stackable) at a maximum of 5 per Stat.</li>\n<li>Increase your mana or aura regeneration by 1 (Stackable) at a maximum of 10 to either.</li>\n<li>Decrease the number of days between regaining soul by 1 for each set of 5 magic items attuned this way (stackable) with a maximum of One per week.</li>\n</ul>\n<p><strong>Rank 2</strong>: Unusable magical items may be broken down to create One rune (up to the maximum size of 5) that you are aware of at the cost of 10 items to make per rune.</p>\n<p><strong>Rank 3</strong>: Increase the maximum amount of attunement bonus by 5.</p>\n<p><strong>Rank 4</strong>: You can over enchant 1 item for every 5 unusable magic items you are attuned to with up to \u00f73 bonus enchantment.</p>\n<p><strong>Rank 5</strong>: At the cost of attuned unusable magical item, you gain one benefit:</p>\n<ul>\n<li>You regain 30 hp per each Tier of the item.</li>\n<li>You regain 45 mana per each Tier of the item.</li>\n<li>You regain 60 aura per each Tier of the item.</li>\n</ul>\n<p><strong>Rank 6</strong>: You gain the ability to increase your hoard value by 20 for each attunement up to a maximum of a value of 300.</p>\n<p><strong>Rank 7</strong>: Increase your Lair strength by 5 for each magic item you have attuned to.</p>\n<p>If your hoard value is above your bounty, Adventurers that come after you will bring 1d4 random level appropriate additional unusable magic items.</p>\n<p><strong>Rank 8</strong>: Whenever you find a magic item that has ward against you, you may attempt to break it at no cost with an 80 reduction to the Tn.</p>\n<p><strong>Rank 9</strong>: When battling an enemy carrying a magical item, you can immediately sense what magic that item has.</p>\n<p><strong>Rank 10</strong>: Before you or an ally make a dice roll, you can choose to boost the roll by sacrificing attuned items you are using. The effect to this roll is changed by the number of items you sacrificed. The effects are:</p>\n<ul>\n<li><strong>1 Item</strong>: Increase the Tn of that roll by 10.</li>\n<li><strong>2 Items</strong>: Roll with Advantage.</li>\n<li><strong>3 Items</strong>: Make the Roll an Automatic Success.</li>\n</ul>\n<p>You can only use this talent once per day.</p>"
+  }
+ },
+ {
+  "name": "Blacksmithing",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "trades",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Starting materials (Draft):</strong> If you take this talent at character creation, you gain 2 Common tier 1 materials for this craft.</p>\n<p><strong>Rank 1</strong>: Your max complexity for armor, weapons, tools, and other materials-based equipment is your rank in this talent x5.</p>\n<p>When crafting any armor, weapons, tools, and other materials-based equipment, any materials with the same attribute will count as 1 less complexity per material used with a minimum of 1.</p>\n<p><strong>Rank 2</strong>: All weapons and armor you successfully crafted will contain one engraved slot of size 1 for free.</p>\n<p><strong>Rank 3</strong>: You add your End/4 to an attribute of your crafted armor, weapons, tools, and other materials-based equipment.</p>\n<p><strong>Rank 4</strong>: When you craft a weapon or armor while using Tier 1 materials while using 3 or less materials, the weapon or armor will gain one engraved slot of size 2 for free.</p>\n<p><strong>Rank 5</strong>: You may use materials with a complexity of 1 without it counting towards the total complexity of the item unless it is only made with complexity 1 items or it is twice the number of other materials in total.</p>\n<p><strong>Rank 6</strong>: Increase the accuracy by 10 when using any weapons crafted by you.</p>\n<p><strong>Rank 7</strong>: When you craft a weapon or armor while using Tier 1 materials with 1 Tier 2 material, increase one attribute by 3.</p>\n<p><strong>Rank 8</strong>: When you craft armor, weapons, tools, or other materials-based equipment; increase the critical range of your crafting checks by 2.</p>\n<p><strong>Rank 9</strong>: Increase the Tn by 10 for saves vs being on fire.</p>\n<p><strong>Rank 10</strong>: When you or an ally uses a weapon or armor you have made. Depending on the type of item, you gain one of the following effect:</p>\n<ul>\n<li><strong>Weapon</strong>: The attack automatically hits the target(s), but the weapon's harm is decreased by 1 (to a minimum of harm 2).</li>\n<li><strong>Armor</strong>: Reduce any damage taken by half.</li>\n</ul>\n<p>You can only use this talent once per turn.</p>"
+  }
+ },
+ {
+  "name": "Bluff",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "social",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Increase the Tn by 10 whenever you use any social skills that use deception.</p>\n<p><strong>Rank 2</strong>: Whenever you succeed in a social skill roll by using deception against a single target past Tn by 30, the target is convinced to do one simple task that takes 1 round. The task is subject to Game Master's discretion. Example: the target won't harm themselves or attempt to do anything they know they can't do.</p>\n<p><strong>Rank 3</strong>: When any target(s) have failed their perception save against your social skill rolls that use deception, any future failed rolls the target(s) make against your deceptions will decrease the Tn by 10 for each failure. This can go up to max of 30 within a 24 hour period.</p>\n<p><strong>Rank 4</strong>: Whenever you succeed in a social skill roll by using deception against a single target past Tn by 30, you don't require any additional rolls for the next 5 rounds. However, the deception must be within logical reasons and subject to Game Master's discretion. Example: The target won't believe that a beggar on the street is secretly the king of a country.</p>\n<p><strong>Rank 5</strong>: Whenever you fail a social skill roll by using deception against the target(s) Tn by up to 10, you can reroll again for free.</p>\n<p>You can only use this talent once per Scene.</p>\n<p><strong>Rank 6</strong>: Whenever you succeed in a social skill roll by using deception against a single target, that target can't use any social skill rolls against you while using deception for the rest of the Scene.</p>\n<p><strong>Rank 7</strong>: Whenever you succeed in a social skill roll by using deception against targets within a city of 1 hex, any future deception rolls against those targets will Increase the Tn by 10 for 24 hours.</p>\n<p><strong>Rank 8</strong>: Whenever you succeed in a social skill roll by using deception against a single target; within the next 2 rounds, your next weapon attack or spell against the target can be rolled with Advantage. If the target is hit, the effects of deception are negated.</p>\n<p>You can only use this talent once per Scene.</p>\n<p><strong>Rank 9</strong>: Increase the Tn by 10 for whenever you use a perception skill against any deception.</p>\n<p><strong>Rank 10</strong>: In combat, you can attempt to use a social roll against a single target with the deception being that another target, within range of 10 squares, is an enemy. The target will be enraged against the other chosen target for X turns, where X is equal to 1 per 10 you passed the Tn by.</p>\n<p>You can only use this talent once per day.</p>"
+  }
+ },
+ {
+  "name": "Construct-ion",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "trades",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Starting materials (Draft):</strong> If you take this talent at character creation, you gain 2 Common tier 1 materials for this craft.</p>\n<p><strong>Rank 1:</strong> You gain the ability to create and command 1 Golem, Homunculus, or any other type of Construct (Golems, Homunculi, or any other type of Constructs are considered minions when applying leadership talents). However, Golems, Homunculi, or any other type of Constructs are different than minions in these ways:</p>\n<ul>\n<li>They are completely loyal and don't require morale checks to obey commands.</li>\n<li>They have no will of their own. Once they complete a command, they will stand still and wait for the next command to follow. If no command is made within 24 hours of standing still, the construct will return back to your lair.</li>\n<li>They can't regain hp the usual way. They can regain hp through repairs.</li>\n</ul>\n<p>Golems, Homunculi, or any other type of Constructs don't count towards the max number of minions you can command.</p>\n<p><strong>Rank 2:</strong> You can now create and control up to 4 Homunculi.</p>\n<p>You can put up to 4 Homunculi you control in a throwable bottle. Once thrown, wherever the bottle lands will release any Homunculi inside the bottle at a blast 2 (including occupied spaces). Any enemy target(s) within this blast radius must make a save vs being feared with a decrease to the Tn by 10.</p>\n<p><strong>Rank 3:</strong> All ranged or melee weapon attacks targeted at you will be redirected to an adjacent Golem, Homunculus, or any other type of Construct you control instead.</p>\n<p><strong>Rank 4:</strong> You can now create and control up to 2 Golems.</p>\n<p>Whenever a Golem you control has successfully hit target(s) with an attack, the target(s) must make a save vs being taunted with a decrease to the Tn by 10. If the throw fails, the target(s) gains 1 taunted (stackable).</p>\n<p><strong>Rank 5:</strong> You can now create and control up to 2 Constructs that aren't Golems or Homunculi.</p>\n<p>You can equip 1 of these Constructs you control with upgrades. Turrets use the Construct's stats with the weapon damage listed in the Construct upgrades table. Whenever a Construct's ranged attack with a turret has successfully hit the target(s), the target(s) is pushed back by 1 square.</p>\n<p><strong>Rank 6:</strong> All martial arts or spells targeted at you will be redirected to an adjacent Golem, Homunculus, or any other type of Construct you control instead.</p>\n<p><strong>Rank 7:</strong> You can now create and control up to 6 Homunculi.</p>\n<p>Homunculi you control gain the ability to throw slime at a single target. Whenever a Homunculus you control has successfully hit a target with a slime throw, the target must make a save vs being blinded with a decrease to the Tn by 10. If the throw fails, the target gains 1 blinded (stackable). Whenever an ally successfully hits this blinded target with a weapon attack, the ally regains mana or aura up to half of the damage dealt (round down).</p>\n<p><strong>Rank 8:</strong> You can now create and control up to 3 Golems.</p>\n<p>You can create a Golem's Heart and place it inside a Golem you control. You can fill this heart with life force at a cost up to a max of 50 mana (refillable). Whenever a Golem with a heart takes any damage, all allies within burst 3 can regain hp equal to the damage taken up to the remaining life force inside the heart.</p>\n<p>You can only create up to 1 Golem's heart at a time.</p>\n<p><strong>Rank 9:</strong> Whenever a Golem, Homunculus, or any other type of Construct you control takes any damage, the damage is reduced by half.</p>\n<p>You can only use this talent once per turn.</p>\n<p><strong>Rank 10:</strong> You can command a Golem, Homunculus, or any other type of Construct you control to run to a targeted location within sight. It will run to the location and explode, any target(s) within a range of Blast 3 of the explosion will take force damage equal to the remaining hp of the chosen Golem, Homunculus, or any other type of Construct.</p>\n<p>You can only use this talent once per turn.</p>\n<p>#### Construct Tables</p>\n<p>Golems Constructs Homunculi</p>\n<p>*Unit of something is 1 ton of it*</p>\n<p>*R is your rank in the associated talent. Every construct has a minimum of 1 hp.*</p>\n<p><code>|  |  |  |  |</code></p>\n<p><code>| :-: | :-: | :-: | :-: |</code></p>\n<p><code>| Name | Stats | Materials | Attack base |</code></p>\n<p><code>| Stone Golem | Hp: 15\\\\\\*(R/2)Defense 80-6R Evasion 130-2RAccuracy 4R | 4 units of stone, Golem heart | Slam: R/3d8Defense Code: decrease its defense by 30 |</code></p>\n<p><code>| Granite Golem | Hp: 24\\\\\\*(R/3)Defense 85-4R Evasion 95-1.5RAccuracy 3R | 4 units of stone of the smooth class, Golem heart | Slam: R/2d6Imbue with magic: You can store up to three spells to be cast by the golem later, with a total complexity of 8R or less. You pay the stored spells&#x27; mana when you store them; it does not come from the golem&#x27;s heart. |</code></p>\n<p><code>| Clay Golem | Hp: 14\\\\\\*(R/2)Defense 100-3R Evasion 75-5RAccuracy 3R | 6 units of stone of the soft class, Golem heart | Slam: R/.75d6 and the target is grappledOld of its kind: Commands given to this golem can be given in non-direct language. |</code></p>\n<p><code>| Bone Golem | Hp: 5\\\\\\*(R/5)Defense 110-R Evasion 50-RAccuracy 2R | 3000 small bones, Golem heart | Slam: R/4d10 and the target gains bleed RBone repair: This construct regains 3R hp each turn. Unless its heart is destroyed, it can heal even at 0 hp. This regeneration costs nothing from its heart, but stops while its heart is empty. |</code></p>\n<p><code>| Flesh Golem | Hp: 25\\\\\\*(R/3)Defense 95-R Evasion 65-4RAccuracy 3R | 15 medium size bodies, Golem heart | Slam: R/6d8 and the target must make a Con check or become Sickened 3Flesh unbroken: You can repair this golem mid combat as an action and decrease its defense by 15 and give it immunity to electricity |</code></p>\n<p><code>| Silver Homunculus | Hp: 2\\\\\\*(R/6)Defense 135-3R Evasion 20-6RAccuracy 4R | 1 piece of silver | Scratch: R/2d4Bane of monsters: When attacking a non-human, non-natural beast, double any values applied. |</code></p>\n<p><code>| Ruby Homunculus | Hp: 1\\\\\\*(R/5)Defense 120-2R Evasion 35-4RAccuracy 4R | 1 Ruby | Scratch: R/4d4Captured blood: Whenever a creature within burst 8 of this creature takes bleed damage, this creature stores that damage. Once per turn, a creature may heal for any damage stored. |</code></p>\n<p><code>| Copper Homunculus | Hp: 4\\\\\\*(R/4)Defense 110-4R Evasion 40-2RAccuracy 4R | 3 Copper ore | Scratch: R/2d6Conductor of Mages: Spells cast by the user count as being 1 spell level higher for every action they channel them for. |</code></p>\n<p><code>| Glass Homunculus | Hp: 1\\\\\\*(R/6)Defense 115-2R Evasion 60-4RAccuracy 4R | A pile of sand | Scratch: R/.75d4See Through Illusions: While this creature is within burst 2 of a creature, it and whoever holds it are immune to any mental condition being applied or increased. |</code></p>\n<p><code>| Iron Construct | Hp: 25\\\\\\*(.75R)Defense 40-2R Evasion 50-4RAccuracy 5R | 8 units of Iron, 4 units of wood, Construct heart | Smash: R/.5d10Reinforced body: This creature takes half damage from physical attacks |</code></p>\n<p><code>| Stone Construct | Hp: 35\\\\\\*R/2Defense 55-3R Evasion 65-3RAccuracy 3R | 15 units of stone, 9 units of leather, Construct heart | Smash: R/4d10Of the earth: This creature has ward equal to 4R and on successfully negating a spell it heals equal to the spell&#x27;s mana cost times 2. |</code></p>\n<p><code>| Clockwork Construct | Hp: 40\\\\\\*(R/3)Defense 60-4R Evasion 55-4RAccuracy 3R | 4 units of iron, Tier 3 Forge, 3 units of sand, Construct heart | Smash: R/4d8Chemical mix: This creature can apply any potion stored within it as a free action to its smash attack. It can choose to not deal damage, and it can store 8 potions. |</code></p>\n<p><code>| Skeleton Construct | Hp: 45\\\\\\*R/4Defense 55-3R Evasion 40-5RAccuracy 2R | 6000 small bones, 4000 medium bones, 2000 large bones, Construct heart | Smash: R/.33d6 and the target gains bleed 2RUndead creation: When this creature is destroyed, if its heart is not destroyed, it is fully healed 10 rounds later. It returns with half the hp its heart had left (rounded down), and it does not return if its heart is empty. |</code></p>\n<p><code>| Martial Construct | Hp: 40\\\\\\*(R/4)Defense 20-4R Evasion 35-RAccuracy 7R | 8 large corpses, 10 aura gems, 4 magic gems, Construct heart | Smash: R/.5d12Combat expert: Each time this creature attacks the same creature increase its accuracy by 8. |</code></p>\n<p><code>| Bronze Construct | Hp: 35\\\\\\*(.25R)Defense 45-3R Evasion 35-RAccuracy 4R | 5 units of Bronze, Construct heart, 2 units of iron | Smash: R/.75d12Shining presence: All allies within burst R/2 decrease their Evasion by R. |</code></p>\n<p><code>| Myriad Construct | Hp: 15\\\\\\*(.75R)Defense 55-3R Evasion 45-RAccuracy 5R | 2 Units of Stone, 2 units of copper, 2 units of tin, 2 units of gold, 2 units of Magical metal, Construct heart | Smash: R/6d12The all around construct: This construct&#x27;s weapons deal a random elemental damage type, and it gains 3R resistance to that element until the start of its next turn. |</code></p>\n<p><code>| Crystal Construct | Hp: 10\\\\\\*(.75R)Defense 85-2R Evasion 25-RAccuracy 4R | 10 units of magical or aura gemsConstruct heart | Smash: R/5d12Magical focus: This construct can learn up to 4 spells and store mana to cast them up to a max of 25R mana. This mana store is separate from its heart, and it casts these spells from this store instead of its heart |</code></p>\n<p><code>| Treedum | Hp: 65\\\\\\*(1.5R)Defense 50-3R Evasion 50-RAccuracy 3R | Must be a mandrake, a huge tree | Smash: 2Rd12 |</code></p>\n<p>Constructs upgrades</p>\n<p><code>|  |  |  |  |  |</code></p>\n<p><code>| :-: | :-: | :-: | :-: | :-: |</code></p>\n<p><code>| Name | Materials | Group | Effect | Weapon damage |</code></p>\n<p><code>| Crossbow | 3 wood | Siege (Turret) | Ballista: Rd8Range: 3R | piercing |</code></p>\n<p><code>| Bone Shatter | 1200 small bones, 300 large bones | Armor | Spike shell: Any melee attack made within reach 3 takes Rd6 bleed. | piercing |</code></p>\n<p><code>| Catapult | 2 stone 4 wood | Siege (Turret) | Launch: R/2d8 (minimum 1d8)Range: R, Blast R/4 (minimum 1). Cannot be used within burst R/2 of the user. | blunt |</code></p>\n<p><code>| Teleporting Horn | 30 gems, 1 wood, 1 metal | Magic | Hallowed Warning: All allies who hear the horn can teleport to the user. | R/3d6 sonic |</code></p>\n<p><code>| Time Glass Lobber | 2 units of sand, 3 metal | Siege (Turret) | Orb of magic: The creature launches a magical orb that deals its effect with its blast increased by 1. | See orb (deals the damage type of the Orb crafting item) |</code></p>\n<p><code>| Mining Drill | 3 metal | Labor | Drill: Rd4Attack count 2. This doubles each time this weapon hits until it misses or isn&#x27;t used for a turn, and any hit always procs the full attack count. | blunt |</code></p>\n<p><code>| Gun Arm | 7 metal | Arm replacement | This unit gains a ranged gun attack that automatically reloads up to 3 bullets per turn. | piercing |</code></p>\n<p><code>| Bladed Arm | 4 metal | Arm replacement | This unit gains access to a large bladed weapon as one of its limbs. | slashing |</code></p>\n<p><code>| Shield Integration | 1 magical shield, 2 iron or bone | Armor | This unit can now be equipped with a shield as part of its body. | Shield bash: R/4d6 blunt |</code></p>\n<p><code>| Crawler Legs | 2 metal | Leg replacement | The construct ignores all difficult terrain and increases its movement by 10. | Stabbing leg: R/4d6 |</code></p>\n<p><code>| Food Processor | 1 metal | Labor | Grind: This unit can process harvested materials or ingredients. Meals made with ingredients it processed gain 1 grade. | \u2014 |</code></p>\n<p><code>| Transport Space | 4 wood, 2 metal | Labor | This unit can carry up to R Medium creatures or 3R units of materials inside it. Creatures inside take half damage from AoE attacks. | \u2014 |</code></p>\n<p><code>| Targeting Assist | 2 metal, 1 gem | Siege | Turrets on this unit increase their accuracy by R and ignore cover. | \u2014 |</code></p>\n<p><code>| Mana Battery | 10 magic gems, 2 metal | Magic | Stores up to 10R mana. You or an ally within burst 3 can draw from it as a free action once per turn. | \u2014 |</code></p>\n<p><code>| Aura Battery | 10 aura gems, 2 metal | Magic | Stores up to 10R aura. You or an ally within burst 3 can draw from it as a free action once per turn. | \u2014 |</code></p>\n<p><code>| Energy Absorption | 5 magic gems, 3 metal | Armor | Once per turn, when this unit takes elemental damage, reduce it by R and store the reduced amount in a Mana or Aura Battery on this unit. | \u2014 |</code></p>\n<p><code>| Tread Movement | 4 metal, 2 leather | Leg Replacement | This unit can&#x27;t be knocked prone or pushed and ignores difficult terrain, but its movement is decreased by 2. | Crush: R/4d8 blunt |</code></p>\n<p>Construct hearts: When a Construct is activated in a Scene, its heart takes half your hp. This lowers your current hp but not your max hp, and the hp is restored to you at the end of the Scene. A Construct heart cannot be refilled during the Scene.</p>\n<p>Golem heart: Holds \u2153 your mana while the golem is activated, and starts every fight full. As an action, while in melee range of the golem, you can spend 40 mana to refill it by 40 (up to its max). The up to 50 mana in Rank 8 is the most the heart can heal others for.</p>\n<p>Heart costs: Movement, basic attacks (Slam, Smash, and Scratch), and passive abilities cost nothing. Each use of an active special ability or an upgrade's attack costs 2R from the heart: mana from a Golem heart, hp from a Construct heart. When a heart is empty, its Golem or Construct shuts down until the heart is refilled (a Construct heart can't be refilled, so it stays shut down for the rest of the Scene).</p>"
+  }
+ },
+ {
+  "name": "Magical Recipes",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "trades",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Starting materials (Draft):</strong> If you take this talent at character creation, you gain 2 Common tier 1 ingredients for this craft.</p>\n<p><strong>Rank 1</strong>: Your max complexity for meals is your rank in this talent x5.</p>\n<p>You can now craft meals using magical ingredients. Whenever you use meals with magical ingredients, that meal will give the consumer an additional 10 to their accuracy for 4 rounds.</p>\n<p><strong>Rank 2</strong>: After you or an ally consumes a meal you prepared, whoever ate the meal gains 25 Natural Armor.</p>\n<p><strong>Rank 3</strong>: When preparing meals, increase the Tn by your Agi, Wis, or Speed.</p>\n<p><strong>Rank 4</strong>: When you scavenge for ingredients for preparing your meals, you will always find at least 1 ingredient. The grade of this ingredient is 1d4 (1 horrible, 2 poor, 3 basic, 4 good).</p>\n<p><strong>Rank 5</strong>: Any meals you prepare ignore 1 flavor value from an ingredient.</p>\n<p><strong>Rank 6</strong>: When you scavenge for ingredients for preparing your meals, you may roll with Advantage.</p>\n<p><strong>Rank 7</strong>: After you or an ally consumes a meal you prepared, the effects of the meal will now last 1d4 additional turns.</p>\n<p><strong>Rank 8</strong>: If the grade of your meal is great or higher, all of the effects of the meal are increased by 1. Also, after you or an ally consumes a meal you prepared, the effects of the meal will now last 1d4 scenes instead of the normal duration.</p>\n<p><strong>Rank 9</strong>: You can prepare a meal and can double the effect of 1 flavor value; however, that meal's shelf life is halved (round up).</p>\n<p>You can only use this talent once per day.</p>\n<p><strong>Rank 10</strong>: You can prepare a special meal at no cost. This meal will give double the effect of natural armor and one additional effect from the chosen three effects. The effects are:</p>\n<ul>\n<li><strong>Minor Boon</strong>: The target that ate this meal has their next attack or spell imbued with an elemental damage type of your choice (Acid, Cold, Electricity, Fire, Force, Nether, Poison, or Sonic).</li>\n<li><strong>Minor Resistance</strong>: The target that ate this meal has the next attack or spell made against them to gain resistance to an elemental damage type of your choice (Acid, Cold, Electricity, Fire, Force, Nether, Poison, or Sonic).</li>\n<li><strong>Minor Bane</strong>: The next creature hit by an attack or spell from the target that ate this meal gains Weakness 1 to an elemental damage type of your choice (Acid, Cold, Electricity, Fire, Force, Nether, Poison, or Sonic).</li>\n</ul>\n<p>You can only use this talent to prepare this meal once per day.</p>"
+  }
+ },
+ {
+  "name": "Digging",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "trades",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You gain a base burrow speed of 10 Squares.</p>\n<p><strong>Rank 2</strong>: While you dig or burrow, you are aware of any creature moving on or under the ground within burst 3 of you.</p>\n<p><strong>Rank 3</strong>: When you burrow or move through difficult terrain, it costs 1 less square of movement to cross to a minimum of 1.</p>\n<p><strong>Rank 4</strong>: If you find materials that can be used for crafting while burrowing, the Tn is 25 for the material to not be destroyed by your digging for them and are instead gathered.</p>\n<p><strong>Rank 5</strong>: If you melee attack a single target while burrowed, that attack gains the benefits of stealth. If the attack reduces the target's hp to 0, your base burrow speed increases by 5 Squares until the start of your next turn.</p>\n<p><strong>Rank 6</strong>: While you're burrowed, All spells from the School of Earth cast on any Squares you're in will automatically fail to affect you unless the caster is aware of your location.</p>\n<p><strong>Rank 7</strong>: While you're burrowed underneath any squares of difficult terrain, you gain resistance 10 to any physical damage.</p>\n<p><strong>Rank 8</strong>: If you cast any spells that deal Cold or Fire damage while burrowed, the targeted location of the spell of Blast 2 becomes difficult terrain.</p>\n<p><strong>Rank 9</strong>: If you move less than half of your speed while burrowed, your roll for tunnel stability may be rolled with Advantage.</p>\n<p><strong>Rank 10</strong>: While you're burrowed, you can choose to make a grapple roll against a single target. If the target fails the grapple roll, you can choose to drag the target down underground with you. While the target is underground, the target suffers from the additional following effects:</p>\n<ul>\n<li>The target's base Movement is reduced to 0 squares.</li>\n<li>The target can't cast spells.</li>\n<li>The target can attempt to dig themselves out with a Str check, but it is rolled with Disadvantage.</li>\n<li>If the target is underground for more than 3 turns, the target must make a Con check at the end of their turn or take 1d4 damage per turn until they pass.</li>\n</ul>\n<p>You can only use this talent once per Scene.</p>"
+  }
+ },
+ {
+  "name": "Dual Mastery",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "combat",
+   "tags": "Class",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: At the start of your turn, you may choose to enter a Magus Stance. When using this stance, you gain the following effects until the end of the Scene:</p>\n<ul>\n<li>The range of your spells are reduced to a maximum range of the melee weapon you are currently using.</li>\n<li>The cost of your spells are equally split between mana and aura.</li>\n<li>Your melee weapon gains a benefit from a 1st-Tier spell from a school of Magic you know at a cost of one action. All martial arts that use this melee weapon also gain a benefit from that spell. (The cost is half of the complexity of the martial art. The martial art must deal damage. You are immune to damage and effects caused by the spell unless you choose to have it do so. The spell effect lasts until the end of Scene or until you choose to swap it out for another spell.).</li>\n</ul>\n<p><strong>Rank 2</strong>: While using a Magus Stance, your melee weapon may now gain benefits from Two 1st-Tier spells from a school of Magic you know instead of the one. However, the first spell used after activating this talent is removed from the weapon.</p>\n<p><strong>Rank 3</strong>: While using a Magus Stance, you may increase the max complexity by 2 for all spells that use your melee weapon as a focus. The weapon also increases the damage by harm 1 when using this talent.</p>\n<p><strong>Rank 4</strong>: When using a spell with your melee weapon as a focus, you may use your weapon attack stat for the spell.</p>\n<p><strong>Rank 5</strong>: When your focused spell has successfully hit the target(s) while using a Magus Stance, you can increase the range of your next spell by 1 Square.</p>\n<p><strong>Rank 6</strong>: Whenever your melee weapon gains a benefit from any spells, that weapon deals the damage type of that spell.</p>\n<p><strong>Rank 7</strong>: While using a Magus Stance, you can counter any spells as your reaction instead of using an action on your turn with a decrease the Tn by 10, if you succeeded increase your next crit percent to 10%.</p>\n<p><strong>Rank 8</strong>: Whenever you successfully counter any spells targeted against you while using a Magus Stance, you reflect damage back to the spell caster. Increase damage by harm 1.</p>\n<p><strong>Rank 9</strong>: Whenever your melee weapon deals elemental damage, that weapon deals double damage to resistances.</p>\n<p><strong>Rank 10:</strong> While using a Magus Stance, you can add schools of Magic to the schools you know depending on the current weapon being used. Spells cast with these weapons also have an additional cost depending on the school of magic chosen. The schools of Magic with additional costs are from the following weapons:</p>\n<ul>\n<li><strong>Axe</strong>: You can choose Earth and Gravity to the schools of Magic you know. You can choose to pay the cost of health instead of mana.</li>\n<li><strong>Hammer</strong>: You can choose Healing and Necromancy to the schools of Magic you know. You can choose the cost of aura or mana on a willing target instead of your own.</li>\n<li><strong>Bow</strong>: You can choose Air and Weather to the schools of Magic you know. The maximum range of spells cast using this weapon is half of the range of the bow.</li>\n<li><strong>Dagger</strong>: You can choose Cosmic and Electricity to the schools of Magic you know. You can choose to remove stealth instead of paying the usual cost.</li>\n<li><strong>Natural</strong>: You can choose Demonic and Plant to the schools of Magic you know. When casting spells while using this weapon, reduce your movement speed to 1 square.</li>\n<li><strong>Polearm</strong>: You can choose Electricity and Weather to the schools of Magic you know. Spells cast using this weapon cannot target a creature closer than your weapon's reach.</li>\n<li><strong>Sword</strong>: You can choose Fire and Water to the schools of Magic you know. You can choose to pay the full cost with aura or mana.</li>\n</ul>\n<p>&lt;!-- end list --&gt;</p>\n<ul>\n<li><strong>Unarmed</strong>: You can choose Biomancy to the schools of Magic you know. You can use Bleed Resistance as a substitute cost for aura or mana instead.</li>\n</ul>\n<p>The School of Magic known will change once you change weapons.</p>"
+  }
+ },
+ {
+  "name": "Fear Presence",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "social",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: All creatures within burst 2 of you must check once per scene at the start of their turn. On failure they gain feared 2 and it increased by 1 each turn they last in the area.</p>\n<p><strong>Rank 2</strong>: the Tn of skill checks you make vs creatures that have feared is increased by 10 per point of fear.</p>\n<p><strong>Rank 3</strong>: the damage you deal to creatures who are feared is increased by 3 per point of fear.</p>\n<p><strong>Rank 4</strong>: Increase the range of the fear check by 2. If a creature has fear 5 or more they gain Petrifying 1 and your accuracy vs feared target is increased by 2 per point of fear.</p>\n<p><strong>Rank 5</strong>: the check can be done twice per scene and you can choose to ignore allies when this effect is activated.</p>\n<p><strong>Rank 6</strong>: The Tn for the Will check is decreased by 10.</p>\n<p><strong>Rank 7</strong>: Increase the base fear by 1.</p>\n<p><strong>Rank 8</strong>: While having a creature feared allies gain increased accuracy by the fear value while within burst 3 of you.</p>\n<p><strong>Rank 9</strong>: Range attacks done against you must make an easy check if you are unaware of them or a hard one if you take your reaction to stare right at the attacker. On failure the range attack fails and the attacker's turn ends.</p>\n<p><strong>Rank 10</strong>: Increase the base fear by 3 and while a creature is fearing you all other creatures have the Tn to save against mental effects decreased by twice the total value of feared in the scene.</p>"
+  }
+ },
+ {
+  "name": "Grappler",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "combat",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Create a combat Skill it gains +5 when attempting to grapple or tackle another creature. While maintaining this grapple the target's skills have minus 10 to them unless they have a skill that boosts their ability to grapple or tackle.</p>\n<p><strong>Rank 2</strong>: While grappling a creature increase your accuracy by this skill for natural and light weapons.</p>\n<p><strong>Rank 3</strong>: if a range attack would target you while grappling a creature you can make a hard combat check; on pass the creature you are grappling takes the attack instead of you.</p>\n<p><strong>Rank 4</strong>: You can make a combat check when attacking with an unarmed attack on success give the target broken limb 1.</p>\n<p><strong>Rank 5</strong>: Increase the skill by 10, while grappling, the target loses 1d10 hp at the end of your turn. This damage ignores natural armor and armor.</p>\n<p><strong>Rank 6</strong>: Unarmed attack gain plus 2 harm while grappling a creature.</p>\n<p><strong>Rank 7</strong>: If the target attempts to break your grapple you may roll twice and take the better result.</p>\n<p><strong>Rank 8</strong>: As long as you maintain a grapple you take no penalty for using two handed weapons and you double your aura regeneration.</p>\n<p><strong>Rank 9</strong>: Increase the skill by 5 and you can throw a target you are grappling at a creature within Str distance dealing 2d10 per square traveled to both targets if it hits another creature. Or just 2d10 to the formerly grappled creature.</p>\n<p><strong>Rank 10</strong>: The loss of life at the end of your turn is now 1d12 and increased by 1 die each turn you maintain the grapple.</p>"
+  }
+ },
+ {
+  "name": "Heightened Mind",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "studies",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Increase your max mana by 10 and your mana regeneration by 1.</p>\n<p><strong>Rank 2</strong>: Spells you cast deal additional damage equal to your Int or Wis divided by 4 (round down).</p>\n<p><strong>Rank 3</strong>: Increase your mana regeneration by 1 for every 20 mana you are missing.</p>\n<p><strong>Rank 4</strong>: Increase your max mana by 15. Your mana regeneration does not stop while you are channeling a spell.</p>\n<p><strong>Rank 5</strong>: Once per scene, as a free action, regain mana equal to your level in this talent times 5.</p>\n<p><strong>Rank 6</strong>: Increase the harm of your focused spells by 1.</p>\n<p><strong>Rank 7</strong>: Increase your max mana by 15 and your mana regeneration by 2.</p>\n<p><strong>Rank 8</strong>: When your spell rolls a critical success, regain mana equal to half its mana cost.</p>\n<p><strong>Rank 9</strong>: The spell damage bonus from rank 2 is now your Int or Wis divided by 2 (round down).</p>\n<p><strong>Rank 10</strong>: Once per day, until the end of the scene, your mana regeneration is doubled and your spells increase their harm by 1.</p>"
+  }
+ },
+ {
+  "name": "Horticulture",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "trades",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You can grow tier 1 magical plants, your damage vs plant based enemies ignores 15 points of natural armor.</p>\n<p><strong>Rank 2</strong>: While harvesting crops increase the grade by 1, while cooking with ingredients you grew increase the Tn by 10.</p>\n<p><strong>Rank 3</strong>: When making check vs plant magic increase the Tn by 10.</p>\n<p><strong>Rank 4</strong>: Any magical plant you find in the wild increase the Tn by 20 when attempting to determine what kind it is.</p>\n<p><strong>Rank 5</strong>: Magical plants grow 2 days faster, you can now grow the magical plants by simply leaving them alone in a location in a lair instead of needing a proper location.</p>\n<p><strong>Rank 6</strong>: Plant type enemies can be talked down from a fight and become allies.</p>\n<p><strong>Rank 7</strong>: magical plants can be now used as weapons dealing 2d4 damage to a creature you throw them at per point of flavor they have.</p>\n<p><strong>Rank 8</strong>: You can grow tier 2 magical plants and when taking damage from plant based enemies or spells decrease the damage by harm 1 or 1 die.</p>\n<p><strong>Rank 9</strong>: Grown magical plants do not rot for 2d4 extra scenes.</p>\n<p><strong>Rank 10</strong>: You can gain 1d2 seeds per harvest of a magical plant.</p>"
+  }
+ },
+ {
+  "name": "Lucky",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "any",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1:</strong> Increase your crit range for Skills by 2, whenever you roll a natural 1 the next skill check has it Tn increased by 15.</p>\n<p><strong>Rank 2:</strong> Whenever you have to make a save you may roll twice taking the better result but it counts as 15 higher.</p>\n<p><strong>Rank 3:</strong> Increase your crit range for Combat by 1.</p>\n<p><strong>Rank 4:</strong> If you are targeted by an attack that deals stealth damage decrease your evasion by 10.</p>\n<p><strong>Rank 5:</strong> Whenever you critically fail something, whatever the result is happens one round later than it is supposed to.</p>\n<p><strong>Rank 6:</strong> Increase your crit for skills by 2 and the increase trigger is now a 1-3.</p>\n<p><strong>Rank 7:</strong> Once per session you may auto pass a save but decrease your next Attack, Save, or skill Tn by 20.</p>\n<p><strong>Rank 8:</strong> increase your crit range for combat by 1.</p>\n<p><strong>Rank 9:</strong> The crit 1 increase to Tn is increased by 15.</p>\n<p><strong>Rank 10:</strong> At the start of a session you may roll 1d100 and record the result during the session you may replace one die of your choice.</p>"
+  }
+ },
+ {
+  "name": "Magic of the Arts",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "arcane",
+   "tags": "Class",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1:</strong> Select an Instrument, type of Art creation, or a style of Dance/physical performance. You may cast your spells through such a method. When doing so as a song or a dance the spell has its mana cost decreased by 3 for each action you spent working on it before casting the spell (each full turn of performing counts as 3 actions), or in the case of art works for each day you spend on the artwork the spell may be cast that many times per day. In either case unless a person is actively checking for magic or the spell causes harm no one can detect you cast a spell while performing. After the artwork is done it cannot be magical enchanted again.</p>\n<p><strong>Example 1</strong> you are singing a tune for 3 turns before on the fourth you cast a spell by weaving it into your voice decreasing the cost by 27 mana.</p>\n<p><strong>Example 2</strong> After a week working on a painting you are finally finished enchanting it with a charm spell so that 7 people per day who look upon it are obsessed with it for a short while letting you build up steam before you send it to action.</p>\n<p><strong>Rank 2:</strong> Select one Trade Skill it becomes your Attuned Art skill. When using an attuned art skill that skill gains +5 to checks to please a crowd or in the quality of the work.</p>\n<p><strong>Rank 3:</strong> Spells cast through your art gain bonus accuracy equal to your attuned art skill.</p>\n<p><strong>Rank 4:</strong> Spells have their actions decreased by the number of turns you prep the spell for when using music or dance. Artworks have their max complexity increase by 1 for each day you spend on it.</p>\n<p><strong>Rank 5:</strong> Choose another instrument, type of art creation or a Style of Dance/Physical performance they can also be used to cast spells. Attuned art skills increase damage by 1/4 it amount.</p>\n<p><strong>Rank 6:</strong> When performing choose a mood type for each in a crowd who matches it you may spread the mana cost of your spells among all of them. Artworks you create can be made with two different spells each one can cast the spell equal to its max uses.</p>\n<p><strong>Rank 7:</strong> Attuned skills gain an additional plus 5 to its checks.</p>\n<p><strong>Rank 8:</strong> When performing for a crowd of people your mana regeneration is increased by 3 for each member of the crowd engrossed by it and casting spells does not stop you from regenerating mana. Your artworks can store mana of those who have been moved by it allowing you to draw it out while being within X miles of it where X is the spell level.</p>\n<p><strong>Rank 9:</strong> Select a secondary skill to become an attuned art skill. Increasing Accuracy by half of it and damage by 1 for every 5 it has.</p>\n<p><strong>Rank 10:</strong> Each time you do a performance you may make an attuned skill check vs the target's normal will checks on success they are charmed by it and will not notice anything that does not directly threaten them. Your artworks may once per week disappear and show up in a separate place that would make logical sense for it to be and you are aware of the place.</p>"
+  }
+ },
+ {
+  "name": "Magic Sense",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "arcane",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Gain ward 5 and increase your magical detection by 10. If you find a magical item you can automatically attempt to determine what it does. If you are attempting to counterspell increase the Tn by 5.</p>\n<p><strong>Rank 2</strong>: When another creature attempts to cast a spell within burst 3 of you, you may attempt to counterspell it even if you are not directly looking at the caster.</p>\n<p><strong>Rank 3</strong>: Increase your magical detection by 5, When casting a spell you can reduce its mana cost by 5 for each other magical ability or spell cast this round within burst 4.</p>\n<p><strong>Rank 4</strong>: Whenever you proc your ward you can attempt to absorb the mana with an arcane check, the Tn being 30 minus the spell's mana cost, plus your arcane skill total.</p>\n<p><strong>Rank 5</strong>: You can make a hard arcane check on pass you can regain mana equal to your stat times 2. This can only be used once per turn and cost an action. Whenever you cast a spell if the spell is resisted or countered you can restore half its mana cost once per scene.</p>\n<p><strong>Rank 6</strong>: Increase your ward by 5. Once per turn, when you pass a counterspell, regain mana equal to half the countered spell's mana cost.</p>\n<p><strong>Rank 7</strong>: You can sense any creature within burst 10 that has cast a spell this round, even through walls.</p>\n<p><strong>Rank 8</strong>: Increase your magical detection by 10. When you attempt a counterspell, increase the Tn by your Int or Wis.</p>\n<p><strong>Rank 9</strong>: Once per scene, as a free action, you can counterspell a spell that targets an ally within burst 5.</p>\n<p><strong>Rank 10</strong>: Once per day, after you counter a spell, you can cast it back at a target of your choice at no mana cost, using the original caster's stats.</p>"
+  }
+ },
+ {
+  "name": "Memory",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "studies",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Increase your mana by 10, every time you cast a spell that cost 1 action you can make a hard int minus the spell complexity check on pass to regain the mana cost of the spell.</p>\n<p><strong>Rank 2</strong>: Increase the number of spells and martial you know by 1. It can be from any school of magic you know or 1 weapon you know. This benefit can be gained upon learning your first spell or martial.</p>\n<p><strong>Rank 3</strong>: Increase any study check by 10.</p>\n<p><strong>Rank 4</strong>: When making an arcane check increase the Tn by your Int.</p>\n<p><strong>Rank 5</strong>: Increase your max mana by 15, spells you cast that cost 1 action you can cast a spell consisting of projection and 1 on hit effects for free.</p>\n<p><strong>Rank 6</strong>: When attempting to counter spell if you fail, the next time you make an attempt vs the target increase the tn by how much you failed times 2.</p>\n<p><strong>Rank 7</strong>: Increase any study check by 10.</p>\n<p><strong>Rank 8</strong>: Increase your mana by 15, spells that have the channel tag do not break the first time you take damage.</p>\n<p><strong>Rank 9</strong>: Increase any arcane check by 10.</p>\n<p><strong>Rank 10</strong>: Any time you make an arcane or study check you can double the Tn once per scene. Increase the number of spells and martials you know by 1.</p>"
+  }
+ },
+ {
+  "name": "Mining",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "trades",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You can gather metals and stone from caves without proper equipment by lowering the amount of resource dice gained by 1. If you have proper equipment, increase the amount of gathering materials by 2.</p>\n<p><strong>Rank 2</strong>: When mining the chance to gather higher quality materials is increased from 1-5 to 1-10 and 1-5 is two grades higher.</p>\n<p><strong>Rank 3</strong>: When testing for ore locations you may roll twice and take the better result. If you are underground you are aware if a creature is using a burrow speed within 3 of you.</p>\n<p><strong>Rank 4</strong>: When dealing damage to a creature with the Created tag increase your harm by 2 and when harvesting increase the quality ranges by 5.</p>\n<p><strong>Rank 5</strong>: While underground any hazard save is rolled twice and taking the better result. Increase the amount of gather materials underground by 1.</p>\n<p><strong>Rank 6</strong>: While underground you gain advantage on perception skill checks.</p>\n<p><strong>Rank 7</strong>: When harvesting materials underground you can attempt a hard Trade check with a modifier depending on how deep you are beneath the ground, On pass you lay down a cave-in trap with a level equal to your rank in this talent that you do not trigger.</p>\n<p><strong>Rank 8</strong>: When checking the quality of the materials gather underground increase the ranges above basic by 5 and decrease basic and below by 5.</p>\n<p><strong>Rank 9</strong>: Deal 15 bonus damage to Metal type elements.</p>\n<p><strong>Rank 10</strong>: Increase all trade skills by 10 or plus 20 when using them to make a deal involving Metal or Stone materials.</p>"
+  }
+ },
+ {
+  "name": "Rune Smithing",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "trades",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Starting materials (Draft):</strong> If you take this talent at character creation, you gain 2 Common tier 1 materials for this craft.</p>\n<p><strong>Rank 1</strong>: You can learn one rune, letting you apply it; when attempting to apply it increase the Tn by 5.</p>\n<p><strong>Rank 2</strong>: When an unclaimed rune is discovered you may attempt a hard trade check on pass gain two uses of it.</p>\n<p><strong>Rank 3</strong>: When using a charge based rune it gains X more charges where x is equal to half your wis or Int.</p>\n<p><strong>Rank 4</strong>: You can attempt to de-enchant a weapon or armor with a normal check, with a -3 to the Tn per week the rune has been in the item.</p>\n<p><strong>Rank 5</strong>: learn two new runes. When an engrave holds only one type of rune, count those runes as 2 sizes larger for the engrave's effects.</p>\n<p><strong>Rank 6</strong>: When using a charge from a rune you do not waste it on a critical hit or check.</p>\n<p><strong>Rank 7</strong>: Runes can fit into engraves that are one size too small for them.</p>\n<p><strong>Rank 8</strong>: Learn one new rune, and using a rune does not cause it to disappear for 12 hours.</p>\n<p><strong>Rank 9</strong>: Increase the damage or hardness of items you enchanted by your Int or Wis.</p>\n<p><strong>Rank 10</strong>: Learn 1 rune to be able to permanently create.</p>"
+  }
+ },
+ {
+  "name": "Scavenging",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "adventure",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Once per day you can make an adventure check on pass for the rest of the day increasing all materials gained in the area by 2.</p>\n<p><strong>Rank 2</strong>: Whenever you make a search roll on a critical gain 1 material that can find in the area.</p>\n<p><strong>Rank 3</strong>: Increase your passive perception by 5 or by 10 when it comes to noticing traps or dangerous plants/terrain.</p>\n<p><strong>Rank 4</strong>: When being attacked by a Trap decrease your Defense or evasion by 10, increase your Adventure or Combat skills by 5 whenever they are used involving traps or hazardous terrain. If you disarmed a trap or negated a hazard gain one material required in the creation.</p>\n<p><strong>Rank 5</strong>: Twice per day when attempting adventure checks increase your skill by your Rank, if you are not using a skill on passive gain 1 material that would be in the area.</p>\n<p><strong>Rank 6</strong>: Increase your passive perception by 5 or by 10 when it comes to noticing Plants and animals that can be used for alchemy or rune crafting.</p>\n<p><strong>Rank 7</strong>: When checking for items after a battle increase the rare and higher items slot chances by 5.</p>\n<p><strong>Rank 8</strong>: When using a one use item roll a d12 on a 12 or a 1 that item is not consumed.</p>\n<p><strong>Rank 9</strong>: You can spend 15 mana or 25 aura to give an enchanted item 1 charge.</p>\n<p><strong>Rank 10</strong>: Once per scene you can attempt to steal 1 item from target creature with a combat or adventure opposed check with a plus 25 to your roll.</p>"
+  }
+ },
+ {
+  "name": "Scouting",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "adventure",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Select or create one Adventure skill, when using the skill outside a lair increase it by 5. If the skill is being used to check for traps or it has been selected for a different talent as well increase it by an additional 5.</p>\n<p><strong>Rank 2</strong>: During a stealth round the first enemy you attack gains marked X and Hunted X equal to half your selected skill for the first attack an ally does against them.</p>\n<p><strong>Rank 3</strong>: When no allies are within burst 8 of you, or every ally within burst 8 of you has the Scouting or Sneaky talent, you gain +5 to your adventure skill against any attempt to search for you.</p>\n<p><strong>Rank 4</strong>: Increase your search skill by 10, gain an additional plus 5 if it is to track someone unaware you are tracking them.</p>\n<p><strong>Rank 5</strong>: During a stealth round every time you land an attack action you may move half your overland or flight speed.</p>\n<p><strong>Rank 6</strong>: During a stealth round, while you are outside the aura of control of your lair, when you attack a creature you can choose to give it marked or hunted equal to the damage instead of dealing damage. This does not cause a stealth round and lasts until the end of the stealth round or the end of the first round.</p>\n<p><strong>Rank 7</strong>: While you are alone, or only with allies who have the Scouting or Sneaky talent, all your adventure rolls have advantage.</p>\n<p><strong>Rank 8</strong>: You can travel though difficult terrain without slowing down as long as it is a stealth round or you are stealth.</p>\n<p><strong>Rank 9</strong>: When checking for traps, you automatically disarm any trap your search roll beats.</p>\n<p><strong>Rank 10</strong>: When attacking a creature with marked or hunted increase it by 2 each time you land a hit.</p>"
+  }
+ },
+ {
+  "name": "Smooth Talker",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "social",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: When using a social skill if the target has an attraction to you increase your social skills by 5.</p>\n<p><strong>Rank 2</strong>: If making an opposed social check vs a creature who has an attraction you can roll twice declaring if you will take the higher or lower number before rolling. Selecting the higher number and passing counts as a critical.</p>\n<p><strong>Rank 3</strong>: Creatures with attraction to you have their Tn decreased by 10.</p>\n<p><strong>Rank 4</strong>: Whenever you pass a social skill check by 30 the target gains attraction to you for 24 hours. Increase a selected social skill by 5.</p>\n<p><strong>Rank 5</strong>: During combat if a creature has attraction and you nor an ally have dealt damage to them. You can once per scene as a free action attempt a social check with a -30 to the Tn on pass the creature becomes an ally for the scene or until it takes damage from ally.</p>\n<p><strong>Rank 6</strong>: Creatures with attraction to you have their accuracy decreased by 10 when attacking you.</p>\n<p><strong>Rank 7</strong>: If you are attacked by a creature you haven't damaged and have attraction to you, as a reaction you can make a hard social check on pass, the attack fails.</p>\n<p><strong>Rank 8</strong>: Allies within burst 3 have plus 5 to social skills.</p>\n<p><strong>Rank 9</strong>: Increase the Tn of social checks by 10 when ever you are not using a social skill for deception.</p>\n<p><strong>Rank 10</strong>: Once per day a creature with attraction to you gains charmed for a scene and is unaware this happened to them.</p>"
+  }
+ },
+ {
+  "name": "Sneaky",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "adventure",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Select or create an adventure skill to be your stealth skill increase it by 5. Checks to spot you while having the stealth tag have the Tn decreased by 5.</p>\n<p><strong>Rank 2</strong>: If your first action during a turn is an attack and it misses. The Stealth tag is not consumed.</p>\n<p><strong>Rank 3</strong>: Moving up to half your overland does not apply penalties to your stealth checks.</p>\n<p><strong>Rank 4</strong>: Increase stealth damage by harm 1. If no creature can see you, at the end of your turn make an adventure check to gain the stealth tag.</p>\n<p><strong>Rank 5</strong>: Once per scene, as a <strong>free action</strong>, make an adventure check after you attack on success gain the stealth and move up to half your overland.</p>\n<p><strong>Rank 6</strong>: While having stealth you cannot have attacks of opportunity done against you.</p>\n<p><strong>Rank 7</strong>: Stealth damage ignores 10 points of natural armor.</p>\n<p><strong>Rank 8</strong>: Once per scene you can spend an action to give an ally within burst 2 stealth until the end of their next turn or they use the attack action.</p>\n<p><strong>Rank 9</strong>: Increase your stealth skill by 10, checks to spot you are decreased by additional 5.</p>\n<p><strong>Rank 10</strong>: Once per day your attack critical range is increased to 1-15% when attacking with the stealth tag, it does not consume the tag.</p>"
+  }
+ },
+ {
+  "name": "Trapper Sapper",
+  "type": "talent",
+  "system": {
+   "tree": "Generic",
+   "skillGroup": "adventure",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Buildings with the trap tag cost one less material to a minimum of 1.</p>\n<p><strong>Rank 2</strong>: The repair cost of trap buildings is decreased by 1 to a minimum of 1.</p>\n<p><strong>Rank 3</strong>: traps have their perception Tn decreased by 10.</p>\n<p><strong>Rank 4</strong>: Once per turn you can activate a trap building without using lair actions or a normal action.</p>\n<p><strong>Rank 5</strong>: Once per scene you can use an action to create a temporary trap while in your lair the first creature who enters its square takes (Lv/2)d6 damage and gains stunned 1.</p>\n<p><strong>Rank 6</strong>: A creature who triggers a trap gains marked 3 until the end of the next combat scene.</p>\n<p><strong>Rank 7</strong>: increase the damage of your buildings by harm 1.</p>\n<p><strong>Rank 8</strong>: creatures attempting to disarm your traps have the Tn decreased by 15.</p>\n<p><strong>Rank 9</strong>: When a trap building activates you can activate another one without spending an action.</p>\n<p><strong>Rank 10</strong>: Once per day you can force all creatures besides allies to be attacked by 1 trap in your lair.</p>"
+  }
+ },
+ {
+  "name": "Blood Tithe",
+  "type": "talent",
+  "system": {
+   "tree": "Leadership",
+   "skillGroup": "social",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: As an action, sacrifice a summon, raised minion or recruit you control within burst 3, and regain aura or mana (your choice) equal to 5 times its CR.</p>\n<p><strong>Rank 2</strong>: You may instead heal hp equal to 3 times the sacrificed creature's CR.</p>\n<p><strong>Rank 3</strong>: Your next spell or martial after a sacrifice gains harm equal to the sacrificed creature's CR divided by 3, to a minimum of 1.</p>\n<p><strong>Rank 4</strong>: Once per scene, you may sacrifice as a free action.</p>\n<p><strong>Rank 5</strong>: When you sacrifice a recruit, regain Infamy equal to half its CR (round down), and each of your other recruits must pass a morale check or drop one mood stage.</p>\n<p><strong>Rank 6</strong>: Sacrifices made inside your lair restore both aura and mana.</p>\n<p><strong>Rank 7</strong>: When you sacrifice a summon, you may immediately re-summon with the same spell or talent at half its cost.</p>\n<p><strong>Rank 8</strong>: You can sacrifice two creatures with one action, adding their CRs together for every effect.</p>\n<p><strong>Rank 9</strong>: Creatures you sacrifice explode: enemies within burst 2 of them take nether damage equal to 5 times the creature's CR.</p>\n<p><strong>Rank 10</strong>: Once per scene, when you sacrifice a creature, gain one of its abilities until the end of the scene.</p>"
+  }
+ },
+ {
+  "name": "Called to Faith",
+  "type": "talent",
+  "system": {
+   "tree": "Leadership",
+   "skillGroup": "social",
+   "tags": "Class",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1:</strong> Select three of the following tenets gaining both their boon and Restriction. If you break the restriction you must achieve the repentance before gaining the boon again.</p>\n<p><code>|  |  |  |  |</code></p>\n<p><code>| :-: | :-: | :-: | :-: |</code></p>\n<p><code>| Name | Boon | Repentance | Restriction |</code></p>\n<p><code>| Arcanist | Increase your magic damage by the difference between your Damaging magic stat and your target. You are aware who is the smartest or wisest among the enemies at the start of a combat scene. Greater: If you were to make a physical check if you attack the target with the highest with the last round or at next to them you may make it a Mana regeneration stat check instead Superior: Increase your max and current Damaging Magic stat by 1 every time you defeat a target with a higher stat using only magic based damage | Attempt and pass a hard check for your normal Int or Wis check without the use of anything that would cost aura or be an outside force, Defeat a target whose Int or Wis is higher than your normal Int or Wis without the use of Aura based Buffs or Str or Agi based damage. | During a battle you must deal more Magic damage instead of Str or Agi damage, During a Social Scene and a roll for Int or Wis is called you can attempt and choose not to While this Restriction is broken all Spells cost double mana and your Int and Wis are halved |</code></p>\n<p><code>| Caring | All allies within burst 3 of you take less damage equal to the number of times you have healed or buffed them and you take the damage instead. While allies are within the area increase your regeneration by 2 Greater: Allies who gain status conditions have them proc only every other turn but you take the effect on the other turns Superior: heals you apply have at least half the dice max and the buff duration doubled | You tend to a creature who in any other situation would attempt to cause you massive harm | You purposely choose to harm an ally for a selfish end, you choose actions that would cause massive harm to many in exchange for a gain that only benefits the few While this restriction is broken any healing, buffs or beneficial conditions are given to a random creature. |</code></p>\n<p><code>| Death | When you kill another creature restore Aura and Mana equal to the damage your last attack did. Each time you take Nether or Death damage gain mana or aura equal to the damage. Greater: For each creature in a scene you have killed increase the amount of dice your attacks deal by 1 stage Superior: Your attacks automatically kill creatures who take half their current hp | You Ensure the balance of life and death favors Death in at least the area of a small town. | You must ensure that no life is being created, either naturally or artificially. Those around you must find peace with death and possibly pass on quickly, upon any battle you must ensure that one side is fully dead if even a single person flees you must ensure you take constant effort to find and kill them else you break this tenet While this restriction is broken you lose 15 hp increasing by 5 at the start of each of your turns in a scene. |</code></p>\n<p><code>| Diplomat | Your social skills are increased by 10. Once per Social Scene you can call a parley: all creatures that are not fully hostile must stop combat actions for 1 round while you make a social check. Greater: When you pass a social check against a creature, its opinion of you improves by one stage. Superior: Once per combat Scene you can attempt a hard social check against the enemy leader; on a pass, every enemy that is not fully hostile stands down. | Broker a peace or alliance between two groups who were in open conflict, or settle a dispute without harm coming to either side. | You must not attack a creature that has offered to talk or surrender, and you must offer terms before starting any fight that is not an ambush. While this restriction is broken your social checks have the Tn decreased by 30 and non-allies will not negotiate with you. |</code></p>\n<p><code>| Duels | Once per combat Scene you can select one target enemy and they must take their actions to move towards you and strike at you at least once per turn. If you slay that target gain another use of this Talent and Plus 10 damage for the rest of the battle, During a Social Scene, count your Adventure Skill group bonus to Social Skills Greater: Anytime an ally sees you defeat an enemy you have dueled they heal for 1d6 hp and you heal for that many D6s rolled. Superior: During a duel any enemy who is not the chosen enemy deals half damage before resistances | You Successfully took an enemy from full to zero hp without anyone aiding you in any way. | While you have this ability activated you purposefully damage another enemy, you apply any condition besides Feared, bleed or Show to any target While this Restriction is broken you must attack the nearest visible enemy at all times |</code></p>\n<p><code>| Fire | You can spend Extra mana or aura on spells or martials, increasing the damage by 3 for each 4 aura or mana spent. For every 10 aura or mana missing gain +5 additional damage Greater: For each 15 mana or aura missing increase your accuracy by 5 Superior: While below half mana or aura all your spells cost double but count as having a conditional active, any soul cost is doubled | You Cast 10 or more spells or martials during a single Scene, You do a daring action that causes a chain reaction to deal massive structural or scene-wise damage | You do not act with passion and fury in most actions in a scene, you attempt to take these things slowly instead of rushing in. While this restriction is broken all your spells or martials cost half your max of aura or mana |</code></p>\n<p><code>| Joy | Allies under your control cannot have their mood decreased more than once per day. While they are in a mood above Fine all of their attacks gain +10 accuracy for each stage above it. Greater: Whenever you increase the mood of your followers or allies it goes up an additional stage and cannot be decreased for at least 1 day Superior: While allies are in a max mood once per scene you can full heal everyone except for soul | You do an action that causes everyone to enter a mood above Fine from Sad. | You do any action that ruins the moment of joy or wonder. Cause your allies to become fearful or furious at you. While this restriction is broken all your allies&#x27; moods become Sad or worse, will not obey commands and you have a minus to all rolls equal to allies effect times 2 |</code></p>\n<p><code>| Life | Increase your hp by 35, gain regeneration 3. Any other source of healing you gain is increased by your regeneration of hp and natural armor. Whenever you take damage that would drop you into soul critical make a hard Con check with the Tn decreased by the damage, on pass you are instead set to 1 hp. Greater: You gain resistance to Nether, Fire, and Acid damage equal to 1/10th your hp Superior: Your soul critical die does not increase due to being healed out of soul critical. | Bring to life a person who died before their time, or ensuring a goal a person had in life is achieved in their honor. | You must seek to ensure that those who have a reason to live can live to achieve their goals, When causing harm you must not be cruel and delay or toy with them. While this restriction is broken your hp is capped at 50 and cannot be healed by magical means. |</code></p>\n<p><code>| Protection | At the Start of a combat Scene select one ally gain resistance to all damage except Death equal to the difference between your Defense and the chosen ally&#x27;s Defense, this resistance becomes zero if the target drops to zero hp. You can freely Intercept attacks for the chosen ally. During Social Scenes you may choose an ally allowing them to Count your Social Skills as on their list. Greater: decrease your Defense by 10 if you are standing next to the chosen ally and recover 3 resistance each turn the ally does not take damage. Superior: Each time you take damage for the ally the ally heals for 6 hp | Protect an ally for twice or more their hp in a single battle or Prove your worth to someone by saving and protecting something they value dearly | Let the chosen ally drop to Zero hp when you could Intercept, Betray someone&#x27;s trust in you with something they value, or fail an oath to protect or save someone While this restriction is broken your defense cannot go below 75 |</code></p>\n<p><code>| Self | Whenever you are attacked you may automatically attempt an Attack of opportunity using either a melee weapon or a range weapon depending if the attack is melee or range. If it is melee you may move up to half your speed before attacking Greater: If you are about to take a melee attack and still have your reaction you may attempt a \\\\\\[parry\\\\\\] action for free Superior: When having no allies on the battlefield or within burst 5 increase your Stats by 8 | You come to a deeper understanding of yourself or prove that your own self interest is more important | You cannot attack another creature first you must be harmed first. If you are at low hp and are given the chance to flee you must take it. You must care more for yourself than others While this restriction is broken you cannot take any reactions and cannot have buffs applied to you. |</code></p>\n<p><code>| Strength | Increase your melee damage by the difference between your Str and your target. You are aware who is the strongest among the enemies at the start of a combat scene. Greater: If you were to make a mental check if you attack the target with the highest with the last round or at next to them you may make it a strength check instead Superior: Increase your max and current Str by 1 every time you defeat a target with a higher Str using only Str based damage | Attempt and pass a hard check for your normal Str check without the use of anything that would cost mana or be an outside force, Defeat a target whose Str is higher than your normal Str without the use of Mana based Buffs or damage or Agi based damage. | During a battle you must deal more physical damage instead of magic or Agi damage, During a Social Scene and a roll for Str is called you can attempt and choose not to While this Restriction is broken all Martials cost double aura and your Str, Con, and End are halved |</code></p>\n<p><code>| Suffering | While having any condition applied to you it does not proc for one round, you take half damage from conditions, and you may once per turn take conditions from allies and apply them to yourself. Greater: For each condition you have gain Resistance to elements times 5 Superior: You take 1/4 damage from conditions | You spend a full day allowing those who seek to cure their anguish physically harm you. You cannot be healed during this time. | You purposely delay a creature&#x27;s death, do not tend to those who are harmed, or are cruel to those who do not deserve such a fate While this restriction is broken you take triple damage from conditions, cannot give commands and cannot save against conditions until after the scene |</code></p>\n<p><code>| Taste | Whenever you gain the benefits from a crafted item Increase the effects by 2 Stages or increase the duration by 2 hours or it has 2 additional charges. Each time you craft an item, the check to critically succeed is increased by the amount of crafted items you are wearing or the amount of crafted item effects you are affected by times 2 Greater: When you make more than one craft in a scene, each successful craft (item, potion or meal) increases the Tn of your next craft by 25; this can chain as long as you keep succeeding. If that next craft also succeeds, increase one of its attributes by 1 (for meals a flavor value, for potions this can include Heal or Harm) Superior: All benefits from items increase by 3 stages, last 3 more hours, or has 3 more charges | Craft an item of higher grade than what is your current grade using items of at least 1 tier higher than needed. Find and restore an item of at least grand grade back to normal or even improve | Purposely get rid of or destroy items whose craftsmanship is equal to or greater than the highest grade item you have. Not following a lead on a rare ingredient for any kind of items within a reasonable time frame While this restriction is broken all your items have their value reduced to 1 and their effects only last 1 minute or have only one charge |</code></p>\n<p><code>| Trust | Whenever making a skill check you can roll twice taking the better result. Your social skills are increased by 15 and whenever you pass one vs another creature it counts as one stage higher. Greater: enemies that are not fully hostile do not attack you unless you are carrying a weapon visibly or harm one of them. Superior: When you fail a skill check you succeed with consequences | You Restore the trust of the person you broke | You lie to someone, Trick someone into getting harmed, or attempt to hide meaning in your words or actions While this restriction is broken all non-allies are immediately two stages worse in opinion of you and you cannot gain benefits from aura, spells or items |</code></p>\n<p><code>| War | Increase the damage of your AoE attacks by the number of targets times 3. Your spells can be cast at melee range without triggering Attacks of opportunity, Your melee attacks do not proc Parry effects as long as you have another ally in melee with them Greater: Non-damaging spells you cast cause all enemies to have to roll will or gain the Feared condition Superior: While creatures have any negative condition they cannot roll against your Damaging actions. | You do an action that forces both sides of a conflict to add a new code of war. You win a decisive battle in a conflict and it is clear your actions or command is a key factor. | You purposely attempt to minimize the destruction or suffering your damaging actions do. You negotiate for peace with those who have harmed, or are holding, your friends and family. You break the code of war set forth by those higher in command for reasons that are not for the safety of those beneath you in rank. While this restriction is broken all AoE effects also target you regardless of distance. Your damaging actions deal minimal damage. |</code></p>\n<p><code>| Wind | Increase your movement by 4 squares, each time you successfully pass a reflex check it counts as a critical success. You take 3 less damage from range attacks for each 5 below 50 your evasion. Greater: You can roll twice when making any check for Agi or Adventure or combat taking the better result Superior: When you must take a reflex check if you fail you only take half damage. | You break free from a mental or physical cage that has the capability to hold you for a period of time larger than a month without just waiting it out. | You must not allow yourself to be locked down to any one concept or ideal, Loyalty to something larger than you must be temporary. While this restriction is broken your movement is capped at 5 and your evasion cannot go below 75 |</code></p>\n<p><strong>Rank 2:</strong> Once per day while having monsters under your control you may bestow upon X number of them one of your tenets Boons, Where X is your Infamy divided by 20 minimum zero.</p>\n<p><strong>Rank 3:</strong> While you have all three or more boons increase your aura and mana regeneration by the amount of creatures that have your boons.</p>\n<p><strong>Rank 4:</strong> Breaking a restriction does not apply its drawback for 24 hours during this time if you successes at a challenging action around the tenet you do not have to do the repentance.</p>\n<p><strong>Rank 5:</strong> You can choose one of your tenets and turn it into a Greater tenet, while it is a greater tenet its restriction does not break the first time you break it each day and the boons become stronger.</p>\n<p><strong>Rank 6:</strong> Gain 1 more tenet. If you break its restriction, you do not suffer its downside.</p>\n<p><strong>Rank 7:</strong> Increase your infamy by 5 for each monster that follows your tenets.</p>\n<p><strong>Rank 8:</strong> While having 3 or more boons increase your natural armor regeneration by half the number of creatures that have your boons.</p>\n<p><strong>Rank 9:</strong> For each 5 creatures that follow your tenets the maintenance cost of your followers decreases by 3.</p>\n<p><strong>Rank 10:</strong> Turn one of your greater tenets to superior tenets or gain another greater tenets.</p>"
+  }
+ },
+ {
+  "name": "Commander",
+  "type": "talent",
+  "system": {
+   "tree": "Leadership",
+   "skillGroup": "any",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You gain the ability to command monsters or humanoids whose CR is equal or less than 1/10th your current infamy as minions. While commanding your minions, they will obey orders if they pass a morale check. (Morale check is a Social check, but not a skill check).</p>\n<ul>\n<li>Your minions will flee when half or less hp. You can spend one action for them to make a morale roll to see if they don't flee.</li>\n<li>You can only command minions within burst 5 of you. Minions outside of this area will act according to their own will, but they will never attack you or your allies unless enraged.</li>\n<li>The max number of minions you can command is equal to 1/10th your hoard (Magical, Martial, and Treasure combined), to a maximum of 10 minions.</li>\n</ul>\n<p><strong>Rank 2</strong>: If your minions fail a morale roll, you can reroll it with an increase to the Tn by 10 at a cost of one action. If your minions succeed at this morale roll, your minions will not flee and are immune to mental conditions for 1 round.</p>\n<p>You can only use this talent once per scene.</p>\n<p><strong>Rank 3</strong>: Any minions you command can each use armor up to a rank equal to 1/100th your infamy with a min of rank 1 and a max of rank 5. This is intentionally lower than the 1/10th a Commander Minion uses (Control Troops Rank 10).</p>\n<p><strong>Rank 4</strong>: All maintenance cost on your hoard decreases by 10. If the maintenance cost is zero or below, your hoard now provides an additional 10 infamy.</p>\n<p><strong>Rank 5</strong>: You can choose to sacrifice hp to heal all of your minions, within control range, by 1 per 10 hp sacrificed.</p>\n<p>You can only use this talent once per turn.</p>\n<p><strong>Rank 6</strong>: Your command range is increased to all minions within your lair.</p>\n<p><strong>Rank 7</strong>: All minions under your command gain 1 generic gathering talent up to the rank level of this talent. These minions can go outside your lair to gather materials for you. As long as minions are gathering materials, they won't require a morale check.</p>\n<p><strong>Rank 8</strong>: All minions under your command gain 1 generic crafting talent up to the rank level of this talent. These minions can use the appropriate materials within your lair to create the items that come from the chosen talent. These can create permanent shops for the party to use instead of crafting.</p>\n<p><strong>Rank 9</strong>: When your minions make a morale check, you may choose any appropriate skill they have for it.</p>\n<p><strong>Rank 10</strong>: You can choose to sacrifice a minion within a range of burst 10. Then you can choose one of the following effects to give yourself or an ally:</p>\n<ul>\n<li>The next weapon attack or spell is rolled with Advantage.</li>\n<li>The damage of the next successfully hit weapon or spell gains force damage equal to 1/10th of the total hp of the sacrificed minion.</li>\n<li>Regain hp equal to the remaining hp of the sacrificed minion.</li>\n<li>Regain mana equal to the remaining hp of the sacrificed minion.</li>\n<li>Regain aura equal to the remaining hp of the sacrificed minion.</li>\n</ul>\n<p>You can only use this talent once per turn.</p>"
+  }
+ },
+ {
+  "name": "Control Troops",
+  "type": "talent",
+  "system": {
+   "tree": "Leadership",
+   "skillGroup": "any",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You gain the ability to command monsters or humanoids whose CR is equal or less than 1/10th your current infamy as minions. The max number of minions you can command is equal to 1/10th your hoard (Magical, Martial, and Treasure combined), to a maximum of 10 minions. If you have Commander, use 1/8th your infamy instead.</p>\n<p><strong>Rank 2</strong>: You can choose to sacrifice aura to increase the range that you can command your minions, increase the range by burst 1 per 30 aura sacrificed.</p>\n<p><strong>Rank 3</strong>: Any minions you command can each use weapons up to a rank equal to 1/100th your infamy with a min of rank 1 and a max of rank 5. This is intentionally lower than the 1/10th a Commander Minion uses (Rank 10).</p>\n<p><strong>Rank 4</strong>: Your minions, within control range, will automatically obey your commands for the first 2 rounds for each Scene without requiring a morale check.</p>\n<p><strong>Rank 5</strong>: Before your minions make weapon attacks or cast spells that are in control range, you can choose to sacrifice aura to increase the Tn by 3 per 10 aura sacrificed until the start of your next turn.</p>\n<p>You can only use this talent once per turn.</p>\n<p><strong>Rank 6</strong>: You can select one minion outside of your control range and give it one order that it will try to follow for one turn at no cost.</p>\n<p>You can only use this talent once per turn.</p>\n<p><strong>Rank 7</strong>: All minions under your command gain One Martial School for using a weapon of your choice.</p>\n<p><strong>Rank 8</strong>: All minions under your command gain two 1st-Tier spell from the School of your choice.</p>\n<p><strong>Rank 9</strong>: When your minions make a morale check, you can increase the Tn equal to the ranks you have in the Leadership Tree.</p>\n<p><strong>Rank 10</strong>: You can choose a minion within your command. This minion is now a Commander Minion. This minion gains the following effects:</p>\n<ul>\n<li>The Commander Minion will no longer require a morale check. This minion is completely loyal.</li>\n<li>The Commander Minion can each use weapons and armor up to a rank equal to 1/10th your infamy with a min of rank 1 and a max of rank 5.</li>\n<li>Minions within burst 5 of the Commander Minion will follow your commands.</li>\n<li>At the start of your turn during combat, the Commander Minion can regain 10 hp.</li>\n<li>You can scry from within the vision range of the Commander Minion.</li>\n</ul>\n<p>You can only have one Commander Minion at a time.</p>"
+  }
+ },
+ {
+  "name": "Magical Inspiration",
+  "type": "talent",
+  "system": {
+   "tree": "Leadership",
+   "skillGroup": "social",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: When your spell deals damage, one ally or minion within burst 3 regains 5 mana.</p>\n<p><strong>Rank 2</strong>: When your spell deals damage, allies and minions within burst 3 increase the damage of their next spell by 5. This can only happen once per turn.</p>\n<p><strong>Rank 3</strong>: When your spell rolls a critical success, allies and minions within burst 3 increase the Tn of their next spell by 10.</p>\n<p><strong>Rank 4</strong>: The mana from rank 1 now applies to all allies and minions within burst 3.</p>\n<p><strong>Rank 5</strong>: Once per scene, as a free action after your spell deals damage, allies and minions within burst 3 increase the max complexity of their next spell by 2.</p>\n<p><strong>Rank 6</strong>: When your spell reduces a creature to 0 hp, allies and minions within burst 3 gain Ward 10 until the end of the scene.</p>\n<p><strong>Rank 7</strong>: Once per turn, when your spell deals damage, one ally or minion within burst 3 regains mana equal to 1/4 of the damage dealt.</p>\n<p><strong>Rank 8</strong>: The damage bonus from rank 2 is increased to 10.</p>\n<p><strong>Rank 9</strong>: The burst of this talent's effects is increased by 2.</p>\n<p><strong>Rank 10</strong>: Once per day, after your spell deals damage, until the end of the scene spells cast by your allies and minions cost 1 less action to a minimum of 1 and increase their harm by 1. At the end of the scene, you gain exhausted equal to the number of turns this lasted.</p>"
+  }
+ },
+ {
+  "name": "Mastermind",
+  "type": "talent",
+  "system": {
+   "tree": "Leadership",
+   "skillGroup": "social",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Select or create one Studies skill to be your tactics skill. Increase it by 5. After studying a creature for 1 turn, make a tactics check. On a pass, you learn its Defense, Evasion, and resistances.</p>\n<p><strong>Rank 2</strong>: Before a scene, up to your level in this talent allies or minions you choose increase their accuracy by 10 on their first attack.</p>\n<p><strong>Rank 3</strong>: Increase the Tn of your minions' morale checks by your Int divided by 5 (round down).</p>\n<p><strong>Rank 4</strong>: When two or more of your allies or minions attack the same creature in a round, it gains marked 1 until the end of the round.</p>\n<p><strong>Rank 5</strong>: Once per scene, as an action, choose up to 3 allies or minions within burst 5. Each may move up to half their overland without provoking opportunity attacks.</p>\n<p><strong>Rank 6</strong>: Increase the number of lair actions you can take each scene by 1.</p>\n<p><strong>Rank 7</strong>: Once per scene, as a free action, an ally or minion within burst 5 who rolls an attack or save may roll twice and take the better result.</p>\n<p><strong>Rank 8</strong>: During a stealth round, all allies and minions within burst 5 increase their accuracy by 10 and their first attack applies marked 1.</p>\n<p><strong>Rank 9</strong>: Increase your tactics skill by 5. Once per turn, you can spend 10 aura to let an ally or minion reroll a failed check with the Tn increased by 10.</p>\n<p><strong>Rank 10</strong>: Once per day, until the end of the scene, allies and minions within burst 10 treat critical failures as normal failures and increase their critical range by 3.</p>"
+  }
+ },
+ {
+  "name": "Monster Merchant",
+  "type": "talent",
+  "system": {
+   "tree": "Leadership",
+   "skillGroup": "trades",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You can seek out monster traders and settlements. When you sell an item to a monster trader, gain bonus Treasure Hoard equal to your level in this talent, up to the item's full price.</p>\n<p><strong>Rank 2</strong>: Appraise an item with an Examine check, learning its rank, grade, attributes and price.</p>\n<p><strong>Rank 3</strong>: When you buy from a monster trader, the item's rarity multiplier is decreased by 1, to a minimum of x2.</p>\n<p><strong>Rank 4</strong>: Monster traders offer you items one rarity stage higher than they normally would.</p>\n<p><strong>Rank 5</strong>: Set up a trade route from your lair, gaining Treasure Hoard equal to your level in this talent each Scene.</p>\n<p><strong>Rank 6</strong>: You can spend Magical and Martial Hoard with any trader, and traders don't halve the value of goods outside their inclination when dealing with you.</p>\n<p><strong>Rank 7</strong>: Gain +10 to Bluff and Social checks to hide how badly you want an item. Human goods sell to monster traders for their full price.</p>\n<p><strong>Rank 8</strong>: Commission an item from a monster crafter: you provide the materials and pay half the item's price, and it is made at great grade or better.</p>\n<p><strong>Rank 9</strong>: Recruits can run your trade routes, doubling the Hoard they produce.</p>\n<p><strong>Rank 10</strong>: Your lair becomes a market: gain Treasure Hoard equal to twice your level in this talent each Scene, you sell items at full price, and once per tier you may buy one item of any rarity a trader has.</p>"
+  }
+ },
+ {
+  "name": "Pact Binder",
+  "type": "talent",
+  "system": {
+   "tree": "Leadership",
+   "skillGroup": "arcane",
+   "tags": "Class",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Once per scene, as an action, bind a pact with one recruit: until the end of the scene it gains bonus damage and accuracy equal to your level in this talent, and you regain aura or mana equal to its CR at the start of each of your turns.</p>\n<p><strong>Rank 2</strong>: A pact-bound recruit's mood rises by one stage while the pact lasts.</p>\n<p><strong>Rank 3</strong>: You can redirect half of any damage you take to a pact-bound recruit within burst 5, or take half of the damage it takes.</p>\n<p><strong>Rank 4</strong>: Your pacts now last until the end of the next scene.</p>\n<p><strong>Rank 5</strong>: You can hold pacts with 2 recruits at once.</p>\n<p><strong>Rank 6</strong>: Pact-bound recruits act with full actions instead of half.</p>\n<p><strong>Rank 7</strong>: As a free action, you may break a pact: your next attack or spell gains harm 1 and bonus damage equal to 5 times the recruit's CR, and that recruit's mood drops to Depressed.</p>\n<p><strong>Rank 8</strong>: Pact-bound recruits gain one of your resistances of your choice.</p>\n<p><strong>Rank 9</strong>: Once per scene, you can use a pact-bound recruit as the origin point of a martial or spell instead of yourself.</p>\n<p><strong>Rank 10</strong>: Once per session, you can overcharge a pact-bound recruit, doubling its mana and aura totals and regeneration until the end of the scene. When the scene ends, the recruit makes a Will check; on a failure, it is disabled for a number of scenes equal to the number of rounds this effect lasted.</p>"
+  }
+ },
+ {
+  "name": "Strong Voice",
+  "type": "talent",
+  "system": {
+   "tree": "Leadership",
+   "skillGroup": "social",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Increase your command range by burst 2. You can command minions you can hear but not see.</p>\n<p><strong>Rank 2</strong>: Select or create one Social skill to be your voice skill. Increase it by 5.</p>\n<p><strong>Rank 3</strong>: Minions within your command range increase the Tn of their morale checks by 5.</p>\n<p><strong>Rank 4</strong>: Once per scene, as an action, shout at all enemies within burst 3. They make a will check or gain taunted equal to 1 per 10 you passed their Tn by (minimum 1).</p>\n<p><strong>Rank 5</strong>: Once per scene, as an action, all allies and minions within burst 5 reduce one mental condition on them by 2 and are immune to mental conditions until the start of your next turn.</p>\n<p><strong>Rank 6</strong>: Allies within burst 5 of you increase the Tn of saves against mental effects by 10.</p>\n<p><strong>Rank 7</strong>: Once per turn, give one order to a minion within burst 15 at no cost.</p>\n<p><strong>Rank 8</strong>: Once per scene, as an action, deal (Lv/2)d6 sonic damage to all enemies in a cone 3. Targets that fail a Con check gain stunned 1.</p>\n<p><strong>Rank 9</strong>: Increase your voice skill by 5. Once per turn, a minion can make a morale roll as a free action instead of costing you an action.</p>\n<p><strong>Rank 10</strong>: Once per day, as an action, all enemies within burst 10 that can hear you make a will check with the Tn decreased by 20 or gain feared 3. All allies and minions within burst 10 are immune to mental conditions for the scene.</p>"
+  }
+ },
+ {
+  "name": "Tactician",
+  "type": "talent",
+  "system": {
+   "tree": "Leadership",
+   "skillGroup": "studies",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: At the start of the Strategy stage, choose one ally; their first attack this round gains +10 accuracy.</p>\n<p><strong>Rank 2</strong>: Make a Studies check against a creature you can see, with the Tn decreased by the creature's CR times 3. On a pass, allies within burst 2 of you have their Defense and Evasion decreased by 10 until the start of your next turn.</p>\n<p><strong>Rank 3</strong>: You now choose two allies with rank 1 of this talent.</p>\n<p><strong>Rank 4</strong>: Once per round, as a free action, allow two allies to move half their overland without provoking attacks of opportunity.</p>\n<p><strong>Rank 5</strong>: Allies you choose during the Strategy stage gain +2 movement on their first turn.</p>\n<p><strong>Rank 6</strong>: You now choose three allies with rank 1 of this talent, and its accuracy bonus becomes +15.</p>\n<p><strong>Rank 7</strong>: Once per scene, you may allow two allies to act in a row instead of swapping back to the enemies, on a hard Int check with the Tn decreased by the total CR of the enemies.</p>\n<p><strong>Rank 8</strong>: When an ally you chose during the Strategy stage lands a critical hit, regain aura equal to twice your level in this talent.</p>\n<p><strong>Rank 9</strong>: Your Studies check from rank 2 also reveals one of the creature's resistances or weaknesses.</p>\n<p><strong>Rank 10</strong>: Once per scene, an ally may re-roll a failed roll and take the new result.</p>"
+  }
+ },
+ {
+  "name": "Trailblazer",
+  "type": "talent",
+  "system": {
+   "tree": "Leadership",
+   "skillGroup": "adventure",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: When an ally within burst 3 of you would trigger a trap, you may make a Search check against it; on a pass, the trap is revealed before it triggers and does not go off.</p>\n<p><strong>Rank 2</strong>: You can disarm revealed traps from up to burst 3 away, and when you disarm a trap you salvage its materials.</p>\n<p><strong>Rank 3</strong>: Your party leaves no tracks, and the Tn of tracking checks against you is decreased by 20.</p>\n<p><strong>Rank 4</strong>: When enemies would start combat with a Stealth Round against your party, make a Passive detection check against their stealth; on a pass, there is no Stealth Round and combat starts normally.</p>\n<p><strong>Rank 5</strong>: Make an adventure check to find a safe resting site; on a pass, your party regains extra aura and mana equal to your level in this talent when it rests there.</p>\n<p><strong>Rank 6</strong>: The stealth tag your attacks gain from a Stealth Round lasts until the end of your first turn after the Stealth Round ends.</p>\n<p><strong>Rank 7</strong>: Weather conditions count as one stage lower for your party while traveling.</p>\n<p><strong>Rank 8</strong>: The climb and swim speeds of allies traveling with you increase to half their overland while not in combat.</p>\n<p><strong>Rank 9</strong>: When you scout ahead, learn the number and size class of the creatures in the next area.</p>\n<p><strong>Rank 10</strong>: Once per scene, your whole party starts combat with a Stealth Round.</p>"
+  }
+ },
+ {
+  "name": "Violent Inspiration",
+  "type": "talent",
+  "system": {
+   "tree": "Leadership",
+   "skillGroup": "social",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: When your martial art deals damage, one ally or minion within burst 3 increases the damage of their next weapon attack or martial art by 5.</p>\n<p><strong>Rank 2</strong>: When your martial art deals damage, allies and minions within burst 3 regain 5 aura. This can only happen once per turn.</p>\n<p><strong>Rank 3</strong>: When your martial art rolls a critical success, allies and minions within burst 3 increase their accuracy by 10 until the start of your next turn.</p>\n<p><strong>Rank 4</strong>: The damage bonus from rank 1 now applies to all allies and minions within burst 3.</p>\n<p><strong>Rank 5</strong>: Once per scene, as a free action after your martial art deals damage, allies and minions within burst 3 increase the harm of their next weapon attack or martial art by 1.</p>\n<p><strong>Rank 6</strong>: When your martial art reduces a creature to 0 hp, minions within burst 3 automatically pass their next morale check.</p>\n<p><strong>Rank 7</strong>: Once per turn, when your martial art deals damage, one ally or minion within burst 3 regains hp equal to 1/4 of the damage dealt.</p>\n<p><strong>Rank 8</strong>: The damage bonus from rank 1 is increased to 10.</p>\n<p><strong>Rank 9</strong>: The burst of this talent's effects is increased by 2.</p>\n<p><strong>Rank 10</strong>: Once per day, after your martial art deals damage, until the end of the scene the rank 1 damage bonus applies to every attack your allies and minions make, and their weapon attacks and martial arts increase their harm by 1. At the end of the scene, you gain exhausted equal to the number of turns this lasted.</p>"
+  }
+ },
+ {
+  "name": "Warcry",
+  "type": "talent",
+  "system": {
+   "tree": "Leadership",
+   "skillGroup": "social",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: As an action, shout: enemies within burst 3 must make a Will check or gain Feared 1, and allies in that area gain +5 damage until the start of your next turn.</p>\n<p><strong>Rank 2</strong>: Allies affected by your shout regain aura equal to your level in this talent.</p>\n<p><strong>Rank 3</strong>: Your shout's burst increases to 4. Enemies who fail the check gain either Taunted 1 or Feared 1 (your choice).</p>\n<p><strong>Rank 4</strong>: Once per round, after you slay a creature, you may shout as a free action.</p>\n<p><strong>Rank 5</strong>: The damage bonus your shout gives allies increases to +10.</p>\n<p><strong>Rank 6</strong>: The Tn of the Will check against your shout is decreased by your level in this talent.</p>\n<p><strong>Rank 7</strong>: Your shout's burst increases to 6, and the Feared or Taunted value becomes 2.</p>\n<p><strong>Rank 8</strong>: Allies affected by your shout cannot gain Feared until the start of your next turn.</p>\n<p><strong>Rank 9</strong>: Recruits and summons affected by your shout may make a free basic attack.</p>\n<p><strong>Rank 10</strong>: Once per scene, your shout removes all mental conditions from allies within range.</p>"
+  }
+ },
+ {
+  "name": "Air",
+  "type": "talent",
+  "system": {
+   "tree": "Magic",
+   "skillGroup": "arcane",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One 1st-Tier spell from the School of Air spell list.</p>\n<p>When your focused spell has successfully hit the target(s), add the bleed condition by 1.</p>\n<p><strong>Rank 2</strong>: You learn One additional 1st-Tier spell from the School of Air spell list.</p>\n<p>When you cast a spell while the majority of your spells learned are from the School of Air, increase your movement by 1 Square (stackable) until the end of the Scene.</p>\n<p><strong>Rank 3</strong>: Increase your base movement speed by 1 Square.</p>\n<p><strong>Rank 4</strong>: You learn One additional 1st-Tier spell from the School of Air spell list.</p>\n<p>If a spell only does Force damage, it automatically hits the target(s) but its die size decreases by 1 to a minimum of d4.</p>\n<p><strong>Rank 5</strong>: You learn One additional 1st-Tier spell from the School of Air spell list.</p>\n<p>When you aim a focused spell at a single target, you can increase the range of the spell by 1 Square.</p>\n<p><strong>Rank 6</strong>: Focused spells have their complexity decreased by 5 to a minimum of 1.</p>\n<p><strong>Rank 7</strong>: You learn One additional 1st-Tier spell from the School of Air spell list.</p>\n<p>When you cast a spell while the majority of your spells learned are from the School of Air, decrease your evasion by 2 in the spell until the start of your next turn.</p>\n<p><strong>Rank 8</strong>: You learn One additional 1st-Tier spell from the School of Air spell list.</p>\n<p>When you cast a spell while the majority of your spells learned are from the School of Air, gain a flight speed of 1 Square (stackable) until the end of Scene.</p>\n<p><strong>Rank 9</strong>: Increase your max complexity for focused spells by 2.</p>\n<p><strong>Rank 10</strong>: You learn Two additional 1st-Tier spells from the School of Air spell list.</p>\n<p>When your focused spell has successfully hit the target(s) while the target(s) has any stacks of the bleed condition, you can deal damage equal to the number of stacks of the bleed condition. Then the stacks are removed from the target(s).</p>"
+  }
+ },
+ {
+  "name": "Biomancy",
+  "type": "talent",
+  "system": {
+   "tree": "Magic",
+   "skillGroup": "studies",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1:</strong> You learn One 1st-Tier spell from the School of Biomancy spell list.</p>\n<p>When you cast a Biomancy spell, you choose to sacrifice bleed resistance to increase the Tn by 1 per 2 bleed resistance sacrificed with a maximum cost of 50 bleed resistance, you can also spend hp to do this.</p>\n<p><strong>Rank 2:</strong> You learn One additional 1st-Tier spell from the School of Biomancy spell list.</p>\n<p>When you cast a spell while the majority of your spells learned are from the School of Biomancy, You restore 10 bleed resistance. If your bleed resistance is maxed out, the leftover points transfer to hp instead.</p>\n<p><strong>Rank 3:</strong> If the majority of your spells learned are from the School of Biomancy, you may increase its complexity by 5 while your Biomancy spell's duration lasts for hours instead of the normal duration.</p>\n<p><strong>Rank 4:</strong> You learn One additional 1st-Tier spell from the School of Biomancy spell list.</p>\n<p>When you cast a spell while the majority of your spells learned are from the School of Biomancy, You restore 25 hp.</p>\n<p><strong>Rank 5:</strong> You learn One additional 1st-Tier spell from the School of Biomancy spell list.</p>\n<p>When your Biomancy spell has successfully hit the target(s), the Tn of your next non Biomancy spell or attack is increased by 5.</p>\n<p><strong>Rank 6:</strong> Focused spells have their complexity decreased by 5 to a minimum of 1.</p>\n<p><strong>Rank 7:</strong> You learn One additional 1st-Tier spell from the School of Biomancy spell list.</p>\n<p>When your Biomancy spell has successfully hit the target(s), you can increase the range of your next melee attack by 1 square.</p>\n<p><strong>Rank 8:</strong> You learn One additional 1st-Tier spell from the School of Biomancy spell list.</p>\n<p>When your Biomancy spell has successfully hit the target(s), your next non Biomancy spell gains one of the following benefits depending on the type. They are:</p>\n<ul>\n<li>Damage: Increase by harm 1.</li>\n<li>Healing: Restore an additional 25 hp.</li>\n</ul>\n<p>This talent can only be used once per turn.</p>\n<p><strong>Rank 9:</strong> If the majority of your spells learned are from the School of Biomancy, Conditional spells don't count for mana cost.</p>\n<p><strong>Rank 10:</strong> You learn Two additional 1st-Tier spells from the School of Biomancy spell list.</p>\n<p>When you cast a Biomancy spell on a single target, you can choose to upgrade it to an Improved Biomancy Effect. The spell's duration lasts for days instead of the normal duration.</p>\n<p>Each target can only have one Improved Biomancy Effect at a time.</p>"
+  }
+ },
+ {
+  "name": "Cosmic Magic",
+  "type": "talent",
+  "system": {
+   "tree": "Magic",
+   "skillGroup": "studies",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One 1st-Tier spell from the School of Cosmic spell list.</p>\n<p>When you cast a spell while the majority of your spells learned are from the School of Cosmic, the spell gains an additional effect depending on your stage of light. They are:</p>\n<ul>\n<li><strong>0</strong>: This spell gains the benefits of stealth.</li>\n<li><strong>1-4</strong>: You regain 10 mana.</li>\n<li><strong>5+</strong>: Target(s) successfully hit by this spell gains blind by 1.</li>\n</ul>\n<p><strong>Rank 2</strong>: You learn One additional 1st-Tier spell from the School of Cosmic spell list.</p>\n<p>When you cast a focused spell that spell gains an additional effect depending on your stage of light. They are:</p>\n<ul>\n<li><strong>0</strong>: You can choose you and 1 ally to become invisible for 1 turn.</li>\n<li><strong>1-4</strong>: You regain 5 aura.</li>\n<li><strong>5+</strong>: Increase the spell harm by 1.</li>\n</ul>\n<p><strong>Rank 3</strong>: When you cast a focused spell add the following effect according to the damage type that focused spell uses. They are.</p>\n<ul>\n<li><strong>Fire Damage</strong>: Add Nether damage to your Int modifier.</li>\n<li><strong>Nether Damage</strong>: Add Fire damage to your Int modifier.</li>\n</ul>\n<p><strong>Rank 4</strong>: You learn One additional 1st-Tier spell from the School of Cosmic spell list.</p>\n<p>When you cast a focused spell, the focused spell gains an additional effect depending on your stage of light. They are:</p>\n<ul>\n<li><strong>0</strong>: The target(s) within this blast radius must make a save vs being Cursed. If failed, the target(s) gain Cursed by 1.</li>\n<li><strong>1-4</strong>: Until the start of your next turn, Increase the Tn by 10 for saves.</li>\n<li><strong>5+</strong>: The target(s) within this blast radius must make a save vs being Flammable. If failed, the target(s) gain Flammable by 1.</li>\n</ul>\n<p><strong>Rank 5</strong>: You learn One additional 1st-Tier spell from the School of Cosmic spell list.</p>\n<p>When you cast a spell while the majority of your spells learned are from the School of Cosmic, the spell gains an additional effect depending on your stage of light. They are:</p>\n<ul>\n<li><strong>0</strong>: You teleport 1 Unoccupied square up to your level away.</li>\n<li><strong>1-4</strong>: You and one ally within burst 2 regain 10 mana.</li>\n<li><strong>5+</strong>: The spell gains Blast 1 or Burst 1.</li>\n</ul>\n<p><strong>Rank 6</strong>: Focused spells have their complexity decreased by 5 to a minimum of 1.</p>\n<p><strong>Rank 7</strong>: You learn One additional 1st-Tier spell from the School of Cosmic spell list.</p>\n<p>When you cast a spell while the majority of your spells learned are from the School of Cosmic, the spell gains an additional effect depending on your stage of light. They are:</p>\n<ul>\n<li><strong>0</strong>: If the target(s) have Cursed, reduce the target(s) base movement speed by half (round down).</li>\n<li><strong>1-4</strong>: Increase the range of the spell by 1 square.</li>\n<li><strong>5+</strong>: If the target(s) have Flammable, reduce any healing the target(s) receives by half (round down).</li>\n</ul>\n<p><strong>Rank 8</strong>: You learn One additional 1st-Tier spell from the School of Cosmic spell list.</p>\n<p>When you cast a focused spell, the focused spell gains an additional effect depending on your stage of light. They are:</p>\n<ul>\n<li><strong>0</strong>: Target(s) successfully hit by this spell has their movement reduced to 0 Squares for 1 turn.</li>\n<li><strong>1-4</strong>: Target(s) successfully hit by this spell have their movement reduced by half (round down) for 1 turn.</li>\n<li><strong>5+</strong>: Target(s) successfully hit by this spell are pushed back 1 square.</li>\n</ul>\n<p><strong>Rank 9</strong>: If the majority of your spells learned are from the School of Cosmic, Conditional spells don't count for mana cost.</p>\n<p><strong>Rank 10</strong>: You learn Two additional 1st-Tier spells from the School of Cosmic spell list.</p>\n<p>Whenever you cast a spell or focused spell, that spell gains the benefits of being in 0 or 5 (Your choice) of the stage of light. Once the spell is cast, your stage of light is reverted to what it previously was.</p>\n<p>You can only use this talent once per Scene.</p>"
+  }
+ },
+ {
+  "name": "Demonic Magic",
+  "type": "talent",
+  "system": {
+   "tree": "Magic",
+   "skillGroup": "social",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One 1st-Tier spell from the School of Demonic spell list.</p>\n<p>When you cast a focused spell while the majority of your spells learned are from the School of Demonic, You can increase the focused spell's complexity by multiples of 10. You negate 1 of that spell's drawback per 10 of the increase.</p>\n<p><strong>Rank 2</strong>: You learn One additional 1st-Tier spell from the School of Demonic spell list.</p>\n<p>When your spell has successfully hit the target(s) while the majority of your spells learned are from the School of Demonic, you and the target(s) are marked with mana drain. Whoever hits anyone with attack or spell marked with mana drain, the hit target loses 5 mana and transfers that lost mana to the attacker or spellcaster.</p>\n<p>This talent lasts until the start of your next turn.</p>\n<p><strong>Rank 3</strong>: If the majority of your spells learned are from the School of Demonic, focused spells don't count for mana cost.</p>\n<p><strong>Rank 4</strong>: You learn One additional 1st-Tier spell from the School of Demonic spell list.</p>\n<p>When your focused spell has successfully hit the target(s) while the majority of your spells learned are from the School of Demonic, all attacks and spells you and the target(s) roll have the Tn reduced by 20.</p>\n<p>This talent lasts until the start of your next turn.</p>\n<p><strong>Rank 5</strong>: You learn One additional 1st-Tier spell from the School of Demonic spell list.</p>\n<p>When your spell has successfully hit the target(s) while the majority of your spells learned are from the School of Demonic, all social clashes made against you have the target(s) roll increased by 20.</p>\n<p>This talent lasts until the start of your next turn.</p>\n<p><strong>Rank 6</strong>: Increase your max complexity for focused spells by 2.</p>\n<p><strong>Rank 7</strong>: You learn One additional 1st-Tier spell from the School of Demonic spell list.</p>\n<p>When your spell has successfully hit the target(s) while the majority of your spells learned are from the School of Demonic, you and the target(s) gain 1 Charmed.</p>\n<p><strong>Rank 8</strong>: You learn One additional 1st-Tier spell from the School of Demonic spell list.</p>\n<p>When your spell has successfully hit the target(s) while the majority of your spells learned are from the School of Demonic, you and the target(s) gain 1 Cursed.</p>\n<p><strong>Rank 9</strong>: Conditional spells learned from the School of Demonic have their complexity decreased by 5 to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Two additional 1st-Tier spells from the School of Demonic spell list.</p>\n<p>You can select a single target you can see. Until the end of the scene, you and the target are affected by the magic of a Demon of Chaos which affects the roll of the dice. You and the target gain the following effects:</p>\n<ul>\n<li>When the dice is rolled 51 or above, reroll again with Disadvantage. Use the second result.</li>\n<li>When the dice is rolled 50 or below, reroll again with Advantage. Use the second result.</li>\n</ul>\n<p>You can only use this talent once per Scene.</p>"
+  }
+ },
+ {
+  "name": "Earth Magic",
+  "type": "talent",
+  "system": {
+   "tree": "Magic",
+   "skillGroup": "arcane",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One 1st-Tier spell from the School of Earth spell list.</p>\n<p>When you cast a focused spell you can increase its complexity by 3 to increase the range of a spell by half your level in earth magic.</p>\n<p><strong>Rank 2</strong>: You learn One additional 1st-Tier spell from the School of Earth spell list.</p>\n<p>When casting a spell while the majority of your spells learned are from the School of Earth, decrease your defense by half the mana spent vs the next attack against you.</p>\n<p><strong>Rank 3</strong>: If when casting an earth spell it deals no damage count your level in earth magic as 3 levels higher.</p>\n<p><strong>Rank 4</strong>: You learn One additional 1st-Tier spell from the School of Earth spell list.</p>\n<p>You can cast spells from any square of visible difficult terrain.</p>\n<p><strong>Rank 5</strong>: You learn One additional 1st-Tier spell from the School of Earth spell list.</p>\n<p>When casting a spell that does not deal damage, you can create a wall of earth in front of you with hp equal to your level in earth magic times 10. While this wall stands you can have it take any damage you would take as long as you are within burst level in earth magic.</p>\n<p><strong>Rank 6</strong>: Increase your max complexity for focused spells by 2.</p>\n<p><strong>Rank 7</strong>: You learn One additional 1st-Tier spell from the School of Earth spell list.</p>\n<p>When casting a spell from a square of difficult terrain, count the spell as 2 levels higher.</p>\n<p><strong>Rank 8</strong>: You learn One additional 1st-Tier spell from the School of Earth spell list.</p>\n<p>When casting a focused spell you can cast another focused spell from the School of Earth from a difficult terrain within visible range for half its mana cost.</p>\n<p><strong>Rank 9</strong>: Conditional spells learned from the School of Earth have their complexity decreased by 5 to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Two additional 1st-Tier spells from the School of Earth spell list.</p>\n<p>When dealing damage from an earth art the target must make a con check on failure they gain stunned 1.</p>"
+  }
+ },
+ {
+  "name": "Electricity Magic",
+  "type": "talent",
+  "system": {
+   "tree": "Magic",
+   "skillGroup": "arcane",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One 1st-Tier spell from the School of Electricity spell list.</p>\n<p>When you cast a focused spell you can increase its complexity by 3 to count all targets electrified as half your level in electricity magic higher.</p>\n<p><strong>Rank 2</strong>: You learn One additional 1st-Tier spell from the School of Electricity spell list.</p>\n<p>When casting a spell while the majority of your spells learned are from the School of Electricity, you can decrease your evasion by triple the electrified damage targets take against the next attack.</p>\n<p><strong>Rank 3</strong>: When an electricity spell deals damage, give the target electrified 1 or increase it by half the electricity arts if they already have it.</p>\n<p><strong>Rank 4</strong>: You learn One additional 1st-Tier spell from the School of Electricity spell list.</p>\n<p>Increase your movement by 5 whenever you trigger a target electrified.</p>\n<p><strong>Rank 5</strong>: You learn One additional 1st-Tier spell from the School of Electricity spell list.</p>\n<p>You can ignore electricity resistance equal to the complexity of the spell by increasing the mana cost by 30. This does not increase the complexity nor can this be paid for with soul.</p>\n<p><strong>Rank 6</strong>: Increase your max complexity for focused spells by 2.</p>\n<p><strong>Rank 7</strong>: You learn One additional 1st-Tier spell from the School of Electricity spell list.</p>\n<p>When electrified is triggered, increase the damage by your damage modifier times the value while within burst 4 of you or your spells trigger it.</p>\n<p><strong>Rank 8</strong>: You learn One additional 1st-Tier spell from the School of Electricity spell list.</p>\n<p>When casting a focused spell decrease the mana cost of the spell by 4 for each action this spell was channeled for.</p>\n<p><strong>Rank 9</strong>: Conditional spells learned from the School of Electricity have their complexity decreased by 5 to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Two additional 1st-Tier spells from the School of Electricity spell list.</p>\n<p>Your electricity spells can gain the channel tag when casting them, for each turn you hold the spell increase the range, blast, burst or cone by 1.</p>"
+  }
+ },
+ {
+  "name": "Fire Magic",
+  "type": "talent",
+  "system": {
+   "tree": "Magic",
+   "skillGroup": "arcane",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One 1st-Tier spell from the School of Fire spell list.</p>\n<p>When you cast a focused spell you can increase its complexity by 3 to cause all targets on fire to trigger.</p>\n<p><strong>Rank 2</strong>: You learn One additional 1st-Tier spell from the School of Fire spell list.</p>\n<p>When casting a spell while the majority of your spells learned are from the School of Fire, you can increase the target on fire by 1.</p>\n<p><strong>Rank 3</strong>: When dealing fire damage, if the target has resistance or molten the bonus damage is your damage mod times your level in fire magic.</p>\n<p><strong>Rank 4</strong>: You learn One additional 1st-Tier spell from the School of Fire spell list.</p>\n<p>Fire spells have their damage increased by your missing hp divided by 4 rounding up.</p>\n<p><strong>Rank 5</strong>: You learn One additional 1st-Tier spell from the School of Fire spell list.</p>\n<p>Fire spells have their blast or burst increase by 1, allies hit by the spell take half damage on failure and none on success. On critical success they can choose to restore aura or mana equal to a \u00bc of the damage.</p>\n<p><strong>Rank 6</strong>: Increase your max complexity for focused spells by 2.</p>\n<p><strong>Rank 7</strong>: You learn One additional 1st-Tier spell from the School of Fire spell list.</p>\n<p>Molten tags increase by 2 whenever you hit with a fire spell or targets gain molten 1 unless they are an ally.</p>\n<p><strong>Rank 8</strong>: You learn One additional 1st-Tier spell from the School of Fire spell list.</p>\n<p>Fire spells deal double damage when it is a focus spell.</p>\n<p><strong>Rank 9</strong>: Conditional spells learned from the School of Fire have their complexity decreased by 5 to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Two additional 1st-Tier spells from the School of Fire spell list.</p>\n<p>Your fire spells cause all targets to make a hard con check on failure; they double their On Fire and molten tags.</p>"
+  }
+ },
+ {
+  "name": "Gravity Magic",
+  "type": "talent",
+  "system": {
+   "tree": "Magic",
+   "skillGroup": "arcane",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One 1st-Tier spell from the School of Gravity spell list.</p>\n<p>When casting a focused spell you can increase the complexity by 3 to count as having met a conditional art.</p>\n<p><strong>Rank 2</strong>: You learn One additional 1st-Tier spell from the School of Gravity spell list.</p>\n<p>When casting a spell while the majority of your spells learned are from the School of Gravity, you can push or pull each target hit by 1 square.</p>\n<p><strong>Rank 3</strong>: Creatures hit by your gravity spells have their flight speed halved until the start of your next turn.</p>\n<p><strong>Rank 4</strong>: You learn One additional 1st-Tier spell from the School of Gravity spell list.</p>\n<p>When a gravity spell hits a creature with a flight speed, it drops one height stage.</p>\n<p><strong>Rank 5</strong>: You learn One additional 1st-Tier spell from the School of Gravity spell list.</p>\n<p>When a gravity spell hits, the target must make a Str check or be knocked prone.</p>\n<p><strong>Rank 6</strong>: Increase your max complexity for focused spells by 2.</p>\n<p><strong>Rank 7</strong>: You learn One additional 1st-Tier spell from the School of Gravity spell list.</p>\n<p>A creature you push or pull into a wall or another creature takes 1d6 blunt damage for each square it could not move.</p>\n<p><strong>Rank 8</strong>: You learn One additional 1st-Tier spell from the School of Gravity spell list.</p>\n<p>When casting a focused spell, a burst 2 area around one target hit becomes difficult terrain until the start of your next turn.</p>\n<p><strong>Rank 9</strong>: Conditional spells learned from the School of Gravity have their complexity decreased by 5 to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Two additional 1st-Tier spells from the School of Gravity spell list.</p>\n<p>Once per scene, create a gravity well at burst 3 for 3 rounds. Creatures inside are pulled 2 squares toward the center at the start of their turn, and attacks against them have the Tn increased by 10.</p>"
+  }
+ },
+ {
+  "name": "Healing Magic",
+  "type": "talent",
+  "system": {
+   "tree": "Magic",
+   "skillGroup": "studies",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One 1st-Tier spell from the School of Healing spell list.</p>\n<p>When you cast a focused spell, you can increase its complexity by 3 to restore 10 hp to one ally within burst 2 of the target.</p>\n<p><strong>Rank 2</strong>: You learn One additional 1st-Tier spell from the School of Healing spell list.</p>\n<p>When casting a spell while the majority of your spells learned are from the School of Healing, you restore hp equal to your level in healing magic times 2.</p>\n<p><strong>Rank 3</strong>: Healing spells you cast restore additional hp equal to your Wis.</p>\n<p><strong>Rank 4</strong>: You learn One additional 1st-Tier spell from the School of Healing spell list.</p>\n<p>When a healing spell restores hp to a target, you can lower the value of one condition on it by 1.</p>\n<p><strong>Rank 5</strong>: You learn One additional 1st-Tier spell from the School of Healing spell list.</p>\n<p>Healing that would restore a target past its max hp instead grants natural armor equal to the excess, up to 20, until the end of the scene.</p>\n<p><strong>Rank 6</strong>: Increase your max complexity for focused spells by 2.</p>\n<p><strong>Rank 7</strong>: You learn One additional 1st-Tier spell from the School of Healing spell list.</p>\n<p>When a healing spell targets an ally at half hp or less, it restores 15 additional hp.</p>\n<p><strong>Rank 8</strong>: You learn One additional 1st-Tier spell from the School of Healing spell list.</p>\n<p>Once per turn, when you heal an ally, they restore 5 bleed resistance.</p>\n<p><strong>Rank 9</strong>: Conditional spells learned from the School of Healing have their complexity decreased by 5 to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Two additional 1st-Tier spells from the School of Healing spell list.</p>\n<p>Once per day, as an action, all allies within burst 5 regain hp equal to your level in healing magic times 10 and lower one condition by 1.</p>"
+  }
+ },
+ {
+  "name": "Necromancy",
+  "type": "talent",
+  "system": {
+   "tree": "Magic",
+   "skillGroup": "arcane",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One 1st-Tier spell from the School of Necromancy spell list.</p>\n<p>When you cast a focused spell, you can increase its complexity by 3 to give the target cursed 1.</p>\n<p><strong>Rank 2</strong>: You learn One additional 1st-Tier spell from the School of Necromancy spell list.</p>\n<p>When casting a spell while the majority of your spells learned are from the School of Necromancy, if the spell reduces a creature to 0 hp, you regain 10 hp.</p>\n<p><strong>Rank 3</strong>: Your necromancy spells that deal death damage heal undead allies instead of harming them.</p>\n<p><strong>Rank 4</strong>: You learn One additional 1st-Tier spell from the School of Necromancy spell list.</p>\n<p>Once per scene, when a creature dies within burst 5 of you, you can raise it as a minion until the end of the scene with half its max hp. It does not require morale checks.</p>\n<p><strong>Rank 5</strong>: You learn One additional 1st-Tier spell from the School of Necromancy spell list.</p>\n<p>Targets hit by your necromancy spells have their healing received halved until the start of your next turn.</p>\n<p><strong>Rank 6</strong>: Increase your max complexity for focused spells by 2.</p>\n<p><strong>Rank 7</strong>: You learn One additional 1st-Tier spell from the School of Necromancy spell list.</p>\n<p>Minions you raised increase their accuracy by your level in necromancy.</p>\n<p><strong>Rank 8</strong>: You learn One additional 1st-Tier spell from the School of Necromancy spell list.</p>\n<p>When casting a focused spell, you can pay hp instead of mana for up to half its mana cost.</p>\n<p><strong>Rank 9</strong>: Conditional spells learned from the School of Necromancy have their complexity decreased by 5 to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Two additional 1st-Tier spells from the School of Necromancy spell list.</p>\n<p>Once per scene, sacrifice a raised minion. All enemies within burst 3 of it take death damage equal to its remaining hp and gain cursed 2.</p>"
+  }
+ },
+ {
+  "name": "Plant Magic",
+  "type": "talent",
+  "system": {
+   "tree": "Magic",
+   "skillGroup": "trades",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One 1st-Tier spell from the School of Plant spell list.</p>\n<p>When you cast a focused spell, you can increase its complexity by 3 to have vines grapple the target until the start of your next turn.</p>\n<p><strong>Rank 2</strong>: You learn One additional 1st-Tier spell from the School of Plant spell list.</p>\n<p>When casting a spell while the majority of your spells learned are from the School of Plant, a burst 1 area around one target hit becomes difficult terrain until the end of the scene.</p>\n<p><strong>Rank 3</strong>: You can see through and cast spells from any plant within burst 10 of you.</p>\n<p><strong>Rank 4</strong>: You learn One additional 1st-Tier spell from the School of Plant spell list.</p>\n<p>When a plant spell hits, the target must make a con check or gain sickened 1.</p>\n<p><strong>Rank 5</strong>: You learn One additional 1st-Tier spell from the School of Plant spell list.</p>\n<p>At the start of your turn, regain 5 hp for each creature grappled by your plant spells.</p>\n<p><strong>Rank 6</strong>: Increase your max complexity for focused spells by 2.</p>\n<p><strong>Rank 7</strong>: You learn One additional 1st-Tier spell from the School of Plant spell list.</p>\n<p>Creatures grappled by your plant spells take 1d6 piercing damage at the start of their turn.</p>\n<p><strong>Rank 8</strong>: You learn One additional 1st-Tier spell from the School of Plant spell list.</p>\n<p>Allies standing in difficult terrain created by your plant spells gain natural armor 10.</p>\n<p><strong>Rank 9</strong>: Conditional spells learned from the School of Plant have their complexity decreased by 5 to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Two additional 1st-Tier spells from the School of Plant spell list.</p>\n<p>Once per scene, create an overgrowth at burst 4 until the end of the scene. It is difficult terrain for enemies only, and enemies who enter it must make a Str check or be grappled.</p>"
+  }
+ },
+ {
+  "name": "Water Magic",
+  "type": "talent",
+  "system": {
+   "tree": "Magic",
+   "skillGroup": "arcane",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One 1st-Tier spell from the School of Water spell list.</p>\n<p>When you cast a focused spell, you can increase its complexity by 3 to push the target 2 squares.</p>\n<p><strong>Rank 2</strong>: You learn One additional 1st-Tier spell from the School of Water spell list.</p>\n<p>When casting a spell while the majority of your spells learned are from the School of Water, you can remove On Fire from yourself or one ally within burst 2.</p>\n<p><strong>Rank 3</strong>: Water spells deal double damage to creatures with On Fire or molten, then remove those conditions.</p>\n<p><strong>Rank 4</strong>: You learn One additional 1st-Tier spell from the School of Water spell list.</p>\n<p>When a water spell hits a target with electrified, increase its electrified by 1.</p>\n<p><strong>Rank 5</strong>: You learn One additional 1st-Tier spell from the School of Water spell list.</p>\n<p>You gain a swim speed equal to your movement and can breathe underwater.</p>\n<p><strong>Rank 6</strong>: Increase your max complexity for focused spells by 2.</p>\n<p><strong>Rank 7</strong>: You learn One additional 1st-Tier spell from the School of Water spell list.</p>\n<p>Water spells can leave a burst 1 puddle for the scene. Creatures entering it must make an Agi check or fall prone.</p>\n<p><strong>Rank 8</strong>: You learn One additional 1st-Tier spell from the School of Water spell list.</p>\n<p>Once per turn, when a water spell hits, you or an ally within burst 3 regains 10 hp.</p>\n<p><strong>Rank 9</strong>: Conditional spells learned from the School of Water have their complexity decreased by 5 to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Two additional 1st-Tier spells from the School of Water spell list.</p>\n<p>Once per scene, send a wave in a cone 5. Enemies are pushed 3 squares and fall prone on a failed Str check, and allies in the cone lose On Fire.</p>"
+  }
+ },
+ {
+  "name": "Weather Magic",
+  "type": "talent",
+  "system": {
+   "tree": "Magic",
+   "skillGroup": "arcane",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: You learn One 1st-Tier spell from the School of Weather spell list.</p>\n<p>When you cast a focused spell, you can increase its complexity by 3 to give the target electrified 1 or frosting 1 (your choice).</p>\n<p><strong>Rank 2</strong>: You learn One additional 1st-Tier spell from the School of Weather spell list.</p>\n<p>When casting a spell while the majority of your spells learned are from the School of Weather, ranged attacks against you and allies within burst 2 face evasion decreased by 5 until the start of your next turn.</p>\n<p><strong>Rank 3</strong>: You and your allies are not affected by weather your spells create.</p>\n<p><strong>Rank 4</strong>: You learn One additional 1st-Tier spell from the School of Weather spell list.</p>\n<p>When a weather spell hits, the target must make a con check or gain blind 1.</p>\n<p><strong>Rank 5</strong>: You learn One additional 1st-Tier spell from the School of Weather spell list.</p>\n<p>Weather spells that cover an area last 1 additional round.</p>\n<p><strong>Rank 6</strong>: Increase your max complexity for focused spells by 2.</p>\n<p><strong>Rank 7</strong>: You learn One additional 1st-Tier spell from the School of Weather spell list.</p>\n<p>Creatures with a flight speed hit by your weather spells drop one height stage.</p>\n<p><strong>Rank 8</strong>: You learn One additional 1st-Tier spell from the School of Weather spell list.</p>\n<p>When casting a focused spell outdoors, count the spell as 2 levels higher.</p>\n<p><strong>Rank 9</strong>: Conditional spells learned from the School of Weather have their complexity decreased by 5 to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Two additional 1st-Tier spells from the School of Weather spell list.</p>\n<p>Once per day, call a storm at burst 10 for the scene. Enemies inside gain electrified 1 at the start of their turn, their ranged attacks have the Tn decreased by 20, and allies inside decrease their evasion by 10.</p>"
+  }
+ },
+ {
+  "name": "Archery",
+  "type": "talent",
+  "system": {
+   "tree": "Martial",
+   "skillGroup": "adventure",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Starting gear (Draft):</strong> If you take this talent at character creation, you gain a Bow base weapon with the Basic skin. If you also have Blacksmithing, you can take 2 Common tier 1 materials instead.</p>\n<p><strong>Rank 1:</strong> You learn One Martial School for using a bow.</p>\n<p>When you roll a critical success on your ranged attack or martial art that uses a bow, you deal maximum damage plus an additional roll of damage dice instead of rolling double of the damage dice.</p>\n<p><strong>Rank 2</strong>: You learn Two martial arts for using a bow.</p>\n<p>Your ranged attacks with a bow deal additional damage by +1 per 10 points rolled below the Tn.</p>\n<p><strong>Rank 3</strong>: You can increase the action cost of your ranged attacks with a bow by 1 to roll them with Advantage.</p>\n<p><strong>Rank 4</strong>: You learn One additional martial art for using a bow.</p>\n<p>When your ranged attack with a bow has successfully hit the target(s) that is 10 squares or further, that attack deals an additional +5 bonus piercing damage.</p>\n<p><strong>Rank 5</strong>: You learn One additional martial art for using a bow.</p>\n<p>Increase the Tn by 5 when rolling to recover custom arrows.</p>\n<p><strong>Rank 6</strong>: Increase the Tn by 10 when using the search skill.</p>\n<p><strong>Rank 7</strong>: You learn One additional martial art for using a bow.</p>\n<p>Your ranged attacks with a bow increase in accuracy by 5 for each time you target the same target in a row.</p>\n<p><strong>Rank 8</strong>: You learn One additional martial art for using a bow.</p>\n<p>You can increase the actions cost by 1 to attack multiple targets you can see within range with your bow. Those attacks decrease in accuracy by 15 for each different target.</p>\n<p><strong>Rank 9</strong>: Increase the maximum range of your bow attacks by 1 square.</p>\n<p><strong>Rank 10</strong>: You learn Five additional martial arts for using a bow.</p>\n<p>When your ranged attack or martial art that uses a bow has successfully hit the target(s); whenever you roll a 1 on any of the individual damage die, you can reroll that die.</p>"
+  }
+ },
+ {
+  "name": "Axe Combat",
+  "type": "talent",
+  "system": {
+   "tree": "Martial",
+   "skillGroup": "combat",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Starting gear (Draft):</strong> If you take this talent at character creation, you gain an Axe base weapon with the Basic skin. If you also have Blacksmithing, you can take 2 Common tier 1 materials instead.</p>\n<p><strong>Rank 1:</strong> You learn One Martial School for using an axe.</p>\n<p>When your melee attack or martial art that uses an axe has successfully hit target(s) with less than half health, add the broken limb condition by 1.</p>\n<p><strong>Rank 2:</strong> You learn Two martial arts for using an axe.</p>\n<p>When your melee attack or martial art that uses an axe has successfully reduced a single target's HP to 0, you regain 10 hp.</p>\n<p><strong>Rank 3:</strong> When your melee attack that uses an axe has successfully reduced a single target's HP to 0, you can make an additional attack against a nearby different target.</p>\n<p><strong>Rank 4</strong>: You learn One additional martial art for using an axe.</p>\n<p>When your melee attack or martial art that uses an axe has successfully hit the target(s), you gain 5 bonus slashing damage until the start of your next turn.</p>\n<p><strong>Rank 5:</strong> You learn One additional martial art for using an axe.</p>\n<p>When your melee attack that uses an axe has successfully hit a single target, you restore 5 aura.</p>\n<p><strong>Rank 6:</strong> Any unarmored or plant enemies successfully hit with your melee attacks that use an axe, you increase the damage by harm 1.</p>\n<p><strong>Rank 7:</strong> You learn One additional martial art for using an axe.</p>\n<p>Your melee attacks or martial art that uses an axe deal a bonus 20 slashing damage as long your aura is above half. If you use a martial art that's cost will drop you below half, the additional bonus damage is doubled.</p>\n<p><strong>Rank 8:</strong> You learn One additional martial art for using an axe.</p>\n<p>If you move in a straight line before you make an attack that uses an axe, you can increase the Tn by 1 of that attack per square moved. You also increase the damage by 1 per square moved.</p>\n<p><strong>Rank 9:</strong> Your soul art's complexity is decreased by 5 after the school multiplier, to a minimum of 1.</p>\n<p><strong>Rank 10:</strong> You learn Five additional martial arts for using an axe.</p>\n<p>At the start of your turn, you can choose to make all attack rolls or martial arts that use an axe be rolled with advantage; however, if you use this talent this turn, all attack rolls against you are also rolled with advantage until the start of your next turn.</p>\n<p>When you have the enraged condition while using this talent, all damage you received is reduced by half (round down).</p>"
+  }
+ },
+ {
+  "name": "Banisher",
+  "type": "talent",
+  "system": {
+   "tree": "Martial",
+   "skillGroup": "studies",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Once per turn, your first attack or spell gains the benefits of stealth as long as it's used against Celestial or Demonic enemies.</p>\n<p><strong>Rank 2</strong>: When tracking Celestial or Demonic enemies, increase the Tn by 10 while also increasing the critical range to 1-10%.</p>\n<p><strong>Rank 3</strong>: When you take damage from a Celestial or Demonic enemy, decrease the die size by 1 to a minimum of d4.</p>\n<p><strong>Rank 4</strong>: Increase the accuracy by 10 when you attack or cast a spell against Celestial or Demonic enemies, while also increasing the critical range to 1-10%.</p>\n<p><strong>Rank 5</strong>: When harvesting materials from a dead Celestial or Demonic enemy, that enemy grants 1 additional material or ingredient.</p>\n<p><strong>Rank 6</strong>: Crafting items using Celestial or Demonic parts have their complexity decreased by 1. Items crafted from using Celestial or Demonic parts also have their attributes increased by 1.</p>\n<p><strong>Rank 7</strong>: When being targeted by a Celestial or Demonic enemy's attack or spell, decrease your defense and evasion by 5.</p>\n<p><strong>Rank 8</strong>: When your attacks or spells have successfully hit at least one Celestial or Demonic enemy, decrease the target(s) base movement speed by 1 square.</p>\n<p><strong>Rank 9</strong>: When your attacks against Celestial or Demonic enemies have successfully hit, you increase the damage by harm 1.</p>\n<p><strong>Rank 10</strong>: When your attacks or spells have successfully hit at least one Celestial or Demonic enemy while having stealth, that attack or spell deals max damage. When this happens the attack or spell gains an extra feature depending on what the enemy is. They are:</p>\n<ul>\n<li><strong>Celestial</strong>: The target(s) gain 1 Doomed.</li>\n<li><strong>Demon</strong>: The target(s) gain 1 Cursed.</li>\n</ul>\n<p>You can use the second part of this talent once per scene.</p>"
+  }
+ },
+ {
+  "name": "Bipedal Butcher",
+  "type": "talent",
+  "system": {
+   "tree": "Martial",
+   "skillGroup": "social",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Once per turn, your first attack or spell gains the benefits of stealth as long as it's used against Humanoid enemies.</p>\n<p><strong>Rank 2</strong>: When tracking Humanoid enemies, increase the Tn by 10 while also increasing the critical range to 1-10%.</p>\n<p><strong>Rank 3</strong>: When you take damage from a Humanoid enemy, decrease the die size by 1 to a minimum of d4.</p>\n<p><strong>Rank 4</strong>: Increase the accuracy by 10 when you attack or cast a spell against Humanoid enemies, while also increasing the critical range to 1-10%.</p>\n<p><strong>Rank 5</strong>: When harvesting materials from a dead Humanoid enemy, that enemy grants 1 additional material or ingredient.</p>\n<p><strong>Rank 6</strong>: Crafting items using Humanoid parts have their complexity decreased by 1. Items crafted from using Humanoid parts also have their attributes increased by 1.</p>\n<p><strong>Rank 7</strong>: When being targeted by a Humanoid enemy's attack or spell, decrease your defense and evasion by 5.</p>\n<p><strong>Rank 8</strong>: When your attacks or spells have successfully hit at least one Humanoid enemy, decrease the target(s) base movement speed by 1 square.</p>\n<p><strong>Rank 9</strong>: When your attacks against Humanoid enemies have successfully hit, you increase the damage by harm 1.</p>\n<p><strong>Rank 10</strong>: When your attacks or spells have successfully hit at least one Humanoid enemy while having stealth, that attack or spell deals max damage. When this happens the attack or spell gains an extra feature depending on the level of hp they have. They are:</p>\n<ul>\n<li><strong>Above Half Hp</strong>: Any damage you make against the target(s) is doubled until the start of your next turn.</li>\n<li><strong>Below Half Hp</strong>: The target(s) Melee or ranged attacks against you are rolled with Disadvantage until the start of your next turn.</li>\n</ul>\n<p>You can use the second part of this talent once per day.</p>"
+  }
+ },
+ {
+  "name": "Dagger Combat",
+  "type": "talent",
+  "system": {
+   "tree": "Martial",
+   "skillGroup": "adventure",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Starting gear (Draft):</strong> If you take this talent at character creation, you gain a Dagger base weapon with the Basic skin. If you also have Blacksmithing, you can take 2 Common tier 1 materials instead.</p>\n<p><strong>Rank 1</strong>: You learn One Martial School for using a dagger.</p>\n<p>The critical range of your melee attack or martial arts that use a dagger is increased to 1-10%.</p>\n<p>When you roll a critical success on your melee attack or martial art that uses a dagger, add bleed 1.</p>\n<p><strong>Rank 2</strong>: You learn Two martial arts for using a dagger.</p>\n<p>If you successfully hit the target(s) past Tn by 30 by using a dagger, you can add one stack of bleed, blind, or grim wounds.</p>\n<p><strong>Rank 3</strong>: If you are flanking a single target (Not just using stealth), you add stealth damage to the attack.</p>\n<p><strong>Rank 4</strong>: You learn One additional martial art for using a dagger.</p>\n<p>When your martial art that uses a dagger has successfully hit the target(s) and you haven\u2019t used your movement action, you add stealth damage to the attack and increase your movement by 1 Square until the end of the Scene.</p>\n<p><strong>Rank 5</strong>: You learn One additional martial art for using a dagger.</p>\n<p>When your martial art that uses a dagger has successfully hit the target(s), you increase the damage by harm 2. Then the action cost of a dagger is decreased by 2 to a minimum of 1. If you are dual wielding weapons is decreased by 1 to a minimum of 1 instead.</p>\n<p>You can only use this talent once per turn.</p>\n<p><strong>Rank 6</strong>: When your melee attack or martial art that uses a dagger has successfully hit the target(s) and your offhand weapon is also a dagger, you can make an additional attack with the off hand dagger.</p>\n<p><strong>Rank 7</strong>: You learn One additional martial art for using a dagger.</p>\n<p>When your melee attack that uses a dagger has successfully hit a single target, your dagger adds 5 more piercing damage per effect the dagger has.</p>\n<p><strong>Rank 8</strong>: You learn One additional martial art for using a dagger.</p>\n<p>When your melee attack that uses a dagger has successfully hit a single target, your dagger adds 5 more piercing damage per condition the target has.</p>\n<p><strong>Rank 9</strong>: Your soul art's complexity is decreased by 5 after the school multiplier, to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Five additional martial arts for using a dagger.</p>\n<p>You choose your Str or Agi Modifier. You can make additional melee attacks with your dagger as many times as your chosen modifier at no cost.</p>\n<p>You can only use this talent once per Scene.</p>"
+  }
+ },
+ {
+  "name": "Hammer Combat",
+  "type": "talent",
+  "system": {
+   "tree": "Martial",
+   "skillGroup": "combat",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Starting gear (Draft):</strong> If you take this talent at character creation, you gain a Hammer base weapon with the Basic skin. If you also have Blacksmithing, you can take 2 Common tier 1 materials instead.</p>\n<p><strong>Rank 1</strong>: You learn One Martial School for using a hammer.</p>\n<p>When you roll a critical success on your melee attack or martial art that uses a hammer, the target gains the stunned condition for one turn.</p>\n<p><strong>Rank 2</strong>: You learn Two martial arts for using a hammer.</p>\n<p>If you successfully hit the target(s) past Tn by 20 by using a hammer, you can push the target(s) back by 1 square.</p>\n<p><strong>Rank 3</strong>: When your melee attack that uses a hammer has successfully hit a target that is wearing armor, you increase the damage by harm 1.</p>\n<p><strong>Rank 4</strong>: You learn One additional martial art for using a hammer.</p>\n<p>When your melee attack or martial art that uses a hammer has successfully hit the target(s), you gain 5 bonus crushing damage until the start of your next turn.</p>\n<p><strong>Rank 5</strong>: You learn One additional martial art for using a hammer.</p>\n<p>When your melee attack that uses a hammer has successfully hit a single target, you restore 5 aura.</p>\n<p><strong>Rank 6</strong>: Your melee attacks that use a hammer ignore half (round down) of the target's natural armor.</p>\n<p><strong>Rank 7</strong>: You learn One additional martial art for using a hammer.</p>\n<p>When your melee attack or martial art that uses a hammer has successfully hit target(s) with the broken limb condition, decrease the target(s) base movement speed by 1 square until the end of the Scene.</p>\n<p><strong>Rank 8</strong>: You learn One additional martial art for using a hammer.</p>\n<p>If you move in a straight line before you make an attack that uses a hammer, you increase the damage by 1 per square moved.</p>\n<p><strong>Rank 9</strong>: Your soul art's complexity is decreased by 5 after the school multiplier, to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Five additional martial arts for using a hammer.</p>\n<p>When your melee attack or martial art that uses a hammer has successfully hit the target(s), you can create a Shockwave. Every other enemy adjacent to the target takes half of the damage dealt (round down).</p>\n<p>You can only use this talent once per Scene.</p>"
+  }
+ },
+ {
+  "name": "Hunting",
+  "type": "talent",
+  "system": {
+   "tree": "Martial",
+   "skillGroup": "studies",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Once per turn, your first attack or spell gains the benefits of stealth as long as it's used against Beast enemies.</p>\n<p><strong>Rank 2</strong>: When tracking Beast enemies, increase the Tn by 10 while also increasing the critical range to 1-10%.</p>\n<p><strong>Rank 3</strong>: When you take damage from a Beast enemy, decrease the die size by 1 to a minimum of d4.</p>\n<p><strong>Rank 4</strong>: Increase the accuracy by 10 when you attack or cast a spell against Beast enemies, while also increasing the critical range to 1-10%.</p>\n<p><strong>Rank 5</strong>: When harvesting materials from a dead Beast enemy, that enemy grants 1 additional material or ingredient.</p>\n<p><strong>Rank 6</strong>: Crafting items using Beast parts have their complexity decreased by 1. Items crafted from using Beast parts also have their attributes increased by 1.</p>\n<p><strong>Rank 7</strong>: When being targeted by a Beast enemy's attack or spell, decrease your defense and evasion by 5.</p>\n<p><strong>Rank 8</strong>: When your attacks or spells have successfully hit at least one Beast enemy, decrease the target(s) base movement speed by 1 square.</p>\n<p><strong>Rank 9</strong>: When your attacks against Beast enemies have successfully hit, you increase the damage by harm 1.</p>\n<p><strong>Rank 10</strong>: When your attacks or spells have successfully hit at least one Beast enemy while having stealth, that attack or spell deals max damage. When this happens the attack or spell gains an extra feature. They are:</p>\n<p><strong>Hamstring</strong>: The target(s) base movement speed becomes 0 until the end of their next turn.</p>\n<p><strong>Rend</strong>: The target(s) gain 2 Bleed.</p>\n<p>You can use the second part of this talent once per scene.</p>"
+  }
+ },
+ {
+  "name": "Occultist",
+  "type": "talent",
+  "system": {
+   "tree": "Martial",
+   "skillGroup": "studies",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Once per turn, your first attack or spell gains the benefits of stealth as long as it's used against Undead or Eldritch enemies.</p>\n<p><strong>Rank 2</strong>: When tracking Undead or Eldritch enemies, increase the Tn by 10 while also increasing the critical range to 1-10%.</p>\n<p><strong>Rank 3</strong>: When you take damage from an Undead or Eldritch enemy, decrease the die size by 1 to a minimum of d4.</p>\n<p><strong>Rank 4</strong>: Increase the accuracy by 10 when you attack or cast a spell against Undead or Eldritch enemies, while also increasing the critical range to 1-10%.</p>\n<p><strong>Rank 5</strong>: When harvesting materials from a dead Undead or Eldritch enemy, that enemy grants 1 additional material or ingredient.</p>\n<p><strong>Rank 6</strong>: Crafting items using Undead or Eldritch parts have their complexity decreased by 1. Items crafted from using Undead or Eldritch parts also have their attributes increased by 1.</p>\n<p><strong>Rank 7</strong>: When being targeted by an Undead or Eldritch enemy's attack or spell, decrease your defense and evasion by 5.</p>\n<p><strong>Rank 8</strong>: When your attacks or spells have successfully hit at least one Undead or Eldritch enemy, decrease the target(s) base movement speed by 1 square.</p>\n<p><strong>Rank 9</strong>: When your attacks against Undead or Eldritch enemies have successfully hit, you increase the damage by harm 1.</p>\n<p><strong>Rank 10</strong>: When your attacks or spells have successfully hit at least one Undead or Eldritch enemy while having stealth, that attack or spell deals max damage. When this happens the attack or spell gains an extra feature depending on what the enemy is. They are:</p>\n<p><strong>Undead</strong>: The target(s) cannot regain hp until the start of your next turn.</p>\n<p><strong>Eldritch</strong>: The target(s) gain 2 Sickened.</p>\n<p>You can use the second part of this talent once per scene.</p>"
+  }
+ },
+ {
+  "name": "Pesticide",
+  "type": "talent",
+  "system": {
+   "tree": "Martial",
+   "skillGroup": "studies",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Once per turn, your first attack or spell gains the benefits of stealth as long as it's used against Plant or Insect enemies.</p>\n<p><strong>Rank 2</strong>: When tracking Plant or Insect enemies, increase the Tn by 10 while also increasing the critical range to 1-10%.</p>\n<p><strong>Rank 3</strong>: When you take damage from a Plant or Insect enemy, decrease the die size by 1 to a minimum of d4.</p>\n<p><strong>Rank 4</strong>: Increase the accuracy by 10 when you attack or cast a spell against Plant or Insect enemies, while also increasing the critical range to 1-10%.</p>\n<p><strong>Rank 5</strong>: When harvesting materials from a dead Plant or Insect enemy, that enemy grants 1 additional material or ingredient.</p>\n<p><strong>Rank 6</strong>: Crafting items using Plant or Insect parts have their complexity decreased by 1. Items crafted from using Plant or Insect parts also have their attributes increased by 1.</p>\n<p><strong>Rank 7</strong>: When being targeted by a Plant or Insect enemy's attack or spell, decrease your defense and evasion by 5.</p>\n<p><strong>Rank 8</strong>: When your attacks or spells have successfully hit at least one Plant or Insect enemy, decrease the target(s) base movement speed by 1 square.</p>\n<p><strong>Rank 9</strong>: When your attacks against Plant or Insect enemies have successfully hit, you increase the damage by harm 1.</p>\n<p><strong>Rank 10</strong>: When your attacks or spells have successfully hit at least one Plant or Insect enemy while having stealth, that attack or spell deals max damage. When this happens the attack or spell gains an extra feature depending on what the enemy is. They are:</p>\n<p><strong>Plant</strong>: The target(s) natural armor is halved (round down) until the end of the Scene.</p>\n<p><strong>Insect</strong>: The target(s) gain 2 Sickened.</p>\n<p>You can use the second part of this talent once per scene.</p>"
+  }
+ },
+ {
+  "name": "Polearm Combat",
+  "type": "talent",
+  "system": {
+   "tree": "Martial",
+   "skillGroup": "combat",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Starting gear (Draft):</strong> If you take this talent at character creation, you gain a Polearm base weapon with the Basic skin. If you also have Blacksmithing, you can take 2 Common tier 1 materials instead.</p>\n<p><strong>Rank 1</strong>: You learn One Martial School for using a polearm.</p>\n<p>Your melee attacks and martial arts that use a polearm have 1 additional square of reach.</p>\n<p><strong>Rank 2</strong>: You learn Two martial arts for using a polearm.</p>\n<p>When an enemy moves into a square within your reach, you can make a melee attack that uses a polearm against it.</p>\n<p>You can only use this talent once per turn.</p>\n<p><strong>Rank 3</strong>: When your melee attack that uses a polearm has successfully hit a target at the maximum reach of the polearm, you increase the damage by harm 1.</p>\n<p><strong>Rank 4</strong>: You learn One additional martial art for using a polearm.</p>\n<p>When your melee attack or martial art that uses a polearm has successfully hit the target(s), you can push the target(s) back by 1 square.</p>\n<p><strong>Rank 5</strong>: You learn One additional martial art for using a polearm.</p>\n<p>When your melee attack that uses a polearm has successfully hit a single target, you can make an additional attack against a different target in a straight line behind the first target.</p>\n<p>You can only use this talent once per turn.</p>\n<p><strong>Rank 6</strong>: Decrease your Defense by 5 while wielding a polearm.</p>\n<p><strong>Rank 7</strong>: You learn One additional martial art for using a polearm.</p>\n<p>Your melee attacks or martial arts that use a polearm deal 5 bonus piercing damage per square between you and the target.</p>\n<p><strong>Rank 8</strong>: You learn One additional martial art for using a polearm.</p>\n<p>Your melee attacks or martial arts that use a polearm against a target that moved toward you this turn are rolled with Advantage.</p>\n<p><strong>Rank 9</strong>: Your soul art's complexity is decreased by 5 after the school multiplier, to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Five additional martial arts for using a polearm.</p>\n<p>Before you make a melee attack that uses a polearm, you can make a Sweep. The attack hits every enemy within your reach in a straight line. Roll the attack against each target.</p>\n<p>You can only use this talent once per Scene.</p>"
+  }
+ },
+ {
+  "name": "Specialization",
+  "type": "talent",
+  "system": {
+   "tree": "Martial",
+   "skillGroup": "studies",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Rank 1</strong>: Choose one weapon group: Blades (dagger, sword), Hafted (axe, hammer), Reach (polearm), Ranged (bow), or Unarmed. The rank 1-3 effects of your weapon combat talents also apply to every weapon in your chosen group, except for the lines that teach martial schools or martial arts.</p>\n<p>Increase the max hardness of weapons in your chosen group by 3.</p>\n<p><strong>Rank 2</strong>: The aura cost of attacks and martial arts that use weapons in your chosen group is decreased by 3 for every 5 points of complexity the action has (round down), to a minimum of 1.</p>\n<p><strong>Rank 3</strong>: The first attack you make each turn that uses weapons in your chosen group increases the damage by harm 1.</p>\n<p><strong>Rank 4</strong>: The rank 4-6 effects of your weapon combat talents also apply to every weapon in your chosen group, except for the lines that teach martial schools or martial arts.</p>\n<p>The damage weapons in your chosen group take from the complexity of an attack being greater than their max hardness is halved (round down).</p>\n<p><strong>Rank 5</strong>: Increase the max hardness of weapons in your chosen group by an additional 3.</p>\n<p><strong>Rank 6</strong>: The aura cost decrease from rank 2 of this talent is changed to 5 for every 5 points of complexity.</p>\n<p><strong>Rank 7</strong>: The rank 7-9 effects of your weapon combat talents also apply to every weapon in your chosen group, except for the lines that teach martial schools or martial arts.</p>\n<p>The harm from rank 3 of this talent is changed to harm 2.</p>\n<p><strong>Rank 8</strong>: Once per Scene, a weapon in your chosen group cannot critically break from the complexity of an attack. The damage it takes from complexity stops at 1 hardness. This costs no action.</p>\n<p><strong>Rank 9</strong>: Your soul art's complexity is decreased by 5 after the school multiplier, to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: The rank 10 effects of your weapon combat talents also apply to every weapon in your chosen group, except for the lines that teach martial schools or martial arts. You also choose a second weapon group; this talent now applies to both groups.</p>\n<p>Once per Scene, you can choose an attack that uses weapons in your chosen group. That attack costs 1 aura and gains harm 2. This costs no action.</p>"
+  }
+ },
+ {
+  "name": "Sword Combat",
+  "type": "talent",
+  "system": {
+   "tree": "Martial",
+   "skillGroup": "combat",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Starting gear (Draft):</strong> If you take this talent at character creation, you gain a Sword base weapon with the Basic skin. If you also have Blacksmithing, you can take 2 Common tier 1 materials instead.</p>\n<p><strong>Rank 1</strong>: You learn One Martial School for using a sword.</p>\n<p>When your melee attack or martial art that uses a sword has successfully hit a single target, your next attack against that target increases in accuracy by 10.</p>\n<p><strong>Rank 2</strong>: You learn Two martial arts for using a sword.</p>\n<p>When an attack against you misses, you can make a free attack with a sword against the attacker.</p>\n<p>You can only use this talent once per turn.</p>\n<p><strong>Rank 3</strong>: The first melee attack that uses a sword each turn increases the damage by harm 1.</p>\n<p><strong>Rank 4</strong>: You learn One additional martial art for using a sword.</p>\n<p>When your melee attack or martial art that uses a sword has successfully hit the target(s), you gain 5 bonus slashing damage until the start of your next turn.</p>\n<p><strong>Rank 5</strong>: You learn One additional martial art for using a sword.</p>\n<p>If you successfully hit the target(s) past Tn by 20 by using a sword, you can add one stack of bleed.</p>\n<p><strong>Rank 6</strong>: Your melee attacks that use a sword increase in accuracy by 5 for each time you target the same target in a row.</p>\n<p><strong>Rank 7</strong>: You learn One additional martial art for using a sword.</p>\n<p>Your melee attacks or martial arts that use a sword against a target that has missed an attack against you this turn are rolled with Advantage.</p>\n<p><strong>Rank 8</strong>: You learn One additional martial art for using a sword.</p>\n<p>When your melee attack that uses a sword has successfully hit a single target, you restore 5 aura.</p>\n<p><strong>Rank 9</strong>: Your soul art's complexity is decreased by 5 after the school multiplier, to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Five additional martial arts for using a sword.</p>\n<p>Before you make a melee attack that uses a sword, you can challenge a single enemy to a Duel until the end of the Scene. Your melee attacks and martial arts that use a sword against that enemy are rolled with Advantage, and that enemy rolls its attacks against any target other than you with Disadvantage.</p>\n<p>You can only use this talent once per Scene.</p>"
+  }
+ },
+ {
+  "name": "Unarmed Combat",
+  "type": "talent",
+  "system": {
+   "tree": "Martial",
+   "skillGroup": "combat",
+   "tags": "",
+   "rank": 0,
+   "maxRank": 10,
+   "racial": false,
+   "description": "<p><strong>Starting gear (Draft):</strong> If you take this talent at character creation, you gain an Unarmed base weapon with the Basic skin. If you also have Blacksmithing, you can take 2 Common tier 1 materials instead.</p>\n<p><strong>Rank 1</strong>: You learn One Martial School for using unarmed attacks.</p>\n<p>When you roll a critical success on your unarmed attack or martial art, the target gains the prone condition.</p>\n<p><strong>Rank 2</strong>: You learn Two martial arts for using unarmed attacks.</p>\n<p>If you successfully hit the target(s) past Tn by 20 with an unarmed attack, you can push or pull the target(s) by 1 square.</p>\n<p><strong>Rank 3</strong>: When your unarmed attack or martial art has successfully hit the target(s), you increase the damage by harm 1.</p>\n<p><strong>Rank 4</strong>: You learn One additional martial art for using unarmed attacks.</p>\n<p>When your unarmed attack or martial art has successfully hit the target(s), you gain 5 bonus crushing damage until the start of your next turn.</p>\n<p><strong>Rank 5</strong>: You learn One additional martial art for using unarmed attacks.</p>\n<p>When your unarmed attack has successfully hit a single target, you restore 5 aura.</p>\n<p><strong>Rank 6</strong>: Increase the Tn of your unarmed attacks by 5 while you have no weapon or shield equipped.</p>\n<p><strong>Rank 7</strong>: You learn One additional martial art for using unarmed attacks.</p>\n<p>If you successfully hit the target(s) past Tn by 10 with an unarmed attack, you can make an additional unarmed attack at no cost.</p>\n<p>You can only use this talent once per turn.</p>\n<p><strong>Rank 8</strong>: You learn One additional martial art for using unarmed attacks.</p>\n<p>Your unarmed attacks or martial arts against target(s) with the prone condition are rolled with Advantage.</p>\n<p><strong>Rank 9</strong>: Your soul art's complexity is decreased by 5 after the school multiplier, to a minimum of 1.</p>\n<p><strong>Rank 10</strong>: You learn Five additional martial arts for using unarmed attacks.</p>\n<p>Before you make an unarmed attack, you can make it a Finishing Blow. If the target has less than half hp, the damage of the attack is doubled.</p>\n<p>You can only use this talent once per Scene.</p>"
+  }
+ }
+]
